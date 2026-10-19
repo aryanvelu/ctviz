@@ -209,10 +209,10 @@ Inbound: 30 requests/min per IP. A failed dependency becomes a `DEGRADED` note, 
 
 ## Limitations and what I'd improve
 
-* **Above 25,000 matching trials without a snapshot,** networks and heatmaps use a flagged sample so only
+* **Above 25,000 matching trials without a snapshot,** networks and heatmaps use a flagged sample, so only
   one-dimensional counts stay exact.
 * **Survival curves are reconstructions**, and most registry trials post no results, so many cohorts give few
-  curves. Power curves approximate from sample size, not the trial's registered calculation, so developing this further to include data analysis on all ends
+  curves. Power curves approximate from sample size, not the trial's registered calculation.
 * **"Melanoma and Type 2 Diabetes" for example, in one Condition field is one condition.** Use `conditions: [...]`, commas,
   or name both in the question.
 * **A bare "best" is refused as a verdict,** even when the user meant "largest" or "most recent".
@@ -225,7 +225,7 @@ Smaller items are listed in [docs/design.md](docs/design.md#smaller-limitations)
 
 **Next Steps:** use the full-text index (or embeddings) for text questions across a cohort; refresh snapshots
 incrementally so large cohorts stay exact; cache the chart planner's choice; Postgres + Redis for several
-workers; merge sponsor-name variants. Develop this further to include an agent for data analysis for even more advanced questions
+workers; merge sponsor-name variants. Develop this further to include an agent for data analysis for even more advanced questions.
 
 ---
 
@@ -363,12 +363,12 @@ the same requests replay from the recorded fixtures.
 
 ## AI usage and integrity
 
-**How it was built.** Claude Code wrote most of the implementation code. I ran it as an orchestrating session with subaganets. At runtime the service calls OpenAI
+**How it was built.** Claude Code wrote most of the implementation code. I ran it as an orchestrating session with subagents. At runtime the service calls OpenAI
 `gpt-5.4-nano` (planner, eligibility extraction) and `gpt-5.4-mini` (chart planner, results analysis,
 escalation), from an allow-list; embeddings are off.
 
 **What I designed.** I set the architecture and the rules in `CLAUDE.md`, and approved every piece before it
-was built: for each agent I chose the design choices and limitations. I deliberatly designed
+was built: for each agent I chose the design choices and limitations. The parts I deliberately designed:
 
 * The agent pipeline: an LLM planner with a rule-based fallback and a validator that grounds every entity and
   drops filters the user did not ask for; a chart planner that may only pick from a menu the code has checked is
