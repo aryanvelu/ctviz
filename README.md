@@ -209,12 +209,11 @@ Inbound: 30 requests/min per IP. A failed dependency becomes a `DEGRADED` note, 
 
 ## Limitations and what I'd improve
 
-* **Above 25,000 matching trials without a snapshot,** networks and heatmaps use a flagged sample; only
+* **Above 25,000 matching trials without a snapshot,** networks and heatmaps use a flagged sample so only
   one-dimensional counts stay exact.
 * **Survival curves are reconstructions**, and most registry trials post no results, so many cohorts give few
-  curves. Power curves approximate from sample size, not the trial's registered calculation.
-* **Cross-trial dropout is a per-trial bar,** not a pooled sankey (the sankey is one trial's participant flow).
-* **"Melanoma and Type 2 Diabetes" in one Condition field is one condition.** Use `conditions: [...]`, commas,
+  curves. Power curves approximate from sample size, not the trial's registered calculation, so developing this further to include data analysis on all ends
+* **"Melanoma and Type 2 Diabetes" for example, in one Condition field is one condition.** Use `conditions: [...]`, commas,
   or name both in the question.
 * **A bare "best" is refused as a verdict,** even when the user meant "largest" or "most recent".
 * **Cold broad questions are slow** (one API call per 1,000 records under the rate limit).
@@ -224,9 +223,9 @@ Inbound: 30 requests/min per IP. A failed dependency becomes a `DEGRADED` note, 
 
 Smaller items are listed in [docs/design.md](docs/design.md#smaller-limitations).
 
-**Next:** use the full-text index (or embeddings) for text questions across a cohort; refresh snapshots
+**Next Steps:** use the full-text index (or embeddings) for text questions across a cohort; refresh snapshots
 incrementally so large cohorts stay exact; cache the chart planner's choice; Postgres + Redis for several
-workers; merge sponsor-name variants.
+workers; merge sponsor-name variants. Develop this further to include an agent for data analysis for even more advanced questions
 
 ---
 
@@ -364,15 +363,12 @@ the same requests replay from the recorded fixtures.
 
 ## AI usage and integrity
 
-**How it was built.** Claude Code (Claude Opus) wrote most of the implementation code. I ran it as an
-orchestrating session with subagents (`.claude/agents/`: builders that own disjoint files, a code reviewer, a
-test writer, a debugger, a viz-spec validator, an API tester). At runtime the service calls OpenAI
+**How it was built.** Claude Code wrote most of the implementation code. I ran it as an orchestrating session with subaganets. At runtime the service calls OpenAI
 `gpt-5.4-nano` (planner, eligibility extraction) and `gpt-5.4-mini` (chart planner, results analysis,
 escalation), from an allow-list; embeddings are off.
 
 **What I designed.** I set the architecture and the rules in `CLAUDE.md`, and approved every piece before it
-was built: for each one the agent first listed the design choices and tradeoffs, and I picked. The parts I
-designed deliberately:
+was built: for each agent I chose the design choices and limitations. I deliberatly designed
 
 * The agent pipeline: an LLM planner with a rule-based fallback and a validator that grounds every entity and
   drops filters the user did not ask for; a chart planner that may only pick from a menu the code has checked is
@@ -385,7 +381,7 @@ designed deliberately:
 * Refusal and clarification: `unanswerable` for verdicts the registry cannot support, `needs_clarification`
   for unknown or ambiguous entities, never a silently widened search.
 
-**How I checked correctness**, in stages:
+**How I checked correctness**
 
 1. Offline tests with a mocked LLM and recorded ClinicalTrials.gov data: **2,687 pytest tests** (unit,
    contract, golden) and **391 frontend tests** (vitest). They cover the citation invariant, count/NCT-list
@@ -393,7 +389,7 @@ designed deliberately:
 2. Independent subagent passes: debugger audits, code reviews, a test writer whose end-to-end tests found real
    bugs, and the viz-spec validator, which re-checks the example files against the schema and every inline
    example citation against the raw records (959 citations in the current files, all verified).
-3. Rounds of manual testing of real questions in the viewer. My feedback (with screenshots) drove fixes, for
+3. Rounds of manual testing of real questions in the viewer. My feedback for multiple edge cases drove fixes, for
    example: a stale NCT id field now falls back to the cohort question; an empty pie caused by an encoding
    mismatch; false "subjective" refusals; misleading gap marking on heatmaps; 300 KB survival payloads slimmed
    to about 40 KB.
