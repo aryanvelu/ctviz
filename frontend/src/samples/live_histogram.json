@@ -1,0 +1,632 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "histogram",
+    "title": "Enrollment per trial: Semaglutide",
+    "encoding": {
+      "x": {
+        "field": "bin_start",
+        "type": "quantitative",
+        "title": "Participants",
+        "unit": "participants",
+        "format": ",d",
+        "scale": {
+          "type": "linear",
+          "zero": true
+        }
+      },
+      "x2": {
+        "field": "bin_end",
+        "type": "quantitative",
+        "title": "Bin end (exclusive)",
+        "unit": "participants",
+        "format": ",d"
+      },
+      "y": {
+        "field": "trial_count",
+        "type": "quantitative",
+        "title": "Trials",
+        "unit": "trials",
+        "format": ",d"
+      },
+      "label": {
+        "field": "bin_label",
+        "type": "ordinal",
+        "title": "Participants"
+      }
+    },
+    "data": [
+      {
+        "id": "d1",
+        "bin_start": 0,
+        "bin_end": 25,
+        "bin_label": "0–24",
+        "trial_count": 80,
+        "is_open_ended": false,
+        "nct_ids": [
+          "NCT02022254",
+          "NCT02060266",
+          "NCT02773381",
+          "NCT03292315",
+          "NCT03466567",
+          "NCT04126603",
+          "NCT04287179",
+          "NCT04624672",
+          "NCT04741074",
+          "NCT04817644",
+          "NCT04865744",
+          "NCT04878406",
+          "NCT04885634",
+          "NCT04938388",
+          "NCT05046873",
+          "NCT05232708",
+          "NCT05302596",
+          "NCT05419726",
+          "NCT05435677",
+          "NCT05444153"
+        ],
+        "nct_ids_total": 80,
+        "field_path": "protocolSection.designModule.enrollmentInfo.count",
+        "citations": [
+          {
+            "nct_id": "NCT02022254",
+            "excerpt": "24"
+          },
+          {
+            "nct_id": "NCT02060266",
+            "excerpt": "7"
+          },
+          {
+            "nct_id": "NCT02773381",
+            "excerpt": "15"
+          }
+        ],
+        "citations_total": 80,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d2",
+        "bin_start": 25,
+        "bin_end": 50,
+        "bin_label": "25–49",
+        "trial_count": 90,
+        "is_open_ended": false,
+        "nct_ids": [
+          "NCT00813020",
+          "NCT01324505",
+          "NCT01619345",
+          "NCT01766245",
+          "NCT02079870",
+          "NCT02146079",
+          "NCT02147431",
+          "NCT02161588",
+          "NCT02210871",
+          "NCT02231684",
+          "NCT02243098",
+          "NCT02249910",
+          "NCT02845219",
+          "NCT02920385",
+          "NCT03010475",
+          "NCT03288740",
+          "NCT03498001",
+          "NCT03574584",
+          "NCT03789578",
+          "NCT04012255"
+        ],
+        "nct_ids_total": 90,
+        "field_path": "protocolSection.designModule.enrollmentInfo.count",
+        "citations": [
+          {
+            "nct_id": "NCT00813020",
+            "excerpt": "44"
+          },
+          {
+            "nct_id": "NCT01324505",
+            "excerpt": "43"
+          },
+          {
+            "nct_id": "NCT01619345",
+            "excerpt": "27"
+          }
+        ],
+        "citations_total": 90,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d3",
+        "bin_start": 50,
+        "bin_end": 100,
+        "bin_label": "50–99",
+        "trial_count": 163,
+        "is_open_ended": false,
+        "nct_ids": [
+          "NCT00833716",
+          "NCT00851773",
+          "NCT01272973",
+          "NCT02014259",
+          "NCT02016911",
+          "NCT02070510",
+          "NCT02172313",
+          "NCT02212067",
+          "NCT02249871",
+          "NCT02877355",
+          "NCT03144271",
+          "NCT03357380",
+          "NCT03598621",
+          "NCT03600480",
+          "NCT03611322",
+          "NCT03707990",
+          "NCT03842202",
+          "NCT03899402",
+          "NCT03919929",
+          "NCT03987451"
+        ],
+        "nct_ids_total": 163,
+        "field_path": "protocolSection.designModule.enrollmentInfo.count",
+        "citations": [
+          {
+            "nct_id": "NCT00833716",
+            "excerpt": "62"
+          },
+          {
+            "nct_id": "NCT00851773",
+            "excerpt": "84"
+          },
+          {
+            "nct_id": "NCT01272973",
+            "excerpt": "96"
+          }
+        ],
+        "citations_total": 163,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d4",
+        "bin_start": 100,
+        "bin_end": 250,
+        "bin_label": "100–249",
+        "trial_count": 208,
+        "is_open_ended": false,
+        "nct_ids": [
+          "NCT01572753",
+          "NCT01686945",
+          "NCT01866748",
+          "NCT02064348",
+          "NCT02557620",
+          "NCT03018028",
+          "NCT03631186",
+          "NCT03638778",
+          "NCT03659682",
+          "NCT03876015",
+          "NCT03884075",
+          "NCT03929679",
+          "NCT03951753",
+          "NCT03985384",
+          "NCT03987074",
+          "NCT04007107",
+          "NCT04019197",
+          "NCT04032197",
+          "NCT04067999",
+          "NCT04102189"
+        ],
+        "nct_ids_total": 208,
+        "field_path": "protocolSection.designModule.enrollmentInfo.count",
+        "citations": [
+          {
+            "nct_id": "NCT01572753",
+            "excerpt": "161"
+          },
+          {
+            "nct_id": "NCT01686945",
+            "excerpt": "107"
+          },
+          {
+            "nct_id": "NCT01866748",
+            "excerpt": "170"
+          }
+        ],
+        "citations_total": 208,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d5",
+        "bin_start": 250,
+        "bin_end": 500,
+        "bin_label": "250–499",
+        "trial_count": 100,
+        "is_open_ended": false,
+        "nct_ids": [
+          "NCT00696657",
+          "NCT02054897",
+          "NCT02254291",
+          "NCT02305381",
+          "NCT02827708",
+          "NCT02970942",
+          "NCT03015220",
+          "NCT03086330",
+          "NCT03457012",
+          "NCT03648281",
+          "NCT03693430",
+          "NCT03724981",
+          "NCT03811574",
+          "NCT04074161",
+          "NCT04097600",
+          "NCT04109508",
+          "NCT04153929",
+          "NCT04251156",
+          "NCT04524832",
+          "NCT04615871"
+        ],
+        "nct_ids_total": 100,
+        "field_path": "protocolSection.designModule.enrollmentInfo.count",
+        "citations": [
+          {
+            "nct_id": "NCT00696657",
+            "excerpt": "415"
+          },
+          {
+            "nct_id": "NCT02054897",
+            "excerpt": "388"
+          },
+          {
+            "nct_id": "NCT02254291",
+            "excerpt": "308"
+          }
+        ],
+        "citations_total": 100,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d6",
+        "bin_start": 500,
+        "bin_end": 1000,
+        "bin_label": "500–999",
+        "trial_count": 59,
+        "is_open_ended": false,
+        "nct_ids": [
+          "NCT01885208",
+          "NCT01923181",
+          "NCT02207374",
+          "NCT02453711",
+          "NCT02461589",
+          "NCT02849080",
+          "NCT02863328",
+          "NCT02863419",
+          "NCT02906930",
+          "NCT03021187",
+          "NCT03061214",
+          "NCT03136484",
+          "NCT03191396",
+          "NCT03548987",
+          "NCT03611582",
+          "NCT03989232",
+          "NCT04083820",
+          "NCT04094415",
+          "NCT04109547",
+          "NCT04261933"
+        ],
+        "nct_ids_total": 59,
+        "field_path": "protocolSection.designModule.enrollmentInfo.count",
+        "citations": [
+          {
+            "nct_id": "NCT01885208",
+            "excerpt": "813"
+          },
+          {
+            "nct_id": "NCT01923181",
+            "excerpt": "632"
+          },
+          {
+            "nct_id": "NCT02207374",
+            "excerpt": "601"
+          }
+        ],
+        "citations_total": 59,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d7",
+        "bin_start": 1000,
+        "bin_end": 2500,
+        "bin_label": "1,000–2,499",
+        "trial_count": 40,
+        "is_open_ended": false,
+        "nct_ids": [
+          "NCT01930188",
+          "NCT02128932",
+          "NCT02607865",
+          "NCT02648204",
+          "NCT03548935",
+          "NCT03552757",
+          "NCT03596450",
+          "NCT03689374",
+          "NCT03811561",
+          "NCT03987919",
+          "NCT04017832",
+          "NCT04175665",
+          "NCT04707469",
+          "NCT04777396",
+          "NCT04777409",
+          "NCT04822181",
+          "NCT05035082",
+          "NCT05340868",
+          "NCT05352815",
+          "NCT05394519"
+        ],
+        "nct_ids_total": 40,
+        "field_path": "protocolSection.designModule.enrollmentInfo.count",
+        "citations": [
+          {
+            "nct_id": "NCT01930188",
+            "excerpt": "1231"
+          },
+          {
+            "nct_id": "NCT02128932",
+            "excerpt": "1089"
+          },
+          {
+            "nct_id": "NCT02607865",
+            "excerpt": "1864"
+          }
+        ],
+        "citations_total": 40,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d8",
+        "bin_start": 2500,
+        "bin_end": 5000,
+        "bin_label": "2,500–4,999",
+        "trial_count": 12,
+        "is_open_ended": false,
+        "nct_ids": [
+          "NCT01720446",
+          "NCT02692716",
+          "NCT03819153",
+          "NCT04469855",
+          "NCT04972721",
+          "NCT05503927",
+          "NCT05567796",
+          "NCT06065540",
+          "NCT07154238",
+          "NCT07423481",
+          "NCT07424430",
+          "NCT07564414"
+        ],
+        "nct_ids_total": 12,
+        "field_path": "protocolSection.designModule.enrollmentInfo.count",
+        "citations": [
+          {
+            "nct_id": "NCT01720446",
+            "excerpt": "3297"
+          },
+          {
+            "nct_id": "NCT02692716",
+            "excerpt": "3183"
+          },
+          {
+            "nct_id": "NCT03819153",
+            "excerpt": "3533"
+          }
+        ],
+        "citations_total": 12,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d9",
+        "bin_start": 5000,
+        "bin_end": 10000,
+        "bin_label": "5,000–9,999",
+        "trial_count": 6,
+        "is_open_ended": false,
+        "nct_ids": [
+          "NCT01511393",
+          "NCT03914326",
+          "NCT05390892",
+          "NCT05669755",
+          "NCT05700877",
+          "NCT07043361"
+        ],
+        "nct_ids_total": 6,
+        "field_path": "protocolSection.designModule.enrollmentInfo.count",
+        "citations": [
+          {
+            "nct_id": "NCT01511393",
+            "excerpt": "6750"
+          },
+          {
+            "nct_id": "NCT03914326",
+            "excerpt": "9651"
+          },
+          {
+            "nct_id": "NCT05390892",
+            "excerpt": "6000"
+          }
+        ],
+        "citations_total": 6,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d10",
+        "bin_start": 10000,
+        "bin_label": "10,000+",
+        "trial_count": 27,
+        "is_open_ended": true,
+        "nct_ids": [
+          "NCT03574597",
+          "NCT04572165",
+          "NCT05161429",
+          "NCT05220917",
+          "NCT05441267",
+          "NCT05768945",
+          "NCT06351748",
+          "NCT06659679",
+          "NCT06659718",
+          "NCT06659744",
+          "NCT06779929",
+          "NCT06874751",
+          "NCT06914102",
+          "NCT06914141",
+          "NCT06980623",
+          "NCT07096063",
+          "NCT07141914",
+          "NCT07188545",
+          "NCT07276763",
+          "NCT07390110"
+        ],
+        "nct_ids_total": 27,
+        "field_path": "protocolSection.designModule.enrollmentInfo.count",
+        "citations": [
+          {
+            "nct_id": "NCT03574597",
+            "excerpt": "17604"
+          },
+          {
+            "nct_id": "NCT04572165",
+            "excerpt": "194928"
+          },
+          {
+            "nct_id": "NCT05161429",
+            "excerpt": "550000"
+          }
+        ],
+        "citations_total": 27,
+        "excerpts_truncated": true
+      }
+    ]
+  },
+  "answer_summary": "Median actual enrollment is 148 participants across 409 trials that report actual enrollment; trials still planning enrollment target a median of 100 (376 trials). Based on 785 trials from ClinicalTrials.gov.",
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "drug_names": [
+        "semaglutide"
+      ]
+    },
+    "query_interpretation": {
+      "intent": "enrollment_distribution",
+      "persona": "researcher",
+      "scope": "cohort",
+      "confidence": 0.8,
+      "parser": "rules",
+      "cohorts": [
+        {
+          "label": "Semaglutide",
+          "drugs": [
+            "semaglutide"
+          ]
+        }
+      ],
+      "resolved_entities": [
+        {
+          "input": "semaglutide",
+          "resolved": "semaglutide",
+          "kind": "drug",
+          "method": "exact"
+        }
+      ]
+    },
+    "notes": [
+      {
+        "code": "APPROXIMATED",
+        "severity": "info",
+        "message": "376 trial(s) report an estimated (planned) enrollment rather than actual participants."
+      }
+    ],
+    "units": {
+      "trial_count": "trials",
+      "bin_start": "participants"
+    },
+    "grouping": {
+      "bins": "fixed, log-like widths",
+      "bin_interval": "[start, end)",
+      "open_ended_last_bin": true
+    },
+    "summary": {
+      "actual": {
+        "n": 409,
+        "median": 148.0,
+        "min": 0,
+        "max": 887132,
+        "total_participants_derived": 3309768
+      },
+      "estimated": {
+        "n": 376,
+        "median": 100.0,
+        "min": 8,
+        "max": 23280000
+      }
+    },
+    "coverage": {
+      "studies_matched_total": 785,
+      "studies_analyzed": 785,
+      "counting_method": "all_records",
+      "sampled": false,
+      "queries": [
+        "https://clinicaltrials.gov/search?intr=semaglutide"
+      ]
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "validation": {
+      "passed": true,
+      "checks": [
+        {
+          "name": "retrieval_matches_api_total",
+          "passed": true,
+          "detail": "Semaglutide: 785 of 785"
+        },
+        {
+          "name": "counts_match_trial_lists",
+          "passed": true,
+          "detail": "10 count datum(s) checked"
+        },
+        {
+          "name": "each_trial_in_one_bucket",
+          "passed": true,
+          "detail": "not a single-valued grouping"
+        },
+        {
+          "name": "citations_from_retrieved_records",
+          "passed": true,
+          "detail": "785 NCT id(s), all retrieved"
+        },
+        {
+          "name": "summary_numbers_in_data",
+          "passed": true,
+          "detail": "every number appears in the data"
+        },
+        {
+          "name": "value_axes_labeled",
+          "passed": true,
+          "detail": "all value axes say what they measure"
+        }
+      ]
+    },
+    "alternatives": [
+      {
+        "type": "scatter_plot",
+        "reason": "one point per trial"
+      },
+      {
+        "type": "table",
+        "reason": "all values as a sortable table"
+      }
+    ],
+    "request_id": "11a550c9b47b4724807393da3b5b9273",
+    "created_at": "2026-10-19T09:35:12+00:00",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-16T09:00:05"
+  }
+}

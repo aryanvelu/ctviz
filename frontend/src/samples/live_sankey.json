@@ -1,0 +1,607 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "sankey",
+    "title": "Participant flow: STEP 1",
+    "encoding": {
+      "nodes": {
+        "id": "id",
+        "label": "label",
+        "type": "group",
+        "size": "value"
+      },
+      "edges": {
+        "source": "source",
+        "target": "target",
+        "weight": "weight",
+        "type": "type"
+      },
+      "tooltip": [
+        "share_of_started",
+        "group"
+      ]
+    },
+    "data": {
+      "nodes": [
+        {
+          "id": "FG000:start",
+          "label": "Started",
+          "stage": 0,
+          "group": "Semaglutide 2.4 mg",
+          "value": 1306,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "1306",
+              "label": "Semaglutide 2.4 mg: started"
+            },
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "Semaglutide 2.4 mg",
+              "field_path": "resultsSection.participantFlowModule.groups[0].title"
+            }
+          ],
+          "citations_total": 2,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "FG000:p0:completed",
+          "label": "Completed",
+          "stage": 1,
+          "group": "Semaglutide 2.4 mg",
+          "value": 1240,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].milestones[3].achievements[0].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "1240",
+              "label": "Semaglutide 2.4 mg: completed"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "FG000:p0:r0",
+          "label": "Not completed: Withdrawal by Subject",
+          "stage": 1,
+          "group": "Semaglutide 2.4 mg",
+          "value": 26,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].dropWithdraws[0].reasons[0].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "26",
+              "label": "Semaglutide 2.4 mg"
+            },
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "Withdrawal by Subject",
+              "field_path": "resultsSection.participantFlowModule.periods[0].dropWithdraws[0].type"
+            }
+          ],
+          "citations_total": 2,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "FG000:p0:r1",
+          "label": "Not completed: Lost to Follow-up",
+          "stage": 1,
+          "group": "Semaglutide 2.4 mg",
+          "value": 39,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].dropWithdraws[1].reasons[0].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "39",
+              "label": "Semaglutide 2.4 mg"
+            },
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "Lost to Follow-up",
+              "field_path": "resultsSection.participantFlowModule.periods[0].dropWithdraws[1].type"
+            }
+          ],
+          "citations_total": 2,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "FG000:p0:r2",
+          "label": "Not completed: Death",
+          "stage": 1,
+          "group": "Semaglutide 2.4 mg",
+          "value": 1,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].dropWithdraws[2].reasons[0].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "1",
+              "label": "Semaglutide 2.4 mg"
+            },
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "Death",
+              "field_path": "resultsSection.participantFlowModule.periods[0].dropWithdraws[2].type"
+            }
+          ],
+          "citations_total": 2,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "FG001:start",
+          "label": "Started",
+          "stage": 0,
+          "group": "Placebo",
+          "value": 655,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "655",
+              "label": "Placebo: started"
+            },
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "Placebo",
+              "field_path": "resultsSection.participantFlowModule.groups[1].title"
+            }
+          ],
+          "citations_total": 2,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "FG001:p0:completed",
+          "label": "Completed",
+          "stage": 1,
+          "group": "Placebo",
+          "value": 609,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].milestones[3].achievements[1].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "609",
+              "label": "Placebo: completed"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "FG001:p0:r0",
+          "label": "Not completed: Withdrawal by Subject",
+          "stage": 1,
+          "group": "Placebo",
+          "value": 17,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].dropWithdraws[0].reasons[1].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "17",
+              "label": "Placebo"
+            },
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "Withdrawal by Subject",
+              "field_path": "resultsSection.participantFlowModule.periods[0].dropWithdraws[0].type"
+            }
+          ],
+          "citations_total": 2,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "FG001:p0:r1",
+          "label": "Not completed: Lost to Follow-up",
+          "stage": 1,
+          "group": "Placebo",
+          "value": 28,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].dropWithdraws[1].reasons[1].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "28",
+              "label": "Placebo"
+            },
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "Lost to Follow-up",
+              "field_path": "resultsSection.participantFlowModule.periods[0].dropWithdraws[1].type"
+            }
+          ],
+          "citations_total": 2,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "FG001:p0:r2",
+          "label": "Not completed: Death",
+          "stage": 1,
+          "group": "Placebo",
+          "value": 1,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].dropWithdraws[2].reasons[1].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "1",
+              "label": "Placebo"
+            },
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "Death",
+              "field_path": "resultsSection.participantFlowModule.periods[0].dropWithdraws[2].type"
+            }
+          ],
+          "citations_total": 2,
+          "excerpts_truncated": false
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "FG000:start",
+          "target": "FG000:p0:completed",
+          "weight": 1240,
+          "type": "completed",
+          "group": "Semaglutide 2.4 mg",
+          "share_of_started": 0.9495,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].milestones[3].achievements[0].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "1240",
+              "label": "Semaglutide 2.4 mg: completed"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "e2",
+          "source": "FG000:start",
+          "target": "FG000:p0:r0",
+          "weight": 26,
+          "type": "dropout",
+          "group": "Semaglutide 2.4 mg",
+          "share_of_started": 0.0199,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].dropWithdraws[0].reasons[0].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "26",
+              "label": "Semaglutide 2.4 mg"
+            },
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "Withdrawal by Subject",
+              "field_path": "resultsSection.participantFlowModule.periods[0].dropWithdraws[0].type"
+            }
+          ],
+          "citations_total": 2,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "e3",
+          "source": "FG000:start",
+          "target": "FG000:p0:r1",
+          "weight": 39,
+          "type": "dropout",
+          "group": "Semaglutide 2.4 mg",
+          "share_of_started": 0.0299,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].dropWithdraws[1].reasons[0].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "39",
+              "label": "Semaglutide 2.4 mg"
+            },
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "Lost to Follow-up",
+              "field_path": "resultsSection.participantFlowModule.periods[0].dropWithdraws[1].type"
+            }
+          ],
+          "citations_total": 2,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "e4",
+          "source": "FG000:start",
+          "target": "FG000:p0:r2",
+          "weight": 1,
+          "type": "dropout",
+          "group": "Semaglutide 2.4 mg",
+          "share_of_started": 0.0008,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].dropWithdraws[2].reasons[0].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "1",
+              "label": "Semaglutide 2.4 mg"
+            },
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "Death",
+              "field_path": "resultsSection.participantFlowModule.periods[0].dropWithdraws[2].type"
+            }
+          ],
+          "citations_total": 2,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "e5",
+          "source": "FG001:start",
+          "target": "FG001:p0:completed",
+          "weight": 609,
+          "type": "completed",
+          "group": "Placebo",
+          "share_of_started": 0.9298,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].milestones[3].achievements[1].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "609",
+              "label": "Placebo: completed"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "e6",
+          "source": "FG001:start",
+          "target": "FG001:p0:r0",
+          "weight": 17,
+          "type": "dropout",
+          "group": "Placebo",
+          "share_of_started": 0.026,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].dropWithdraws[0].reasons[1].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "17",
+              "label": "Placebo"
+            },
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "Withdrawal by Subject",
+              "field_path": "resultsSection.participantFlowModule.periods[0].dropWithdraws[0].type"
+            }
+          ],
+          "citations_total": 2,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "e7",
+          "source": "FG001:start",
+          "target": "FG001:p0:r1",
+          "weight": 28,
+          "type": "dropout",
+          "group": "Placebo",
+          "share_of_started": 0.0427,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].dropWithdraws[1].reasons[1].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "28",
+              "label": "Placebo"
+            },
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "Lost to Follow-up",
+              "field_path": "resultsSection.participantFlowModule.periods[0].dropWithdraws[1].type"
+            }
+          ],
+          "citations_total": 2,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "e8",
+          "source": "FG001:start",
+          "target": "FG001:p0:r2",
+          "weight": 1,
+          "type": "dropout",
+          "group": "Placebo",
+          "share_of_started": 0.0015,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].dropWithdraws[2].reasons[1].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "1",
+              "label": "Placebo"
+            },
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "Death",
+              "field_path": "resultsSection.participantFlowModule.periods[0].dropWithdraws[2].type"
+            }
+          ],
+          "citations_total": 2,
+          "excerpts_truncated": false
+        }
+      ]
+    }
+  },
+  "answer_summary": "In Semaglutide 2.4 mg, 1,240 of 1,306 participants completed (5.1% did not complete). In Placebo, 609 of 655 participants completed (7% did not complete). Source: the results posted for NCT03548935 on ClinicalTrials.gov.",
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "nct_ids": [
+        "NCT03548935"
+      ]
+    },
+    "query_interpretation": {
+      "intent": "dropout_flow",
+      "persona": "researcher",
+      "scope": "single_trial",
+      "confidence": 0.95,
+      "parser": "llm",
+      "resolved_entities": [
+        {
+          "input": "NCT03548935",
+          "resolved": "NCT03548935",
+          "kind": "nct_id",
+          "method": "exact"
+        }
+      ]
+    },
+    "units": {
+      "weight": "participants"
+    },
+    "stages": [
+      "Started",
+      "End of study"
+    ],
+    "stats": {
+      "dropout_rate": {
+        "Semaglutide 2.4 mg": 0.0505,
+        "Placebo": 0.0702
+      },
+      "periods": [
+        "Overall Study"
+      ]
+    },
+    "coverage": {
+      "studies_matched_total": 1,
+      "studies_analyzed": 1,
+      "counting_method": "single_trials",
+      "studies_with_results": 1,
+      "sampled": false,
+      "queries": [
+        "https://clinicaltrials.gov/study/NCT03548935"
+      ]
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "validation": {
+      "passed": true,
+      "checks": [
+        {
+          "name": "retrieval_matches_api_total",
+          "passed": true,
+          "detail": "single_trials"
+        },
+        {
+          "name": "counts_match_trial_lists",
+          "passed": true,
+          "detail": "participant flow: values are people, not trial counts"
+        },
+        {
+          "name": "each_trial_in_one_bucket",
+          "passed": true,
+          "detail": "not a single-valued grouping"
+        },
+        {
+          "name": "citations_from_retrieved_records",
+          "passed": true,
+          "detail": "1 NCT id(s), all retrieved"
+        },
+        {
+          "name": "summary_numbers_in_data",
+          "passed": true,
+          "detail": "every number appears in the data"
+        },
+        {
+          "name": "value_axes_labeled",
+          "passed": true,
+          "detail": "all value axes say what they measure"
+        }
+      ]
+    },
+    "alternatives": [
+      {
+        "type": "bar_chart",
+        "reason": "compare categories side by side"
+      },
+      {
+        "type": "kpi_cards",
+        "reason": "headline numbers only"
+      }
+    ],
+    "request_id": "fa91fdd7fe9448409c48331f76d06c8f",
+    "created_at": "2026-10-19T09:51:19+00:00",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-16T09:00:05"
+  }
+}

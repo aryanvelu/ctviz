@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ctviz"
+version = "0.1.0"
+description = "ClinicalTrials.gov query-to-visualization agent: natural-language questions to cited visualization specs."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi>=0.115",
+  "uvicorn[standard]>=0.30",
+  "pydantic>=2.8",
+  "pydantic-settings>=2.4",
+  "python-dotenv>=1.0",
+  "httpx[http2]>=0.27",
+  "openai>=1.50",
+  "aiosqlite>=0.20",
+  "numpy>=2.0",
+  "orjson>=3.10",
+  "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pytest-asyncio>=0.23", "respx>=0.21", "ruff>=0.6"]
+
+[project.scripts]
+ctviz = "ctviz.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["ctviz*"]
+
+[tool.setuptools.package-data]
+ctviz = ["agents/prompts/*.md"]  # data/ (intents, aliases) is read from the source tree: install with -e
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]

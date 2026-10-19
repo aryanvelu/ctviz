@@ -1,0 +1,182 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "pie_chart",
+    "title": "Intervention types in pembrolizumab trials",
+    "encoding": {
+      "label": {
+        "field": "intervention_type",
+        "type": "nominal",
+        "title": "Intervention type"
+      },
+      "y": {
+        "field": "trials",
+        "type": "quantitative",
+        "title": "Trials",
+        "unit": "trials",
+        "format": ",d"
+      },
+      "tooltip": [
+        "share"
+      ]
+    },
+    "data": [
+      {
+        "id": "d1",
+        "intervention_type": "DRUG",
+        "trials": 1402,
+        "share": 0.674,
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.armsInterventionsModule.interventions[1].type",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "DRUG"
+          }
+        ],
+        "citations_total": 1402,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d2",
+        "intervention_type": "BIOLOGICAL",
+        "trials": 388,
+        "share": 0.186,
+        "nct_ids": [
+          "NCT02578680"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.armsInterventionsModule.interventions[1].type",
+        "citations": [
+          {
+            "nct_id": "NCT02578680",
+            "excerpt": "BIOLOGICAL"
+          }
+        ],
+        "citations_total": 388,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d3",
+        "intervention_type": "PROCEDURE",
+        "trials": 121,
+        "share": 0.058,
+        "nct_ids": [
+          "NCT01905657"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.armsInterventionsModule.interventions[1].type",
+        "citations": [
+          {
+            "nct_id": "NCT01905657",
+            "excerpt": "PROCEDURE"
+          }
+        ],
+        "citations_total": 121,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d4",
+        "intervention_type": "RADIATION",
+        "trials": 96,
+        "share": 0.046,
+        "nct_ids": [
+          "NCT01866319"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.armsInterventionsModule.interventions[1].type",
+        "citations": [
+          {
+            "nct_id": "NCT01866319",
+            "excerpt": "RADIATION"
+          }
+        ],
+        "citations_total": 96,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d5",
+        "intervention_type": "OTHER",
+        "trials": 74,
+        "share": 0.036,
+        "nct_ids": [
+          "NCT02362594"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.armsInterventionsModule.interventions[1].type",
+        "citations": [
+          {
+            "nct_id": "NCT02362594",
+            "excerpt": "OTHER"
+          }
+        ],
+        "citations_total": 74,
+        "excerpts_truncated": true
+      }
+    ]
+  },
+  "answer_summary": "DRUG is the most common intervention type (1402 trials).",
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "drug_names": [
+        "pembrolizumab"
+      ]
+    },
+    "query_interpretation": {
+      "intent": "intervention_landscape",
+      "persona": "researcher",
+      "scope": "cohort",
+      "confidence": 0.92,
+      "parser": "llm",
+      "cohorts": [
+        {
+          "label": "pembrolizumab",
+          "drugs": [
+            "pembrolizumab"
+          ]
+        }
+      ]
+    },
+    "units": {
+      "trials": "trials"
+    },
+    "layout": {
+      "orientation": "vertical",
+      "mode": "grouped",
+      "donut": true
+    },
+    "coverage": {
+      "studies_matched_total": 1867,
+      "studies_analyzed": 1867,
+      "counting_method": "all_records",
+      "sampled": false
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "alternatives": [
+      {
+        "type": "bar_chart",
+        "reason": "compare categories side by side"
+      }
+    ],
+    "request_id": "req_sample_09_pie",
+    "created_at": "2026-10-18T14:22:05Z",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-17T09:00:12"
+  }
+}

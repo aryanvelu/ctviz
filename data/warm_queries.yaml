@@ -1,0 +1,184 @@
+# Cache-warming presets for `ctviz warm`: each `body` is a POST /v1/visualize request (VisualizeRequest).
+# Running them fills the http/cohort/plan/response caches, the study store, the knowledge graph and the FTS
+# index, so the demo answers warm. Coverage: both personas and every spec appendix query class
+# (time_trend, distribution, comparison, geographic, network_sponsor_drug, network_drug_drug) plus
+# patient single-trial questions. `expect_intent` / `expect_viz` are hints for smoke tests, not contracts.
+version: 1
+# Cohort snapshots built ahead of time (every matching record, up to `max`), so live questions about these
+# broad cohorts read all trials even above the 25,000-record live limit. Refresh daily: `ctviz warm`.
+snapshots:
+  - {condition: cancer, max: 120000}
+  - {condition: lung cancer, max: 60000}
+  - {condition: breast cancer, max: 60000}
+  - {condition: obesity, max: 60000}
+  - {condition: type 2 diabetes, max: 60000}
+  - {condition: Alzheimer disease, max: 60000}
+  - {drug: pembrolizumab, max: 60000}
+queries:
+  # ---- time trends ---------------------------------------------------------------------------------
+  - id: pembro_trend
+    persona: researcher
+    class: time_trend
+    expect_intent: trend_over_time
+    expect_viz: time_series
+    body:
+      query: How has the number of trials for this drug changed over time since 2015?
+      drug_name: Pembrolizumab
+      start_year: 2015
+  - id: obesity_trend
+    persona: researcher
+    class: time_trend
+    expect_intent: trend_over_time
+    expect_viz: time_series
+    body:
+      query: How many obesity trials started each year since 2020?
+      condition: obesity
+      start_year: 2020
+      time_granularity: year
+
+  # ---- distributions -------------------------------------------------------------------------------
+  - id: melanoma_phases
+    persona: researcher
+    class: distribution
+    expect_intent: phase_distribution
+    expect_viz: bar_chart
+    body:
+      query: How are melanoma trials distributed across phases?
+      condition: melanoma
+  - id: obesity_intervention_types
+    persona: researcher
+    class: distribution
+    expect_intent: intervention_landscape
+    expect_viz: bar_chart
+    body:
+      query: What are the most common intervention types in obesity trials?
+      condition: obesity
+      group_by: intervention_type
+  - id: t2d_recruiting_status
+    persona: patient
+    class: distribution
+    expect_intent: status_distribution
+    expect_viz: bar_chart
+    body:
+      query: How many type 2 diabetes trials are recruiting right now?
+      condition: type 2 diabetes
+      status: [RECRUITING]
+      persona: patient
+
+  # ---- comparisons ---------------------------------------------------------------------------------
+  - id: sema_vs_tirz_phases
+    persona: researcher
+    class: comparison
+    expect_intent: phase_distribution
+    expect_viz: bar_chart
+    body:
+      query: Compare the phase distribution of semaglutide vs tirzepatide trials
+      drug_names: [semaglutide, tirzepatide]
+      group_by: phase
+  - id: sponsor_class_two_conditions
+    persona: researcher
+    class: comparison
+    expect_intent: sponsor_landscape
+    expect_viz: bar_chart
+    body:
+      query: Compare sponsor categories for obesity versus type 2 diabetes trials
+      conditions: [obesity, type 2 diabetes]
+      group_by: sponsor_class
+
+  # ---- geographic ----------------------------------------------------------------------------------
+  - id: obesity_recruiting_countries
+    persona: researcher
+    class: geographic
+    expect_intent: geographic_distribution
+    expect_viz: geo_map
+    body:
+      query: Which countries have the most recruiting obesity trials?
+      condition: obesity
+      status: [RECRUITING]
+      top_n: 20
+
+  # ---- networks ------------------------------------------------------------------------------------
+  - id: melanoma_sponsor_drug_network
+    persona: researcher
+    class: network_sponsor_drug
+    expect_intent: entity_network
+    expect_viz: network_graph
+    body:
+      query: Show the network of sponsors and drugs in phase 2/3 melanoma trials
+      condition: melanoma
+      trial_phase: ["2", "3"]
+      preferred_visualization: network_graph
+  - id: melanoma_drug_combinations
+    persona: researcher
+    class: network_drug_drug
+    expect_intent: entity_network
+    expect_viz: network_graph
+    body:
+      query: Which drugs are combined with each other in melanoma combination studies?
+      condition: melanoma
+      trial_phase: ["2", "3"]
+  - id: pembro_combination_partners
+    persona: researcher
+    class: network_drug_drug
+    expect_intent: entity_network
+    expect_viz: network_graph
+    body:
+      query: What drugs co-occur with pembrolizumab in combination trials?
+      drug_name: Pembrolizumab
+      start_year: 2015
+
+  # ---- patient single-trial ------------------------------------------------------------------------
+  - id: step1_eligibility
+    persona: patient
+    class: single_trial
+    expect_intent: eligibility_check
+    expect_viz: eligibility_checklist
+    body:
+      query: Am I eligible for this trial?
+      nct_id: NCT03548935
+      persona: patient
+      patient_profile: {age: 45, sex: female, conditions: [obesity, hypertension]}
+  - id: step1_side_effects
+    persona: patient
+    class: single_trial
+    expect_intent: risks_adverse_events
+    expect_viz: bar_chart
+    body:
+      query: What side effects did people have in this trial?
+      nct_id: NCT03548935
+      persona: patient
+  - id: step1_journey
+    persona: patient
+    class: single_trial
+    expect_intent: trial_journey_timeline
+    expect_viz: timeline
+    body:
+      query: How long would I be in this study and what happens when?
+      nct_id: NCT03548935
+      persona: patient
+  - id: keynote189_survival
+    persona: researcher
+    class: single_trial
+    expect_intent: survival_summary
+    expect_viz: survival_curve
+    body:
+      query: What were the overall and progression-free survival results?
+      nct_id: NCT02578680
+  - id: keynote189_eligibility
+    persona: patient
+    class: single_trial
+    expect_intent: eligibility_check
+    expect_viz: eligibility_checklist
+    body:
+      query: I have lung cancer and take steroids every day, can I join this trial?
+      nct_id: NCT02578680
+      persona: patient
+      patient_profile: {age: 62, sex: male, conditions: [non-small cell lung cancer], medications: [prednisone]}
+  - id: keynote189_dropout
+    persona: researcher
+    class: single_trial
+    expect_intent: dropout_flow
+    expect_viz: sankey
+    body:
+      query: How did participants flow through the study and why did they drop out?
+      nct_id: NCT02578680

@@ -1,0 +1,575 @@
+{
+  "name": "keynote189_survival",
+  "request": {
+    "query": "What were the overall survival results of this trial?",
+    "nct_id": "NCT02578680",
+    "persona": "researcher"
+  },
+  "response": {
+    "status": "ok",
+    "visualization": {
+      "type": "survival_curve",
+      "title": "Approximate survival: NCT02578680",
+      "subtitle": "Reconstructed from reported medians/landmark rates, not patient-level data",
+      "encoding": {
+        "x": {
+          "field": "time",
+          "type": "quantitative",
+          "title": "Time (months)",
+          "unit": "months",
+          "scale": {
+            "type": "linear",
+            "zero": true
+          }
+        },
+        "y": {
+          "field": "survival",
+          "type": "quantitative",
+          "title": "Survival probability",
+          "format": ".0%",
+          "scale": {
+            "type": "linear",
+            "domain": [
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "series": {
+          "field": "series",
+          "type": "nominal",
+          "title": "Endpoint \u00b7 arm"
+        },
+        "tooltip": [
+          "source",
+          "ci_low",
+          "ci_high",
+          "label"
+        ]
+      },
+      "data": [
+        {
+          "id": "d1",
+          "series": "OS \u00b7 Control",
+          "time": 0.0,
+          "survival": 1.0,
+          "source": "reported",
+          "endpoint": "OS",
+          "group": "Control",
+          "label": "Start of follow-up (S=1 by definition)",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Overall Survival (OS)"
+            },
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Control",
+              "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].groups[1].title"
+            }
+          ],
+          "citations_total": 2,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "d2",
+          "series": "OS \u00b7 Control",
+          "time": 1.0,
+          "survival": 0.9405,
+          "source": "interpolated",
+          "endpoint": "OS",
+          "group": "Control",
+          "label": "Interpolated (piecewise exponential)",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "derived_from": [
+            "d1",
+            "d13"
+          ],
+          "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Overall Survival (OS)"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "d3",
+          "series": "OS \u00b7 Control",
+          "time": 2.0,
+          "survival": 0.8845,
+          "source": "interpolated",
+          "endpoint": "OS",
+          "group": "Control",
+          "label": "Interpolated (piecewise exponential)",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "derived_from": [
+            "d1",
+            "d13"
+          ],
+          "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Overall Survival (OS)"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "d4",
+          "series": "OS \u00b7 Control",
+          "time": 3.0,
+          "survival": 0.8319,
+          "source": "interpolated",
+          "endpoint": "OS",
+          "group": "Control",
+          "label": "Interpolated (piecewise exponential)",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "derived_from": [
+            "d1",
+            "d13"
+          ],
+          "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Overall Survival (OS)"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "d5",
+          "series": "OS \u00b7 Control",
+          "time": 4.0,
+          "survival": 0.7824,
+          "source": "interpolated",
+          "endpoint": "OS",
+          "group": "Control",
+          "label": "Interpolated (piecewise exponential)",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "derived_from": [
+            "d1",
+            "d13"
+          ],
+          "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Overall Survival (OS)"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "d6",
+          "series": "OS \u00b7 Control",
+          "time": 5.0,
+          "survival": 0.7359,
+          "source": "interpolated",
+          "endpoint": "OS",
+          "group": "Control",
+          "label": "Interpolated (piecewise exponential)",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "derived_from": [
+            "d1",
+            "d13"
+          ],
+          "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Overall Survival (OS)"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "d7",
+          "series": "OS \u00b7 Control",
+          "time": 6.0,
+          "survival": 0.6921,
+          "source": "interpolated",
+          "endpoint": "OS",
+          "group": "Control",
+          "label": "Interpolated (piecewise exponential)",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "derived_from": [
+            "d1",
+            "d13"
+          ],
+          "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Overall Survival (OS)"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "d8",
+          "series": "OS \u00b7 Control",
+          "time": 7.0,
+          "survival": 0.6509,
+          "source": "interpolated",
+          "endpoint": "OS",
+          "group": "Control",
+          "label": "Interpolated (piecewise exponential)",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "derived_from": [
+            "d1",
+            "d13"
+          ],
+          "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Overall Survival (OS)"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "d9",
+          "series": "OS \u00b7 Control",
+          "time": 8.0,
+          "survival": 0.6122,
+          "source": "interpolated",
+          "endpoint": "OS",
+          "group": "Control",
+          "label": "Interpolated (piecewise exponential)",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "derived_from": [
+            "d1",
+            "d13"
+          ],
+          "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Overall Survival (OS)"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "d10",
+          "series": "OS \u00b7 Control",
+          "time": 9.0,
+          "survival": 0.5758,
+          "source": "interpolated",
+          "endpoint": "OS",
+          "group": "Control",
+          "label": "Interpolated (piecewise exponential)",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "derived_from": [
+            "d1",
+            "d13"
+          ],
+          "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Overall Survival (OS)"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "d11",
+          "series": "OS \u00b7 Control",
+          "time": 10.0,
+          "survival": 0.5415,
+          "source": "interpolated",
+          "endpoint": "OS",
+          "group": "Control",
+          "label": "Interpolated (piecewise exponential)",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "derived_from": [
+            "d1",
+            "d13"
+          ],
+          "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Overall Survival (OS)"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "d12",
+          "series": "OS \u00b7 Control",
+          "time": 11.0,
+          "survival": 0.5093,
+          "source": "interpolated",
+          "endpoint": "OS",
+          "group": "Control",
+          "label": "Interpolated (piecewise exponential)",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "derived_from": [
+            "d1",
+            "d13"
+          ],
+          "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Overall Survival (OS)"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "d13",
+          "series": "OS \u00b7 Control",
+          "time": 11.3,
+          "survival": 0.5,
+          "source": "reported",
+          "endpoint": "OS",
+          "group": "Control",
+          "time_ci_low": 8.7,
+          "time_ci_high": 15.1,
+          "label": "Reported median (S=0.5)",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].classes[0].categories[0].measurements[1].value",
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "11.3",
+              "label": "OS \u00b7 Control: median (Months)"
+            },
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "MEDIAN",
+              "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].paramType"
+            },
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Overall Survival (OS)",
+              "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title"
+            },
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Months",
+              "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].unitOfMeasure"
+            },
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Control",
+              "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].groups[1].title"
+            }
+          ],
+          "citations_total": 5,
+          "excerpts_truncated": false
+        }
+      ]
+    },
+    "answer_summary": "Reported medians: OS \u00b7 Control 11.3 months. Overall Survival (OS): groups: Pembrolizumab+Pemetrexed+Platinum Chemotherapy Followed by Pembrolizumab+Pemetrexed, Control: Hazard Ratio (HR) 0.49 (0.38 to 0.64). Source: the results posted for NCT02578680 on ClinicalTrials.gov.",
+    "meta": {
+      "source": "clinicaltrials.gov",
+      "filters": {
+        "nct_ids": [
+          "NCT02578680"
+        ]
+      },
+      "query_interpretation": {
+        "intent": "survival_summary",
+        "persona": "researcher",
+        "scope": "single_trial",
+        "confidence": 0.86,
+        "parser": "cache",
+        "resolved_entities": [
+          {
+            "input": "NCT02578680",
+            "resolved": "NCT02578680",
+            "kind": "nct_id",
+            "method": "exact"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "code": "APPROXIMATED",
+          "severity": "warning",
+          "message": "Curves are approximations through reported medians and landmark rates; patient-level time-to-event data are not in the registry. Interpolated points are marked source=interpolated.",
+          "affects": [
+            "d2",
+            "d3",
+            "d4",
+            "d5",
+            "d6",
+            "d7",
+            "d8",
+            "d9",
+            "d10",
+            "d11",
+            "d12"
+          ]
+        },
+        {
+          "code": "NOT_IN_REGISTRY",
+          "severity": "info",
+          "message": "OS \u00b7 Pembrolizumab+Pemetrexed+Platinum Chemotherapy Followed by Pembrolizumab+Pemetrexed: median not reached at the time of analysis; no curve can be anchored for this arm."
+        }
+      ],
+      "units": {
+        "time": "months",
+        "survival": "probability"
+      },
+      "stats": {
+        "analyses": [
+          {
+            "label": "Overall Survival (OS): groups: Pembrolizumab+Pemetrexed+Platinum Chemotherapy Followed by Pembrolizumab+Pemetrexed, Control",
+            "param_type": "Hazard Ratio (HR)",
+            "estimate": 0.49,
+            "ci_low": 0.38,
+            "ci_high": 0.64,
+            "ci_pct": 95.0,
+            "p_value": "<0.00001",
+            "method": "Log Rank",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].analyses[0].paramValue"
+          }
+        ]
+      },
+      "approximation": {
+        "method": "piecewise exponential interpolation between reported anchors (median, landmark rates)",
+        "assumptions": [
+          "No patient-level time-to-event data are in the registry; only reported medians and landmark rates are used.",
+          "S(0) = 1 for every arm.",
+          "Constant hazard (exponential decay) between consecutive reported anchors.",
+          "No extrapolation beyond the last reported anchor.",
+          "Medians and landmark rates from different outcome measures of the same endpoint are combined per arm."
+        ]
+      },
+      "coverage": {
+        "studies_matched_total": 1,
+        "studies_analyzed": 1,
+        "counting_method": "single_trials",
+        "studies_with_results": 1,
+        "sampled": false,
+        "queries": [
+          "https://clinicaltrials.gov/study/NCT02578680"
+        ]
+      },
+      "citation_policy": {
+        "detail": "sample",
+        "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+        "nct_ids": "first_20",
+        "nct_ids_per_datum": 20,
+        "nct_ids_order": "nct_id",
+        "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+        "excerpts_per_datum": 3,
+        "excerpts_single_trial": 10,
+        "excerpt_order": "nct_id",
+        "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+      },
+      "validation": {
+        "passed": true,
+        "checks": [
+          {
+            "name": "retrieval_matches_api_total",
+            "passed": true,
+            "detail": "single_trials"
+          },
+          {
+            "name": "counts_match_trial_lists",
+            "passed": true,
+            "detail": "0 count datum(s) checked"
+          },
+          {
+            "name": "each_trial_in_one_bucket",
+            "passed": true,
+            "detail": "not a single-valued grouping"
+          },
+          {
+            "name": "citations_from_retrieved_records",
+            "passed": true,
+            "detail": "1 NCT id(s), all retrieved"
+          },
+          {
+            "name": "summary_numbers_in_data",
+            "passed": true,
+            "detail": "every number appears in the data"
+          },
+          {
+            "name": "value_axes_labeled",
+            "passed": true,
+            "detail": "all value axes say what they measure"
+          }
+        ]
+      },
+      "alternatives": [
+        {
+          "type": "forest_plot",
+          "reason": "effect estimates with confidence intervals"
+        },
+        {
+          "type": "table",
+          "reason": "all values as a sortable table"
+        }
+      ],
+      "request_id": "6308be98dcec43edaed1493bb22ce853",
+      "created_at": "2026-10-19T10:10:50+00:00",
+      "schema_version": "2.2",
+      "ctgov_api_version": "2.0.5",
+      "data_timestamp": "2026-10-16T09:00:05"
+    }
+  }
+}

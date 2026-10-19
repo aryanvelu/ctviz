@@ -1,0 +1,76 @@
+{
+  "status": "unanswerable",
+  "clarification": {
+    "reason": "subjective_question",
+    "message": "ClinicalTrials.gov cannot answer which treatment is safest, best or right for someone. Registry records report outcomes and adverse events trial by trial, for different patients, doses and follow-up times, so ranking drugs from them would be misleading, and no single number in the registry measures 'safety'. A doctor can weigh that evidence for a specific person. I can show what the registry does record instead.",
+    "suggestions": [
+      "What serious adverse events were reported in completed semaglutide trials for diabetes?",
+      "What serious adverse events were reported in completed canagliflozin trials for diabetes?",
+      "Compare trial phases for semaglutide vs canagliflozin for diabetes",
+      "How many semaglutide trials for diabetes started each year?"
+    ]
+  },
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "drug_names": [
+        "semaglutide",
+        "canagliflozin"
+      ],
+      "conditions": [
+        "diabetes"
+      ]
+    },
+    "query_interpretation": {
+      "intent": "risks_adverse_events",
+      "persona": "researcher",
+      "scope": "cohort",
+      "confidence": 0.9,
+      "parser": "llm",
+      "cohorts": [
+        {
+          "label": "Semaglutide · Diabetes + Canagliflozin · Diabetes",
+          "drugs": [
+            "semaglutide",
+            "canagliflozin"
+          ],
+          "conditions": [
+            "diabetes"
+          ]
+        }
+      ],
+      "resolved_entities": [
+        {
+          "input": "semaglutide",
+          "resolved": "semaglutide",
+          "kind": "drug",
+          "method": "exact"
+        },
+        {
+          "input": "Canagliflozin",
+          "resolved": "canagliflozin",
+          "kind": "drug",
+          "method": "exact"
+        },
+        {
+          "input": "diabetes",
+          "resolved": "diabetes",
+          "kind": "condition",
+          "method": "exact"
+        }
+      ]
+    },
+    "assumptions": [
+      "risks_adverse_events does not support comparisons; entities were combined into one cohort."
+    ],
+    "coverage": {
+      "studies_matched_total": 0,
+      "studies_analyzed": 0,
+      "counting_method": "none",
+      "sampled": false
+    },
+    "request_id": "1953604176c949efa7af2025bfceb841",
+    "created_at": "2026-10-19T09:51:01+00:00",
+    "schema_version": "2.2"
+  }
+}

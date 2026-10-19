@@ -1,0 +1,636 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "geo_map",
+    "title": "Trials by country: Type 2 diabetes (status today: recruiting)",
+    "encoding": {
+      "x": {
+        "field": "country",
+        "type": "nominal",
+        "title": "Country"
+      },
+      "y": {
+        "field": "trial_count",
+        "type": "quantitative",
+        "title": "Trials",
+        "unit": "trials",
+        "format": ",d"
+      },
+      "label": {
+        "field": "country",
+        "type": "nominal",
+        "title": "Country"
+      },
+      "tooltip": [
+        "site_count"
+      ]
+    },
+    "data": [
+      {
+        "id": "d1",
+        "country": "United States",
+        "trial_count": 297,
+        "site_count": 2466,
+        "nct_ids": [
+          "NCT02846571",
+          "NCT02969798",
+          "NCT03568630",
+          "NCT03761446",
+          "NCT03883412",
+          "NCT04024631",
+          "NCT04101669",
+          "NCT04213547",
+          "NCT04326192",
+          "NCT04442451",
+          "NCT04501406",
+          "NCT04687215",
+          "NCT04783441",
+          "NCT04791371",
+          "NCT04802395",
+          "NCT04943861",
+          "NCT05000996",
+          "NCT05008276",
+          "NCT05041491",
+          "NCT05071898"
+        ],
+        "nct_ids_total": 297,
+        "field_path": "protocolSection.contactsLocationsModule.locations[0].country",
+        "citations": [
+          {
+            "nct_id": "NCT02846571",
+            "excerpt": "United States"
+          },
+          {
+            "nct_id": "NCT02969798",
+            "excerpt": "United States"
+          },
+          {
+            "nct_id": "NCT03568630",
+            "excerpt": "United States"
+          }
+        ],
+        "citations_total": 297,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d2",
+        "country": "China",
+        "trial_count": 117,
+        "site_count": 739,
+        "nct_ids": [
+          "NCT02420470",
+          "NCT03087032",
+          "NCT03264352",
+          "NCT03569735",
+          "NCT03811470",
+          "NCT03987308",
+          "NCT04187443",
+          "NCT04889053",
+          "NCT05015283",
+          "NCT05307731",
+          "NCT05349955",
+          "NCT05439226",
+          "NCT05553093",
+          "NCT05597709",
+          "NCT05888909",
+          "NCT05947916",
+          "NCT06169033",
+          "NCT06256419",
+          "NCT06277466",
+          "NCT06302127"
+        ],
+        "nct_ids_total": 117,
+        "field_path": "protocolSection.contactsLocationsModule.locations[0].country",
+        "citations": [
+          {
+            "nct_id": "NCT02420470",
+            "excerpt": "China"
+          },
+          {
+            "nct_id": "NCT03087032",
+            "excerpt": "China"
+          },
+          {
+            "nct_id": "NCT03264352",
+            "excerpt": "China"
+          }
+        ],
+        "citations_total": 117,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d3",
+        "country": "Canada",
+        "trial_count": 66,
+        "site_count": 303,
+        "nct_ids": [
+          "NCT02390973",
+          "NCT02583061",
+          "NCT02818192",
+          "NCT03455868",
+          "NCT03988764",
+          "NCT04455867",
+          "NCT04485871",
+          "NCT04579900",
+          "NCT04621396",
+          "NCT05269589",
+          "NCT05427084",
+          "NCT05633810",
+          "NCT05681468",
+          "NCT05702463",
+          "NCT05776420",
+          "NCT05794789",
+          "NCT05934409",
+          "NCT05938712",
+          "NCT06118931",
+          "NCT06285396"
+        ],
+        "nct_ids_total": 66,
+        "field_path": "protocolSection.contactsLocationsModule.locations[0].country",
+        "citations": [
+          {
+            "nct_id": "NCT02390973",
+            "excerpt": "Canada"
+          },
+          {
+            "nct_id": "NCT02583061",
+            "excerpt": "Canada"
+          },
+          {
+            "nct_id": "NCT02818192",
+            "excerpt": "Canada"
+          }
+        ],
+        "citations_total": 66,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d4",
+        "country": "South Korea",
+        "trial_count": 52,
+        "site_count": 194,
+        "nct_ids": [
+          "NCT03059069",
+          "NCT04284943",
+          "NCT04932928",
+          "NCT05211375",
+          "NCT05365425",
+          "NCT05365438",
+          "NCT05770687",
+          "NCT05970237",
+          "NCT06220773",
+          "NCT06293417",
+          "NCT06399835",
+          "NCT06402747",
+          "NCT06627322",
+          "NCT06642623",
+          "NCT06647550",
+          "NCT06647745",
+          "NCT06647888",
+          "NCT06649162",
+          "NCT06717698",
+          "NCT06772168"
+        ],
+        "nct_ids_total": 52,
+        "field_path": "protocolSection.contactsLocationsModule.locations[0].country",
+        "citations": [
+          {
+            "nct_id": "NCT03059069",
+            "excerpt": "South Korea"
+          },
+          {
+            "nct_id": "NCT04284943",
+            "excerpt": "South Korea"
+          },
+          {
+            "nct_id": "NCT04932928",
+            "excerpt": "South Korea"
+          }
+        ],
+        "citations_total": 52,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d5",
+        "country": "United Kingdom",
+        "trial_count": 43,
+        "site_count": 262,
+        "nct_ids": [
+          "NCT01945840",
+          "NCT02037867",
+          "NCT02169518",
+          "NCT02817360",
+          "NCT02973412",
+          "NCT03132129",
+          "NCT03842475",
+          "NCT04190849",
+          "NCT04442334",
+          "NCT05404061",
+          "NCT05663515",
+          "NCT06305208",
+          "NCT06451757",
+          "NCT06471634",
+          "NCT06572345",
+          "NCT06579404",
+          "NCT06652763",
+          "NCT06739135",
+          "NCT06774014",
+          "NCT06782568"
+        ],
+        "nct_ids_total": 43,
+        "field_path": "protocolSection.contactsLocationsModule.locations[0].country",
+        "citations": [
+          {
+            "nct_id": "NCT01945840",
+            "excerpt": "United Kingdom"
+          },
+          {
+            "nct_id": "NCT02037867",
+            "excerpt": "United Kingdom"
+          },
+          {
+            "nct_id": "NCT02169518",
+            "excerpt": "United Kingdom"
+          }
+        ],
+        "citations_total": 43,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d6",
+        "country": "Germany",
+        "trial_count": 41,
+        "site_count": 361,
+        "nct_ids": [
+          "NCT01055093",
+          "NCT01477957",
+          "NCT03323216",
+          "NCT04442334",
+          "NCT05651724",
+          "NCT05958706",
+          "NCT06047262",
+          "NCT06124586",
+          "NCT06278207",
+          "NCT06323538",
+          "NCT06451757",
+          "NCT06897475",
+          "NCT06945406",
+          "NCT07064473",
+          "NCT07112339",
+          "NCT07146347",
+          "NCT07171281",
+          "NCT07212075",
+          "NCT07270731",
+          "NCT07282600"
+        ],
+        "nct_ids_total": 41,
+        "field_path": "protocolSection.contactsLocationsModule.locations[0].country",
+        "citations": [
+          {
+            "nct_id": "NCT01055093",
+            "excerpt": "Germany"
+          },
+          {
+            "nct_id": "NCT01477957",
+            "excerpt": "Germany"
+          },
+          {
+            "nct_id": "NCT03323216",
+            "excerpt": "Germany"
+          }
+        ],
+        "citations_total": 41,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d7",
+        "country": "Italy",
+        "trial_count": 36,
+        "site_count": 181,
+        "nct_ids": [
+          "NCT02038517",
+          "NCT04442334",
+          "NCT05633810",
+          "NCT05651724",
+          "NCT05759637",
+          "NCT05975541",
+          "NCT05987410",
+          "NCT06451757",
+          "NCT06717698",
+          "NCT06816303",
+          "NCT06864546",
+          "NCT06904690",
+          "NCT07042399",
+          "NCT07064473",
+          "NCT07112339",
+          "NCT07149610",
+          "NCT07314684",
+          "NCT07344701",
+          "NCT07351045",
+          "NCT07351058"
+        ],
+        "nct_ids_total": 36,
+        "field_path": "protocolSection.contactsLocationsModule.locations[0].country",
+        "citations": [
+          {
+            "nct_id": "NCT02038517",
+            "excerpt": "Italy"
+          },
+          {
+            "nct_id": "NCT04442334",
+            "excerpt": "Italy",
+            "field_path": "protocolSection.contactsLocationsModule.locations[10].country"
+          },
+          {
+            "nct_id": "NCT05633810",
+            "excerpt": "Italy",
+            "field_path": "protocolSection.contactsLocationsModule.locations[25].country"
+          }
+        ],
+        "citations_total": 36,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d8",
+        "country": "Denmark",
+        "trial_count": 35,
+        "site_count": 95,
+        "nct_ids": [
+          "NCT04880005",
+          "NCT04916132",
+          "NCT04941794",
+          "NCT05633810",
+          "NCT05663515",
+          "NCT05678543",
+          "NCT05700877",
+          "NCT06152588",
+          "NCT06185296",
+          "NCT06203860",
+          "NCT06211556",
+          "NCT06451757",
+          "NCT06642272",
+          "NCT06745544",
+          "NCT06752018",
+          "NCT06906081",
+          "NCT07026539",
+          "NCT07064473",
+          "NCT07246421",
+          "NCT07250789"
+        ],
+        "nct_ids_total": 35,
+        "field_path": "protocolSection.contactsLocationsModule.locations[0].country",
+        "citations": [
+          {
+            "nct_id": "NCT04880005",
+            "excerpt": "Denmark"
+          },
+          {
+            "nct_id": "NCT04916132",
+            "excerpt": "Denmark"
+          },
+          {
+            "nct_id": "NCT04941794",
+            "excerpt": "Denmark"
+          }
+        ],
+        "citations_total": 35,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d9",
+        "country": "Spain",
+        "trial_count": 34,
+        "site_count": 210,
+        "nct_ids": [
+          "NCT02817360",
+          "NCT03457168",
+          "NCT04442334",
+          "NCT05651724",
+          "NCT05663515",
+          "NCT06081387",
+          "NCT06338215",
+          "NCT06717698",
+          "NCT06723886",
+          "NCT07061301",
+          "NCT07064473",
+          "NCT07124923",
+          "NCT07252765",
+          "NCT07282600",
+          "NCT07285330",
+          "NCT07309094",
+          "NCT07351045",
+          "NCT07351058",
+          "NCT07373938",
+          "NCT07392190"
+        ],
+        "nct_ids_total": 34,
+        "field_path": "protocolSection.contactsLocationsModule.locations[13].country",
+        "citations": [
+          {
+            "nct_id": "NCT02817360",
+            "excerpt": "Spain"
+          },
+          {
+            "nct_id": "NCT03457168",
+            "excerpt": "Spain",
+            "field_path": "protocolSection.contactsLocationsModule.locations[0].country"
+          },
+          {
+            "nct_id": "NCT04442334",
+            "excerpt": "Spain",
+            "field_path": "protocolSection.contactsLocationsModule.locations[17].country"
+          }
+        ],
+        "citations_total": 34,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d10",
+        "country": "Turkey (Türkiye)",
+        "trial_count": 31,
+        "site_count": 134,
+        "nct_ids": [
+          "NCT06271382",
+          "NCT06588894",
+          "NCT06704672",
+          "NCT06717698",
+          "NCT06769477",
+          "NCT06778005",
+          "NCT06826235",
+          "NCT06826703",
+          "NCT06977230",
+          "NCT07002125",
+          "NCT07057518",
+          "NCT07064473",
+          "NCT07119983",
+          "NCT07351058",
+          "NCT07414914",
+          "NCT07433257",
+          "NCT07606066",
+          "NCT07622628",
+          "NCT07649967",
+          "NCT07659925"
+        ],
+        "nct_ids_total": 31,
+        "field_path": "protocolSection.contactsLocationsModule.locations[0].country",
+        "citations": [
+          {
+            "nct_id": "NCT06271382",
+            "excerpt": "Turkey (Türkiye)"
+          },
+          {
+            "nct_id": "NCT06588894",
+            "excerpt": "Turkey (Türkiye)"
+          },
+          {
+            "nct_id": "NCT06704672",
+            "excerpt": "Turkey (Türkiye)",
+            "field_path": "protocolSection.contactsLocationsModule.locations[10].country"
+          }
+        ],
+        "citations_total": 31,
+        "excerpts_truncated": true
+      }
+    ]
+  },
+  "answer_summary": "United States has the most trials (297), then China (117), then Canada (66). Based on 826 trials from ClinicalTrials.gov (status today: recruiting).",
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "conditions": [
+        "type 2 diabetes"
+      ],
+      "statuses": [
+        "RECRUITING"
+      ]
+    },
+    "query_interpretation": {
+      "intent": "geographic_distribution",
+      "persona": "researcher",
+      "scope": "cohort",
+      "confidence": 0.93,
+      "parser": "llm",
+      "cohorts": [
+        {
+          "label": "Type 2 diabetes",
+          "conditions": [
+            "type 2 diabetes"
+          ],
+          "statuses": [
+            "RECRUITING"
+          ]
+        }
+      ],
+      "resolved_entities": [
+        {
+          "input": "type 2 diabetes",
+          "resolved": "type 2 diabetes",
+          "kind": "condition",
+          "method": "exact"
+        }
+      ]
+    },
+    "notes": [
+      {
+        "code": "TRUNCATED",
+        "severity": "info",
+        "message": "Showing the top 10 of 81 countries."
+      }
+    ],
+    "units": {
+      "site_count": "sites",
+      "trial_count": "trials"
+    },
+    "sort": {
+      "by": "trial_count",
+      "order": "desc"
+    },
+    "grouping": {
+      "by": [
+        "country"
+      ],
+      "aggregate": "count_distinct_trials",
+      "per_trial": "once per country",
+      "country_grouping": "whitespace- and case-insensitive"
+    },
+    "geo": {
+      "level": "country",
+      "region_field": "country",
+      "value_field": "trial_count"
+    },
+    "coverage": {
+      "studies_matched_total": 826,
+      "studies_analyzed": 826,
+      "counting_method": "all_records",
+      "sampled": false,
+      "queries": [
+        "https://clinicaltrials.gov/search?cond=%22type+2+diabetes%22&aggFilters=status%3Arec"
+      ]
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "validation": {
+      "passed": true,
+      "checks": [
+        {
+          "name": "retrieval_matches_api_total",
+          "passed": true,
+          "detail": "Type 2 diabetes: 826 of 826"
+        },
+        {
+          "name": "counts_match_trial_lists",
+          "passed": true,
+          "detail": "10 count datum(s) checked"
+        },
+        {
+          "name": "each_trial_in_one_bucket",
+          "passed": true,
+          "detail": "not a single-valued grouping"
+        },
+        {
+          "name": "citations_from_retrieved_records",
+          "passed": true,
+          "detail": "613 NCT id(s), all retrieved"
+        },
+        {
+          "name": "summary_numbers_in_data",
+          "passed": true,
+          "detail": "every number appears in the data"
+        },
+        {
+          "name": "value_axes_labeled",
+          "passed": true,
+          "detail": "all value axes say what they measure"
+        }
+      ]
+    },
+    "alternatives": [
+      {
+        "type": "bar_chart",
+        "reason": "compare categories side by side"
+      },
+      {
+        "type": "table",
+        "reason": "all values as a sortable table"
+      }
+    ],
+    "follow_ups": [
+      "Show the trial sites (facility and city) in United States for Type 2 diabetes trials"
+    ],
+    "request_id": "afae072a32204ffb9ef103410adb1954",
+    "created_at": "2026-10-19T09:26:01+00:00",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-16T09:00:05"
+  }
+}

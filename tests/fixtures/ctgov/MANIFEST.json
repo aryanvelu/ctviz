@@ -1,0 +1,72 @@
+{
+ "NCT03548935": {
+  "description": "STEP 1 semaglutide obesity, phase 3, results (AE, flow, baseline, outcomes)",
+  "hasResults": true
+ },
+ "NCT02578680": {
+  "description": "KEYNOTE-189 pembrolizumab NSCLC, OS/PFS hazard ratios",
+  "hasResults": true
+ },
+ "NCT02142738": {
+  "description": "KEYNOTE-024 pembrolizumab vs chemo, survival",
+  "hasResults": true
+ },
+ "NCT01844505": {
+  "description": "CheckMate 067 nivolumab+ipilimumab combination melanoma",
+  "hasResults": true
+ },
+ "NCT07654361": {
+  "description": "Recruiting phase 3 obesity trial, no results",
+  "hasResults": false
+ },
+ "NCT01284335": {
+  "description": "Phase 1 dose escalation solid tumors, results",
+  "hasResults": true
+ },
+ "pembrolizumab_since2015": {
+  "params": {
+   "query.intr": "Pembrolizumab",
+   "filter.advanced": "AREA[StartDate]RANGE[2015-01-01,MAX]"
+  },
+  "totalCount": 2916,
+  "n": 400
+ },
+ "obesity_since2020": {
+  "params": {
+   "query.cond": "obesity",
+   "filter.advanced": "AREA[StartDate]RANGE[2020-01-01,MAX]"
+  },
+  "totalCount": 6184,
+  "n": 400
+ },
+ "semaglutide": {
+  "params": {
+   "query.intr": "semaglutide"
+  },
+  "totalCount": 785,
+  "n": 400
+ },
+ "tirzepatide": {
+  "params": {
+   "query.intr": "tirzepatide"
+  },
+  "totalCount": 300,
+  "n": 300
+ },
+ "melanoma_ph2_3": {
+  "params": {
+   "query.cond": "melanoma",
+   "filter.advanced": "AREA[Phase](PHASE2 OR PHASE3)"
+  },
+  "totalCount": 1743,
+  "n": 400
+ },
+ "t2d_recruiting": {
+  "params": {
+   "query.cond": "type 2 diabetes",
+   "filter.overallStatus": "RECRUITING"
+  },
+  "totalCount": 870,
+  "n": 400
+ }
+}

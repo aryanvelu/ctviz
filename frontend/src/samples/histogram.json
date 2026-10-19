@@ -1,0 +1,268 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "histogram",
+    "title": "Enrollment size of interventional obesity trials",
+    "encoding": {
+      "x": {
+        "field": "bin_start",
+        "type": "quantitative",
+        "title": "Enrollment",
+        "unit": "participants",
+        "format": ",d"
+      },
+      "x2": {
+        "field": "bin_end",
+        "type": "quantitative",
+        "title": "Enrollment (bin end)",
+        "unit": "participants",
+        "format": ",d"
+      },
+      "y": {
+        "field": "count",
+        "type": "quantitative",
+        "title": "Trials",
+        "unit": "trials",
+        "format": ",d"
+      }
+    },
+    "data": [
+      {
+        "id": "d1",
+        "bin_start": 0,
+        "bin_end": 50,
+        "count": 212,
+        "nct_ids": [
+          "NCT03548935",
+          "NCT03552757"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.designModule.enrollmentInfo.count",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "30"
+          },
+          {
+            "nct_id": "NCT03552757",
+            "excerpt": "31"
+          }
+        ],
+        "citations_total": 212,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d2",
+        "bin_start": 50,
+        "bin_end": 100,
+        "count": 168,
+        "nct_ids": [
+          "NCT03552757",
+          "NCT03611582"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.designModule.enrollmentInfo.count",
+        "citations": [
+          {
+            "nct_id": "NCT03552757",
+            "excerpt": "88"
+          },
+          {
+            "nct_id": "NCT03611582",
+            "excerpt": "89"
+          }
+        ],
+        "citations_total": 168,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d3",
+        "bin_start": 100,
+        "bin_end": 200,
+        "count": 141,
+        "nct_ids": [
+          "NCT03548987",
+          "NCT03611582"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.designModule.enrollmentInfo.count",
+        "citations": [
+          {
+            "nct_id": "NCT03611582",
+            "excerpt": "160"
+          },
+          {
+            "nct_id": "NCT03548987",
+            "excerpt": "161"
+          }
+        ],
+        "citations_total": 141,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d4",
+        "bin_start": 200,
+        "bin_end": 500,
+        "count": 97,
+        "nct_ids": [
+          "NCT03548987",
+          "NCT04184622"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.designModule.enrollmentInfo.count",
+        "citations": [
+          {
+            "nct_id": "NCT03548987",
+            "excerpt": "300"
+          },
+          {
+            "nct_id": "NCT04184622",
+            "excerpt": "301"
+          }
+        ],
+        "citations_total": 97,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d5",
+        "bin_start": 500,
+        "bin_end": 1000,
+        "count": 44,
+        "nct_ids": [
+          "NCT04184622",
+          "NCT04657003"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.designModule.enrollmentInfo.count",
+        "citations": [
+          {
+            "nct_id": "NCT04184622",
+            "excerpt": "611"
+          },
+          {
+            "nct_id": "NCT04657003",
+            "excerpt": "612"
+          }
+        ],
+        "citations_total": 44,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d6",
+        "bin_start": 1000,
+        "bin_end": 2000,
+        "count": 21,
+        "nct_ids": [
+          "NCT04251156",
+          "NCT04657003"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.designModule.enrollmentInfo.count",
+        "citations": [
+          {
+            "nct_id": "NCT04657003",
+            "excerpt": "1961"
+          },
+          {
+            "nct_id": "NCT04251156",
+            "excerpt": "1962"
+          }
+        ],
+        "citations_total": 21,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d7",
+        "bin_start": 2000,
+        "count": 9,
+        "nct_ids": [
+          "NCT04251156",
+          "NCT05035095"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.designModule.enrollmentInfo.count",
+        "citations": [
+          {
+            "nct_id": "NCT04251156",
+            "excerpt": "3731"
+          },
+          {
+            "nct_id": "NCT05035095",
+            "excerpt": "3732"
+          }
+        ],
+        "citations_total": 9,
+        "excerpts_truncated": true
+      }
+    ]
+  },
+  "answer_summary": "Median enrollment across 692 trials is 98 participants.",
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "conditions": [
+        "obesity"
+      ],
+      "interventional_only": true
+    },
+    "query_interpretation": {
+      "intent": "enrollment_distribution",
+      "persona": "researcher",
+      "scope": "cohort",
+      "confidence": 0.92,
+      "parser": "llm",
+      "cohorts": [
+        {
+          "label": "obesity",
+          "conditions": [
+            "obesity"
+          ],
+          "interventional_only": true
+        }
+      ]
+    },
+    "units": {
+      "count": "trials",
+      "bin_start": "participants"
+    },
+    "summary": {
+      "n": 692,
+      "median": 98,
+      "mean": 287.4,
+      "min": 1,
+      "max": 4935
+    },
+    "coverage": {
+      "studies_matched_total": 692,
+      "studies_analyzed": 692,
+      "counting_method": "all_records",
+      "sampled": false,
+      "queries": [
+        "https://clinicaltrials.gov/search?cond=obesity&aggFilters=studyType:int"
+      ]
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "alternatives": [
+      {
+        "type": "scatter_plot",
+        "reason": "one point per trial"
+      }
+    ],
+    "request_id": "req_sample_05_histogram",
+    "created_at": "2026-10-18T14:22:05Z",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-17T09:00:12"
+  }
+}

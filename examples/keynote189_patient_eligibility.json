@@ -1,0 +1,1199 @@
+{
+  "name": "keynote189_patient_eligibility",
+  "request": {
+    "query": "Could I join this lung cancer trial?",
+    "nct_id": "NCT02578680",
+    "persona": "patient",
+    "patient_profile": {
+      "age": 63,
+      "sex": "male",
+      "conditions": [
+        "non-small cell lung cancer"
+      ]
+    }
+  },
+  "response": {
+    "status": "ok",
+    "visualization": {
+      "type": "eligibility_checklist",
+      "title": "Eligibility checklist for NCT02578680",
+      "encoding": {
+        "series": {
+          "field": "status",
+          "type": "nominal",
+          "title": "Status",
+          "sort": {
+            "values": [
+              "met",
+              "unmet",
+              "needs_review",
+              "unknown"
+            ]
+          }
+        },
+        "label": {
+          "field": "text",
+          "type": "nominal",
+          "title": "Criterion"
+        },
+        "tooltip": [
+          "section",
+          "reason",
+          "evaluated_by",
+          "relevance"
+        ]
+      },
+      "data": [
+        {
+          "id": "c1",
+          "section": "structured",
+          "index": 1,
+          "text": "Age: 18 Years or older",
+          "status": "met",
+          "reason": "Age 63 is within the registered age range.",
+          "evaluated_by": "rule",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "protocolSection.eligibilityModule.minimumAge",
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "18 Years",
+              "label": "Age: 18 Years or older"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c2",
+          "section": "structured",
+          "index": 2,
+          "text": "Sex: all",
+          "status": "met",
+          "reason": "The trial is open to all sexes.",
+          "evaluated_by": "rule",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "protocolSection.eligibilityModule.sex",
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "ALL",
+              "label": "Sex: all"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c3",
+          "section": "structured",
+          "index": 3,
+          "text": "Does not accept healthy volunteers",
+          "status": "needs_review",
+          "reason": "Participants must have the studied condition; the study team confirms whether yours qualifies.",
+          "evaluated_by": "rule",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "protocolSection.eligibilityModule.healthyVolunteers",
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "false",
+              "label": "Does not accept healthy volunteers"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c4",
+          "section": "inclusion",
+          "index": 1,
+          "text": "Has a histologically-confirmed or cytologically confirmed diagnosis of stage IV nonsquamous NSCLC.",
+          "status": "needs_review",
+          "reason": "Possibly relevant to your profile (\"stage IV nonsquamous NSCLC\"); confirm with the study team.",
+          "evaluated_by": "llm",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Has a histologically-confirmed or cytologically confirmed diagnosis of stage IV nonsquamous NSCLC.",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 23,
+              "char_end": 121,
+              "label": "Inclusion criterion 1"
+            },
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "stage IV nonsquamous NSCLC",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 94,
+              "char_end": 120,
+              "label": "Quote used for the evaluation"
+            }
+          ],
+          "citations_total": 2,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c5",
+          "section": "inclusion",
+          "index": 2,
+          "text": "Has confirmation that epidermal growth factor receptor (EGFR) or anaplastic lymphoma kinase (ALK)-directed therapy is not indicated.",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Has confirmation that epidermal growth factor receptor (EGFR) or anaplastic lymphoma kinase (ALK)-directed therapy is not indicated.",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 124,
+              "char_end": 256,
+              "label": "Inclusion criterion 2"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c6",
+          "section": "inclusion",
+          "index": 3,
+          "text": "Has measurable disease.",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Has measurable disease.",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 259,
+              "char_end": 282,
+              "label": "Inclusion criterion 3"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c7",
+          "section": "inclusion",
+          "index": 4,
+          "text": "Has not received prior systemic treatment for their advanced/metastatic NSCLC.",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Has not received prior systemic treatment for their advanced/metastatic NSCLC.",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 285,
+              "char_end": 363,
+              "label": "Inclusion criterion 4"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c8",
+          "section": "inclusion",
+          "index": 5,
+          "text": "Can provide tumor tissue.",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Can provide tumor tissue.",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 366,
+              "char_end": 391,
+              "label": "Inclusion criterion 5"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c9",
+          "section": "inclusion",
+          "index": 6,
+          "text": "Has a life expectancy of at least 3 months.",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Has a life expectancy of at least 3 months.",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 394,
+              "char_end": 437,
+              "label": "Inclusion criterion 6"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c10",
+          "section": "inclusion",
+          "index": 7,
+          "text": "Has a performance status of 0 or 1 on the Eastern Cooperative Oncology Group (ECOG) Performance Status.",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Has a performance status of 0 or 1 on the Eastern Cooperative Oncology Group (ECOG) Performance Status.",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 440,
+              "char_end": 543,
+              "label": "Inclusion criterion 7"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c11",
+          "section": "inclusion",
+          "index": 8,
+          "text": "Has adequate organ function",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Has adequate organ function",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 546,
+              "char_end": 573,
+              "label": "Inclusion criterion 8"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c12",
+          "section": "inclusion",
+          "index": 9,
+          "text": "If female of childbearing potential, is willing to use adequate contraception for the course of the study through 120 days after the last dose of study medication or through 180 days after last dose of chemotherapeutic agents.",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "If female of childbearing potential, is willing to use adequate contraception for the course of the study through 120 days after the last dose of study medication or through 180 days after last dose of chemotherapeutic agents.",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 576,
+              "char_end": 802,
+              "label": "Inclusion criterion 9"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c13",
+          "section": "inclusion",
+          "index": 10,
+          "text": "If male with a female partner(s) of child-bearing potential, must agree to use adequate contraception starting with the first dose of study medication through 120 days after the last dose of study medication or through 180 days after last dose of chemotherapeutic agents.",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "If male with a female partner(s) of child-bearing potential, must agree to use adequate contraception starting with the first dose of study medication through 120 days after the last dose of study medication or through 180 days after last dose of chemotherapeutic agents.",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 805,
+              "char_end": 1076,
+              "label": "Inclusion criterion 10"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c14",
+          "section": "exclusion",
+          "index": 1,
+          "text": "Has predominantly squamous cell histology NSCLC.",
+          "status": "needs_review",
+          "reason": "Possibly relevant to your profile (\"predominantly squamous cell histology NSCLC\"); confirm with the study team.",
+          "evaluated_by": "llm",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Has predominantly squamous cell histology NSCLC.",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 1101,
+              "char_end": 1149,
+              "label": "Exclusion criterion 1"
+            },
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "predominantly squamous cell histology NSCLC",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 1105,
+              "char_end": 1148,
+              "label": "Quote used for the evaluation"
+            }
+          ],
+          "citations_total": 2,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c15",
+          "section": "exclusion",
+          "index": 2,
+          "text": "Is currently participating and receiving study therapy or has participated in a study of an investigational agent and received study therapy or used an investigational device within 4 weeks prior to administration of pembrolizumab.",
+          "status": "needs_review",
+          "reason": "Possibly relevant to your profile (\"within 4 weeks prior to administration of pembrolizumab\"); confirm with the study team.",
+          "evaluated_by": "llm",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Is currently participating and receiving study therapy or has participated in a study of an investigational agent and received study therapy or used an investigational device within 4 weeks prior to administration of pembrolizumab.",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 1152,
+              "char_end": 1383,
+              "label": "Exclusion criterion 2"
+            },
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "within 4 weeks prior to administration of pembrolizumab",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 1327,
+              "char_end": 1382,
+              "label": "Quote used for the evaluation"
+            }
+          ],
+          "citations_total": 2,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c16",
+          "section": "exclusion",
+          "index": 3,
+          "text": "Before the first dose of study medication: a) Has received prior systemic cytotoxic chemotherapy for metastatic disease, b) Has received antineoplastic biological therapy (e.g., erlotinib, crizotinib, cetuximab), c) Had major surgery (\\<3 weeks prior to first dose)",
+          "status": "needs_review",
+          "reason": "Possibly relevant to your profile (\"Has received prior systemic cytotoxic chemotherapy for metastatic disease\"); confirm with the study team.",
+          "evaluated_by": "llm",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Before the first dose of study medication: a) Has received prior systemic cytotoxic chemotherapy for metastatic disease, b) Has received antineoplastic biological therapy (e.g., erlotinib, crizotinib, cetuximab), c) Had major surgery (\\<3 weeks prior to first dose)",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 1386,
+              "char_end": 1651,
+              "label": "Exclusion criterion 3"
+            },
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Has received prior systemic cytotoxic chemotherapy for metastatic disease",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 1432,
+              "char_end": 1505,
+              "label": "Quote used for the evaluation"
+            }
+          ],
+          "citations_total": 2,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c17",
+          "section": "exclusion",
+          "index": 4,
+          "text": "Received radiation therapy to the lung that is \\>30 Gray (Gy) within 6 months of the first dose of study medication.",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Received radiation therapy to the lung that is \\>30 Gray (Gy) within 6 months of the first dose of study medication.",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 1654,
+              "char_end": 1770,
+              "label": "Exclusion criterion 4"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c18",
+          "section": "exclusion",
+          "index": 5,
+          "text": "Completed palliative radiotherapy within 7 days of the first dose of study medication.",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Completed palliative radiotherapy within 7 days of the first dose of study medication.",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 1773,
+              "char_end": 1859,
+              "label": "Exclusion criterion 5"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c19",
+          "section": "exclusion",
+          "index": 6,
+          "text": "Is expected to require any other form of antineoplastic therapy while on study.",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Is expected to require any other form of antineoplastic therapy while on study.",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 1862,
+              "char_end": 1941,
+              "label": "Exclusion criterion 6"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c20",
+          "section": "exclusion",
+          "index": 7,
+          "text": "Received a live-virus vaccination within 30 days of planned start of study medication.",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Received a live-virus vaccination within 30 days of planned start of study medication.",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 1944,
+              "char_end": 2030,
+              "label": "Exclusion criterion 7"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c21",
+          "section": "exclusion",
+          "index": 8,
+          "text": "Has clinically active diverticulitis, intra-abdominal abscess, gastrointestinal obstruction, peritoneal carcinomatosis.",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Has clinically active diverticulitis, intra-abdominal abscess, gastrointestinal obstruction, peritoneal carcinomatosis.",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 2033,
+              "char_end": 2152,
+              "label": "Exclusion criterion 8"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c22",
+          "section": "exclusion",
+          "index": 9,
+          "text": "Known history of prior malignancy except if participant has undergone potentially curative therapy with no evidence of that disease recurrence for 5 years since initiation of that therapy, except for successful definitive resection of basal cell carcinoma of the skin, superficial bladder cancer, squamous cell carcinoma of the skin, in situ cervical cancer, or other in situ cancers.",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Known history of prior malignancy except if participant has undergone potentially curative therapy with no evidence of that disease recurrence for 5 years since initiation of that therapy, except for successful definitive resection of basal cell carcinoma of the skin, superficial bladder cancer, squ",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 2155,
+              "char_end": 2455,
+              "label": "Exclusion criterion 9"
+            },
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "amous cell carcinoma of the skin, in situ cervical cancer, or other in situ cancers.",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 2455,
+              "char_end": 2539,
+              "label": "Exclusion criterion 9"
+            }
+          ],
+          "citations_total": 2,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c23",
+          "section": "exclusion",
+          "index": 10,
+          "text": "Has known active central nervous system (CNS) metastases and/or carcinomatous meningitis.",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Has known active central nervous system (CNS) metastases and/or carcinomatous meningitis.",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 2542,
+              "char_end": 2631,
+              "label": "Exclusion criterion 10"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c24",
+          "section": "exclusion",
+          "index": 11,
+          "text": "Previously had a severe hypersensitivity reaction to treatment with another monoclonal antibody (mAb).",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Previously had a severe hypersensitivity reaction to treatment with another monoclonal antibody (mAb).",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 2634,
+              "char_end": 2736,
+              "label": "Exclusion criterion 11"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c25",
+          "section": "exclusion",
+          "index": 12,
+          "text": "Known sensitivity to any component of cisplatin, carboplatin or pemetrexed.",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Known sensitivity to any component of cisplatin, carboplatin or pemetrexed.",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 2739,
+              "char_end": 2814,
+              "label": "Exclusion criterion 12"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c26",
+          "section": "exclusion",
+          "index": 13,
+          "text": "Has active autoimmune disease that has required systemic treatment in past 2 years.",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Has active autoimmune disease that has required systemic treatment in past 2 years.",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 2817,
+              "char_end": 2900,
+              "label": "Exclusion criterion 13"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c27",
+          "section": "exclusion",
+          "index": 14,
+          "text": "Is on chronic systemic steroids.",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Is on chronic systemic steroids.",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 2903,
+              "char_end": 2935,
+              "label": "Exclusion criterion 14"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c28",
+          "section": "exclusion",
+          "index": 15,
+          "text": "Is unable to interrupt aspirin or other nonsteroidal anti-inflammatory drugs (NSAIDs), other than an aspirin dose \u22641.3 g per day, for a 5-day period (8-day period for long-acting agents, such as piroxicam).",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Is unable to interrupt aspirin or other nonsteroidal anti-inflammatory drugs (NSAIDs), other than an aspirin dose \u22641.3 g per day, for a 5-day period (8-day period for long-acting agents, such as piroxicam).",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 2938,
+              "char_end": 3144,
+              "label": "Exclusion criterion 15"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c29",
+          "section": "exclusion",
+          "index": 16,
+          "text": "Is unable or unwilling to take folic acid or vitamin B12 supplementation.",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Is unable or unwilling to take folic acid or vitamin B12 supplementation.",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 3147,
+              "char_end": 3220,
+              "label": "Exclusion criterion 16"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c30",
+          "section": "exclusion",
+          "index": 17,
+          "text": "Had prior treatment with any other anti-programmed cell death-1 (PD-1), or PD-ligand 1 (PD-L1) or PD-L2 agent or an antibody targeting other immuno-regulatory receptors or mechanisms. Has participated in any other pembrolizumab study and has been treated with pembrolizumab.",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Had prior treatment with any other anti-programmed cell death-1 (PD-1), or PD-ligand 1 (PD-L1) or PD-L2 agent or an antibody targeting other immuno-regulatory receptors or mechanisms. Has participated in any other pembrolizumab study and has been treated with pembrolizumab.",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 3223,
+              "char_end": 3497,
+              "label": "Exclusion criterion 17"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c31",
+          "section": "exclusion",
+          "index": 18,
+          "text": "Has an active infection requiring therapy.",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Has an active infection requiring therapy.",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 3500,
+              "char_end": 3542,
+              "label": "Exclusion criterion 18"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c32",
+          "section": "exclusion",
+          "index": 19,
+          "text": "Has known history of Human Immunodeficiency Virus (HIV).",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Has known history of Human Immunodeficiency Virus (HIV).",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 3545,
+              "char_end": 3601,
+              "label": "Exclusion criterion 19"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c33",
+          "section": "exclusion",
+          "index": 20,
+          "text": "Has known active Hepatitis B or C.",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Has known active Hepatitis B or C.",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 3604,
+              "char_end": 3638,
+              "label": "Exclusion criterion 20"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c34",
+          "section": "exclusion",
+          "index": 21,
+          "text": "Has known psychiatric or substance abuse disorder that would interfere with cooperation with the requirements of the trial.",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Has known psychiatric or substance abuse disorder that would interfere with cooperation with the requirements of the trial.",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 3641,
+              "char_end": 3764,
+              "label": "Exclusion criterion 21"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c35",
+          "section": "exclusion",
+          "index": 22,
+          "text": "Is a regular user (including \"recreational use\") of any illicit drugs or had a recent history (within the last year) of substance abuse (including alcohol).",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Is a regular user (including \"recreational use\") of any illicit drugs or had a recent history (within the last year) of substance abuse (including alcohol).",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 3767,
+              "char_end": 3923,
+              "label": "Exclusion criterion 22"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c36",
+          "section": "exclusion",
+          "index": 23,
+          "text": "Has symptomatic ascites or pleural effusion.",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Has symptomatic ascites or pleural effusion.",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 3926,
+              "char_end": 3970,
+              "label": "Exclusion criterion 23"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c37",
+          "section": "exclusion",
+          "index": 24,
+          "text": "Has interstitial lung disease or a history of pneumonitis that required oral of IV glucocorticoids to assist with management.",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Has interstitial lung disease or a history of pneumonitis that required oral of IV glucocorticoids to assist with management.",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 3973,
+              "char_end": 4098,
+              "label": "Exclusion criterion 24"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c38",
+          "section": "exclusion",
+          "index": 25,
+          "text": "Is pregnant or breastfeeding, or expecting to conceive or father children prior to 120 days after the last dose of study medication or through 180 days after last dose of chemotherapeutic agents.",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Is pregnant or breastfeeding, or expecting to conceive or father children prior to 120 days after the last dose of study medication or through 180 days after last dose of chemotherapeutic agents.",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 4101,
+              "char_end": 4296,
+              "label": "Exclusion criterion 25"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        }
+      ]
+    },
+    "answer_summary": "Of 38 criteria checked, 2 are met, 0 would exclude you, 5 need review with the study team and 31 cannot be checked from the information given.",
+    "meta": {
+      "source": "clinicaltrials.gov",
+      "filters": {
+        "nct_ids": [
+          "NCT02578680"
+        ]
+      },
+      "query_interpretation": {
+        "intent": "eligibility_check",
+        "persona": "patient",
+        "scope": "single_trial",
+        "confidence": 0.78,
+        "parser": "llm",
+        "resolved_entities": [
+          {
+            "input": "NCT02578680",
+            "resolved": "NCT02578680",
+            "kind": "nct_id",
+            "method": "exact"
+          }
+        ]
+      },
+      "assumptions": [
+        "I read this as: Inclusion/exclusion criteria as a checklist, evaluated against an optional patient profile. If that is not what you meant, please rephrase."
+      ],
+      "notes": [
+        {
+          "code": "LLM_EVALUATED",
+          "severity": "info",
+          "message": "4 free-text criteria were checked by a language model against your profile, each backed by a verified verbatim quote; anything not clear-cut is marked needs_review. Only the study team can confirm eligibility."
+        },
+        {
+          "code": "LLM_EVALUATED",
+          "severity": "warning",
+          "message": "1 model verdicts were discarded because they did not cite a provided criterion with a verbatim quote of at least two words (see meta.extraction)."
+        }
+      ],
+      "summary": {
+        "total": 38,
+        "by_status": {
+          "met": 2,
+          "unmet": 0,
+          "needs_review": 5,
+          "unknown": 31
+        },
+        "by_section": {
+          "structured": 3,
+          "inclusion": 10,
+          "exclusion": 25
+        },
+        "by_evaluator": {
+          "rule": 3,
+          "llm": 4,
+          "none": 31
+        }
+      },
+      "coverage": {
+        "studies_matched_total": 1,
+        "studies_analyzed": 1,
+        "counting_method": "single_trials",
+        "sampled": false,
+        "queries": [
+          "https://clinicaltrials.gov/study/NCT02578680"
+        ]
+      },
+      "citation_policy": {
+        "detail": "sample",
+        "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+        "nct_ids": "first_20",
+        "nct_ids_per_datum": 20,
+        "nct_ids_order": "nct_id",
+        "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+        "excerpts_per_datum": 3,
+        "excerpts_single_trial": 10,
+        "excerpt_order": "nct_id",
+        "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+      },
+      "validation": {
+        "passed": true,
+        "checks": [
+          {
+            "name": "retrieval_matches_api_total",
+            "passed": true,
+            "detail": "single_trials"
+          },
+          {
+            "name": "counts_match_trial_lists",
+            "passed": true,
+            "detail": "0 count datum(s) checked"
+          },
+          {
+            "name": "each_trial_in_one_bucket",
+            "passed": true,
+            "detail": "not a single-valued grouping"
+          },
+          {
+            "name": "citations_from_retrieved_records",
+            "passed": true,
+            "detail": "1 NCT id(s), all retrieved"
+          },
+          {
+            "name": "summary_numbers_in_data",
+            "passed": true,
+            "detail": "every number appears in the data"
+          },
+          {
+            "name": "value_axes_labeled",
+            "passed": true,
+            "detail": "all value axes say what they measure"
+          }
+        ]
+      },
+      "alternatives": [
+        {
+          "type": "table",
+          "reason": "all values as a sortable table"
+        }
+      ],
+      "request_id": "1ab62977cbb4487f86522ce5989e0b4a",
+      "created_at": "2026-10-19T10:10:54+00:00",
+      "schema_version": "2.2",
+      "ctgov_api_version": "2.0.5",
+      "data_timestamp": "2026-10-16T09:00:05"
+    }
+  }
+}

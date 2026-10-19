@@ -1,0 +1,198 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "kpi_cards",
+    "title": "STEP 1 (NCT03548935) at a glance",
+    "subtitle": "Semaglutide 2.4 mg vs placebo in adults with obesity",
+    "encoding": {
+      "y": {
+        "field": "value",
+        "type": "nominal",
+        "title": "Value"
+      },
+      "label": {
+        "field": "label",
+        "type": "nominal",
+        "title": "Item"
+      },
+      "tooltip": [
+        "detail"
+      ]
+    },
+    "data": [
+      {
+        "id": "d1",
+        "label": "Status",
+        "value": "COMPLETED",
+        "kind": "enum",
+        "detail": "Last verified 2022-03",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.overallStatus",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "COMPLETED"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d2",
+        "label": "Phase",
+        "value": "PHASE3",
+        "kind": "enum",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "[\"PHASE3\"]"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d3",
+        "label": "Enrollment",
+        "value": 1961,
+        "kind": "number",
+        "detail": "ACTUAL",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.designModule.enrollmentInfo.count",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1961"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d4",
+        "label": "Start date",
+        "value": "2018-06-04",
+        "kind": "date",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "2018-06-04"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d5",
+        "label": "Lead sponsor",
+        "value": "Novo Nordisk A/S",
+        "kind": "text",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Novo Nordisk A/S"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d6",
+        "label": "Treatment duration",
+        "value": 68,
+        "kind": "number",
+        "detail": "weeks",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "once-weekly for 68 weeks",
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].description",
+            "kind": "text_excerpt",
+            "char_start": 52,
+            "char_end": 76
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      }
+    ]
+  },
+  "answer_summary": "STEP 1 [NCT03548935] is a completed phase 3 trial sponsored by Novo Nordisk A/S that enrolled 1961 participants starting 2018-06-04.",
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "nct_ids": [
+        "NCT03548935"
+      ]
+    },
+    "query_interpretation": {
+      "intent": "single_trial_overview",
+      "persona": "researcher",
+      "scope": "single_trial",
+      "confidence": 0.92,
+      "parser": "llm"
+    },
+    "units": {
+      "value": ""
+    },
+    "coverage": {
+      "studies_matched_total": 1,
+      "studies_analyzed": 1,
+      "counting_method": "all_records",
+      "studies_with_results": 1,
+      "sampled": false
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "alternatives": [
+      {
+        "type": "table",
+        "reason": "all values as a sortable table"
+      },
+      {
+        "type": "timeline",
+        "reason": "events on a time axis"
+      }
+    ],
+    "request_id": "req_sample_01_kpi_cards",
+    "created_at": "2026-10-18T14:22:05Z",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-17T09:00:12"
+  }
+}

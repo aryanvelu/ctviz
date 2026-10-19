@@ -1,0 +1,541 @@
+{
+  "name": "melanoma_phase_distribution",
+  "request": {
+    "query": "How are melanoma trials distributed across phases?",
+    "condition": "melanoma",
+    "persona": "researcher"
+  },
+  "response": {
+    "status": "ok",
+    "visualization": {
+      "type": "bar_chart",
+      "title": "Trials by phase: Melanoma",
+      "encoding": {
+        "x": {
+          "field": "phase",
+          "type": "ordinal",
+          "title": "Phase",
+          "sort": {
+            "values": [
+              "Early Phase 1",
+              "Phase 1",
+              "Phase 1/2",
+              "Phase 2",
+              "Phase 2/3",
+              "Phase 3",
+              "Phase 4",
+              "Not applicable"
+            ]
+          }
+        },
+        "y": {
+          "field": "trial_count",
+          "type": "quantitative",
+          "title": "Trials",
+          "unit": "trials",
+          "format": ",d"
+        }
+      },
+      "data": [
+        {
+          "id": "d1",
+          "phase": "Early Phase 1",
+          "trial_count": 66,
+          "nct_ids": [
+            "NCT00276835",
+            "NCT00436410",
+            "NCT00470379",
+            "NCT00499733",
+            "NCT00580060",
+            "NCT00663910",
+            "NCT00743353",
+            "NCT00871533",
+            "NCT00962845",
+            "NCT00972933",
+            "NCT01209676",
+            "NCT01425749",
+            "NCT01568996",
+            "NCT01620749",
+            "NCT01666353",
+            "NCT01730157",
+            "NCT01748747",
+            "NCT01789827",
+            "NCT02013492",
+            "NCT02316795"
+          ],
+          "nct_ids_total": 66,
+          "field_path": "protocolSection.designModule.phases",
+          "citations": [
+            {
+              "nct_id": "NCT00276835",
+              "excerpt": "[\"EARLY_PHASE1\"]"
+            },
+            {
+              "nct_id": "NCT00436410",
+              "excerpt": "[\"EARLY_PHASE1\"]"
+            },
+            {
+              "nct_id": "NCT00470379",
+              "excerpt": "[\"EARLY_PHASE1\"]"
+            }
+          ],
+          "citations_total": 66,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d2",
+          "phase": "Phase 1",
+          "trial_count": 871,
+          "nct_ids": [
+            "NCT00001439",
+            "NCT00001577",
+            "NCT00001683",
+            "NCT00002754",
+            "NCT00002781",
+            "NCT00002854",
+            "NCT00002947",
+            "NCT00002980",
+            "NCT00003022",
+            "NCT00003060",
+            "NCT00003224",
+            "NCT00003556",
+            "NCT00003597",
+            "NCT00003665",
+            "NCT00003690",
+            "NCT00003747",
+            "NCT00003750",
+            "NCT00003792",
+            "NCT00003897",
+            "NCT00004016"
+          ],
+          "nct_ids_total": 871,
+          "field_path": "protocolSection.designModule.phases",
+          "citations": [
+            {
+              "nct_id": "NCT00001439",
+              "excerpt": "[\"PHASE1\"]"
+            },
+            {
+              "nct_id": "NCT00001577",
+              "excerpt": "[\"PHASE1\"]"
+            },
+            {
+              "nct_id": "NCT00001683",
+              "excerpt": "[\"PHASE1\"]"
+            }
+          ],
+          "citations_total": 871,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d3",
+          "phase": "Phase 1/2",
+          "trial_count": 480,
+          "nct_ids": [
+            "NCT00002786",
+            "NCT00002817",
+            "NCT00002952",
+            "NCT00003229",
+            "NCT00003552",
+            "NCT00004025",
+            "NCT00004184",
+            "NCT00005615",
+            "NCT00005815",
+            "NCT00007969",
+            "NCT00010309",
+            "NCT00012064",
+            "NCT00019214",
+            "NCT00033228",
+            "NCT00033956",
+            "NCT00039325",
+            "NCT00039572",
+            "NCT00041808",
+            "NCT00053391",
+            "NCT00056134"
+          ],
+          "nct_ids_total": 480,
+          "field_path": "protocolSection.designModule.phases",
+          "citations": [
+            {
+              "nct_id": "NCT00002786",
+              "excerpt": "[\"PHASE1\",\"PHASE2\"]"
+            },
+            {
+              "nct_id": "NCT00002817",
+              "excerpt": "[\"PHASE1\",\"PHASE2\"]"
+            },
+            {
+              "nct_id": "NCT00002952",
+              "excerpt": "[\"PHASE1\",\"PHASE2\"]"
+            }
+          ],
+          "citations_total": 480,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d4",
+          "phase": "Phase 2",
+          "trial_count": 1042,
+          "nct_ids": [
+            "NCT00001144",
+            "NCT00001685",
+            "NCT00001705",
+            "NCT00001832",
+            "NCT00002535",
+            "NCT00002669",
+            "NCT00002733",
+            "NCT00002845",
+            "NCT00002860",
+            "NCT00002973",
+            "NCT00003091",
+            "NCT00003222",
+            "NCT00003274",
+            "NCT00003308",
+            "NCT00003339",
+            "NCT00003346",
+            "NCT00003362",
+            "NCT00003509",
+            "NCT00003568",
+            "NCT00003601"
+          ],
+          "nct_ids_total": 1042,
+          "field_path": "protocolSection.designModule.phases",
+          "citations": [
+            {
+              "nct_id": "NCT00001144",
+              "excerpt": "[\"PHASE2\"]"
+            },
+            {
+              "nct_id": "NCT00001685",
+              "excerpt": "[\"PHASE2\"]"
+            },
+            {
+              "nct_id": "NCT00001705",
+              "excerpt": "[\"PHASE2\"]"
+            }
+          ],
+          "citations_total": 1042,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d5",
+          "phase": "Phase 2/3",
+          "trial_count": 25,
+          "nct_ids": [
+            "NCT00055562",
+            "NCT00543205",
+            "NCT00811200",
+            "NCT01088737",
+            "NCT01259284",
+            "NCT01729663",
+            "NCT01861938",
+            "NCT02339571",
+            "NCT02829775",
+            "NCT02962947",
+            "NCT03470922",
+            "NCT03552549",
+            "NCT03755739",
+            "NCT03928275",
+            "NCT04695977",
+            "NCT04901988",
+            "NCT05768178",
+            "NCT05770102",
+            "NCT05770544",
+            "NCT05987332"
+          ],
+          "nct_ids_total": 25,
+          "field_path": "protocolSection.designModule.phases",
+          "citations": [
+            {
+              "nct_id": "NCT00055562",
+              "excerpt": "[\"PHASE2\",\"PHASE3\"]"
+            },
+            {
+              "nct_id": "NCT00543205",
+              "excerpt": "[\"PHASE2\",\"PHASE3\"]"
+            },
+            {
+              "nct_id": "NCT00811200",
+              "excerpt": "[\"PHASE2\",\"PHASE3\"]"
+            }
+          ],
+          "citations_total": 25,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d6",
+          "phase": "Phase 3",
+          "trial_count": 196,
+          "nct_ids": [
+            "NCT00000124",
+            "NCT00001296",
+            "NCT00002455",
+            "NCT00002763",
+            "NCT00002767",
+            "NCT00002882",
+            "NCT00002892",
+            "NCT00003027",
+            "NCT00003266",
+            "NCT00003444",
+            "NCT00003641",
+            "NCT00003647",
+            "NCT00003789",
+            "NCT00004196",
+            "NCT00005052",
+            "NCT00006237",
+            "NCT00006249",
+            "NCT00016263",
+            "NCT00019682",
+            "NCT00020839"
+          ],
+          "nct_ids_total": 196,
+          "field_path": "protocolSection.designModule.phases",
+          "citations": [
+            {
+              "nct_id": "NCT00000124",
+              "excerpt": "[\"PHASE3\"]"
+            },
+            {
+              "nct_id": "NCT00001296",
+              "excerpt": "[\"PHASE3\"]"
+            },
+            {
+              "nct_id": "NCT00002455",
+              "excerpt": "[\"PHASE3\"]"
+            }
+          ],
+          "citations_total": 196,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d7",
+          "phase": "Phase 4",
+          "trial_count": 37,
+          "nct_ids": [
+            "NCT00075166",
+            "NCT00129961",
+            "NCT00226473",
+            "NCT00324272",
+            "NCT00414765",
+            "NCT00540930",
+            "NCT01053819",
+            "NCT01161888",
+            "NCT01683188",
+            "NCT01735955",
+            "NCT01794793",
+            "NCT01856023",
+            "NCT01898585",
+            "NCT02000739",
+            "NCT02068196",
+            "NCT02379000",
+            "NCT02451488",
+            "NCT02626065",
+            "NCT02685592",
+            "NCT03313544"
+          ],
+          "nct_ids_total": 37,
+          "field_path": "protocolSection.designModule.phases",
+          "citations": [
+            {
+              "nct_id": "NCT00075166",
+              "excerpt": "[\"PHASE4\"]"
+            },
+            {
+              "nct_id": "NCT00129961",
+              "excerpt": "[\"PHASE4\"]"
+            },
+            {
+              "nct_id": "NCT00226473",
+              "excerpt": "[\"PHASE4\"]"
+            }
+          ],
+          "citations_total": 37,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d8",
+          "phase": "Not applicable",
+          "trial_count": 1059,
+          "nct_ids": [
+            "NCT00001503",
+            "NCT00001823",
+            "NCT00001898",
+            "NCT00004153",
+            "NCT00005781",
+            "NCT00006243",
+            "NCT00025012",
+            "NCT00026754",
+            "NCT00040352",
+            "NCT00046189",
+            "NCT00049010",
+            "NCT00068003",
+            "NCT00070343",
+            "NCT00093678",
+            "NCT00132704",
+            "NCT00179764",
+            "NCT00184275",
+            "NCT00184288",
+            "NCT00203008",
+            "NCT00207298"
+          ],
+          "nct_ids_total": 1059,
+          "field_path": "protocolSection.identificationModule.nctId",
+          "citations": [
+            {
+              "nct_id": "NCT00001503",
+              "excerpt": "NCT00001503"
+            },
+            {
+              "nct_id": "NCT00001823",
+              "excerpt": "NCT00001823"
+            },
+            {
+              "nct_id": "NCT00001898",
+              "excerpt": "NCT00001898"
+            }
+          ],
+          "citations_total": 1059,
+          "excerpts_truncated": true
+        }
+      ]
+    },
+    "answer_summary": "For Melanoma, Not applicable has the most trials (1,059), then Phase 2 (1,042), then Phase 1 (871). Based on 3,776 trials from ClinicalTrials.gov.",
+    "meta": {
+      "source": "clinicaltrials.gov",
+      "filters": {
+        "conditions": [
+          "melanoma"
+        ]
+      },
+      "query_interpretation": {
+        "intent": "phase_distribution",
+        "persona": "researcher",
+        "scope": "cohort",
+        "confidence": 0.93,
+        "parser": "cache",
+        "cohorts": [
+          {
+            "label": "Melanoma",
+            "conditions": [
+              "melanoma"
+            ]
+          }
+        ],
+        "resolved_entities": [
+          {
+            "input": "melanoma",
+            "resolved": "melanoma",
+            "kind": "condition",
+            "method": "structured_field"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "code": "SNAPSHOT",
+          "severity": "info",
+          "message": "Melanoma: all 3,776 trial records read from the stored cohort snapshot taken 2026-10-19 04:57 UTC; ClinicalTrials.gov still reports the same number of matching trials."
+        }
+      ],
+      "units": {
+        "trial_count": "trials"
+      },
+      "sort": {
+        "values": [
+          "Early Phase 1",
+          "Phase 1",
+          "Phase 1/2",
+          "Phase 2",
+          "Phase 2/3",
+          "Phase 3",
+          "Phase 4",
+          "Not applicable"
+        ]
+      },
+      "grouping": {
+        "by": [
+          "phase"
+        ],
+        "aggregate": "count_distinct_trials",
+        "phase_combination": "joined",
+        "each_trial_counted_once": true
+      },
+      "layout": {
+        "orientation": "vertical",
+        "mode": "grouped",
+        "donut": false
+      },
+      "coverage": {
+        "studies_matched_total": 3776,
+        "studies_analyzed": 3776,
+        "counting_method": "all_records",
+        "sampled": false,
+        "queries": [
+          "https://clinicaltrials.gov/search?cond=melanoma"
+        ]
+      },
+      "citation_policy": {
+        "detail": "sample",
+        "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+        "nct_ids": "first_20",
+        "nct_ids_per_datum": 20,
+        "nct_ids_order": "nct_id",
+        "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+        "excerpts_per_datum": 3,
+        "excerpts_single_trial": 10,
+        "excerpt_order": "nct_id",
+        "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+      },
+      "validation": {
+        "passed": true,
+        "checks": [
+          {
+            "name": "retrieval_matches_api_total",
+            "passed": true,
+            "detail": "Melanoma: 3,776 of 3,776"
+          },
+          {
+            "name": "counts_match_trial_lists",
+            "passed": true,
+            "detail": "8 count datum(s) checked"
+          },
+          {
+            "name": "each_trial_in_one_bucket",
+            "passed": true,
+            "detail": "3776 trial(s), each in exactly one bucket"
+          },
+          {
+            "name": "citations_from_retrieved_records",
+            "passed": true,
+            "detail": "3776 NCT id(s), all retrieved"
+          },
+          {
+            "name": "summary_numbers_in_data",
+            "passed": true,
+            "detail": "every number appears in the data"
+          },
+          {
+            "name": "value_axes_labeled",
+            "passed": true,
+            "detail": "all value axes say what they measure"
+          }
+        ]
+      },
+      "alternatives": [
+        {
+          "type": "pie_chart",
+          "reason": "share of the whole"
+        },
+        {
+          "type": "table",
+          "reason": "all values as a sortable table"
+        }
+      ],
+      "request_id": "a6fcffa104b64b4cabf9af12477eb3ee",
+      "created_at": "2026-10-19T10:10:19+00:00",
+      "schema_version": "2.2",
+      "ctgov_api_version": "2.0.5",
+      "data_timestamp": "2026-10-16T09:00:05"
+    }
+  }
+}

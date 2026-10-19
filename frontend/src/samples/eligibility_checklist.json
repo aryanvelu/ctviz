@@ -1,0 +1,298 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "eligibility_checklist",
+    "title": "Eligibility check — STEP 1 (NCT03548935)",
+    "subtitle": "For exclusion criteria, 'met' means the exclusion does not apply to you",
+    "encoding": {
+      "label": {
+        "field": "criterion",
+        "type": "nominal",
+        "title": "Criterion"
+      },
+      "tooltip": [
+        "reason"
+      ]
+    },
+    "data": [
+      {
+        "id": "d1",
+        "section": "structured",
+        "criterion": "Minimum age: 18 Years",
+        "status": "met",
+        "evaluated_by": "rule",
+        "reason": "You are 45.",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.eligibilityModule.minimumAge",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "18 Years"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d2",
+        "section": "structured",
+        "criterion": "Sex: ALL",
+        "status": "met",
+        "evaluated_by": "rule",
+        "reason": "Open to all sexes.",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.eligibilityModule.sex",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "ALL"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d3",
+        "section": "inclusion",
+        "criterion": "Age ≥ 18 years at the time of signing informed consent",
+        "status": "met",
+        "evaluated_by": "rule",
+        "reason": "You are 45.",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Age ≥ 18 years at the time of signing informed consent",
+            "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+            "kind": "text_excerpt",
+            "char_start": 23,
+            "char_end": 77
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d4",
+        "section": "inclusion",
+        "criterion": "BMI ≥ 30.0 kg/m^2 or BMI ≥ 27.0 kg/m^2 with the presence of at least one weight-related comorbidity",
+        "status": "needs_review",
+        "evaluated_by": "rule",
+        "reason": "Your profile lists obesity but no BMI value.",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "BMI ≥ 30.0 kg/m^2 or BMI ≥ 27.0 kg/m^2 with the presence of at least one weight-related comorbidity",
+            "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+            "kind": "text_excerpt",
+            "char_start": 80,
+            "char_end": 179
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d5",
+        "section": "inclusion",
+        "criterion": "History of at least one self-reported unsuccessful dietary effort to lose body weight",
+        "status": "unknown",
+        "evaluated_by": "none",
+        "reason": "Not covered by your profile.",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "History of at least one self-reported unsuccessful dietary effort to lose body weight",
+            "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+            "kind": "text_excerpt",
+            "char_start": 182,
+            "char_end": 267
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d6",
+        "section": "exclusion",
+        "criterion": "HbA1c ≥ 48 mmol/mol (6.5%)",
+        "status": "needs_review",
+        "evaluated_by": "llm",
+        "reason": "You listed metformin, which may indicate diabetes; check your HbA1c.",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "HbA1c ≥ 48 mmol/mol (6.5%)",
+            "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+            "kind": "text_excerpt",
+            "char_start": 292,
+            "char_end": 318
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d7",
+        "section": "exclusion",
+        "criterion": "Treatment with any medication prescribed for weight loss within 90 days before screening",
+        "status": "met",
+        "evaluated_by": "rule",
+        "reason": "No weight-loss medication in your list.",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Treatment with any medication prescribed for weight loss within 90 days before screening",
+            "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+            "kind": "text_excerpt",
+            "char_start": 400,
+            "char_end": 488
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d8",
+        "section": "exclusion",
+        "criterion": "History of major depressive disorder within 2 years before screening",
+        "status": "unmet",
+        "evaluated_by": "rule",
+        "reason": "You listed depression.",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "History of major depressive disorder within 2 years before screening",
+            "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+            "kind": "text_excerpt",
+            "char_start": 491,
+            "char_end": 559
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d9",
+        "section": "exclusion",
+        "criterion": "A self-reported change in body weight > 5 kg within 90 days before screening",
+        "status": "unknown",
+        "evaluated_by": "none",
+        "reason": "Not covered by your profile.",
+        "parent_text": "Exclusion Criteria:",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "A self-reported change in body weight > 5 kg within 90 days before screening",
+            "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+            "kind": "text_excerpt",
+            "char_start": 321,
+            "char_end": 397
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      }
+    ]
+  },
+  "answer_summary": "One exclusion criterion appears to apply to you, and two need review with the study team for [NCT03548935].",
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "nct_ids": [
+        "NCT03548935"
+      ]
+    },
+    "query_interpretation": {
+      "intent": "eligibility_check",
+      "persona": "patient",
+      "scope": "single_trial",
+      "confidence": 0.92,
+      "parser": "llm"
+    },
+    "notes": [
+      {
+        "code": "LLM_EVALUATED",
+        "severity": "warning",
+        "message": "One criterion was evaluated by a language model from your free-text profile; verify with the study team.",
+        "affects": [
+          "d4"
+        ]
+      },
+      {
+        "code": "NOT_IN_REGISTRY",
+        "severity": "info",
+        "message": "Only the criteria text is in the registry; the study team makes the final decision."
+      }
+    ],
+    "summary": {
+      "met": 4,
+      "unmet": 1,
+      "needs_review": 2,
+      "unknown": 2,
+      "total": 9
+    },
+    "coverage": {
+      "studies_matched_total": 1,
+      "studies_analyzed": 1,
+      "counting_method": "all_records",
+      "sampled": false
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "alternatives": [
+      {
+        "type": "table",
+        "reason": "all values as a sortable table"
+      }
+    ],
+    "request_id": "req_sample_20_eligibility",
+    "created_at": "2026-10-18T14:22:05Z",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-17T09:00:12"
+  }
+}

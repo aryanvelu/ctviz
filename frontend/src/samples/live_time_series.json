@@ -1,0 +1,777 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "time_series",
+    "title": "Trials started per year: Pembrolizumab",
+    "encoding": {
+      "x": {
+        "field": "period",
+        "type": "temporal",
+        "title": "Start year",
+        "time_format": "%Y",
+        "scale": {
+          "type": "time"
+        }
+      },
+      "y": {
+        "field": "trial_count",
+        "type": "quantitative",
+        "title": "Trials",
+        "unit": "trials",
+        "format": ",d"
+      },
+      "tooltip": [
+        "label",
+        "estimated_count"
+      ]
+    },
+    "data": [
+      {
+        "id": "d1",
+        "period": "2015-01-01",
+        "year": 2015,
+        "label": "2015",
+        "trial_count": 120,
+        "estimated_count": 0,
+        "nct_ids": [
+          "NCT02260440",
+          "NCT02268825",
+          "NCT02296684",
+          "NCT02298959",
+          "NCT02301039",
+          "NCT02303366",
+          "NCT02303990",
+          "NCT02305186",
+          "NCT02306850",
+          "NCT02311582",
+          "NCT02313272",
+          "NCT02316002",
+          "NCT02318771",
+          "NCT02324582",
+          "NCT02325557",
+          "NCT02331368",
+          "NCT02332668",
+          "NCT02332980",
+          "NCT02335411",
+          "NCT02335424"
+        ],
+        "nct_ids_total": 120,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT02260440",
+            "excerpt": "2015-01"
+          },
+          {
+            "nct_id": "NCT02268825",
+            "excerpt": "2015-01-23"
+          },
+          {
+            "nct_id": "NCT02296684",
+            "excerpt": "2015-03-25"
+          }
+        ],
+        "citations_total": 120,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d2",
+        "period": "2016-01-01",
+        "year": 2016,
+        "label": "2016",
+        "trial_count": 195,
+        "estimated_count": 0,
+        "nct_ids": [
+          "NCT01676753",
+          "NCT02289209",
+          "NCT02432963",
+          "NCT02499952",
+          "NCT02501473",
+          "NCT02509507",
+          "NCT02512172",
+          "NCT02515227",
+          "NCT02520154",
+          "NCT02535247",
+          "NCT02546531",
+          "NCT02560636",
+          "NCT02562625",
+          "NCT02564380",
+          "NCT02574598",
+          "NCT02575404",
+          "NCT02575807",
+          "NCT02578680",
+          "NCT02581943",
+          "NCT02581982"
+        ],
+        "nct_ids_total": 195,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT01676753",
+            "excerpt": "2016-12-28"
+          },
+          {
+            "nct_id": "NCT02289209",
+            "excerpt": "2016-03-09"
+          },
+          {
+            "nct_id": "NCT02432963",
+            "excerpt": "2016-06-14"
+          }
+        ],
+        "citations_total": 195,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d3",
+        "period": "2017-01-01",
+        "year": 2017,
+        "label": "2017",
+        "trial_count": 260,
+        "estimated_count": 5,
+        "nct_ids": [
+          "NCT02549209",
+          "NCT02580994",
+          "NCT02587962",
+          "NCT02635360",
+          "NCT02658097",
+          "NCT02661100",
+          "NCT02662062",
+          "NCT02706353",
+          "NCT02733159",
+          "NCT02733250",
+          "NCT02736266",
+          "NCT02740920",
+          "NCT02748564",
+          "NCT02758587",
+          "NCT02767934",
+          "NCT02775851",
+          "NCT02808143",
+          "NCT02816021",
+          "NCT02818920",
+          "NCT02819752"
+        ],
+        "nct_ids_total": 260,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT02549209",
+            "excerpt": "2017-08-22"
+          },
+          {
+            "nct_id": "NCT02580994",
+            "excerpt": "2017-12-08"
+          },
+          {
+            "nct_id": "NCT02587962",
+            "excerpt": "2017-08-04"
+          }
+        ],
+        "citations_total": 260,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d4",
+        "period": "2018-01-01",
+        "year": 2018,
+        "label": "2018",
+        "trial_count": 255,
+        "estimated_count": 12,
+        "nct_ids": [
+          "NCT02697630",
+          "NCT02719015",
+          "NCT02834052",
+          "NCT02842125",
+          "NCT02902042",
+          "NCT02965716",
+          "NCT02973997",
+          "NCT03006302",
+          "NCT03016091",
+          "NCT03029403",
+          "NCT03030378",
+          "NCT03110328",
+          "NCT03111901",
+          "NCT03113487",
+          "NCT03126630",
+          "NCT03134456",
+          "NCT03153410",
+          "NCT03167151",
+          "NCT03182894",
+          "NCT03193931"
+        ],
+        "nct_ids_total": 255,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT02697630",
+            "excerpt": "2018-02-21"
+          },
+          {
+            "nct_id": "NCT02719015",
+            "excerpt": "2018-03"
+          },
+          {
+            "nct_id": "NCT02834052",
+            "excerpt": "2018-01-10"
+          }
+        ],
+        "citations_total": 255,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d5",
+        "period": "2019-01-01",
+        "year": 2019,
+        "label": "2019",
+        "trial_count": 248,
+        "estimated_count": 15,
+        "nct_ids": [
+          "NCT02757391",
+          "NCT03114280",
+          "NCT03161431",
+          "NCT03166254",
+          "NCT03331341",
+          "NCT03385226",
+          "NCT03417882",
+          "NCT03425565",
+          "NCT03430700",
+          "NCT03432676",
+          "NCT03464734",
+          "NCT03474497",
+          "NCT03476681",
+          "NCT03486197",
+          "NCT03512405",
+          "NCT03514017",
+          "NCT03516279",
+          "NCT03519412",
+          "NCT03544099",
+          "NCT03546361"
+        ],
+        "nct_ids_total": 248,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT02757391",
+            "excerpt": "2019-08-09"
+          },
+          {
+            "nct_id": "NCT03114280",
+            "excerpt": "2019-03-12"
+          },
+          {
+            "nct_id": "NCT03161431",
+            "excerpt": "2019-06-12"
+          }
+        ],
+        "citations_total": 248,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d6",
+        "period": "2020-01-01",
+        "year": 2020,
+        "label": "2020",
+        "trial_count": 263,
+        "estimated_count": 13,
+        "nct_ids": [
+          "NCT03260712",
+          "NCT03571360",
+          "NCT03695471",
+          "NCT03773744",
+          "NCT03804944",
+          "NCT03835819",
+          "NCT03841747",
+          "NCT03878524",
+          "NCT03899857",
+          "NCT03932409",
+          "NCT03969446",
+          "NCT03971045",
+          "NCT03978624",
+          "NCT03982004",
+          "NCT03983668",
+          "NCT03988036",
+          "NCT03989089",
+          "NCT03993353",
+          "NCT03996473",
+          "NCT04003610"
+        ],
+        "nct_ids_total": 263,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT03260712",
+            "excerpt": "2020-01-07"
+          },
+          {
+            "nct_id": "NCT03571360",
+            "excerpt": "2020-02-10"
+          },
+          {
+            "nct_id": "NCT03695471",
+            "excerpt": "2020-02-04"
+          }
+        ],
+        "citations_total": 263,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d7",
+        "period": "2021-01-01",
+        "year": 2021,
+        "label": "2021",
+        "trial_count": 265,
+        "estimated_count": 13,
+        "nct_ids": [
+          "NCT03219450",
+          "NCT03448666",
+          "NCT04095689",
+          "NCT04118036",
+          "NCT04166734",
+          "NCT04171622",
+          "NCT04190056",
+          "NCT04197219",
+          "NCT04214249",
+          "NCT04216316",
+          "NCT04238988",
+          "NCT04258683",
+          "NCT04260126",
+          "NCT04262427",
+          "NCT04262687",
+          "NCT04282044",
+          "NCT04284787",
+          "NCT04287829",
+          "NCT04340258",
+          "NCT04361851"
+        ],
+        "nct_ids_total": 265,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT03219450",
+            "excerpt": "2021-08-18"
+          },
+          {
+            "nct_id": "NCT03448666",
+            "excerpt": "2021-03-01"
+          },
+          {
+            "nct_id": "NCT04095689",
+            "excerpt": "2021-05-12"
+          }
+        ],
+        "citations_total": 265,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d8",
+        "period": "2022-01-01",
+        "year": 2022,
+        "label": "2022",
+        "trial_count": 299,
+        "estimated_count": 23,
+        "nct_ids": [
+          "NCT03240211",
+          "NCT03361852",
+          "NCT03492918",
+          "NCT04074096",
+          "NCT04118868",
+          "NCT04119830",
+          "NCT04268277",
+          "NCT04348747",
+          "NCT04417166",
+          "NCT04512261",
+          "NCT04520711",
+          "NCT04575961",
+          "NCT04576091",
+          "NCT04605614",
+          "NCT04634747",
+          "NCT04637594",
+          "NCT04638582",
+          "NCT04754321",
+          "NCT04788043",
+          "NCT04825990"
+        ],
+        "nct_ids_total": 299,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT03240211",
+            "excerpt": "2022-02-02"
+          },
+          {
+            "nct_id": "NCT03361852",
+            "excerpt": "2022-03-14"
+          },
+          {
+            "nct_id": "NCT03492918",
+            "excerpt": "2022-03-31"
+          }
+        ],
+        "citations_total": 299,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d9",
+        "period": "2023-01-01",
+        "year": 2023,
+        "label": "2023",
+        "trial_count": 259,
+        "estimated_count": 26,
+        "nct_ids": [
+          "NCT03760575",
+          "NCT04565496",
+          "NCT04616248",
+          "NCT04777851",
+          "NCT04789096",
+          "NCT04866810",
+          "NCT04919629",
+          "NCT04954599",
+          "NCT04987996",
+          "NCT05020860",
+          "NCT05171062",
+          "NCT05187182",
+          "NCT05255666",
+          "NCT05256745",
+          "NCT05280314",
+          "NCT05281003",
+          "NCT05286320",
+          "NCT05286437",
+          "NCT05304546",
+          "NCT05313243"
+        ],
+        "nct_ids_total": 259,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT03760575",
+            "excerpt": "2023-01-10"
+          },
+          {
+            "nct_id": "NCT04565496",
+            "excerpt": "2023-04-10"
+          },
+          {
+            "nct_id": "NCT04616248",
+            "excerpt": "2023-01-09"
+          }
+        ],
+        "citations_total": 259,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d10",
+        "period": "2024-01-01",
+        "year": 2024,
+        "label": "2024",
+        "trial_count": 257,
+        "estimated_count": 24,
+        "nct_ids": [
+          "NCT04838652",
+          "NCT05231122",
+          "NCT05266846",
+          "NCT05485766",
+          "NCT05518032",
+          "NCT05545969",
+          "NCT05635344",
+          "NCT05656235",
+          "NCT05676749",
+          "NCT05679921",
+          "NCT05700461",
+          "NCT05741164",
+          "NCT05745350",
+          "NCT05756166",
+          "NCT05775471",
+          "NCT05777603",
+          "NCT05787639",
+          "NCT05846724",
+          "NCT05849480",
+          "NCT05852223"
+        ],
+        "nct_ids_total": 257,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT04838652",
+            "excerpt": "2024-03-05"
+          },
+          {
+            "nct_id": "NCT05231122",
+            "excerpt": "2024-03-12"
+          },
+          {
+            "nct_id": "NCT05266846",
+            "excerpt": "2024-05-29"
+          }
+        ],
+        "citations_total": 257,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d11",
+        "period": "2025-01-01",
+        "year": 2025,
+        "label": "2025",
+        "trial_count": 259,
+        "estimated_count": 49,
+        "nct_ids": [
+          "NCT04129515",
+          "NCT04569461",
+          "NCT04645602",
+          "NCT05093231",
+          "NCT05425576",
+          "NCT05467748",
+          "NCT05487859",
+          "NCT05539365",
+          "NCT05668949",
+          "NCT05669352",
+          "NCT05669846",
+          "NCT05687721",
+          "NCT05733689",
+          "NCT05815927",
+          "NCT05879484",
+          "NCT05903833",
+          "NCT05973864",
+          "NCT06006013",
+          "NCT06030037",
+          "NCT06045195"
+        ],
+        "nct_ids_total": 259,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT04129515",
+            "excerpt": "2025-10-30"
+          },
+          {
+            "nct_id": "NCT04569461",
+            "excerpt": "2025-06"
+          },
+          {
+            "nct_id": "NCT04645602",
+            "excerpt": "2025-07-18"
+          }
+        ],
+        "citations_total": 259,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d12",
+        "period": "2026-01-01",
+        "year": 2026,
+        "label": "2026",
+        "trial_count": 227,
+        "estimated_count": 116,
+        "nct_ids": [
+          "NCT04901741",
+          "NCT05077215",
+          "NCT05106127",
+          "NCT05806385",
+          "NCT05937906",
+          "NCT06041503",
+          "NCT06400160",
+          "NCT06724042",
+          "NCT06749925",
+          "NCT06831955",
+          "NCT06863402",
+          "NCT06882174",
+          "NCT06889610",
+          "NCT06898970",
+          "NCT06923475",
+          "NCT06972615",
+          "NCT06999980",
+          "NCT07000253",
+          "NCT07015853",
+          "NCT07017829"
+        ],
+        "nct_ids_total": 227,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT04901741",
+            "excerpt": "2026-01"
+          },
+          {
+            "nct_id": "NCT05077215",
+            "excerpt": "2026-12"
+          },
+          {
+            "nct_id": "NCT05106127",
+            "excerpt": "2026-08"
+          }
+        ],
+        "citations_total": 227,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d13",
+        "period": "2027-01-01",
+        "year": 2027,
+        "label": "2027",
+        "trial_count": 9,
+        "estimated_count": 9,
+        "nct_ids": [
+          "NCT04266730",
+          "NCT06093425",
+          "NCT07037004",
+          "NCT07689240",
+          "NCT07691645",
+          "NCT07743190",
+          "NCT07765433",
+          "NCT07843550",
+          "NCT07876414"
+        ],
+        "nct_ids_total": 9,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT04266730",
+            "excerpt": "2027-05-20"
+          },
+          {
+            "nct_id": "NCT06093425",
+            "excerpt": "2027-06-30"
+          },
+          {
+            "nct_id": "NCT07037004",
+            "excerpt": "2027-01-01"
+          }
+        ],
+        "citations_total": 9,
+        "excerpts_truncated": true
+      }
+    ]
+  },
+  "answer_summary": "2022 has the most trials (299), then 2021 (265), then 2020 (263). Based on 2,916 trials from ClinicalTrials.gov.",
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "drug_names": [
+        "pembrolizumab"
+      ],
+      "start_year": 2015
+    },
+    "query_interpretation": {
+      "intent": "trend_over_time",
+      "persona": "researcher",
+      "scope": "cohort",
+      "confidence": 0.8,
+      "parser": "rules",
+      "cohorts": [
+        {
+          "label": "Pembrolizumab",
+          "drugs": [
+            "pembrolizumab"
+          ],
+          "start_year": 2015
+        }
+      ],
+      "resolved_entities": [
+        {
+          "input": "Pembrolizumab",
+          "resolved": "pembrolizumab",
+          "kind": "drug",
+          "method": "structured_field"
+        }
+      ]
+    },
+    "notes": [
+      {
+        "code": "SNAPSHOT",
+        "severity": "info",
+        "message": "Pembrolizumab: all 2,916 trial records read from the stored cohort snapshot taken 2026-10-19 05:45 UTC; ClinicalTrials.gov still reports the same number of matching trials."
+      },
+      {
+        "code": "PARTIAL_DATES",
+        "severity": "info",
+        "message": "305 trial(s) have an estimated (anticipated) start date; future buckets reflect plans, not actual starts."
+      }
+    ],
+    "units": {
+      "trial_count": "trials",
+      "estimated_count": "trials"
+    },
+    "time_granularity": "year",
+    "grouping": {
+      "by": [
+        "start_date"
+      ],
+      "aggregate": "count_distinct_trials",
+      "zero_filled": true,
+      "each_trial_counted_once": true
+    },
+    "coverage": {
+      "studies_matched_total": 2916,
+      "studies_analyzed": 2916,
+      "counting_method": "all_records",
+      "sampled": false,
+      "queries": [
+        "https://clinicaltrials.gov/search?intr=pembrolizumab&advanced=AREA%5BStartDate%5DRANGE%5B2015-01-01%2CMAX%5D"
+      ]
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "validation": {
+      "passed": true,
+      "checks": [
+        {
+          "name": "retrieval_matches_api_total",
+          "passed": true,
+          "detail": "Pembrolizumab: 2,916 of 2,916"
+        },
+        {
+          "name": "counts_match_trial_lists",
+          "passed": true,
+          "detail": "13 count datum(s) checked"
+        },
+        {
+          "name": "each_trial_in_one_bucket",
+          "passed": true,
+          "detail": "2916 trial(s), each in exactly one bucket"
+        },
+        {
+          "name": "citations_from_retrieved_records",
+          "passed": true,
+          "detail": "2916 NCT id(s), all retrieved"
+        },
+        {
+          "name": "summary_numbers_in_data",
+          "passed": true,
+          "detail": "every number appears in the data"
+        },
+        {
+          "name": "value_axes_labeled",
+          "passed": true,
+          "detail": "all value axes say what they measure"
+        }
+      ]
+    },
+    "alternatives": [
+      {
+        "type": "bar_chart",
+        "reason": "compare categories side by side"
+      },
+      {
+        "type": "table",
+        "reason": "all values as a sortable table"
+      }
+    ],
+    "follow_ups": [
+      "How many Pembrolizumab trials started each year, split by phase?"
+    ],
+    "request_id": "e5536adaae6d4fa0af1800b15400d9cc",
+    "created_at": "2026-10-19T09:50:48+00:00",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-16T09:00:05"
+  }
+}

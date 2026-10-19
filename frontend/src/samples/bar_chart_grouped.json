@@ -1,0 +1,320 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "bar_chart",
+    "title": "Trials by phase: semaglutide vs tirzepatide",
+    "encoding": {
+      "x": {
+        "field": "phase",
+        "type": "ordinal",
+        "title": "Phase",
+        "sort": {
+          "values": [
+            "EARLY_PHASE1",
+            "PHASE1",
+            "PHASE2",
+            "PHASE3",
+            "PHASE4",
+            "NA"
+          ]
+        }
+      },
+      "y": {
+        "field": "trials",
+        "type": "quantitative",
+        "title": "Trials",
+        "unit": "trials",
+        "format": ",d"
+      },
+      "series": {
+        "field": "drug",
+        "type": "nominal",
+        "title": "Drug"
+      }
+    },
+    "data": [
+      {
+        "id": "d1",
+        "phase": "EARLY_PHASE1",
+        "trials": 3,
+        "drug": "semaglutide",
+        "citations": [
+          {
+            "excerpt": "3",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "semaglutide · EARLY_PHASE1"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d2",
+        "phase": "PHASE1",
+        "trials": 21,
+        "drug": "semaglutide",
+        "citations": [
+          {
+            "excerpt": "21",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "semaglutide · PHASE1"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d3",
+        "phase": "PHASE2",
+        "trials": 58,
+        "drug": "semaglutide",
+        "citations": [
+          {
+            "excerpt": "58",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "semaglutide · PHASE2"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d4",
+        "phase": "PHASE3",
+        "trials": 96,
+        "drug": "semaglutide",
+        "citations": [
+          {
+            "excerpt": "96",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "semaglutide · PHASE3"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d5",
+        "phase": "PHASE4",
+        "trials": 41,
+        "drug": "semaglutide",
+        "citations": [
+          {
+            "excerpt": "41",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "semaglutide · PHASE4"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d6",
+        "phase": "NA",
+        "trials": 30,
+        "drug": "semaglutide",
+        "citations": [
+          {
+            "excerpt": "30",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "semaglutide · NA"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d7",
+        "phase": "EARLY_PHASE1",
+        "trials": 0,
+        "drug": "tirzepatide",
+        "cite_note": "no supporting record (empty bucket or derived value)",
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d8",
+        "phase": "PHASE1",
+        "trials": 18,
+        "drug": "tirzepatide",
+        "citations": [
+          {
+            "excerpt": "18",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "tirzepatide · PHASE1"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d9",
+        "phase": "PHASE2",
+        "trials": 24,
+        "drug": "tirzepatide",
+        "citations": [
+          {
+            "excerpt": "24",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "tirzepatide · PHASE2"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d10",
+        "phase": "PHASE3",
+        "trials": 52,
+        "drug": "tirzepatide",
+        "citations": [
+          {
+            "excerpt": "52",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "tirzepatide · PHASE3"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d11",
+        "phase": "PHASE4",
+        "trials": 6,
+        "drug": "tirzepatide",
+        "citations": [
+          {
+            "excerpt": "6",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "tirzepatide · PHASE4"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d12",
+        "phase": "NA",
+        "trials": 4,
+        "drug": "tirzepatide",
+        "citations": [
+          {
+            "excerpt": "4",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "tirzepatide · NA"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      }
+    ]
+  },
+  "answer_summary": "Semaglutide has 96 phase 3 trials versus 52 for tirzepatide.",
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "compare": [
+        {
+          "label": "semaglutide",
+          "drug_names": [
+            "semaglutide"
+          ]
+        },
+        {
+          "label": "tirzepatide",
+          "drug_names": [
+            "tirzepatide"
+          ]
+        }
+      ]
+    },
+    "query_interpretation": {
+      "intent": "phase_distribution",
+      "persona": "researcher",
+      "scope": "comparison",
+      "confidence": 0.92,
+      "parser": "llm",
+      "cohorts": [
+        {
+          "label": "semaglutide",
+          "drugs": [
+            "semaglutide"
+          ]
+        },
+        {
+          "label": "tirzepatide",
+          "drugs": [
+            "tirzepatide"
+          ]
+        }
+      ]
+    },
+    "units": {
+      "trials": "trials"
+    },
+    "sort": {
+      "values": [
+        "EARLY_PHASE1",
+        "PHASE1",
+        "PHASE2",
+        "PHASE3",
+        "PHASE4",
+        "NA"
+      ]
+    },
+    "layout": {
+      "orientation": "vertical",
+      "mode": "grouped",
+      "donut": false
+    },
+    "coverage": {
+      "studies_matched_total": 353,
+      "studies_analyzed": 353,
+      "counting_method": "all_records",
+      "sampled": false,
+      "queries": [
+        "https://clinicaltrials.gov/search?intr=semaglutide",
+        "https://clinicaltrials.gov/search?intr=tirzepatide"
+      ]
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "alternatives": [
+      {
+        "type": "pie_chart",
+        "reason": "share of the whole"
+      },
+      {
+        "type": "table",
+        "reason": "all values as a sortable table"
+      }
+    ],
+    "request_id": "req_sample_03_bar_grouped",
+    "created_at": "2026-10-18T14:22:05Z",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-17T09:00:12"
+  }
+}

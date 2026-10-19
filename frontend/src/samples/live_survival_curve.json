@@ -1,0 +1,1389 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "survival_curve",
+    "title": "Approximate survival: NCT02142738",
+    "subtitle": "Reconstructed from reported medians/landmark rates, not patient-level data",
+    "encoding": {
+      "x": {
+        "field": "time",
+        "type": "quantitative",
+        "title": "Time (months)",
+        "unit": "months",
+        "scale": {
+          "type": "linear",
+          "zero": true
+        }
+      },
+      "y": {
+        "field": "survival",
+        "type": "quantitative",
+        "title": "Survival probability",
+        "format": ".0%",
+        "scale": {
+          "type": "linear",
+          "domain": [
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "series": {
+        "field": "series",
+        "type": "nominal",
+        "title": "Endpoint · arm"
+      },
+      "tooltip": [
+        "source",
+        "ci_low",
+        "ci_high",
+        "label"
+      ]
+    },
+    "data": [
+      {
+        "id": "d1",
+        "series": "OS · Pembrolizumab",
+        "time": 0.0,
+        "survival": 1.0,
+        "source": "reported",
+        "endpoint": "OS",
+        "group": "Pembrolizumab",
+        "label": "Start of follow-up (S=1 by definition)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Overall Survival (OS) Rate"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Pembrolizumab",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].groups[0].title"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d2",
+        "series": "OS · Pembrolizumab",
+        "time": 1.0,
+        "survival": 0.9711,
+        "source": "interpolated",
+        "endpoint": "OS",
+        "group": "Pembrolizumab",
+        "label": "Interpolated (piecewise exponential)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "derived_from": [
+          "d1",
+          "d13"
+        ],
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Overall Survival (OS) Rate"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d3",
+        "series": "OS · Pembrolizumab",
+        "time": 2.0,
+        "survival": 0.943,
+        "source": "interpolated",
+        "endpoint": "OS",
+        "group": "Pembrolizumab",
+        "label": "Interpolated (piecewise exponential)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "derived_from": [
+          "d1",
+          "d13"
+        ],
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Overall Survival (OS) Rate"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d4",
+        "series": "OS · Pembrolizumab",
+        "time": 3.0,
+        "survival": 0.9157,
+        "source": "interpolated",
+        "endpoint": "OS",
+        "group": "Pembrolizumab",
+        "label": "Interpolated (piecewise exponential)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "derived_from": [
+          "d1",
+          "d13"
+        ],
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Overall Survival (OS) Rate"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d5",
+        "series": "OS · Pembrolizumab",
+        "time": 4.0,
+        "survival": 0.8892,
+        "source": "interpolated",
+        "endpoint": "OS",
+        "group": "Pembrolizumab",
+        "label": "Interpolated (piecewise exponential)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "derived_from": [
+          "d1",
+          "d13"
+        ],
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Overall Survival (OS) Rate"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d6",
+        "series": "OS · Pembrolizumab",
+        "time": 5.0,
+        "survival": 0.8634,
+        "source": "interpolated",
+        "endpoint": "OS",
+        "group": "Pembrolizumab",
+        "label": "Interpolated (piecewise exponential)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "derived_from": [
+          "d1",
+          "d13"
+        ],
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Overall Survival (OS) Rate"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d7",
+        "series": "OS · Pembrolizumab",
+        "time": 6.0,
+        "survival": 0.8385,
+        "source": "interpolated",
+        "endpoint": "OS",
+        "group": "Pembrolizumab",
+        "label": "Interpolated (piecewise exponential)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "derived_from": [
+          "d1",
+          "d13"
+        ],
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Overall Survival (OS) Rate"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d8",
+        "series": "OS · Pembrolizumab",
+        "time": 7.0,
+        "survival": 0.8142,
+        "source": "interpolated",
+        "endpoint": "OS",
+        "group": "Pembrolizumab",
+        "label": "Interpolated (piecewise exponential)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "derived_from": [
+          "d1",
+          "d13"
+        ],
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Overall Survival (OS) Rate"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d9",
+        "series": "OS · Pembrolizumab",
+        "time": 8.0,
+        "survival": 0.7906,
+        "source": "interpolated",
+        "endpoint": "OS",
+        "group": "Pembrolizumab",
+        "label": "Interpolated (piecewise exponential)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "derived_from": [
+          "d1",
+          "d13"
+        ],
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Overall Survival (OS) Rate"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d10",
+        "series": "OS · Pembrolizumab",
+        "time": 9.0,
+        "survival": 0.7677,
+        "source": "interpolated",
+        "endpoint": "OS",
+        "group": "Pembrolizumab",
+        "label": "Interpolated (piecewise exponential)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "derived_from": [
+          "d1",
+          "d13"
+        ],
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Overall Survival (OS) Rate"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d11",
+        "series": "OS · Pembrolizumab",
+        "time": 10.0,
+        "survival": 0.7455,
+        "source": "interpolated",
+        "endpoint": "OS",
+        "group": "Pembrolizumab",
+        "label": "Interpolated (piecewise exponential)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "derived_from": [
+          "d1",
+          "d13"
+        ],
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Overall Survival (OS) Rate"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d12",
+        "series": "OS · Pembrolizumab",
+        "time": 11.0,
+        "survival": 0.724,
+        "source": "interpolated",
+        "endpoint": "OS",
+        "group": "Pembrolizumab",
+        "label": "Interpolated (piecewise exponential)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "derived_from": [
+          "d1",
+          "d13"
+        ],
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Overall Survival (OS) Rate"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d13",
+        "series": "OS · Pembrolizumab",
+        "time": 12.0,
+        "survival": 0.703,
+        "source": "reported",
+        "endpoint": "OS",
+        "group": "Pembrolizumab",
+        "ci_low": 0.623,
+        "ci_high": 0.769,
+        "label": "Reported landmark rate",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].classes[0].categories[0].measurements[0].value",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "70.3",
+            "label": "OS · Pembrolizumab: rate"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "12 months",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].timeFrame",
+            "label": "time point"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Overall Survival (OS) Rate",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Percentage of Participants",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].unitOfMeasure"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Pembrolizumab",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].groups[0].title"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d14",
+        "series": "OS · SOC Chemotherapy",
+        "time": 0.0,
+        "survival": 1.0,
+        "source": "reported",
+        "endpoint": "OS",
+        "group": "SOC Chemotherapy",
+        "label": "Start of follow-up (S=1 by definition)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Overall Survival (OS) Rate"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "SOC Chemotherapy",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].groups[1].title"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d15",
+        "series": "OS · SOC Chemotherapy",
+        "time": 1.0,
+        "survival": 0.9511,
+        "source": "interpolated",
+        "endpoint": "OS",
+        "group": "SOC Chemotherapy",
+        "label": "Interpolated (piecewise exponential)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "derived_from": [
+          "d14",
+          "d26"
+        ],
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Overall Survival (OS) Rate"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d16",
+        "series": "OS · SOC Chemotherapy",
+        "time": 2.0,
+        "survival": 0.9046,
+        "source": "interpolated",
+        "endpoint": "OS",
+        "group": "SOC Chemotherapy",
+        "label": "Interpolated (piecewise exponential)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "derived_from": [
+          "d14",
+          "d26"
+        ],
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Overall Survival (OS) Rate"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d17",
+        "series": "OS · SOC Chemotherapy",
+        "time": 3.0,
+        "survival": 0.8604,
+        "source": "interpolated",
+        "endpoint": "OS",
+        "group": "SOC Chemotherapy",
+        "label": "Interpolated (piecewise exponential)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "derived_from": [
+          "d14",
+          "d26"
+        ],
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Overall Survival (OS) Rate"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d18",
+        "series": "OS · SOC Chemotherapy",
+        "time": 4.0,
+        "survival": 0.8183,
+        "source": "interpolated",
+        "endpoint": "OS",
+        "group": "SOC Chemotherapy",
+        "label": "Interpolated (piecewise exponential)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "derived_from": [
+          "d14",
+          "d26"
+        ],
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Overall Survival (OS) Rate"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d19",
+        "series": "OS · SOC Chemotherapy",
+        "time": 5.0,
+        "survival": 0.7783,
+        "source": "interpolated",
+        "endpoint": "OS",
+        "group": "SOC Chemotherapy",
+        "label": "Interpolated (piecewise exponential)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "derived_from": [
+          "d14",
+          "d26"
+        ],
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Overall Survival (OS) Rate"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d20",
+        "series": "OS · SOC Chemotherapy",
+        "time": 6.0,
+        "survival": 0.7403,
+        "source": "interpolated",
+        "endpoint": "OS",
+        "group": "SOC Chemotherapy",
+        "label": "Interpolated (piecewise exponential)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "derived_from": [
+          "d14",
+          "d26"
+        ],
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Overall Survival (OS) Rate"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d21",
+        "series": "OS · SOC Chemotherapy",
+        "time": 7.0,
+        "survival": 0.7041,
+        "source": "interpolated",
+        "endpoint": "OS",
+        "group": "SOC Chemotherapy",
+        "label": "Interpolated (piecewise exponential)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "derived_from": [
+          "d14",
+          "d26"
+        ],
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Overall Survival (OS) Rate"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d22",
+        "series": "OS · SOC Chemotherapy",
+        "time": 8.0,
+        "survival": 0.6697,
+        "source": "interpolated",
+        "endpoint": "OS",
+        "group": "SOC Chemotherapy",
+        "label": "Interpolated (piecewise exponential)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "derived_from": [
+          "d14",
+          "d26"
+        ],
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Overall Survival (OS) Rate"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d23",
+        "series": "OS · SOC Chemotherapy",
+        "time": 9.0,
+        "survival": 0.6369,
+        "source": "interpolated",
+        "endpoint": "OS",
+        "group": "SOC Chemotherapy",
+        "label": "Interpolated (piecewise exponential)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "derived_from": [
+          "d14",
+          "d26"
+        ],
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Overall Survival (OS) Rate"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d24",
+        "series": "OS · SOC Chemotherapy",
+        "time": 10.0,
+        "survival": 0.6058,
+        "source": "interpolated",
+        "endpoint": "OS",
+        "group": "SOC Chemotherapy",
+        "label": "Interpolated (piecewise exponential)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "derived_from": [
+          "d14",
+          "d26"
+        ],
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Overall Survival (OS) Rate"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d25",
+        "series": "OS · SOC Chemotherapy",
+        "time": 11.0,
+        "survival": 0.5762,
+        "source": "interpolated",
+        "endpoint": "OS",
+        "group": "SOC Chemotherapy",
+        "label": "Interpolated (piecewise exponential)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "derived_from": [
+          "d14",
+          "d26"
+        ],
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Overall Survival (OS) Rate"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d26",
+        "series": "OS · SOC Chemotherapy",
+        "time": 12.0,
+        "survival": 0.548,
+        "source": "reported",
+        "endpoint": "OS",
+        "group": "SOC Chemotherapy",
+        "ci_low": 0.464,
+        "ci_high": 0.624,
+        "label": "Reported landmark rate",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].classes[0].categories[0].measurements[1].value",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "54.8",
+            "label": "OS · SOC Chemotherapy: rate"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "12 months",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].timeFrame",
+            "label": "time point"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Overall Survival (OS) Rate",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].title"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Percentage of Participants",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].unitOfMeasure"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "SOC Chemotherapy",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].groups[1].title"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d27",
+        "series": "PFS · Pembrolizumab",
+        "time": 0.0,
+        "survival": 1.0,
+        "source": "reported",
+        "endpoint": "PFS",
+        "group": "Pembrolizumab",
+        "label": "Start of follow-up (S=1 by definition)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Progression Free Survival (PFS) Rate at Month 6",
+            "label": "time point"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Pembrolizumab",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].groups[0].title"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d28",
+        "series": "PFS · Pembrolizumab",
+        "time": 1.0,
+        "survival": 0.9237,
+        "source": "interpolated",
+        "endpoint": "PFS",
+        "group": "Pembrolizumab",
+        "label": "Interpolated (piecewise exponential)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "derived_from": [
+          "d27",
+          "d33"
+        ],
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Progression Free Survival (PFS) Rate at Month 6",
+            "label": "time point"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d29",
+        "series": "PFS · Pembrolizumab",
+        "time": 2.0,
+        "survival": 0.8532,
+        "source": "interpolated",
+        "endpoint": "PFS",
+        "group": "Pembrolizumab",
+        "label": "Interpolated (piecewise exponential)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "derived_from": [
+          "d27",
+          "d33"
+        ],
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Progression Free Survival (PFS) Rate at Month 6",
+            "label": "time point"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d30",
+        "series": "PFS · Pembrolizumab",
+        "time": 3.0,
+        "survival": 0.788,
+        "source": "interpolated",
+        "endpoint": "PFS",
+        "group": "Pembrolizumab",
+        "label": "Interpolated (piecewise exponential)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "derived_from": [
+          "d27",
+          "d33"
+        ],
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Progression Free Survival (PFS) Rate at Month 6",
+            "label": "time point"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d31",
+        "series": "PFS · Pembrolizumab",
+        "time": 4.0,
+        "survival": 0.7279,
+        "source": "interpolated",
+        "endpoint": "PFS",
+        "group": "Pembrolizumab",
+        "label": "Interpolated (piecewise exponential)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "derived_from": [
+          "d27",
+          "d33"
+        ],
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Progression Free Survival (PFS) Rate at Month 6",
+            "label": "time point"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d32",
+        "series": "PFS · Pembrolizumab",
+        "time": 5.0,
+        "survival": 0.6723,
+        "source": "interpolated",
+        "endpoint": "PFS",
+        "group": "Pembrolizumab",
+        "label": "Interpolated (piecewise exponential)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "derived_from": [
+          "d27",
+          "d33"
+        ],
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Progression Free Survival (PFS) Rate at Month 6",
+            "label": "time point"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d33",
+        "series": "PFS · Pembrolizumab",
+        "time": 6.0,
+        "survival": 0.621,
+        "source": "reported",
+        "endpoint": "PFS",
+        "group": "Pembrolizumab",
+        "ci_low": 0.538,
+        "ci_high": 0.694,
+        "label": "Reported landmark rate",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].classes[0].categories[0].measurements[0].value",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "62.1",
+            "label": "PFS · Pembrolizumab: rate"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Progression Free Survival (PFS) Rate at Month 6",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].title",
+            "label": "time point"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Percentage of Participants",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].unitOfMeasure"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Pembrolizumab",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].groups[0].title"
+          }
+        ],
+        "citations_total": 4,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d34",
+        "series": "PFS · SOC Chemotherapy",
+        "time": 0.0,
+        "survival": 1.0,
+        "source": "reported",
+        "endpoint": "PFS",
+        "group": "SOC Chemotherapy",
+        "label": "Start of follow-up (S=1 by definition)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Progression Free Survival (PFS) Rate at Month 6",
+            "label": "time point"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "SOC Chemotherapy",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].groups[1].title"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d35",
+        "series": "PFS · SOC Chemotherapy",
+        "time": 1.0,
+        "survival": 0.8918,
+        "source": "interpolated",
+        "endpoint": "PFS",
+        "group": "SOC Chemotherapy",
+        "label": "Interpolated (piecewise exponential)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "derived_from": [
+          "d34",
+          "d40"
+        ],
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Progression Free Survival (PFS) Rate at Month 6",
+            "label": "time point"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d36",
+        "series": "PFS · SOC Chemotherapy",
+        "time": 2.0,
+        "survival": 0.7953,
+        "source": "interpolated",
+        "endpoint": "PFS",
+        "group": "SOC Chemotherapy",
+        "label": "Interpolated (piecewise exponential)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "derived_from": [
+          "d34",
+          "d40"
+        ],
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Progression Free Survival (PFS) Rate at Month 6",
+            "label": "time point"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d37",
+        "series": "PFS · SOC Chemotherapy",
+        "time": 3.0,
+        "survival": 0.7092,
+        "source": "interpolated",
+        "endpoint": "PFS",
+        "group": "SOC Chemotherapy",
+        "label": "Interpolated (piecewise exponential)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "derived_from": [
+          "d34",
+          "d40"
+        ],
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Progression Free Survival (PFS) Rate at Month 6",
+            "label": "time point"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d38",
+        "series": "PFS · SOC Chemotherapy",
+        "time": 4.0,
+        "survival": 0.6325,
+        "source": "interpolated",
+        "endpoint": "PFS",
+        "group": "SOC Chemotherapy",
+        "label": "Interpolated (piecewise exponential)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "derived_from": [
+          "d34",
+          "d40"
+        ],
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Progression Free Survival (PFS) Rate at Month 6",
+            "label": "time point"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d39",
+        "series": "PFS · SOC Chemotherapy",
+        "time": 5.0,
+        "survival": 0.564,
+        "source": "interpolated",
+        "endpoint": "PFS",
+        "group": "SOC Chemotherapy",
+        "label": "Interpolated (piecewise exponential)",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "derived_from": [
+          "d34",
+          "d40"
+        ],
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].title",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Progression Free Survival (PFS) Rate at Month 6",
+            "label": "time point"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d40",
+        "series": "PFS · SOC Chemotherapy",
+        "time": 6.0,
+        "survival": 0.503,
+        "source": "reported",
+        "endpoint": "PFS",
+        "group": "SOC Chemotherapy",
+        "ci_low": 0.419,
+        "ci_high": 0.582,
+        "label": "Reported landmark rate",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].classes[0].categories[0].measurements[1].value",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "50.3",
+            "label": "PFS · SOC Chemotherapy: rate"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Progression Free Survival (PFS) Rate at Month 6",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].title",
+            "label": "time point"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Percentage of Participants",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].unitOfMeasure"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "SOC Chemotherapy",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].groups[1].title"
+          }
+        ],
+        "citations_total": 4,
+        "excerpts_truncated": false
+      }
+    ]
+  },
+  "answer_summary": "OS at month 12: Pembrolizumab 70.3%, SOC Chemotherapy 54.8%. PFS at month 6: Pembrolizumab 62.1%, SOC Chemotherapy 50.3%. Overall Survival (OS) Rate: groups: Pembrolizumab, SOC Chemotherapy: Hazard Ratio (HR) 0.63 (0.47 to 0.86). Source: the results posted for NCT02142738 on ClinicalTrials.gov.",
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "nct_ids": [
+        "NCT02142738"
+      ]
+    },
+    "query_interpretation": {
+      "intent": "survival_summary",
+      "persona": "researcher",
+      "scope": "single_trial",
+      "confidence": 0.9,
+      "parser": "rules",
+      "resolved_entities": [
+        {
+          "input": "NCT02142738",
+          "resolved": "NCT02142738",
+          "kind": "nct_id",
+          "method": "exact"
+        }
+      ]
+    },
+    "notes": [
+      {
+        "code": "APPROXIMATED",
+        "severity": "warning",
+        "message": "Curves are approximations through reported medians and landmark rates; patient-level time-to-event data are not in the registry. Interpolated points are marked source=interpolated.",
+        "affects": [
+          "d2",
+          "d3",
+          "d4",
+          "d5",
+          "d6",
+          "d7",
+          "d8",
+          "d9",
+          "d10",
+          "d11",
+          "d12",
+          "d15",
+          "d16",
+          "d17",
+          "d18",
+          "d19",
+          "d20",
+          "d21",
+          "d22",
+          "d23",
+          "d24",
+          "d25",
+          "d28",
+          "d29",
+          "d30",
+          "d31",
+          "d32",
+          "d35",
+          "d36",
+          "d37",
+          "d38",
+          "d39"
+        ]
+      }
+    ],
+    "units": {
+      "time": "months",
+      "survival": "probability"
+    },
+    "stats": {
+      "analyses": [
+        {
+          "label": "Overall Survival (OS) Rate: groups: Pembrolizumab, SOC Chemotherapy",
+          "param_type": "Hazard Ratio (HR)",
+          "estimate": 0.63,
+          "ci_low": 0.47,
+          "ci_high": 0.86,
+          "ci_pct": 95.0,
+          "p_value": "0.002",
+          "method": "Regression, Cox",
+          "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].analyses[0].paramValue"
+        },
+        {
+          "label": "Progression Free Survival (PFS) Rate at Month 6: groups: Pembrolizumab, SOC Chemotherapy",
+          "param_type": "Hazard Ratio (HR)",
+          "estimate": 0.5,
+          "ci_low": 0.37,
+          "ci_high": 0.68,
+          "ci_pct": 95.0,
+          "p_value": "<0.001",
+          "method": "Regression, Cox",
+          "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].analyses[0].paramValue"
+        }
+      ]
+    },
+    "approximation": {
+      "method": "piecewise exponential interpolation between reported anchors (median, landmark rates)",
+      "assumptions": [
+        "No patient-level time-to-event data are in the registry; only reported medians and landmark rates are used.",
+        "S(0) = 1 for every arm.",
+        "Constant hazard (exponential decay) between consecutive reported anchors.",
+        "No extrapolation beyond the last reported anchor.",
+        "Medians and landmark rates from different outcome measures of the same endpoint are combined per arm."
+      ]
+    },
+    "coverage": {
+      "studies_matched_total": 1,
+      "studies_analyzed": 1,
+      "counting_method": "single_trials",
+      "studies_with_results": 1,
+      "sampled": false,
+      "queries": [
+        "https://clinicaltrials.gov/study/NCT02142738"
+      ]
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "validation": {
+      "passed": true,
+      "checks": [
+        {
+          "name": "retrieval_matches_api_total",
+          "passed": true,
+          "detail": "single_trials"
+        },
+        {
+          "name": "counts_match_trial_lists",
+          "passed": true,
+          "detail": "0 count datum(s) checked"
+        },
+        {
+          "name": "each_trial_in_one_bucket",
+          "passed": true,
+          "detail": "not a single-valued grouping"
+        },
+        {
+          "name": "citations_from_retrieved_records",
+          "passed": true,
+          "detail": "1 NCT id(s), all retrieved"
+        },
+        {
+          "name": "summary_numbers_in_data",
+          "passed": true,
+          "detail": "every number appears in the data"
+        },
+        {
+          "name": "value_axes_labeled",
+          "passed": true,
+          "detail": "all value axes say what they measure"
+        }
+      ]
+    },
+    "alternatives": [
+      {
+        "type": "forest_plot",
+        "reason": "effect estimates with confidence intervals"
+      },
+      {
+        "type": "table",
+        "reason": "all values as a sortable table"
+      }
+    ],
+    "request_id": "ace825a10ae04dfd96bc3165f42fc1cc",
+    "created_at": "2026-10-19T09:50:46+00:00",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-16T09:00:05"
+  }
+}

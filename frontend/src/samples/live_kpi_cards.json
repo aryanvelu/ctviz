@@ -1,0 +1,490 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "kpi_cards",
+    "title": "Overview of NCT03548935 (STEP 1)",
+    "subtitle": "STEP 1: Research Study Investigating How Well Semaglutide Works in People Suffering From Overweight or Obesity",
+    "encoding": {
+      "y": {
+        "field": "value",
+        "type": "nominal",
+        "title": "Value"
+      },
+      "label": {
+        "field": "label",
+        "type": "nominal",
+        "title": "Item"
+      },
+      "tooltip": [
+        "unit",
+        "detail"
+      ]
+    },
+    "data": [
+      {
+        "id": "d1",
+        "label": "Title",
+        "value": "STEP 1: Research Study Investigating How Well Semaglutide Works in People Suffering From Overweight or Obesity",
+        "kind": "text",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.identificationModule.briefTitle",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "STEP 1: Research Study Investigating How Well Semaglutide Works in People Suffering From Overweight or Obesity",
+            "label": "Title"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d2",
+        "label": "Status",
+        "value": "COMPLETED",
+        "kind": "enum",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.overallStatus",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "COMPLETED",
+            "label": "Status"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d3",
+        "label": "Phase",
+        "value": "Phase 3",
+        "kind": "enum",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "[\"PHASE3\"]",
+            "label": "Phase"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d4",
+        "label": "Study type",
+        "value": "INTERVENTIONAL",
+        "kind": "enum",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.designModule.studyType",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "INTERVENTIONAL",
+            "label": "Study type"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d5",
+        "label": "Conditions",
+        "value": [
+          "Metabolism and Nutrition Disorder",
+          "Overweight or Obesity"
+        ],
+        "kind": "list",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.conditionsModule.conditions",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "[\"Metabolism and Nutrition Disorder\",\"Overweight or Obesity\"]",
+            "label": "Conditions"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d6",
+        "label": "Interventions",
+        "value": [
+          "Semaglutide",
+          "Placebo (semaglutide)"
+        ],
+        "kind": "list",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.armsInterventionsModule.interventions[0].name",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Semaglutide"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Placebo (semaglutide)",
+            "field_path": "protocolSection.armsInterventionsModule.interventions[1].name"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d7",
+        "label": "Lead sponsor",
+        "value": "Novo Nordisk A/S",
+        "kind": "text",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Novo Nordisk A/S",
+            "label": "Lead sponsor"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d8",
+        "label": "Enrollment",
+        "value": 1961,
+        "kind": "number",
+        "detail": "ACTUAL",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.designModule.enrollmentInfo.count",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1961",
+            "label": "Enrollment"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.designModule.enrollmentInfo.type"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d9",
+        "label": "Start date",
+        "value": "2018-06-04",
+        "kind": "date",
+        "detail": "ACTUAL",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "2018-06-04",
+            "label": "Start date"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d10",
+        "label": "Primary completion",
+        "value": "2020-03-30",
+        "kind": "date",
+        "detail": "ACTUAL",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.primaryCompletionDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "2020-03-30",
+            "label": "Primary completion"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.primaryCompletionDateStruct.type"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d11",
+        "label": "Study completion",
+        "value": "2021-03-05",
+        "kind": "date",
+        "detail": "ACTUAL",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.completionDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "2021-03-05",
+            "label": "Study completion"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d12",
+        "label": "Sites listed",
+        "value": 128,
+        "kind": "number",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "[{\"facility\":\"Novo Nordisk Investigational Site\",\"city\":\"Anniston\",\"state\":\"Alabama\",\"zip\":\"36207\",\"country\":\"United States\",\"geoPoint\":{\"lat\":33.65983,\"lon\":-85.83163}},{\"facility\":\"Novo Nordisk Investigational Site\",\"city\":\"Anaheim\",\"state\":\"California\",\"zip\":\"92801\",\"country\":\"United States\",\"geo"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d13",
+        "label": "Countries",
+        "value": [
+          "Argentina",
+          "Belgium",
+          "Bulgaria",
+          "Canada",
+          "Denmark",
+          "Finland",
+          "France",
+          "Germany",
+          "India",
+          "Japan",
+          "Mexico",
+          "Poland",
+          "Puerto Rico",
+          "Russia",
+          "Taiwan",
+          "United Kingdom",
+          "United States"
+        ],
+        "kind": "list",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[39].country",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Argentina"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Belgium",
+            "field_path": "protocolSection.contactsLocationsModule.locations[44].country"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Bulgaria",
+            "field_path": "protocolSection.contactsLocationsModule.locations[49].country"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Canada",
+            "field_path": "protocolSection.contactsLocationsModule.locations[53].country"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Denmark",
+            "field_path": "protocolSection.contactsLocationsModule.locations[60].country"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Finland",
+            "field_path": "protocolSection.contactsLocationsModule.locations[61].country"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "France",
+            "field_path": "protocolSection.contactsLocationsModule.locations[63].country"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Germany",
+            "field_path": "protocolSection.contactsLocationsModule.locations[70].country"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "India",
+            "field_path": "protocolSection.contactsLocationsModule.locations[83].country"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Japan",
+            "field_path": "protocolSection.contactsLocationsModule.locations[96].country"
+          }
+        ],
+        "citations_total": 17,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d14",
+        "label": "Results posted",
+        "value": "yes",
+        "kind": "enum",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "hasResults",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "true"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      }
+    ]
+  },
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "nct_ids": [
+        "NCT03548935"
+      ]
+    },
+    "query_interpretation": {
+      "intent": "single_trial_overview",
+      "persona": "researcher",
+      "scope": "single_trial",
+      "confidence": 0.8,
+      "parser": "rules",
+      "resolved_entities": [
+        {
+          "input": "NCT03548935",
+          "resolved": "NCT03548935",
+          "kind": "nct_id",
+          "method": "exact"
+        }
+      ]
+    },
+    "coverage": {
+      "studies_matched_total": 1,
+      "studies_analyzed": 1,
+      "counting_method": "single_trials",
+      "sampled": false,
+      "queries": [
+        "https://clinicaltrials.gov/study/NCT03548935"
+      ]
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "validation": {
+      "passed": true,
+      "checks": [
+        {
+          "name": "retrieval_matches_api_total",
+          "passed": true,
+          "detail": "single_trials"
+        },
+        {
+          "name": "counts_match_trial_lists",
+          "passed": true,
+          "detail": "0 count datum(s) checked"
+        },
+        {
+          "name": "each_trial_in_one_bucket",
+          "passed": true,
+          "detail": "not a single-valued grouping"
+        },
+        {
+          "name": "citations_from_retrieved_records",
+          "passed": true,
+          "detail": "1 NCT id(s), all retrieved"
+        },
+        {
+          "name": "summary_numbers_in_data",
+          "passed": true,
+          "detail": "no numeric summary"
+        },
+        {
+          "name": "value_axes_labeled",
+          "passed": true,
+          "detail": "kpi cards label each value"
+        }
+      ]
+    },
+    "alternatives": [
+      {
+        "type": "table",
+        "reason": "all values as a sortable table"
+      }
+    ],
+    "request_id": "843e9e31f54a42f78a21059af410b36b",
+    "created_at": "2026-10-19T09:35:13+00:00",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-16T09:00:05"
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "table",
+    "title": "Primary endpoints — semaglutide obesity trials",
+    "encoding": {
+      "label": {
+        "field": "nct_id",
+        "type": "nominal",
+        "title": "Trial"
+      }
+    },
+    "data": [
+      {
+        "id": "d1",
+        "nct_id": "NCT03548935",
+        "measure": "Change in body weight (%)",
+        "time_frame": "Week 0 to week 68",
+        "enrollment": 1961,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.outcomesModule.primaryOutcomes[0].measure",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Change in Body Weight (%)"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "From baseline (week 0) to end of treatment (week 68)",
+            "field_path": "protocolSection.outcomesModule.primaryOutcomes[0].timeFrame"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d2",
+        "nct_id": "NCT03552757",
+        "measure": "Change in body weight (%)",
+        "time_frame": "Week 0 to week 68",
+        "enrollment": 1210,
+        "nct_ids": [
+          "NCT03552757"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.outcomesModule.primaryOutcomes[0].measure",
+        "citations": [
+          {
+            "nct_id": "NCT03552757",
+            "excerpt": "Change in Body Weight (%)"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d3",
+        "nct_id": "NCT03611582",
+        "measure": "Change in body weight (%)",
+        "time_frame": "Week 0 to week 68",
+        "enrollment": 611,
+        "nct_ids": [
+          "NCT03611582"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.outcomesModule.primaryOutcomes[0].measure",
+        "citations": [
+          {
+            "nct_id": "NCT03611582",
+            "excerpt": "Change in Body Weight (%)"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d4",
+        "nct_id": "NCT03548987",
+        "measure": "Change in body weight (%)",
+        "time_frame": "Week 20 to week 68",
+        "enrollment": 902,
+        "nct_ids": [
+          "NCT03548987"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.outcomesModule.primaryOutcomes[0].measure",
+        "citations": [
+          {
+            "nct_id": "NCT03548987",
+            "excerpt": "Change in Body Weight (%)"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      }
+    ]
+  },
+  "answer_summary": "All four trials [NCT03548935] [NCT03552757] [NCT03611582] [NCT03548987] use percent change in body weight as the primary endpoint.",
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "drug_names": [
+        "semaglutide"
+      ],
+      "conditions": [
+        "obesity"
+      ]
+    },
+    "query_interpretation": {
+      "intent": "endpoints_catalog",
+      "persona": "researcher",
+      "scope": "cohort",
+      "confidence": 0.92,
+      "parser": "llm",
+      "cohorts": [
+        {
+          "label": "semaglutide / obesity",
+          "drugs": [
+            "semaglutide"
+          ],
+          "conditions": [
+            "obesity"
+          ]
+        }
+      ]
+    },
+    "units": {
+      "enrollment": "participants"
+    },
+    "columns": [
+      {
+        "field": "nct_id",
+        "title": "Trial",
+        "type": "nominal"
+      },
+      {
+        "field": "measure",
+        "title": "Primary endpoint",
+        "type": "nominal"
+      },
+      {
+        "field": "time_frame",
+        "title": "Time frame",
+        "type": "nominal"
+      },
+      {
+        "field": "enrollment",
+        "title": "Enrollment",
+        "type": "quantitative",
+        "format": ",d"
+      }
+    ],
+    "coverage": {
+      "studies_matched_total": 4,
+      "studies_analyzed": 4,
+      "counting_method": "all_records",
+      "sampled": false,
+      "queries": [
+        "https://clinicaltrials.gov/search?cond=obesity&intr=semaglutide"
+      ]
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "alternatives": [
+      {
+        "type": "bar_chart",
+        "reason": "compare categories side by side"
+      }
+    ],
+    "request_id": "req_sample_02_table",
+    "created_at": "2026-10-18T14:22:05Z",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-17T09:00:12"
+  }
+}

@@ -1,0 +1,70 @@
+# One question per line. Optional ctviz-ask flags after " || " (e.g. --nct-id NCT03548935, --drug X).
+# Run them all:   scripts/run_questions.sh            (writes runs/manual/<n>.json = the public JSON)
+# Run some:       scripts/run_questions.sh 5 9 12     (by line number shown in the output)
+
+# --- time trends (exact counts; large cohorts use one registry count per year) ---
+How many trials for pembrolizumab started each year since 2015?
+How many type 2 diabetes trials started each year?
+How many trials started each year since 2020?
+How many trials for pembrolizumab started each year since 2015, split by phase?
+Compare trials started per year for semaglutide vs tirzepatide since 2018
+
+# --- distributions ---
+How are breast cancer trials distributed across phases?
+What are the most common intervention types for Type 2 Diabetes trials?
+What is the recruitment status of Alzheimer's disease trials?
+What is the enrollment distribution of semaglutide trials?
+Who are the top sponsors of obesity trials?
+
+# --- comparisons ---
+Compare phases for trials involving semaglutide vs tirzepatide
+Compare sponsor categories across the two conditions alzheimers disease and lung carcinoma
+Compare the recruitment status of melanoma vs pancreatic cancer trials
+
+# --- geography (a trial counts once per country) ---
+Which countries have the most recruiting trials for type 2 diabetes?
+How many trials per country are there for Donanemab?
+Show the trial sites (facility and city) in United States for Donanemab trials
+
+# --- networks ---
+Which drugs most frequently co-occur with pembrolizumab in combination studies for non-small cell lung cancer?
+Which drugs frequently co-occur in combination studies for melanoma?
+Which sponsors are testing which drugs in obesity trials?
+Which sponsors collaborate on Alzheimer's disease trials?
+
+# --- matrices, timelines ---
+Show a phase by status heatmap for melanoma trials
+Where are the gaps in obesity drug development by phase?
+Show Novo Nordisk's obesity trial activity over time
+How did tirzepatide progress through the clinical phases?
+
+# --- one trial (patient + researcher) ---
+Am I eligible? I am 45, female, BMI 34, taking metformin || --nct-id NCT03548935
+What side effects did people have? || --nct-id NCT03548935
+How many patients dropped out and why? || --nct-id NCT03548935
+What were the primary outcome results? || --nct-id NCT03548935
+Show the survival results || --nct-id NCT02142738
+How long will the trial last and how many visits are there? || --nct-id NCT03548935
+Can I keep seeing my regular doctor during the trial? || --nct-id NCT03548935
+
+# --- round 3: broad conditions read completely, status today, open questions, other names ---
+Show the network of sponsors and drugs in lung cancer trials
+Which drugs are frequently combined in breast cancer trials?
+What are the most common intervention types for pancreatic cancer trials?
+How many recruiting obesity trials started each year since 2015?
+Show active vs completed Alzheimer's trials per year
+How are finished type 2 diabetes trials distributed across phases?
+Tell me about obesity trials
+What does the Alzheimer's trial landscape look like?
+How many trials for MK-3475 started each year?
+How many trials for tirzepatid started each year?
+What are the outcomes of NCT06973564?
+
+# --- honesty edge cases: expected status != ok, no chart ---
+Which drug is the safest between semaglutide and Canagliflozin for diabetes?
+Is semaglutide safe?
+Should I take tirzepatide or semaglutide?
+What trials are or have been done for the condition Supercalifragilisticexpialdious since 2020?
+How many trials for pembrolizumabb started each year?
+Am I eligible for a semaglutide trial?
+How many trials for semaglutide in Antarctica started each year?

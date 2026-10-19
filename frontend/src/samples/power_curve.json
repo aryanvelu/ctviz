@@ -1,0 +1,287 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "power_curve",
+    "title": "Statistical power vs sample size — STEP 1 (NCT03548935)",
+    "encoding": {
+      "x": {
+        "field": "n",
+        "type": "quantitative",
+        "title": "Total sample size",
+        "unit": "participants",
+        "format": ",d"
+      },
+      "y": {
+        "field": "power",
+        "type": "quantitative",
+        "title": "Power",
+        "format": ".0%",
+        "scale": {
+          "type": "linear",
+          "domain": [
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "series": {
+        "field": "effect",
+        "type": "nominal",
+        "title": "Standardized effect size"
+      }
+    },
+    "data": [
+      {
+        "id": "d1",
+        "n": 100,
+        "power": 0.177,
+        "effect": "d = 0.20",
+        "cite_note": "computed: two-sample z-test power for the stated effect size and α=0.05",
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d2",
+        "n": 250,
+        "power": 0.353,
+        "effect": "d = 0.20",
+        "cite_note": "computed: two-sample z-test power for the stated effect size and α=0.05",
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d3",
+        "n": 500,
+        "power": 0.609,
+        "effect": "d = 0.20",
+        "cite_note": "computed: two-sample z-test power for the stated effect size and α=0.05",
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d4",
+        "n": 750,
+        "power": 0.777,
+        "effect": "d = 0.20",
+        "cite_note": "computed: two-sample z-test power for the stated effect size and α=0.05",
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d5",
+        "n": 1000,
+        "power": 0.873,
+        "effect": "d = 0.20",
+        "cite_note": "computed: two-sample z-test power for the stated effect size and α=0.05",
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d6",
+        "n": 1500,
+        "power": 0.955,
+        "effect": "d = 0.20",
+        "cite_note": "computed: two-sample z-test power for the stated effect size and α=0.05",
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d7",
+        "n": 2000,
+        "power": 0.982,
+        "effect": "d = 0.20",
+        "cite_note": "computed: two-sample z-test power for the stated effect size and α=0.05",
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d8",
+        "n": 2500,
+        "power": 0.992,
+        "effect": "d = 0.20",
+        "cite_note": "computed: two-sample z-test power for the stated effect size and α=0.05",
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d9",
+        "n": 100,
+        "power": 0.324,
+        "effect": "d = 0.30",
+        "cite_note": "computed: two-sample z-test power for the stated effect size and α=0.05",
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d10",
+        "n": 250,
+        "power": 0.659,
+        "effect": "d = 0.30",
+        "cite_note": "computed: two-sample z-test power for the stated effect size and α=0.05",
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d11",
+        "n": 500,
+        "power": 0.903,
+        "effect": "d = 0.30",
+        "cite_note": "computed: two-sample z-test power for the stated effect size and α=0.05",
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d12",
+        "n": 750,
+        "power": 0.969,
+        "effect": "d = 0.30",
+        "cite_note": "computed: two-sample z-test power for the stated effect size and α=0.05",
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d13",
+        "n": 1000,
+        "power": 0.988,
+        "effect": "d = 0.30",
+        "cite_note": "computed: two-sample z-test power for the stated effect size and α=0.05",
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d14",
+        "n": 1500,
+        "power": 0.998,
+        "effect": "d = 0.30",
+        "cite_note": "computed: two-sample z-test power for the stated effect size and α=0.05",
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d15",
+        "n": 2000,
+        "power": 0.999,
+        "effect": "d = 0.30",
+        "cite_note": "computed: two-sample z-test power for the stated effect size and α=0.05",
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d16",
+        "n": 2500,
+        "power": 1,
+        "effect": "d = 0.30",
+        "cite_note": "computed: two-sample z-test power for the stated effect size and α=0.05",
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      }
+    ]
+  },
+  "answer_summary": "With 1961 participants, [NCT03548935] exceeds 80% power for effects as small as d = 0.20.",
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "nct_ids": [
+        "NCT03548935"
+      ]
+    },
+    "query_interpretation": {
+      "intent": "enrollment_vs_power",
+      "persona": "researcher",
+      "scope": "single_trial",
+      "confidence": 0.92,
+      "parser": "llm"
+    },
+    "notes": [
+      {
+        "code": "APPROXIMATED",
+        "severity": "warning",
+        "message": "Power is computed under assumed effect sizes; the registry does not publish the protocol's power calculation."
+      }
+    ],
+    "thresholds": [
+      {
+        "axis": "y",
+        "value": 0.8,
+        "label": "80% power",
+        "source": "convention"
+      },
+      {
+        "axis": "x",
+        "value": 1961.0,
+        "label": "Actual enrollment: 1,961",
+        "source": "registry",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1961",
+            "field_path": "protocolSection.designModule.enrollmentInfo.count"
+          }
+        ]
+      }
+    ],
+    "bands": [
+      {
+        "axis": "y",
+        "low": 0.8,
+        "high": 0.9,
+        "label": "Conventional target range"
+      }
+    ],
+    "stats": {
+      "Minimum detectable effect at 80% power": "d = 0.13"
+    },
+    "approximation": {
+      "method": "Two-sample z-test power, α = 0.05 two-sided, 2:1 allocation ignored",
+      "assumptions": [
+        "Effect sizes are illustrative, not from the protocol",
+        "Registry does not report the sample size calculation"
+      ]
+    },
+    "coverage": {
+      "studies_matched_total": 1,
+      "studies_analyzed": 1,
+      "counting_method": "all_records",
+      "sampled": false
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "alternatives": [
+      {
+        "type": "kpi_cards",
+        "reason": "headline numbers only"
+      }
+    ],
+    "request_id": "req_sample_16_power",
+    "created_at": "2026-10-18T14:22:05Z",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-17T09:00:12"
+  }
+}

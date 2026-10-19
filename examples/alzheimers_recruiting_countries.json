@@ -1,0 +1,654 @@
+{
+  "name": "alzheimers_recruiting_countries",
+  "request": {
+    "query": "Which countries have the most recruiting trials for Alzheimer's disease?",
+    "condition": "Alzheimer's disease",
+    "status": [
+      "RECRUITING"
+    ],
+    "persona": "researcher"
+  },
+  "response": {
+    "status": "ok",
+    "visualization": {
+      "type": "geo_map",
+      "title": "Trials by country: Alzheimer's disease (status today: recruiting)",
+      "encoding": {
+        "x": {
+          "field": "country",
+          "type": "nominal",
+          "title": "Country"
+        },
+        "y": {
+          "field": "trial_count",
+          "type": "quantitative",
+          "title": "Trials",
+          "unit": "trials",
+          "format": ",d"
+        },
+        "label": {
+          "field": "country",
+          "type": "nominal",
+          "title": "Country"
+        },
+        "tooltip": [
+          "site_count"
+        ]
+      },
+      "data": [
+        {
+          "id": "d1",
+          "country": "United States",
+          "trial_count": 278,
+          "site_count": 1646,
+          "nct_ids": [
+            "NCT00064870",
+            "NCT00869817",
+            "NCT02022943",
+            "NCT02414347",
+            "NCT02434393",
+            "NCT02649985",
+            "NCT02740634",
+            "NCT02795052",
+            "NCT03019757",
+            "NCT03082755",
+            "NCT03140865",
+            "NCT03233646",
+            "NCT03503331",
+            "NCT03638583",
+            "NCT03657745",
+            "NCT03671889",
+            "NCT03702907",
+            "NCT03761381",
+            "NCT03799991",
+            "NCT03809351"
+          ],
+          "nct_ids_total": 278,
+          "field_path": "protocolSection.contactsLocationsModule.locations[0].country",
+          "citations": [
+            {
+              "nct_id": "NCT00064870",
+              "excerpt": "United States"
+            },
+            {
+              "nct_id": "NCT00869817",
+              "excerpt": "United States"
+            },
+            {
+              "nct_id": "NCT02022943",
+              "excerpt": "United States"
+            }
+          ],
+          "citations_total": 278,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d2",
+          "country": "China",
+          "trial_count": 98,
+          "site_count": 509,
+          "nct_ids": [
+            "NCT03653156",
+            "NCT03657732",
+            "NCT03810794",
+            "NCT04360200",
+            "NCT04575337",
+            "NCT04850053",
+            "NCT05020106",
+            "NCT05023564",
+            "NCT05315895",
+            "NCT05468905",
+            "NCT05597410",
+            "NCT05623124",
+            "NCT05886114",
+            "NCT05887674",
+            "NCT05908695",
+            "NCT05980949",
+            "NCT05995418",
+            "NCT06092125",
+            "NCT06126224",
+            "NCT06183658"
+          ],
+          "nct_ids_total": 98,
+          "field_path": "protocolSection.contactsLocationsModule.locations[0].country",
+          "citations": [
+            {
+              "nct_id": "NCT03653156",
+              "excerpt": "China"
+            },
+            {
+              "nct_id": "NCT03657732",
+              "excerpt": "China"
+            },
+            {
+              "nct_id": "NCT03810794",
+              "excerpt": "China"
+            }
+          ],
+          "citations_total": 98,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d3",
+          "country": "France",
+          "trial_count": 69,
+          "site_count": 177,
+          "nct_ids": [
+            "NCT02302482",
+            "NCT02800395",
+            "NCT02811653",
+            "NCT03621839",
+            "NCT03894254",
+            "NCT04150198",
+            "NCT04165109",
+            "NCT04389437",
+            "NCT04570085",
+            "NCT04661280",
+            "NCT04844060",
+            "NCT04946916",
+            "NCT05077618",
+            "NCT05288842",
+            "NCT05322343",
+            "NCT05511363",
+            "NCT05516667",
+            "NCT05552157",
+            "NCT05558709",
+            "NCT05629871"
+          ],
+          "nct_ids_total": 69,
+          "field_path": "protocolSection.contactsLocationsModule.locations[0].country",
+          "citations": [
+            {
+              "nct_id": "NCT02302482",
+              "excerpt": "France"
+            },
+            {
+              "nct_id": "NCT02800395",
+              "excerpt": "France"
+            },
+            {
+              "nct_id": "NCT02811653",
+              "excerpt": "France"
+            }
+          ],
+          "citations_total": 69,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d4",
+          "country": "Canada",
+          "trial_count": 51,
+          "site_count": 182,
+          "nct_ids": [
+            "NCT00869817",
+            "NCT03020381",
+            "NCT03035851",
+            "NCT03402919",
+            "NCT03665831",
+            "NCT04335994",
+            "NCT04516057",
+            "NCT04524338",
+            "NCT05176704",
+            "NCT05231785",
+            "NCT05508841",
+            "NCT05509387",
+            "NCT05552157",
+            "NCT05561205",
+            "NCT05911932",
+            "NCT05980949",
+            "NCT06014424",
+            "NCT06095063",
+            "NCT06126224",
+            "NCT06189963"
+          ],
+          "nct_ids_total": 51,
+          "field_path": "protocolSection.contactsLocationsModule.locations[0].country",
+          "citations": [
+            {
+              "nct_id": "NCT00869817",
+              "excerpt": "Canada",
+              "field_path": "protocolSection.contactsLocationsModule.locations[14].country"
+            },
+            {
+              "nct_id": "NCT03020381",
+              "excerpt": "Canada"
+            },
+            {
+              "nct_id": "NCT03035851",
+              "excerpt": "Canada"
+            }
+          ],
+          "citations_total": 51,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d5",
+          "country": "Italy",
+          "trial_count": 47,
+          "site_count": 151,
+          "nct_ids": [
+            "NCT03217396",
+            "NCT05511363",
+            "NCT05552157",
+            "NCT05934188",
+            "NCT05980949",
+            "NCT06159673",
+            "NCT06179680",
+            "NCT06337578",
+            "NCT06372587",
+            "NCT06540833",
+            "NCT06563895",
+            "NCT06585787",
+            "NCT06596746",
+            "NCT06647498",
+            "NCT06668610",
+            "NCT06702124",
+            "NCT06730438",
+            "NCT06793735",
+            "NCT06841848",
+            "NCT06855368"
+          ],
+          "nct_ids_total": 47,
+          "field_path": "protocolSection.contactsLocationsModule.locations[0].country",
+          "citations": [
+            {
+              "nct_id": "NCT03217396",
+              "excerpt": "Italy"
+            },
+            {
+              "nct_id": "NCT05511363",
+              "excerpt": "Italy",
+              "field_path": "protocolSection.contactsLocationsModule.locations[89].country"
+            },
+            {
+              "nct_id": "NCT05552157",
+              "excerpt": "Italy",
+              "field_path": "protocolSection.contactsLocationsModule.locations[28].country"
+            }
+          ],
+          "citations_total": 47,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d6",
+          "country": "United Kingdom",
+          "trial_count": 36,
+          "site_count": 128,
+          "nct_ids": [
+            "NCT00869817",
+            "NCT04165109",
+            "NCT05231785",
+            "NCT05460143",
+            "NCT05462106",
+            "NCT05511363",
+            "NCT05552157",
+            "NCT05614310",
+            "NCT05885295",
+            "NCT05892952",
+            "NCT05980949",
+            "NCT06126224",
+            "NCT06297590",
+            "NCT06372821",
+            "NCT06563895",
+            "NCT06584357",
+            "NCT06647498",
+            "NCT06937229",
+            "NCT06947941",
+            "NCT06953167"
+          ],
+          "nct_ids_total": 36,
+          "field_path": "protocolSection.contactsLocationsModule.locations[25].country",
+          "citations": [
+            {
+              "nct_id": "NCT00869817",
+              "excerpt": "United Kingdom"
+            },
+            {
+              "nct_id": "NCT04165109",
+              "excerpt": "United Kingdom",
+              "field_path": "protocolSection.contactsLocationsModule.locations[21].country"
+            },
+            {
+              "nct_id": "NCT05231785",
+              "excerpt": "United Kingdom",
+              "field_path": "protocolSection.contactsLocationsModule.locations[6].country"
+            }
+          ],
+          "citations_total": 36,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d7",
+          "country": "Spain",
+          "trial_count": 35,
+          "site_count": 143,
+          "nct_ids": [
+            "NCT00869817",
+            "NCT02685969",
+            "NCT03851523",
+            "NCT04165109",
+            "NCT05462106",
+            "NCT05511363",
+            "NCT05552157",
+            "NCT05741853",
+            "NCT05980949",
+            "NCT06159673",
+            "NCT06338904",
+            "NCT06540833",
+            "NCT06563895",
+            "NCT06585787",
+            "NCT06647498",
+            "NCT06651567",
+            "NCT06788119",
+            "NCT06937229",
+            "NCT06976203",
+            "NCT06976216"
+          ],
+          "nct_ids_total": 35,
+          "field_path": "protocolSection.contactsLocationsModule.locations[0].country",
+          "citations": [
+            {
+              "nct_id": "NCT00869817",
+              "excerpt": "Spain",
+              "field_path": "protocolSection.contactsLocationsModule.locations[24].country"
+            },
+            {
+              "nct_id": "NCT02685969",
+              "excerpt": "Spain"
+            },
+            {
+              "nct_id": "NCT03851523",
+              "excerpt": "Spain"
+            }
+          ],
+          "citations_total": 35,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d8",
+          "country": "South Korea",
+          "trial_count": 29,
+          "site_count": 150,
+          "nct_ids": [
+            "NCT00869817",
+            "NCT05511363",
+            "NCT05552157",
+            "NCT05980949",
+            "NCT06088121",
+            "NCT06126224",
+            "NCT06159673",
+            "NCT06535308",
+            "NCT06563895",
+            "NCT06585787",
+            "NCT06647498",
+            "NCT06786676",
+            "NCT06887192",
+            "NCT06889818",
+            "NCT06937229",
+            "NCT06976216",
+            "NCT07011745",
+            "NCT07027072",
+            "NCT07033494",
+            "NCT07094516"
+          ],
+          "nct_ids_total": 29,
+          "field_path": "protocolSection.contactsLocationsModule.locations[23].country",
+          "citations": [
+            {
+              "nct_id": "NCT00869817",
+              "excerpt": "South Korea"
+            },
+            {
+              "nct_id": "NCT05511363",
+              "excerpt": "South Korea",
+              "field_path": "protocolSection.contactsLocationsModule.locations[116].country"
+            },
+            {
+              "nct_id": "NCT05552157",
+              "excerpt": "South Korea",
+              "field_path": "protocolSection.contactsLocationsModule.locations[34].country"
+            }
+          ],
+          "citations_total": 29,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d9",
+          "country": "Germany",
+          "trial_count": 24,
+          "site_count": 108,
+          "nct_ids": [
+            "NCT00869817",
+            "NCT05059158",
+            "NCT05511363",
+            "NCT05552157",
+            "NCT05980949",
+            "NCT06313944",
+            "NCT06563895",
+            "NCT06585787",
+            "NCT06647498",
+            "NCT06711952",
+            "NCT06937229",
+            "NCT06976203",
+            "NCT06976216",
+            "NCT06995573",
+            "NCT07011745",
+            "NCT07094516",
+            "NCT07154394",
+            "NCT07212699",
+            "NCT07284472",
+            "NCT07383311"
+          ],
+          "nct_ids_total": 24,
+          "field_path": "protocolSection.contactsLocationsModule.locations[16].country",
+          "citations": [
+            {
+              "nct_id": "NCT00869817",
+              "excerpt": "Germany"
+            },
+            {
+              "nct_id": "NCT05059158",
+              "excerpt": "Germany",
+              "field_path": "protocolSection.contactsLocationsModule.locations[0].country"
+            },
+            {
+              "nct_id": "NCT05511363",
+              "excerpt": "Germany",
+              "field_path": "protocolSection.contactsLocationsModule.locations[83].country"
+            }
+          ],
+          "citations_total": 24,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d10",
+          "country": "Japan",
+          "trial_count": 21,
+          "site_count": 215,
+          "nct_ids": [
+            "NCT00869817",
+            "NCT05980949",
+            "NCT06297590",
+            "NCT06322667",
+            "NCT06563895",
+            "NCT06585787",
+            "NCT06657768",
+            "NCT06803823",
+            "NCT06875986",
+            "NCT06937229",
+            "NCT06947941",
+            "NCT06976203",
+            "NCT07011732",
+            "NCT07033494",
+            "NCT07094516",
+            "NCT07142954",
+            "NCT07177352",
+            "NCT07589595",
+            "NCT07602582",
+            "NCT07688213"
+          ],
+          "nct_ids_total": 21,
+          "field_path": "protocolSection.contactsLocationsModule.locations[18].country",
+          "citations": [
+            {
+              "nct_id": "NCT00869817",
+              "excerpt": "Japan"
+            },
+            {
+              "nct_id": "NCT05980949",
+              "excerpt": "Japan",
+              "field_path": "protocolSection.contactsLocationsModule.locations[291].country"
+            },
+            {
+              "nct_id": "NCT06297590",
+              "excerpt": "Japan",
+              "field_path": "protocolSection.contactsLocationsModule.locations[6].country"
+            }
+          ],
+          "citations_total": 21,
+          "excerpts_truncated": true
+        }
+      ]
+    },
+    "answer_summary": "United States has the most trials (278), then China (98), then France (69). Based on 614 trials from ClinicalTrials.gov (status today: recruiting).",
+    "meta": {
+      "source": "clinicaltrials.gov",
+      "filters": {
+        "conditions": [
+          "Alzheimer's disease"
+        ],
+        "statuses": [
+          "RECRUITING"
+        ]
+      },
+      "query_interpretation": {
+        "intent": "geographic_distribution",
+        "persona": "researcher",
+        "scope": "cohort",
+        "confidence": 0.93,
+        "parser": "cache",
+        "cohorts": [
+          {
+            "label": "Alzheimer's disease",
+            "conditions": [
+              "Alzheimer's disease"
+            ],
+            "statuses": [
+              "RECRUITING"
+            ]
+          }
+        ],
+        "resolved_entities": [
+          {
+            "input": "Alzheimer's disease",
+            "resolved": "Alzheimer's disease",
+            "kind": "condition",
+            "method": "structured_field"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "code": "TRUNCATED",
+          "severity": "info",
+          "message": "Showing the top 10 of 54 countries."
+        }
+      ],
+      "units": {
+        "site_count": "sites",
+        "trial_count": "trials"
+      },
+      "sort": {
+        "by": "trial_count",
+        "order": "desc"
+      },
+      "grouping": {
+        "by": [
+          "country"
+        ],
+        "aggregate": "count_distinct_trials",
+        "per_trial": "once per country",
+        "country_grouping": "whitespace- and case-insensitive"
+      },
+      "geo": {
+        "level": "country",
+        "region_field": "country",
+        "value_field": "trial_count"
+      },
+      "coverage": {
+        "studies_matched_total": 614,
+        "studies_analyzed": 614,
+        "counting_method": "all_records",
+        "sampled": false,
+        "queries": [
+          "https://clinicaltrials.gov/search?cond=%22Alzheimer%27s+disease%22&aggFilters=status%3Arec"
+        ]
+      },
+      "citation_policy": {
+        "detail": "sample",
+        "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+        "nct_ids": "first_20",
+        "nct_ids_per_datum": 20,
+        "nct_ids_order": "nct_id",
+        "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+        "excerpts_per_datum": 3,
+        "excerpts_single_trial": 10,
+        "excerpt_order": "nct_id",
+        "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+      },
+      "validation": {
+        "passed": true,
+        "checks": [
+          {
+            "name": "retrieval_matches_api_total",
+            "passed": true,
+            "detail": "Alzheimer's disease: 614 of 614"
+          },
+          {
+            "name": "counts_match_trial_lists",
+            "passed": true,
+            "detail": "10 count datum(s) checked"
+          },
+          {
+            "name": "each_trial_in_one_bucket",
+            "passed": true,
+            "detail": "not a single-valued grouping"
+          },
+          {
+            "name": "citations_from_retrieved_records",
+            "passed": true,
+            "detail": "529 NCT id(s), all retrieved"
+          },
+          {
+            "name": "summary_numbers_in_data",
+            "passed": true,
+            "detail": "every number appears in the data"
+          },
+          {
+            "name": "value_axes_labeled",
+            "passed": true,
+            "detail": "all value axes say what they measure"
+          }
+        ]
+      },
+      "alternatives": [
+        {
+          "type": "bar_chart",
+          "reason": "compare categories side by side"
+        },
+        {
+          "type": "table",
+          "reason": "all values as a sortable table"
+        }
+      ],
+      "follow_ups": [
+        "Show the trial sites (facility and city) in United States for Alzheimer's disease trials"
+      ],
+      "request_id": "056a06c19b7348bc9fb66b701b74671e",
+      "created_at": "2026-10-19T10:10:33+00:00",
+      "schema_version": "2.2",
+      "ctgov_api_version": "2.0.5",
+      "data_timestamp": "2026-10-16T09:00:05"
+    }
+  }
+}

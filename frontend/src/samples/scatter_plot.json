@@ -1,0 +1,370 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "scatter_plot",
+    "title": "Enrollment vs start year — GLP-1 obesity phase 3 trials",
+    "encoding": {
+      "x": {
+        "field": "start_year",
+        "type": "quantitative",
+        "title": "Start year",
+        "format": ".1f",
+        "scale": {
+          "type": "linear",
+          "zero": false
+        }
+      },
+      "y": {
+        "field": "enrollment",
+        "type": "quantitative",
+        "title": "Enrollment",
+        "unit": "participants",
+        "format": ",d"
+      },
+      "series": {
+        "field": "overall_status",
+        "type": "nominal",
+        "title": "Status"
+      },
+      "size": {
+        "field": "enrollment",
+        "type": "quantitative",
+        "title": "Enrollment"
+      },
+      "label": {
+        "field": "acronym",
+        "type": "nominal",
+        "title": "Acronym"
+      },
+      "tooltip": [
+        "nct_id"
+      ]
+    },
+    "data": [
+      {
+        "id": "d1",
+        "nct_id": "NCT03548935",
+        "enrollment": 1961,
+        "start_year": 2018.4,
+        "overall_status": "COMPLETED",
+        "acronym": "STEP 1",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.designModule.enrollmentInfo.count",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1961"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "2018-04",
+            "field_path": "protocolSection.statusModule.startDateStruct.date"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "COMPLETED",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d2",
+        "nct_id": "NCT03552757",
+        "enrollment": 1210,
+        "start_year": 2018.5,
+        "overall_status": "COMPLETED",
+        "acronym": "STEP 2",
+        "nct_ids": [
+          "NCT03552757"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.designModule.enrollmentInfo.count",
+        "citations": [
+          {
+            "nct_id": "NCT03552757",
+            "excerpt": "1210"
+          },
+          {
+            "nct_id": "NCT03552757",
+            "excerpt": "2018-05",
+            "field_path": "protocolSection.statusModule.startDateStruct.date"
+          },
+          {
+            "nct_id": "NCT03552757",
+            "excerpt": "COMPLETED",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d3",
+        "nct_id": "NCT03611582",
+        "enrollment": 611,
+        "start_year": 2018.7,
+        "overall_status": "COMPLETED",
+        "acronym": "STEP 3",
+        "nct_ids": [
+          "NCT03611582"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.designModule.enrollmentInfo.count",
+        "citations": [
+          {
+            "nct_id": "NCT03611582",
+            "excerpt": "611"
+          },
+          {
+            "nct_id": "NCT03611582",
+            "excerpt": "2018-07",
+            "field_path": "protocolSection.statusModule.startDateStruct.date"
+          },
+          {
+            "nct_id": "NCT03611582",
+            "excerpt": "COMPLETED",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d4",
+        "nct_id": "NCT03548987",
+        "enrollment": 902,
+        "start_year": 2018.5,
+        "overall_status": "COMPLETED",
+        "acronym": "STEP 4",
+        "nct_ids": [
+          "NCT03548987"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.designModule.enrollmentInfo.count",
+        "citations": [
+          {
+            "nct_id": "NCT03548987",
+            "excerpt": "902"
+          },
+          {
+            "nct_id": "NCT03548987",
+            "excerpt": "2018-05",
+            "field_path": "protocolSection.statusModule.startDateStruct.date"
+          },
+          {
+            "nct_id": "NCT03548987",
+            "excerpt": "COMPLETED",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d5",
+        "nct_id": "NCT04184622",
+        "enrollment": 2539,
+        "start_year": 2019.9,
+        "overall_status": "COMPLETED",
+        "acronym": "SURMOUNT-1",
+        "nct_ids": [
+          "NCT04184622"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.designModule.enrollmentInfo.count",
+        "citations": [
+          {
+            "nct_id": "NCT04184622",
+            "excerpt": "2539"
+          },
+          {
+            "nct_id": "NCT04184622",
+            "excerpt": "2019-08",
+            "field_path": "protocolSection.statusModule.startDateStruct.date"
+          },
+          {
+            "nct_id": "NCT04184622",
+            "excerpt": "COMPLETED",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d6",
+        "nct_id": "NCT04657003",
+        "enrollment": 938,
+        "start_year": 2021.2,
+        "overall_status": "COMPLETED",
+        "acronym": "SURMOUNT-2",
+        "nct_ids": [
+          "NCT04657003"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.designModule.enrollmentInfo.count",
+        "citations": [
+          {
+            "nct_id": "NCT04657003",
+            "excerpt": "938"
+          },
+          {
+            "nct_id": "NCT04657003",
+            "excerpt": "2021-03",
+            "field_path": "protocolSection.statusModule.startDateStruct.date"
+          },
+          {
+            "nct_id": "NCT04657003",
+            "excerpt": "COMPLETED",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d7",
+        "nct_id": "NCT04251156",
+        "enrollment": 304,
+        "start_year": 2020.1,
+        "overall_status": "COMPLETED",
+        "acronym": "STEP 5",
+        "nct_ids": [
+          "NCT04251156"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.designModule.enrollmentInfo.count",
+        "citations": [
+          {
+            "nct_id": "NCT04251156",
+            "excerpt": "304"
+          },
+          {
+            "nct_id": "NCT04251156",
+            "excerpt": "2020-02",
+            "field_path": "protocolSection.statusModule.startDateStruct.date"
+          },
+          {
+            "nct_id": "NCT04251156",
+            "excerpt": "COMPLETED",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d8",
+        "nct_id": "NCT05035095",
+        "enrollment": 3200,
+        "start_year": 2021.8,
+        "overall_status": "ACTIVE_NOT_RECRUITING",
+        "acronym": "SURMOUNT-MMO",
+        "nct_ids": [
+          "NCT05035095"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.designModule.enrollmentInfo.count",
+        "citations": [
+          {
+            "nct_id": "NCT05035095",
+            "excerpt": "3200"
+          },
+          {
+            "nct_id": "NCT05035095",
+            "excerpt": "2021-07",
+            "field_path": "protocolSection.statusModule.startDateStruct.date"
+          },
+          {
+            "nct_id": "NCT05035095",
+            "excerpt": "ACTIVE_NOT_RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      }
+    ]
+  },
+  "answer_summary": "The largest trial is SURMOUNT-MMO [NCT05035095] with 3200 planned participants.",
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "drug_names": [
+        "semaglutide",
+        "liraglutide",
+        "tirzepatide"
+      ],
+      "conditions": [
+        "obesity"
+      ],
+      "phases": [
+        "PHASE3"
+      ]
+    },
+    "query_interpretation": {
+      "intent": "enrollment_distribution",
+      "persona": "researcher",
+      "scope": "cohort",
+      "confidence": 0.92,
+      "parser": "llm",
+      "cohorts": [
+        {
+          "label": "GLP-1 / obesity",
+          "drugs": [
+            "semaglutide",
+            "liraglutide",
+            "tirzepatide"
+          ],
+          "conditions": [
+            "obesity"
+          ],
+          "phases": [
+            "PHASE3"
+          ]
+        }
+      ]
+    },
+    "units": {
+      "enrollment": "participants"
+    },
+    "coverage": {
+      "studies_matched_total": 8,
+      "studies_analyzed": 8,
+      "counting_method": "all_records",
+      "sampled": false
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "alternatives": [
+      {
+        "type": "histogram",
+        "reason": "histogram"
+      },
+      {
+        "type": "table",
+        "reason": "all values as a sortable table"
+      }
+    ],
+    "request_id": "req_sample_07_scatter",
+    "created_at": "2026-10-18T14:22:05Z",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-17T09:00:12"
+  }
+}

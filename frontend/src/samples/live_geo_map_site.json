@@ -1,0 +1,5857 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "geo_map",
+    "title": "Trial sites: Donanemab · United States",
+    "subtitle": "Sites in United States only",
+    "encoding": {
+      "size": {
+        "field": "trial_count",
+        "type": "quantitative",
+        "title": "Trials at this site",
+        "unit": "trials",
+        "format": ",d"
+      },
+      "label": {
+        "field": "site",
+        "type": "nominal",
+        "title": "Site"
+      },
+      "tooltip": [
+        "city",
+        "state",
+        "country"
+      ]
+    },
+    "data": [
+      {
+        "id": "d1",
+        "site": "Conquest Research",
+        "city": "Winter Park",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 28.6,
+        "lon": -81.33924,
+        "trial_count": 6,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866",
+          "NCT05108922",
+          "NCT05738486",
+          "NCT07589595",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 6,
+        "field_path": "protocolSection.contactsLocationsModule.locations[95].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Conquest Research"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Conquest Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[89].facility"
+          },
+          {
+            "nct_id": "NCT05108922",
+            "excerpt": "Conquest Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[17].facility"
+          }
+        ],
+        "citations_total": 6,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d2",
+        "site": "Irvine Clinical Research",
+        "city": "Irvine",
+        "state": "California",
+        "country": "United States",
+        "lat": 33.66946,
+        "lon": -117.82311,
+        "trial_count": 6,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866",
+          "NCT05108922",
+          "NCT05738486",
+          "NCT07589595",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 6,
+        "field_path": "protocolSection.contactsLocationsModule.locations[12].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Irvine Clinical Research"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Irvine Clinical Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[15].facility"
+          },
+          {
+            "nct_id": "NCT05108922",
+            "excerpt": "Irvine Clinical Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[1].facility"
+          }
+        ],
+        "citations_total": 6,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d3",
+        "site": "JEM Research Institute",
+        "city": "Atlantis",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 26.5909,
+        "lon": -80.10088,
+        "trial_count": 6,
+        "nct_ids": [
+          "NCT03367403",
+          "NCT04437511",
+          "NCT05026866",
+          "NCT05108922",
+          "NCT05738486",
+          "NCT07589595"
+        ],
+        "nct_ids_total": 6,
+        "field_path": "protocolSection.contactsLocationsModule.locations[11].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03367403",
+            "excerpt": "JEM Research Institute"
+          },
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "JEM Research Institute",
+            "field_path": "protocolSection.contactsLocationsModule.locations[40].facility"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "JEM Research Institute",
+            "field_path": "protocolSection.contactsLocationsModule.locations[44].facility"
+          }
+        ],
+        "citations_total": 6,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d4",
+        "site": "Merritt Island Medical Research, LLC",
+        "city": "Merritt Island",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 28.359,
+        "lon": -80.69,
+        "trial_count": 6,
+        "nct_ids": [
+          "NCT03367403",
+          "NCT04437511",
+          "NCT04640077",
+          "NCT05026866",
+          "NCT05108922",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 6,
+        "field_path": "protocolSection.contactsLocationsModule.locations[16].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03367403",
+            "excerpt": "Merritt Island Medical Research LLC"
+          },
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Merritt Island Medical Research, LLC",
+            "field_path": "protocolSection.contactsLocationsModule.locations[56].facility"
+          },
+          {
+            "nct_id": "NCT04640077",
+            "excerpt": "Merritt Island Medical Research, LLC",
+            "field_path": "protocolSection.contactsLocationsModule.locations[3].facility"
+          }
+        ],
+        "citations_total": 6,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d5",
+        "site": "Progressive Medical Research",
+        "city": "Port Orange",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 29.13832,
+        "lon": -80.99561,
+        "trial_count": 6,
+        "nct_ids": [
+          "NCT03367403",
+          "NCT04437511",
+          "NCT04640077",
+          "NCT05026866",
+          "NCT05738486",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 6,
+        "field_path": "protocolSection.contactsLocationsModule.locations[23].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03367403",
+            "excerpt": "Progressive Medical Research"
+          },
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Progressive Medical Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[81].facility"
+          },
+          {
+            "nct_id": "NCT04640077",
+            "excerpt": "Progressive Medical Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[6].facility"
+          }
+        ],
+        "citations_total": 6,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d6",
+        "site": "Banner Alzheimer's Institute",
+        "city": "Phoenix",
+        "state": "Arizona",
+        "country": "United States",
+        "lat": 33.44838,
+        "lon": -112.07404,
+        "trial_count": 5,
+        "nct_ids": [
+          "NCT03367403",
+          "NCT04437511",
+          "NCT04640077",
+          "NCT05026866",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 5,
+        "field_path": "protocolSection.contactsLocationsModule.locations[0].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03367403",
+            "excerpt": "Banner Alzheimer's Institute"
+          },
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Banner Alzheimer's Institute",
+            "field_path": "protocolSection.contactsLocationsModule.locations[2].facility"
+          },
+          {
+            "nct_id": "NCT04640077",
+            "excerpt": "Banner Alzheimer's Institute"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d7",
+        "site": "Boston Center for Memory",
+        "city": "Newton",
+        "state": "Massachusetts",
+        "country": "United States",
+        "lat": 42.33704,
+        "lon": -71.20922,
+        "trial_count": 5,
+        "nct_ids": [
+          "NCT03367403",
+          "NCT04437511",
+          "NCT04640077",
+          "NCT05026866",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 5,
+        "field_path": "protocolSection.contactsLocationsModule.locations[36].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03367403",
+            "excerpt": "Boston Center for Memory"
+          },
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Boston Center for Memory",
+            "field_path": "protocolSection.contactsLocationsModule.locations[119].facility"
+          },
+          {
+            "nct_id": "NCT04640077",
+            "excerpt": "Boston Center for Memory",
+            "field_path": "protocolSection.contactsLocationsModule.locations[13].facility"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d8",
+        "site": "Brain Matters Research",
+        "city": "Delray Beach",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 26.46146,
+        "lon": -80.07282,
+        "trial_count": 5,
+        "nct_ids": [
+          "NCT03367403",
+          "NCT04437511",
+          "NCT05108922",
+          "NCT05738486",
+          "NCT07589595"
+        ],
+        "nct_ids_total": 5,
+        "field_path": "protocolSection.contactsLocationsModule.locations[13].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03367403",
+            "excerpt": "Brain Matters Research"
+          },
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Brain Matters Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[44].facility"
+          },
+          {
+            "nct_id": "NCT05108922",
+            "excerpt": "Brain Matters Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[5].facility"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d9",
+        "site": "Gadolin Research",
+        "city": "Beaumont",
+        "state": "Texas",
+        "country": "United States",
+        "lat": 30.08605,
+        "lon": -94.10185,
+        "trial_count": 5,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866",
+          "NCT05738486",
+          "NCT07589595",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 5,
+        "field_path": "protocolSection.contactsLocationsModule.locations[168].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Gadolin Research"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Gadolin Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[176].facility"
+          },
+          {
+            "nct_id": "NCT05738486",
+            "excerpt": "Gadolin Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[37].facility"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d10",
+        "site": "Infinity Clinical Research, LLC",
+        "city": "Hollywood",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 26.0112,
+        "lon": -80.14949,
+        "trial_count": 5,
+        "nct_ids": [
+          "NCT03367403",
+          "NCT04437511",
+          "NCT05026866",
+          "NCT05108922",
+          "NCT05738486"
+        ],
+        "nct_ids_total": 5,
+        "field_path": "protocolSection.contactsLocationsModule.locations[14].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03367403",
+            "excerpt": "Infinity Clinical Research, LLC"
+          },
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Infinity Clinical Research, LLC",
+            "field_path": "protocolSection.contactsLocationsModule.locations[52].facility"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Infinity Clinical Research, LLC",
+            "field_path": "protocolSection.contactsLocationsModule.locations[55].facility"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d11",
+        "site": "Jacksonville Center for Clinical Research",
+        "city": "Jacksonville",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 30.33218,
+        "lon": -81.65565,
+        "trial_count": 5,
+        "nct_ids": [
+          "NCT03367403",
+          "NCT05026866",
+          "NCT05108922",
+          "NCT05738486",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 5,
+        "field_path": "protocolSection.contactsLocationsModule.locations[15].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03367403",
+            "excerpt": "Jacksonville Center for Clinical Research"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Jacksonville Center for Clinical Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[56].facility"
+          },
+          {
+            "nct_id": "NCT05108922",
+            "excerpt": "Jacksonville Center for Clinical Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[8].facility"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d12",
+        "site": "Josephson Wallack Munshower Neurology, PC",
+        "city": "Indianapolis",
+        "state": "Indiana",
+        "country": "United States",
+        "lat": 39.76838,
+        "lon": -86.15804,
+        "trial_count": 5,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT04640077",
+          "NCT05026866",
+          "NCT05108922",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 5,
+        "field_path": "protocolSection.contactsLocationsModule.locations[107].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Josephson Wallack Munshower Neurology, PC"
+          },
+          {
+            "nct_id": "NCT04640077",
+            "excerpt": "Josephson Wallack Munshower Neurology, PC",
+            "field_path": "protocolSection.contactsLocationsModule.locations[10].facility"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Josephson Wallack Munshower Neurology, PC",
+            "field_path": "protocolSection.contactsLocationsModule.locations[106].facility"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d13",
+        "site": "Las Vegas Medical Research",
+        "city": "Las Vegas",
+        "state": "Nevada",
+        "country": "United States",
+        "lat": 36.17497,
+        "lon": -115.13722,
+        "trial_count": 5,
+        "nct_ids": [
+          "NCT03367403",
+          "NCT04437511",
+          "NCT04640077",
+          "NCT05026866",
+          "NCT05108922"
+        ],
+        "nct_ids_total": 5,
+        "field_path": "protocolSection.contactsLocationsModule.locations[39].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03367403",
+            "excerpt": "Las Vegas Medical Research"
+          },
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Las Vegas Medical Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[131].facility"
+          },
+          {
+            "nct_id": "NCT04640077",
+            "excerpt": "Las Vegas Medical Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[15].facility"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d14",
+        "site": "Neurology Diagnostics, Inc.",
+        "city": "Dayton",
+        "state": "Ohio",
+        "country": "United States",
+        "lat": 39.75895,
+        "lon": -84.19161,
+        "trial_count": 5,
+        "nct_ids": [
+          "NCT03367403",
+          "NCT04437511",
+          "NCT04640077",
+          "NCT05026866",
+          "NCT05108922"
+        ],
+        "nct_ids_total": 5,
+        "field_path": "protocolSection.contactsLocationsModule.locations[47].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03367403",
+            "excerpt": "Neurology Diagnostics, Inc."
+          },
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Neurology Diagnostics, Inc.",
+            "field_path": "protocolSection.contactsLocationsModule.locations[154].facility"
+          },
+          {
+            "nct_id": "NCT04640077",
+            "excerpt": "Neurology Diagnostics, Inc.",
+            "field_path": "protocolSection.contactsLocationsModule.locations[19].facility"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d15",
+        "site": "The Cognitive and Research Center of New Jersey",
+        "city": "Springfield",
+        "state": "New Jersey",
+        "country": "United States",
+        "lat": 40.70491,
+        "lon": -74.31723,
+        "trial_count": 5,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866",
+          "NCT05108922",
+          "NCT05738486",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 5,
+        "field_path": "protocolSection.contactsLocationsModule.locations[132].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "The Cognitive and Research Center of New Jersey"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "The Cognitive and Research Center of New Jersey",
+            "field_path": "protocolSection.contactsLocationsModule.locations[129].facility"
+          },
+          {
+            "nct_id": "NCT05108922",
+            "excerpt": "The Cognitive and Research Center of New Jersey",
+            "field_path": "protocolSection.contactsLocationsModule.locations[24].facility"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d16",
+        "site": "The University of Texas Health Science Center at Houston",
+        "city": "Houston",
+        "state": "Texas",
+        "country": "United States",
+        "lat": 29.76328,
+        "lon": -95.36327,
+        "trial_count": 5,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866",
+          "NCT05738486",
+          "NCT07589595",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 5,
+        "field_path": "protocolSection.contactsLocationsModule.locations[173].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "The University of Texas Health Science Center at Houston"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "The University of Texas Health Science Center at Houston",
+            "field_path": "protocolSection.contactsLocationsModule.locations[182].facility"
+          },
+          {
+            "nct_id": "NCT05738486",
+            "excerpt": "The University of Texas Health Science Center at Houston",
+            "field_path": "protocolSection.contactsLocationsModule.locations[39].facility"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d17",
+        "site": "Advanced Memory Research Institute of New Jersey",
+        "city": "Toms River",
+        "state": "New Jersey",
+        "country": "United States",
+        "lat": 39.95373,
+        "lon": -74.19792,
+        "trial_count": 4,
+        "nct_ids": [
+          "NCT03367403",
+          "NCT04437511",
+          "NCT04640077",
+          "NCT05108922"
+        ],
+        "nct_ids_total": 4,
+        "field_path": "protocolSection.contactsLocationsModule.locations[40].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03367403",
+            "excerpt": "Advanced Memory Research Institute of New Jersey"
+          },
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Advanced Memory Research Institute of New Jersey",
+            "field_path": "protocolSection.contactsLocationsModule.locations[133].facility"
+          },
+          {
+            "nct_id": "NCT04640077",
+            "excerpt": "Advanced Memory Research Institute of New Jersey",
+            "field_path": "protocolSection.contactsLocationsModule.locations[16].facility"
+          }
+        ],
+        "citations_total": 4,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d18",
+        "site": "Center for Advanced Research & Education",
+        "city": "Gainesville",
+        "state": "Georgia",
+        "country": "United States",
+        "lat": 34.29788,
+        "lon": -83.82407,
+        "trial_count": 4,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866",
+          "NCT05738486",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 4,
+        "field_path": "protocolSection.contactsLocationsModule.locations[100].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Center for Advanced Research & Education"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Center for Advanced Research & Education",
+            "field_path": "protocolSection.contactsLocationsModule.locations[92].facility"
+          },
+          {
+            "nct_id": "NCT05738486",
+            "excerpt": "Center for Advanced Research & Education",
+            "field_path": "protocolSection.contactsLocationsModule.locations[29].facility"
+          }
+        ],
+        "citations_total": 4,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d19",
+        "site": "Citizens Memorial Hospital District",
+        "city": "Bolivar",
+        "state": "Missouri",
+        "country": "United States",
+        "lat": 37.61448,
+        "lon": -93.41047,
+        "trial_count": 4,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866",
+          "NCT07589595",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 4,
+        "field_path": "protocolSection.contactsLocationsModule.locations[126].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Citizens Memorial Hospital District"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Citizens Memorial Hospital District",
+            "field_path": "protocolSection.contactsLocationsModule.locations[122].facility"
+          },
+          {
+            "nct_id": "NCT07589595",
+            "excerpt": "Citizens Memorial Hospital District",
+            "field_path": "protocolSection.contactsLocationsModule.locations[30].facility"
+          }
+        ],
+        "citations_total": 4,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d20",
+        "site": "ClinCloud - Maitland",
+        "city": "Maitland",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 28.62778,
+        "lon": -81.36312,
+        "trial_count": 4,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866",
+          "NCT05108922",
+          "NCT05738486"
+        ],
+        "nct_ids_total": 4,
+        "field_path": "protocolSection.contactsLocationsModule.locations[55].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "ClinCloud - Maitland"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "ClinCloud - Maitland",
+            "field_path": "protocolSection.contactsLocationsModule.locations[59].facility"
+          },
+          {
+            "nct_id": "NCT05108922",
+            "excerpt": "ClinCloud - Maitland",
+            "field_path": "protocolSection.contactsLocationsModule.locations[10].facility"
+          }
+        ],
+        "citations_total": 4,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d21",
+        "site": "Finlay Medical Research",
+        "city": "Greenacres City",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 26.62368,
+        "lon": -80.12532,
+        "trial_count": 4,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866",
+          "NCT05738486",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 4,
+        "field_path": "protocolSection.contactsLocationsModule.locations[48].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Finlay Medical Research"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Finlay Medical Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[53].facility"
+          },
+          {
+            "nct_id": "NCT05738486",
+            "excerpt": "Finlay Medical Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[10].facility"
+          }
+        ],
+        "citations_total": 4,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d22",
+        "site": "Kerwin Medical Center",
+        "city": "Dallas",
+        "state": "Texas",
+        "country": "United States",
+        "lat": 32.78306,
+        "lon": -96.80667,
+        "trial_count": 4,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05108922",
+          "NCT05738486",
+          "NCT07589595"
+        ],
+        "nct_ids_total": 4,
+        "field_path": "protocolSection.contactsLocationsModule.locations[169].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Kerwin Medical Center"
+          },
+          {
+            "nct_id": "NCT05108922",
+            "excerpt": "Kerwin Medical Center",
+            "field_path": "protocolSection.contactsLocationsModule.locations[29].facility"
+          },
+          {
+            "nct_id": "NCT05738486",
+            "excerpt": "Kerwin Medical Center",
+            "field_path": "protocolSection.contactsLocationsModule.locations[38].facility"
+          }
+        ],
+        "citations_total": 4,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d23",
+        "site": "MedVadis Research Corporation",
+        "city": "Waltham",
+        "state": "Massachusetts",
+        "country": "United States",
+        "lat": 42.37649,
+        "lon": -71.23561,
+        "trial_count": 4,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866",
+          "NCT05738486",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 4,
+        "field_path": "protocolSection.contactsLocationsModule.locations[122].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "MedVadis Research Corporation"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "MedVadis Research Corporation",
+            "field_path": "protocolSection.contactsLocationsModule.locations[116].facility"
+          },
+          {
+            "nct_id": "NCT05738486",
+            "excerpt": "MedVadis Research Corporation",
+            "field_path": "protocolSection.contactsLocationsModule.locations[31].facility"
+          }
+        ],
+        "citations_total": 4,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d24",
+        "site": "Neurology Center of North Orange County",
+        "city": "Fullerton",
+        "state": "California",
+        "country": "United States",
+        "lat": 33.87029,
+        "lon": -117.92534,
+        "trial_count": 4,
+        "nct_ids": [
+          "NCT03367403",
+          "NCT04437511",
+          "NCT05026866",
+          "NCT05108922"
+        ],
+        "nct_ids_total": 4,
+        "field_path": "protocolSection.contactsLocationsModule.locations[11].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03367403",
+            "excerpt": "Neurology Center of North Orange County",
+            "field_path": "protocolSection.contactsLocationsModule.locations[2].facility"
+          },
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Neurology Center of North Orange County"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Neurology Center of North Orange County"
+          }
+        ],
+        "citations_total": 4,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d25",
+        "site": "Neuropsychiatric Research Center of Southwest Florida",
+        "city": "Fort Myers",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 26.62168,
+        "lon": -81.84059,
+        "trial_count": 4,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05108922",
+          "NCT05738486",
+          "NCT07589595"
+        ],
+        "nct_ids_total": 4,
+        "field_path": "protocolSection.contactsLocationsModule.locations[47].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Neuropsychiatric Research Center of Southwest Florida"
+          },
+          {
+            "nct_id": "NCT05108922",
+            "excerpt": "Neuropsychiatric Research Center of Southwest Florida",
+            "field_path": "protocolSection.contactsLocationsModule.locations[6].facility"
+          },
+          {
+            "nct_id": "NCT05738486",
+            "excerpt": "Neuropsychiatric Research Center of Southwest Florida",
+            "field_path": "protocolSection.contactsLocationsModule.locations[9].facility"
+          }
+        ],
+        "citations_total": 4,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d26",
+        "site": "Northwest Clinical Research Center",
+        "city": "Bellevue",
+        "state": "Washington",
+        "country": "United States",
+        "lat": 47.61038,
+        "lon": -122.20068,
+        "trial_count": 4,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866",
+          "NCT05738486",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 4,
+        "field_path": "protocolSection.contactsLocationsModule.locations[180].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Northwest Clinical Research Center"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Northwest Clinical Research Center",
+            "field_path": "protocolSection.contactsLocationsModule.locations[194].facility"
+          },
+          {
+            "nct_id": "NCT05738486",
+            "excerpt": "Northwest Clinical Research Center",
+            "field_path": "protocolSection.contactsLocationsModule.locations[41].facility"
+          }
+        ],
+        "citations_total": 4,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d27",
+        "site": "Renstar Medical Research",
+        "city": "Ocala",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 29.1872,
+        "lon": -82.14009,
+        "trial_count": 4,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866",
+          "NCT05738486",
+          "NCT07589595"
+        ],
+        "nct_ids_total": 4,
+        "field_path": "protocolSection.contactsLocationsModule.locations[73].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Renstar Medical Research"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Renstar Medical Research"
+          },
+          {
+            "nct_id": "NCT05738486",
+            "excerpt": "Renstar Medical Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[17].facility"
+          }
+        ],
+        "citations_total": 4,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d28",
+        "site": "Stedman Clinical Trials",
+        "city": "Tampa",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 27.94752,
+        "lon": -82.45843,
+        "trial_count": 4,
+        "nct_ids": [
+          "NCT03367403",
+          "NCT04437511",
+          "NCT04640077",
+          "NCT05026866"
+        ],
+        "nct_ids_total": 4,
+        "field_path": "protocolSection.contactsLocationsModule.locations[26].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03367403",
+            "excerpt": "Stedman Clinical Trials"
+          },
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Stedman Clinical Trials",
+            "field_path": "protocolSection.contactsLocationsModule.locations[89].facility"
+          },
+          {
+            "nct_id": "NCT04640077",
+            "excerpt": "Stedman Clinical Trials",
+            "field_path": "protocolSection.contactsLocationsModule.locations[8].facility"
+          }
+        ],
+        "citations_total": 4,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d29",
+        "site": "Suncoast Clinical Research, Inc.",
+        "city": "New Port Richey",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 28.24418,
+        "lon": -82.71927,
+        "trial_count": 4,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866",
+          "NCT05738486",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 4,
+        "field_path": "protocolSection.contactsLocationsModule.locations[72].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Suncoast Clinical Research, Inc."
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Suncoast Clinical Research, Inc."
+          },
+          {
+            "nct_id": "NCT05738486",
+            "excerpt": "Suncoast Clinical Research, Inc.",
+            "field_path": "protocolSection.contactsLocationsModule.locations[16].facility"
+          }
+        ],
+        "citations_total": 4,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d30",
+        "site": "Syrentis Clinical Research",
+        "city": "Santa Ana",
+        "state": "California",
+        "country": "United States",
+        "lat": 33.74557,
+        "lon": -117.86783,
+        "trial_count": 4,
+        "nct_ids": [
+          "NCT03367403",
+          "NCT04437511",
+          "NCT05026866",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 4,
+        "field_path": "protocolSection.contactsLocationsModule.locations[8].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03367403",
+            "excerpt": "Syrentis Clinical Research"
+          },
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Syrentis Clinical Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[28].facility"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Syrentis Clinical Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[32].facility"
+          }
+        ],
+        "citations_total": 4,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d31",
+        "site": "Universal Research Group",
+        "city": "Tacoma",
+        "state": "Washington",
+        "country": "United States",
+        "lat": 47.25288,
+        "lon": -122.44429,
+        "trial_count": 4,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866",
+          "NCT05738486",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 4,
+        "field_path": "protocolSection.contactsLocationsModule.locations[184].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Universal Research Group"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Universal Research Group",
+            "field_path": "protocolSection.contactsLocationsModule.locations[195].facility"
+          },
+          {
+            "nct_id": "NCT05738486",
+            "excerpt": "Universal Research Group",
+            "field_path": "protocolSection.contactsLocationsModule.locations[42].facility"
+          }
+        ],
+        "citations_total": 4,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d32",
+        "site": "Abington Neurological Associates, Ltd.",
+        "city": "Abington",
+        "state": "Pennsylvania",
+        "country": "United States",
+        "lat": 40.12067,
+        "lon": -75.11795,
+        "trial_count": 3,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT04640077",
+          "NCT05108922"
+        ],
+        "nct_ids_total": 3,
+        "field_path": "protocolSection.contactsLocationsModule.locations[160].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Abington Neurological Associates, Ltd."
+          },
+          {
+            "nct_id": "NCT04640077",
+            "excerpt": "Abington Neurological Associates, Ltd.",
+            "field_path": "protocolSection.contactsLocationsModule.locations[20].facility"
+          },
+          {
+            "nct_id": "NCT05108922",
+            "excerpt": "Abington Neurological Associates, Ltd.",
+            "field_path": "protocolSection.contactsLocationsModule.locations[27].facility"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d33",
+        "site": "Adams Clinical",
+        "city": "Watertown",
+        "state": "Massachusetts",
+        "country": "United States",
+        "lat": 42.37093,
+        "lon": -71.18283,
+        "trial_count": 3,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05108922",
+          "NCT05738486"
+        ],
+        "nct_ids_total": 3,
+        "field_path": "protocolSection.contactsLocationsModule.locations[123].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Adams Clinical"
+          },
+          {
+            "nct_id": "NCT05108922",
+            "excerpt": "Adams Clinical",
+            "field_path": "protocolSection.contactsLocationsModule.locations[21].facility"
+          },
+          {
+            "nct_id": "NCT05738486",
+            "excerpt": "Adams Clinical",
+            "field_path": "protocolSection.contactsLocationsModule.locations[32].facility"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d34",
+        "site": "Artemis Institute for Clinical Research",
+        "city": "San Diego",
+        "state": "California",
+        "country": "United States",
+        "lat": 32.71571,
+        "lon": -117.16472,
+        "trial_count": 3,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 3,
+        "field_path": "protocolSection.contactsLocationsModule.locations[24].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Artemis Institute for Clinical Research"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Artemis Institute for Clinical Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[29].facility"
+          },
+          {
+            "nct_id": "NCT07602582",
+            "excerpt": "Artemis Institute for Clinical Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[6].facility"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d35",
+        "site": "Bradenton Research Center, Inc.",
+        "city": "Bradenton",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 27.49893,
+        "lon": -82.57482,
+        "trial_count": 3,
+        "nct_ids": [
+          "NCT04640077",
+          "NCT05026866",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 3,
+        "field_path": "protocolSection.contactsLocationsModule.locations[2].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04640077",
+            "excerpt": "Bradenton Research Center, Inc."
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Bradenton Research Center, Inc.",
+            "field_path": "protocolSection.contactsLocationsModule.locations[49].facility"
+          },
+          {
+            "nct_id": "NCT07602582",
+            "excerpt": "Bradenton Research Center, Inc.",
+            "field_path": "protocolSection.contactsLocationsModule.locations[11].facility"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d36",
+        "site": "California Neuroscience Research Medical Group, Inc.",
+        "city": "Sherman Oaks",
+        "state": "California",
+        "country": "United States",
+        "lat": 34.15112,
+        "lon": -118.44925,
+        "trial_count": 3,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05108922",
+          "NCT05738486"
+        ],
+        "nct_ids_total": 3,
+        "field_path": "protocolSection.contactsLocationsModule.locations[29].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "California Neuroscience Research Medical Group, Inc."
+          },
+          {
+            "nct_id": "NCT05108922",
+            "excerpt": "California Neuroscience Research Medical Group, Inc.",
+            "field_path": "protocolSection.contactsLocationsModule.locations[2].facility"
+          },
+          {
+            "nct_id": "NCT05738486",
+            "excerpt": "California Neuroscience Research Medical Group, Inc.",
+            "field_path": "protocolSection.contactsLocationsModule.locations[3].facility"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d37",
+        "site": "Charter Research - Lady Lake",
+        "city": "The Villages",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 28.93408,
+        "lon": -81.95994,
+        "trial_count": 3,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866",
+          "NCT05738486"
+        ],
+        "nct_ids_total": 3,
+        "field_path": "protocolSection.contactsLocationsModule.locations[91].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Charter Research - Lady Lake"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Charter Research - Lady Lake",
+            "field_path": "protocolSection.contactsLocationsModule.locations[87].facility"
+          },
+          {
+            "nct_id": "NCT05738486",
+            "excerpt": "Charter Research - Lady Lake",
+            "field_path": "protocolSection.contactsLocationsModule.locations[23].facility"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d38",
+        "site": "ClinCloud - Viera",
+        "city": "Melbourne",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 28.08363,
+        "lon": -80.60811,
+        "trial_count": 3,
+        "nct_ids": [
+          "NCT05026866",
+          "NCT05108922",
+          "NCT05738486"
+        ],
+        "nct_ids_total": 3,
+        "field_path": "protocolSection.contactsLocationsModule.locations[61].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "ClinCloud - Viera"
+          },
+          {
+            "nct_id": "NCT05108922",
+            "excerpt": "ClinCloud - Viera",
+            "field_path": "protocolSection.contactsLocationsModule.locations[11].facility"
+          },
+          {
+            "nct_id": "NCT05738486",
+            "excerpt": "ClinCloud - Viera",
+            "field_path": "protocolSection.contactsLocationsModule.locations[15].facility"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d39",
+        "site": "Clinical Research Professionals",
+        "city": "Chesterfield",
+        "state": "Missouri",
+        "country": "United States",
+        "lat": 38.66311,
+        "lon": -90.57707,
+        "trial_count": 3,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866",
+          "NCT05108922"
+        ],
+        "nct_ids_total": 3,
+        "field_path": "protocolSection.contactsLocationsModule.locations[127].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Clinical Research Professionals"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Clinical Research Professionals",
+            "field_path": "protocolSection.contactsLocationsModule.locations[123].facility"
+          },
+          {
+            "nct_id": "NCT05108922",
+            "excerpt": "Clinical Research Professionals",
+            "field_path": "protocolSection.contactsLocationsModule.locations[22].facility"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d40",
+        "site": "Covenant Medical Center",
+        "city": "Waterloo",
+        "state": "Iowa",
+        "country": "United States",
+        "lat": 42.49276,
+        "lon": -92.34296,
+        "trial_count": 3,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 3,
+        "field_path": "protocolSection.contactsLocationsModule.locations[109].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Covenant Medical Center"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Covenant Medical Center",
+            "field_path": "protocolSection.contactsLocationsModule.locations[107].facility"
+          },
+          {
+            "nct_id": "NCT07602582",
+            "excerpt": "Covenant Medical Center",
+            "field_path": "protocolSection.contactsLocationsModule.locations[35].facility"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d41",
+        "site": "Emerald Coast Neurology - Airport Boulevard",
+        "city": "Pensacola",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 30.42131,
+        "lon": -87.21691,
+        "trial_count": 3,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 3,
+        "field_path": "protocolSection.contactsLocationsModule.locations[79].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Emerald Coast Neurology - Airport Boulevard"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Emerald Coast Neurology - Airport Boulevard",
+            "field_path": "protocolSection.contactsLocationsModule.locations[78].facility"
+          },
+          {
+            "nct_id": "NCT07602582",
+            "excerpt": "Emerald Coast Neurology - Airport Boulevard",
+            "field_path": "protocolSection.contactsLocationsModule.locations[23].facility"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d42",
+        "site": "Finlay Medical Research",
+        "city": "Miami",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 25.77427,
+        "lon": -80.19366,
+        "trial_count": 3,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 3,
+        "field_path": "protocolSection.contactsLocationsModule.locations[58].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Finlay Medical Research"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Finlay Medical Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[64].facility"
+          },
+          {
+            "nct_id": "NCT07602582",
+            "excerpt": "Finlay Medical Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[16].facility"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d43",
+        "site": "Great Lakes Clinical Trials - Andersonville",
+        "city": "Chicago",
+        "state": "Illinois",
+        "country": "United States",
+        "lat": 41.85003,
+        "lon": -87.65005,
+        "trial_count": 3,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 3,
+        "field_path": "protocolSection.contactsLocationsModule.locations[102].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Great Lakes Clinical Trials - Andersonville"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Great Lakes Clinical Trials - Andersonville",
+            "field_path": "protocolSection.contactsLocationsModule.locations[98].facility"
+          },
+          {
+            "nct_id": "NCT07602582",
+            "excerpt": "Great Lakes Clinical Trials - Andersonville",
+            "field_path": "protocolSection.contactsLocationsModule.locations[32].facility"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d44",
+        "site": "Headlands Research Orlando",
+        "city": "Orlando",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 28.53834,
+        "lon": -81.37924,
+        "trial_count": 3,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 3,
+        "field_path": "protocolSection.contactsLocationsModule.locations[77].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Headlands Research Orlando"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Headlands Research Orlando",
+            "field_path": "protocolSection.contactsLocationsModule.locations[75].facility"
+          },
+          {
+            "nct_id": "NCT07602582",
+            "excerpt": "Headlands Research Orlando",
+            "field_path": "protocolSection.contactsLocationsModule.locations[22].facility"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d45",
+        "site": "Healthy Brain Clinic",
+        "city": "Long Beach",
+        "state": "California",
+        "country": "United States",
+        "lat": 33.76696,
+        "lon": -118.18923,
+        "trial_count": 3,
+        "nct_ids": [
+          "NCT05026866",
+          "NCT05738486",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 3,
+        "field_path": "protocolSection.contactsLocationsModule.locations[20].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Healthy Brain Clinic"
+          },
+          {
+            "nct_id": "NCT05738486",
+            "excerpt": "Healthy Brain Clinic",
+            "field_path": "protocolSection.contactsLocationsModule.locations[2].facility"
+          },
+          {
+            "nct_id": "NCT07602582",
+            "excerpt": "Healthy Brain Clinic",
+            "field_path": "protocolSection.contactsLocationsModule.locations[3].facility"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d46",
+        "site": "K2 Medical Research - Tampa",
+        "city": "Tampa",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 27.94752,
+        "lon": -82.45843,
+        "trial_count": 3,
+        "nct_ids": [
+          "NCT05026866",
+          "NCT05738486",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 3,
+        "field_path": "protocolSection.contactsLocationsModule.locations[86].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "K2 Medical Research - Tampa"
+          },
+          {
+            "nct_id": "NCT05738486",
+            "excerpt": "K2 Medical Research - Tampa",
+            "field_path": "protocolSection.contactsLocationsModule.locations[21].facility"
+          },
+          {
+            "nct_id": "NCT07602582",
+            "excerpt": "K2 Medical Research - Tampa",
+            "field_path": "protocolSection.contactsLocationsModule.locations[26].facility"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d47",
+        "site": "National Clinical Research, Inc",
+        "city": "Richmond",
+        "state": "Virginia",
+        "country": "United States",
+        "lat": 37.55376,
+        "lon": -77.46026,
+        "trial_count": 3,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT04640077",
+          "NCT05108922"
+        ],
+        "nct_ids_total": 3,
+        "field_path": "protocolSection.contactsLocationsModule.locations[179].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "National Clinical Research, Inc"
+          },
+          {
+            "nct_id": "NCT04640077",
+            "excerpt": "National Clinical Research, Inc",
+            "field_path": "protocolSection.contactsLocationsModule.locations[22].facility"
+          },
+          {
+            "nct_id": "NCT05108922",
+            "excerpt": "National Clinical Research, Inc",
+            "field_path": "protocolSection.contactsLocationsModule.locations[30].facility"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d48",
+        "site": "Northwest Clinical Trials",
+        "city": "Boise",
+        "state": "Idaho",
+        "country": "United States",
+        "lat": 43.6135,
+        "lon": -116.20345,
+        "trial_count": 3,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 3,
+        "field_path": "protocolSection.contactsLocationsModule.locations[101].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Northwest Clinical Trials"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Northwest Clinical Trials",
+            "field_path": "protocolSection.contactsLocationsModule.locations[96].facility"
+          },
+          {
+            "nct_id": "NCT07602582",
+            "excerpt": "Northwest Clinical Trials",
+            "field_path": "protocolSection.contactsLocationsModule.locations[31].facility"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d49",
+        "site": "Optimus U Corporation",
+        "city": "Miami",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 25.77427,
+        "lon": -80.19366,
+        "trial_count": 3,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866",
+          "NCT05108922"
+        ],
+        "nct_ids_total": 3,
+        "field_path": "protocolSection.contactsLocationsModule.locations[59].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Optimus U Corporation"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Optimus U Corporation",
+            "field_path": "protocolSection.contactsLocationsModule.locations[63].facility"
+          },
+          {
+            "nct_id": "NCT05108922",
+            "excerpt": "Optimus U Corporation",
+            "field_path": "protocolSection.contactsLocationsModule.locations[13].facility"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d50",
+        "site": "Palm Beach Neurology",
+        "city": "West Palm Beach",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 26.71534,
+        "lon": -80.05337,
+        "trial_count": 3,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05738486",
+          "NCT07589595"
+        ],
+        "nct_ids_total": 3,
+        "field_path": "protocolSection.contactsLocationsModule.locations[94].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Palm Beach Neurology"
+          },
+          {
+            "nct_id": "NCT05738486",
+            "excerpt": "Palm Beach Neurology",
+            "field_path": "protocolSection.contactsLocationsModule.locations[25].facility"
+          },
+          {
+            "nct_id": "NCT07589595",
+            "excerpt": "Palm Beach Neurology",
+            "field_path": "protocolSection.contactsLocationsModule.locations[19].facility"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d51",
+        "site": "QUEST Research Institute",
+        "city": "Farmington Hills",
+        "state": "Michigan",
+        "country": "United States",
+        "lat": 42.48531,
+        "lon": -83.37716,
+        "trial_count": 3,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05738486",
+          "NCT07589595"
+        ],
+        "nct_ids_total": 3,
+        "field_path": "protocolSection.contactsLocationsModule.locations[124].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "QUEST Research Institute"
+          },
+          {
+            "nct_id": "NCT05738486",
+            "excerpt": "QUEST Research Institute",
+            "field_path": "protocolSection.contactsLocationsModule.locations[33].facility"
+          },
+          {
+            "nct_id": "NCT07589595",
+            "excerpt": "QUEST Research Institute",
+            "field_path": "protocolSection.contactsLocationsModule.locations[27].facility"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d52",
+        "site": "Senior Adults Specialty Research",
+        "city": "Austin",
+        "state": "Texas",
+        "country": "United States",
+        "lat": 30.26715,
+        "lon": -97.74306,
+        "trial_count": 3,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 3,
+        "field_path": "protocolSection.contactsLocationsModule.locations[167].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Senior Adults Specialty Research"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Senior Adults Specialty Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[175].facility"
+          },
+          {
+            "nct_id": "NCT07602582",
+            "excerpt": "Senior Adults Specialty Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[46].facility"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d53",
+        "site": "The Memory Clinic",
+        "city": "Bennington",
+        "state": "Vermont",
+        "country": "United States",
+        "lat": 42.87813,
+        "lon": -73.19677,
+        "trial_count": 3,
+        "nct_ids": [
+          "NCT03367403",
+          "NCT04437511",
+          "NCT05026866"
+        ],
+        "nct_ids_total": 3,
+        "field_path": "protocolSection.contactsLocationsModule.locations[53].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03367403",
+            "excerpt": "The Memory Clinic"
+          },
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "The Memory Clinic",
+            "field_path": "protocolSection.contactsLocationsModule.locations[176].facility"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "The Memory Clinic",
+            "field_path": "protocolSection.contactsLocationsModule.locations[190].facility"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d54",
+        "site": "The University of Kansas - Clinical Research Center",
+        "city": "Fairway",
+        "state": "Kansas",
+        "country": "United States",
+        "lat": 39.02223,
+        "lon": -94.6319,
+        "trial_count": 3,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT04640077",
+          "NCT07589595"
+        ],
+        "nct_ids_total": 3,
+        "field_path": "protocolSection.contactsLocationsModule.locations[110].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "The University of Kansas - Clinical Research Center"
+          },
+          {
+            "nct_id": "NCT04640077",
+            "excerpt": "The University of Kansas - Clinical Research Center",
+            "field_path": "protocolSection.contactsLocationsModule.locations[11].facility"
+          },
+          {
+            "nct_id": "NCT07589595",
+            "excerpt": "The University of Kansas - Clinical Research Center",
+            "field_path": "protocolSection.contactsLocationsModule.locations[22].facility"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d55",
+        "site": "VIN-Julie Schwartzbard",
+        "city": "Aventura",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 25.95648,
+        "lon": -80.13921,
+        "trial_count": 3,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866",
+          "NCT05738486"
+        ],
+        "nct_ids_total": 3,
+        "field_path": "protocolSection.contactsLocationsModule.locations[41].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "VIN-Julie Schwartzbard"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "VIN-Julie Schwartzbard",
+            "field_path": "protocolSection.contactsLocationsModule.locations[45].facility"
+          },
+          {
+            "nct_id": "NCT05738486",
+            "excerpt": "VIN-Julie Schwartzbard",
+            "field_path": "protocolSection.contactsLocationsModule.locations[5].facility"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d56",
+        "site": "AMITA Health - Alexian Brothers Neurosciences Institute Clinical Research",
+        "city": "Elk Grove Village",
+        "state": "Illinois",
+        "country": "United States",
+        "lat": 42.00392,
+        "lon": -87.97035,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[103].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "AMITA Health - Alexian Brothers Neurosciences Institute Clinical Research"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "AMITA Health - Alexian Brothers Neurosciences Institute Clinical Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[100].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d57",
+        "site": "Accellacare - Winston-Salem",
+        "city": "Winston-Salem",
+        "state": "North Carolina",
+        "country": "United States",
+        "lat": 36.09986,
+        "lon": -80.24422,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[148].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Accellacare - Winston-Salem"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Accellacare - Winston-Salem",
+            "field_path": "protocolSection.contactsLocationsModule.locations[149].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d58",
+        "site": "Alzheimer's Research and Treatment Center",
+        "city": "Stuart",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 27.19755,
+        "lon": -80.25283,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05738486"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[85].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Alzheimer's Research and Treatment Center"
+          },
+          {
+            "nct_id": "NCT05738486",
+            "excerpt": "Alzheimer's Research and Treatment Center",
+            "field_path": "protocolSection.contactsLocationsModule.locations[20].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d59",
+        "site": "Alzheimer's Research and Treatment Center",
+        "city": "Wellington",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 26.65868,
+        "lon": -80.24144,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05738486"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[93].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Alzheimer's Research and Treatment Center"
+          },
+          {
+            "nct_id": "NCT05738486",
+            "excerpt": "Alzheimer's Research and Treatment Center",
+            "field_path": "protocolSection.contactsLocationsModule.locations[24].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d60",
+        "site": "Anderson Clinical Research",
+        "city": "Redlands",
+        "state": "California",
+        "country": "United States",
+        "lat": 34.05557,
+        "lon": -117.18254,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[23].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Anderson Clinical Research"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Anderson Clinical Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[25].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d61",
+        "site": "Artemis Institute for Clinical Research",
+        "city": "Riverside",
+        "state": "California",
+        "country": "United States",
+        "lat": 33.95335,
+        "lon": -117.39616,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT05026866",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[26].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Artemis Institute for Clinical Research"
+          },
+          {
+            "nct_id": "NCT07602582",
+            "excerpt": "Artemis Institute for Clinical Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[4].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d62",
+        "site": "Axiom Clinical Research of Florida",
+        "city": "Tampa",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 27.94752,
+        "lon": -82.45843,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05108922"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[88].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Axiom Clinical Research of Florida"
+          },
+          {
+            "nct_id": "NCT05108922",
+            "excerpt": "Axiom Clinical Research of Florida",
+            "field_path": "protocolSection.contactsLocationsModule.locations[16].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d63",
+        "site": "Banner Alzheimer's Institute Tucson",
+        "city": "Tucson",
+        "state": "Arizona",
+        "country": "United States",
+        "lat": 32.22174,
+        "lon": -110.92648,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[5].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Banner Alzheimer's Institute Tucson"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Banner Alzheimer's Institute Tucson"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d64",
+        "site": "Banner Sun Health Research Institute",
+        "city": "Sun City",
+        "state": "Arizona",
+        "country": "United States",
+        "lat": 33.59754,
+        "lon": -112.27182,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT03367403",
+          "NCT04437511"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[1].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03367403",
+            "excerpt": "Banner Sun Health Research Institute"
+          },
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Banner Sun Health Research Institute",
+            "field_path": "protocolSection.contactsLocationsModule.locations[4].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d65",
+        "site": "Brain Matters Research",
+        "city": "Stuart",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 27.19755,
+        "lon": -80.25283,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05108922"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[86].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Brain Matters Research"
+          },
+          {
+            "nct_id": "NCT05108922",
+            "excerpt": "Brain Matters Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[15].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d66",
+        "site": "Butler Hospital",
+        "city": "Providence",
+        "state": "Rhode Island",
+        "country": "United States",
+        "lat": 41.82399,
+        "lon": -71.41283,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT03367403",
+          "NCT05738486"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[50].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03367403",
+            "excerpt": "Butler Hospital"
+          },
+          {
+            "nct_id": "NCT05738486",
+            "excerpt": "Butler Hospital",
+            "field_path": "protocolSection.contactsLocationsModule.locations[35].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d67",
+        "site": "Butler Hospital Memory and Aging Program",
+        "city": "Providence",
+        "state": "Rhode Island",
+        "country": "United States",
+        "lat": 41.82399,
+        "lon": -71.41283,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT06957418",
+          "NCT07167966"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[1].facility",
+        "citations": [
+          {
+            "nct_id": "NCT06957418",
+            "excerpt": "Butler Hospital Memory and Aging Program"
+          },
+          {
+            "nct_id": "NCT07167966",
+            "excerpt": "Butler Hospital Memory and Aging Program"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d68",
+        "site": "Care Access - Lima",
+        "city": "Lima",
+        "state": "Ohio",
+        "country": "United States",
+        "lat": 40.74255,
+        "lon": -84.10523,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT05026866",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[153].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Care Access - Lima"
+          },
+          {
+            "nct_id": "NCT07602582",
+            "excerpt": "Care Access - Lima",
+            "field_path": "protocolSection.contactsLocationsModule.locations[45].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d69",
+        "site": "Care Access - South Indianapolis",
+        "city": "Indianapolis",
+        "state": "Indiana",
+        "country": "United States",
+        "lat": 39.76838,
+        "lon": -86.15804,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT05026866",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[105].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Care Access - South Indianapolis"
+          },
+          {
+            "nct_id": "NCT07602582",
+            "excerpt": "Care Access - South Indianapolis",
+            "field_path": "protocolSection.contactsLocationsModule.locations[33].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d70",
+        "site": "Care Access - Tampa",
+        "city": "Tampa",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 27.94752,
+        "lon": -82.45843,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT05026866",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[84].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Care Access - Tampa"
+          },
+          {
+            "nct_id": "NCT07602582",
+            "excerpt": "Care Access - Tampa",
+            "field_path": "protocolSection.contactsLocationsModule.locations[25].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d71",
+        "site": "Carteret Medical Group",
+        "city": "Morehead City",
+        "state": "North Carolina",
+        "country": "United States",
+        "lat": 34.72294,
+        "lon": -76.72604,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[147].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Carteret Medical Group"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Carteret Medical Group"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d72",
+        "site": "Center for Cognitive Health",
+        "city": "Portland",
+        "state": "Oregon",
+        "country": "United States",
+        "lat": 45.52345,
+        "lon": -122.67621,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[159].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Center for Cognitive Health"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Center for Cognitive Health"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d73",
+        "site": "Center for Neurosciences",
+        "city": "Tucson",
+        "state": "Arizona",
+        "country": "United States",
+        "lat": 32.22174,
+        "lon": -110.92648,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[6].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Center for Neurosciences"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Center for Neurosciences"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d74",
+        "site": "Central States Research",
+        "city": "Tulsa",
+        "state": "Oklahoma",
+        "country": "United States",
+        "lat": 36.15398,
+        "lon": -95.99277,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[157].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Central States Research"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Central States Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[156].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d75",
+        "site": "Central Texas Neurology Consultants",
+        "city": "Round Rock",
+        "state": "Texas",
+        "country": "United States",
+        "lat": 30.50826,
+        "lon": -97.6789,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT07589595"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[174].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Central Texas Neurology Consultants"
+          },
+          {
+            "nct_id": "NCT07589595",
+            "excerpt": "Central Texas Neurology Consultants",
+            "field_path": "protocolSection.contactsLocationsModule.locations[38].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d76",
+        "site": "Charter Research - Orlando",
+        "city": "Orlando",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 28.53834,
+        "lon": -81.37924,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT07589595",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[17].facility",
+        "citations": [
+          {
+            "nct_id": "NCT07589595",
+            "excerpt": "Charter Research - Orlando"
+          },
+          {
+            "nct_id": "NCT07602582",
+            "excerpt": "Charter Research - Orlando",
+            "field_path": "protocolSection.contactsLocationsModule.locations[21].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d77",
+        "site": "Charter Research - Winter Park",
+        "city": "Orlando",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 28.53834,
+        "lon": -81.37924,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT05026866",
+          "NCT05738486"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[74].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Charter Research - Winter Park"
+          },
+          {
+            "nct_id": "NCT05738486",
+            "excerpt": "Charter Research - Winter Park",
+            "field_path": "protocolSection.contactsLocationsModule.locations[18].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d78",
+        "site": "Clinical Neuroscience Solutions, Inc. dba CNS Healthcare",
+        "city": "Memphis",
+        "state": "Tennessee",
+        "country": "United States",
+        "lat": 35.14953,
+        "lon": -90.04898,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[166].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Clinical Neuroscience Solutions, Inc. dba CNS Healthcare"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Clinical Neuroscience Solutions, Inc. dba CNS Healthcare",
+            "field_path": "protocolSection.contactsLocationsModule.locations[173].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d79",
+        "site": "Clinical Trials Research",
+        "city": "Sacramento",
+        "state": "California",
+        "country": "United States",
+        "lat": 38.58157,
+        "lon": -121.4944,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT05026866",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[28].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Clinical Trials Research"
+          },
+          {
+            "nct_id": "NCT07602582",
+            "excerpt": "Clinical Trials Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[5].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d80",
+        "site": "Columbus Memory Center, LLC",
+        "city": "Columbus",
+        "state": "Georgia",
+        "country": "United States",
+        "lat": 32.46098,
+        "lon": -84.98771,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05738486"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[98].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Columbus Memory Center, LLC"
+          },
+          {
+            "nct_id": "NCT05738486",
+            "excerpt": "Columbus Memory Center, LLC",
+            "field_path": "protocolSection.contactsLocationsModule.locations[27].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d81",
+        "site": "Consano Clinical Research, LLC",
+        "city": "Shavano Park",
+        "state": "Texas",
+        "country": "United States",
+        "lat": 29.58495,
+        "lon": -98.55252,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT05026866",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[188].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Consano Clinical Research, LLC"
+          },
+          {
+            "nct_id": "NCT07602582",
+            "excerpt": "Consano Clinical Research, LLC",
+            "field_path": "protocolSection.contactsLocationsModule.locations[49].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d82",
+        "site": "Cotton O'Neil Clinical Research Center - Central Office",
+        "city": "Topeka",
+        "state": "Kansas",
+        "country": "United States",
+        "lat": 39.04833,
+        "lon": -95.67804,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT04640077"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[112].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Cotton O'Neil Clinical Research Center - Central Office"
+          },
+          {
+            "nct_id": "NCT04640077",
+            "excerpt": "Cotton O'Neil Clinical Research Center - Central Office",
+            "field_path": "protocolSection.contactsLocationsModule.locations[12].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d83",
+        "site": "Donald S. Marks M.D., P.C.",
+        "city": "Plymouth",
+        "state": "Massachusetts",
+        "country": "United States",
+        "lat": 41.95844,
+        "lon": -70.66726,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05108922"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[120].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Donald S. Marks M.D., P.C."
+          },
+          {
+            "nct_id": "NCT05108922",
+            "excerpt": "Donald S. Marks M.D., P.C.",
+            "field_path": "protocolSection.contactsLocationsModule.locations[20].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d84",
+        "site": "Excel Medical Clinical Trials",
+        "city": "Boca Raton",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 26.35869,
+        "lon": -80.0831,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT05026866",
+          "NCT05738486"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[47].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Excel Medical Clinical Trials"
+          },
+          {
+            "nct_id": "NCT05738486",
+            "excerpt": "Excel Medical Clinical Trials",
+            "field_path": "protocolSection.contactsLocationsModule.locations[6].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d85",
+        "site": "Houston Methodist Hospital",
+        "city": "Houston",
+        "state": "Texas",
+        "country": "United States",
+        "lat": 29.76328,
+        "lon": -95.36327,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT07589595"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[172].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Houston Methodist Hospital"
+          },
+          {
+            "nct_id": "NCT07589595",
+            "excerpt": "Houston Methodist Hospital",
+            "field_path": "protocolSection.contactsLocationsModule.locations[36].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d86",
+        "site": "Indago Research & Health Center, Inc",
+        "city": "Hialeah",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 25.8576,
+        "lon": -80.27811,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[51].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Indago Research & Health Center, Inc"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Indago Research & Health Center, Inc",
+            "field_path": "protocolSection.contactsLocationsModule.locations[54].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d87",
+        "site": "Indiana University",
+        "city": "Indianapolis",
+        "state": "Indiana",
+        "country": "United States",
+        "lat": 39.76838,
+        "lon": -86.15804,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT04640077"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[106].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Indiana University"
+          },
+          {
+            "nct_id": "NCT04640077",
+            "excerpt": "Indiana University",
+            "field_path": "protocolSection.contactsLocationsModule.locations[9].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d88",
+        "site": "Infectious Disease Doctors Medical Group, APC",
+        "city": "Walnut Creek",
+        "state": "California",
+        "country": "United States",
+        "lat": 37.90631,
+        "lon": -122.06496,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT05026866",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[39].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Infectious Disease Doctors Medical Group, APC"
+          },
+          {
+            "nct_id": "NCT07602582",
+            "excerpt": "Infectious Disease Doctors Medical Group, APC",
+            "field_path": "protocolSection.contactsLocationsModule.locations[9].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d89",
+        "site": "Institute for Neurodegenerative Disorders",
+        "city": "New Haven",
+        "state": "Connecticut",
+        "country": "United States",
+        "lat": 41.30815,
+        "lon": -72.92816,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05108922"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[35].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Institute for Neurodegenerative Disorders"
+          },
+          {
+            "nct_id": "NCT05108922",
+            "excerpt": "Institute for Neurodegenerative Disorders",
+            "field_path": "protocolSection.contactsLocationsModule.locations[3].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d90",
+        "site": "Intercoastal Medical Group",
+        "city": "Sarasota",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 27.33643,
+        "lon": -82.53065,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT03367403",
+          "NCT04437511"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[24].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03367403",
+            "excerpt": "Intercoastal Medical Group"
+          },
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Intercoastal Medical Group",
+            "field_path": "protocolSection.contactsLocationsModule.locations[82].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d91",
+        "site": "K2 Medical Research",
+        "city": "Maitland",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 28.62778,
+        "lon": -81.36312,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT05026866",
+          "NCT05738486"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[60].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "K2 Medical Research"
+          },
+          {
+            "nct_id": "NCT05738486",
+            "excerpt": "K2 Medical Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[14].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d92",
+        "site": "K2 Medical Research ORLANDO",
+        "city": "Maitland",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 28.62778,
+        "lon": -81.36312,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT07589595",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[14].facility",
+        "citations": [
+          {
+            "nct_id": "NCT07589595",
+            "excerpt": "K2 Medical Research ORLANDO"
+          },
+          {
+            "nct_id": "NCT07602582",
+            "excerpt": "K2 Medical Research ORLANDO"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d93",
+        "site": "Kaizen Brain Center",
+        "city": "La Jolla",
+        "state": "California",
+        "country": "United States",
+        "lat": 32.84727,
+        "lon": -117.2742,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[13].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Kaizen Brain Center"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Kaizen Brain Center",
+            "field_path": "protocolSection.contactsLocationsModule.locations[17].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d94",
+        "site": "Ki Health Partners, LLc, dba New England Institute for Clinical Research",
+        "city": "Stamford",
+        "state": "Connecticut",
+        "country": "United States",
+        "lat": 41.05343,
+        "lon": -73.53873,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT07589595"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[38].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Ki Health Partners, LLc, dba New England Institute for Clinical Research"
+          },
+          {
+            "nct_id": "NCT07589595",
+            "excerpt": "Ki Health Partners, LLc, dba New England Institute for Clinical Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[7].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d95",
+        "site": "Monroe Biomedical Research",
+        "city": "Monroe",
+        "state": "North Carolina",
+        "country": "United States",
+        "lat": 34.98543,
+        "lon": -80.54951,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT05026866",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[146].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Monroe Biomedical Research"
+          },
+          {
+            "nct_id": "NCT07602582",
+            "excerpt": "Monroe Biomedical Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[43].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d96",
+        "site": "Mountain Neurological Research Center",
+        "city": "Basalt",
+        "state": "Colorado",
+        "country": "United States",
+        "lat": 39.36887,
+        "lon": -107.03282,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[31].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Mountain Neurological Research Center"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Mountain Neurological Research Center",
+            "field_path": "protocolSection.contactsLocationsModule.locations[41].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d97",
+        "site": "NeuroScience Research Center",
+        "city": "Canton",
+        "state": "Ohio",
+        "country": "United States",
+        "lat": 40.79895,
+        "lon": -81.37845,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[149].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "NeuroScience Research Center"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "NeuroScience Research Center",
+            "field_path": "protocolSection.contactsLocationsModule.locations[150].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d98",
+        "site": "Neurological Associates Albany",
+        "city": "Albany",
+        "state": "New York",
+        "country": "United States",
+        "lat": 42.65258,
+        "lon": -73.75623,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[136].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Neurological Associates Albany"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Neurological Associates Albany",
+            "field_path": "protocolSection.contactsLocationsModule.locations[133].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d99",
+        "site": "Neurology Clinic, P.C.",
+        "city": "Cordova",
+        "state": "Tennessee",
+        "country": "United States",
+        "lat": 35.15565,
+        "lon": -89.7762,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05738486"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[165].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Neurology Clinic, P.C."
+          },
+          {
+            "nct_id": "NCT05738486",
+            "excerpt": "Neurology Clinic, P.C.",
+            "field_path": "protocolSection.contactsLocationsModule.locations[36].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d100",
+        "site": "Neurology Offices of South Florida",
+        "city": "Boca Raton",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 26.35869,
+        "lon": -80.0831,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[42].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Neurology Offices of South Florida"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Neurology Offices of South Florida",
+            "field_path": "protocolSection.contactsLocationsModule.locations[46].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d101",
+        "site": "Neurovations",
+        "city": "Napa",
+        "state": "California",
+        "country": "United States",
+        "lat": 38.29714,
+        "lon": -122.28553,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[18].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Neurovations"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Neurovations",
+            "field_path": "protocolSection.contactsLocationsModule.locations[21].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d102",
+        "site": "North Georgia Clinical Research",
+        "city": "Woodstock",
+        "state": "Georgia",
+        "country": "United States",
+        "lat": 34.10149,
+        "lon": -84.51938,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT05026866",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[95].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "North Georgia Clinical Research"
+          },
+          {
+            "nct_id": "NCT07602582",
+            "excerpt": "North Georgia Clinical Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[30].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d103",
+        "site": "Ohio State University",
+        "city": "Columbus",
+        "state": "Ohio",
+        "country": "United States",
+        "lat": 39.96118,
+        "lon": -82.99879,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT04640077"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[152].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Ohio State University"
+          },
+          {
+            "nct_id": "NCT04640077",
+            "excerpt": "Ohio State University",
+            "field_path": "protocolSection.contactsLocationsModule.locations[18].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d104",
+        "site": "Providence Medical Foundation",
+        "city": "Santa Rosa",
+        "state": "California",
+        "country": "United States",
+        "lat": 38.44047,
+        "lon": -122.71443,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT05026866",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[35].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Providence Medical Foundation"
+          },
+          {
+            "nct_id": "NCT07602582",
+            "excerpt": "Providence Medical Foundation",
+            "field_path": "protocolSection.contactsLocationsModule.locations[8].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d105",
+        "site": "Re:Cognition Health",
+        "city": "Fairfax",
+        "state": "Virginia",
+        "country": "United States",
+        "lat": 38.84622,
+        "lon": -77.30637,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT05738486",
+          "NCT07589595"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[40].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05738486",
+            "excerpt": "Re:Cognition Health"
+          },
+          {
+            "nct_id": "NCT07589595",
+            "excerpt": "Re:Cognition Health"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d106",
+        "site": "Rehabilitation & Neurological Services",
+        "city": "Huntsville",
+        "state": "Alabama",
+        "country": "United States",
+        "lat": 34.7304,
+        "lon": -86.58594,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT05026866",
+          "NCT06566170"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[2].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Rehabilitation & Neurological Services"
+          },
+          {
+            "nct_id": "NCT06566170",
+            "excerpt": "Rehabilitation & Neurological Services",
+            "field_path": "protocolSection.contactsLocationsModule.locations[0].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d107",
+        "site": "Rhode Island Hospital",
+        "city": "Providence",
+        "state": "Rhode Island",
+        "country": "United States",
+        "lat": 41.82399,
+        "lon": -71.41283,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT03367403",
+          "NCT04640077"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[49].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03367403",
+            "excerpt": "Rhode Island Hospital"
+          },
+          {
+            "nct_id": "NCT04640077",
+            "excerpt": "Rhode Island Hospital",
+            "field_path": "protocolSection.contactsLocationsModule.locations[21].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d108",
+        "site": "Richmond Behavioral Associates",
+        "city": "Staten Island",
+        "state": "New York",
+        "country": "United States",
+        "lat": 40.56233,
+        "lon": -74.13986,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[142].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Richmond Behavioral Associates"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Richmond Behavioral Associates",
+            "field_path": "protocolSection.contactsLocationsModule.locations[138].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d109",
+        "site": "SFM Clinical Research",
+        "city": "Boca Raton",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 26.35869,
+        "lon": -80.0831,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[43].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "SFM Clinical Research"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "SFM Clinical Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[48].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d110",
+        "site": "Stanford Neuroscience Health Center",
+        "city": "Palo Alto",
+        "state": "California",
+        "country": "United States",
+        "lat": 37.44188,
+        "lon": -122.14302,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT07589595"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[20].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Stanford Neuroscience Health Center"
+          },
+          {
+            "nct_id": "NCT07589595",
+            "excerpt": "Stanford Neuroscience Health Center",
+            "field_path": "protocolSection.contactsLocationsModule.locations[5].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d111",
+        "site": "Summit Headlands",
+        "city": "Portland",
+        "state": "Oregon",
+        "country": "United States",
+        "lat": 45.52345,
+        "lon": -122.67621,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT07589595"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[158].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Summit Headlands"
+          },
+          {
+            "nct_id": "NCT07589595",
+            "excerpt": "Summit Headlands",
+            "field_path": "protocolSection.contactsLocationsModule.locations[31].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d112",
+        "site": "Synexus Clinical Research US, Inc.",
+        "city": "Orlando",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 28.53834,
+        "lon": -81.37924,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT04640077"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[76].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Synexus Clinical Research US, Inc."
+          },
+          {
+            "nct_id": "NCT04640077",
+            "excerpt": "Synexus Clinical Research US, Inc.",
+            "field_path": "protocolSection.contactsLocationsModule.locations[4].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d113",
+        "site": "The Clinical Trial Center, LLC",
+        "city": "Jenkintown",
+        "state": "Pennsylvania",
+        "country": "United States",
+        "lat": 40.09594,
+        "lon": -75.12517,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT05026866",
+          "NCT05108922"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[160].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "The Clinical Trial Center, LLC"
+          },
+          {
+            "nct_id": "NCT05108922",
+            "excerpt": "The Clinical Trial Center, LLC",
+            "field_path": "protocolSection.contactsLocationsModule.locations[28].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d114",
+        "site": "Tilda Research",
+        "city": "Tustin",
+        "state": "California",
+        "country": "United States",
+        "lat": 33.74585,
+        "lon": -117.82617,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[30].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Tilda Research"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Tilda Research",
+            "field_path": "protocolSection.contactsLocationsModule.locations[37].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d115",
+        "site": "VIN - Aventura",
+        "city": "Aventura",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 25.95648,
+        "lon": -80.13921,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT07589595",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[9].facility",
+        "citations": [
+          {
+            "nct_id": "NCT07589595",
+            "excerpt": "VIN - Aventura"
+          },
+          {
+            "nct_id": "NCT07602582",
+            "excerpt": "VIN - Aventura",
+            "field_path": "protocolSection.contactsLocationsModule.locations[10].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d116",
+        "site": "VIN-Andrew Lerman",
+        "city": "Miami",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 25.77427,
+        "lon": -80.19366,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT05026866",
+          "NCT07602582"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[65].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "VIN-Andrew Lerman"
+          },
+          {
+            "nct_id": "NCT07602582",
+            "excerpt": "VIN-Andrew Lerman",
+            "field_path": "protocolSection.contactsLocationsModule.locations[17].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d117",
+        "site": "VIN-Victor Faradji",
+        "city": "Miami",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 25.77427,
+        "lon": -80.19366,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT04437511",
+          "NCT05026866"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[68].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "VIN-Victor Faradji"
+          },
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "VIN-Victor Faradji",
+            "field_path": "protocolSection.contactsLocationsModule.locations[69].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d118",
+        "site": "Vanderbilt University Medical Center",
+        "city": "Nashville",
+        "state": "Tennessee",
+        "country": "United States",
+        "lat": 36.16589,
+        "lon": -86.78444,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT06957418",
+          "NCT07167966"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[2].facility",
+        "citations": [
+          {
+            "nct_id": "NCT06957418",
+            "excerpt": "Vanderbilt University Medical Center"
+          },
+          {
+            "nct_id": "NCT07167966",
+            "excerpt": "Vanderbilt University Medical Center"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d119",
+        "site": "Washington University",
+        "city": "St Louis",
+        "state": "Missouri",
+        "country": "United States",
+        "lat": 38.62727,
+        "lon": -90.19789,
+        "trial_count": 2,
+        "nct_ids": [
+          "NCT03367403",
+          "NCT04640077"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.contactsLocationsModule.locations[38].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03367403",
+            "excerpt": "Washington University"
+          },
+          {
+            "nct_id": "NCT04640077",
+            "excerpt": "Washington University",
+            "field_path": "protocolSection.contactsLocationsModule.locations[14].facility"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d120",
+        "site": "AGA Clinical Trials",
+        "city": "Hialeah",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 25.8576,
+        "lon": -80.27811,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT04437511"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[50].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "AGA Clinical Trials"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d121",
+        "site": "AMC Research",
+        "city": "Matthews",
+        "state": "North Carolina",
+        "country": "United States",
+        "lat": 35.11681,
+        "lon": -80.72368,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT04437511"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[146].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "AMC Research"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d122",
+        "site": "Abington Neurological Associates",
+        "city": "Willow Grove",
+        "state": "Pennsylvania",
+        "country": "United States",
+        "lat": 40.144,
+        "lon": -75.11573,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT03367403"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[48].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03367403",
+            "excerpt": "Abington Neurological Associates"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d123",
+        "site": "Accel Research Sites - Lakeland Clinical Research Unit",
+        "city": "Lakeland",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 28.03947,
+        "lon": -81.9498,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT04437511"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[54].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Accel Research Sites - Lakeland Clinical Research Unit"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d124",
+        "site": "Accel Research Sites - St. Pete-Largo Clinical Research Unit",
+        "city": "Largo",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 27.90979,
+        "lon": -82.78842,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[58].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Accel Research Sites - St. Pete-Largo Clinical Research Unit"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d125",
+        "site": "Accellacare - DuPage",
+        "city": "Lombard",
+        "state": "Illinois",
+        "country": "United States",
+        "lat": 41.88003,
+        "lon": -88.00784,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[103].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Accellacare - DuPage"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d126",
+        "site": "ActivMed Practices & Research, Inc",
+        "city": "Methuen",
+        "state": "Massachusetts",
+        "country": "United States",
+        "lat": 42.7262,
+        "lon": -71.19089,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT03367403"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[35].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03367403",
+            "excerpt": "ActivMed Practices & Research, Inc"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d127",
+        "site": "ActivMed Practices and Research",
+        "city": "Methuen",
+        "state": "Massachusetts",
+        "country": "United States",
+        "lat": 42.7262,
+        "lon": -71.19089,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[113].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "ActivMed Practices and Research"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d128",
+        "site": "Adult Medicine of Lake County",
+        "city": "Mt. Dora",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 28.80249,
+        "lon": -81.64452,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[71].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Adult Medicine of Lake County"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d129",
+        "site": "Adult Medicine of Lake County, Inc.",
+        "city": "Mt. Dora",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 28.80249,
+        "lon": -81.64452,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT07602582"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[19].facility",
+        "citations": [
+          {
+            "nct_id": "NCT07602582",
+            "excerpt": "Adult Medicine of Lake County, Inc."
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d130",
+        "site": "Advanced Neuro Research Center - ANRC",
+        "city": "El Paso",
+        "state": "Texas",
+        "country": "United States",
+        "lat": 31.75872,
+        "lon": -106.48693,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[179].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Advanced Neuro Research Center - ANRC"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d131",
+        "site": "Advanced Research Consultants",
+        "city": "Palm Beach Gardens",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 26.82339,
+        "lon": -80.13865,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT04640077"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[5].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04640077",
+            "excerpt": "Advanced Research Consultants"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d132",
+        "site": "Advocate Medical Group",
+        "city": "Park Ridge",
+        "state": "Illinois",
+        "country": "United States",
+        "lat": 42.01114,
+        "lon": -87.84062,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT04437511"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[104].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Advocate Medical Group"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d133",
+        "site": "Alabama Psychiatry - Birmingham - Brookwood Medical Center Drive",
+        "city": "Homewood",
+        "state": "Alabama",
+        "country": "United States",
+        "lat": 33.47177,
+        "lon": -86.80082,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[1].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Alabama Psychiatry - Birmingham - Brookwood Medical Center Drive"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d134",
+        "site": "Albany Medical College",
+        "city": "Albany",
+        "state": "New York",
+        "country": "United States",
+        "lat": 42.65258,
+        "lon": -73.75623,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT04437511"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[135].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Albany Medical College"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d135",
+        "site": "Albuquerque Neuroscience Inc.",
+        "city": "Albuquerque",
+        "state": "New Mexico",
+        "country": "United States",
+        "lat": 35.08449,
+        "lon": -106.65114,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[131].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Albuquerque Neuroscience Inc."
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d136",
+        "site": "Alexian Brothers Medical Center",
+        "city": "Elk Grove Village",
+        "state": "Illinois",
+        "country": "United States",
+        "lat": 42.00392,
+        "lon": -87.97035,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT03367403"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[29].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03367403",
+            "excerpt": "Alexian Brothers Medical Center"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d137",
+        "site": "Allied Biomedical Research Institute",
+        "city": "Miami",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 25.77427,
+        "lon": -80.19366,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT04437511"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[62].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Allied Biomedical Research Institute"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d138",
+        "site": "Alpine Clinical Research Center",
+        "city": "Boulder",
+        "state": "Colorado",
+        "country": "United States",
+        "lat": 40.01499,
+        "lon": -105.27055,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT04437511"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[32].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Alpine Clinical Research Center"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d139",
+        "site": "Alzheimers Disease Center",
+        "city": "Quincy",
+        "state": "Massachusetts",
+        "country": "United States",
+        "lat": 42.25288,
+        "lon": -71.00227,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT04437511"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[121].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Alzheimers Disease Center"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d140",
+        "site": "Arch Clinical Trials",
+        "city": "St Louis",
+        "state": "Missouri",
+        "country": "United States",
+        "lat": 38.62727,
+        "lon": -90.19789,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT04437511"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[130].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Arch Clinical Trials"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d141",
+        "site": "Ascension Via Christi Research",
+        "city": "Wichita",
+        "state": "Kansas",
+        "country": "United States",
+        "lat": 37.69224,
+        "lon": -97.33754,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT04437511"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[113].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Ascension Via Christi Research"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d142",
+        "site": "Asheville Neurology Specialists",
+        "city": "Asheville",
+        "state": "North Carolina",
+        "country": "United States",
+        "lat": 35.60095,
+        "lon": -82.55402,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[140].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Asheville Neurology Specialists"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d143",
+        "site": "Associated Neurologists, PC - Danbury",
+        "city": "Danbury",
+        "state": "Connecticut",
+        "country": "United States",
+        "lat": 41.39482,
+        "lon": -73.45401,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT03367403"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[9].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03367403",
+            "excerpt": "Associated Neurologists, PC - Danbury"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d144",
+        "site": "Axiom Brain Health LLC",
+        "city": "Tampa",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 27.94752,
+        "lon": -82.45843,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT07589595"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[18].facility",
+        "citations": [
+          {
+            "nct_id": "NCT07589595",
+            "excerpt": "Axiom Brain Health LLC"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d145",
+        "site": "Axiom Research",
+        "city": "Tampa",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 27.94752,
+        "lon": -82.45843,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT03367403"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[25].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03367403",
+            "excerpt": "Axiom Research"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d146",
+        "site": "BRP-Kendal Lakes",
+        "city": "Miami",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 25.77427,
+        "lon": -80.19366,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT07589595"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[15].facility",
+        "citations": [
+          {
+            "nct_id": "NCT07589595",
+            "excerpt": "BRP-Kendal Lakes"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d147",
+        "site": "BTC Network",
+        "city": "New Bedford",
+        "state": "Massachusetts",
+        "country": "United States",
+        "lat": 41.63526,
+        "lon": -70.92701,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT04437511"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[118].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "BTC Network"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d148",
+        "site": "Behavioral Health Center Research",
+        "city": "Charlotte",
+        "state": "North Carolina",
+        "country": "United States",
+        "lat": 35.22709,
+        "lon": -80.84313,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT03367403"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[41].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03367403",
+            "excerpt": "Behavioral Health Center Research"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d149",
+        "site": "Benchmark Research - Knickerbocker",
+        "city": "San Angelo",
+        "state": "Texas",
+        "country": "United States",
+        "lat": 31.46377,
+        "lon": -100.43704,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[186].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Benchmark Research - Knickerbocker"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d150",
+        "site": "Bio Behavioral Health",
+        "city": "Toms River",
+        "state": "New Jersey",
+        "country": "United States",
+        "lat": 39.95373,
+        "lon": -74.19792,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT04437511"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[134].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Bio Behavioral Health"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d151",
+        "site": "Boston Clinical Trials",
+        "city": "Boston",
+        "state": "Massachusetts",
+        "country": "United States",
+        "lat": 42.35843,
+        "lon": -71.05977,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT04437511"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[116].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Boston Clinical Trials"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d152",
+        "site": "Bradenton Research Center",
+        "city": "Bradenton",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 27.49893,
+        "lon": -82.57482,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT03367403"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[12].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03367403",
+            "excerpt": "Bradenton Research Center"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d153",
+        "site": "Brainstorm Research",
+        "city": "Miami",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 25.77427,
+        "lon": -80.19366,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05108922"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[14].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05108922",
+            "excerpt": "Brainstorm Research"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d154",
+        "site": "Brainstorm Research Group",
+        "city": "Miami",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 25.77427,
+        "lon": -80.19366,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[67].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Brainstorm Research Group"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d155",
+        "site": "Brigham and Women's Hospital",
+        "city": "Boston",
+        "state": "Massachusetts",
+        "country": "United States",
+        "lat": 42.35843,
+        "lon": -71.05977,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT04437511"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[115].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Brigham and Women's Hospital"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d156",
+        "site": "CHS-Behavioral Health Research",
+        "city": "Charlotte",
+        "state": "North Carolina",
+        "country": "United States",
+        "lat": 35.22709,
+        "lon": -80.84313,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT04437511"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[144].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "CHS-Behavioral Health Research"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d157",
+        "site": "Care Access - 801 South Power Road, Mesa",
+        "city": "Mesa",
+        "state": "Arizona",
+        "country": "United States",
+        "lat": 33.42227,
+        "lon": -111.82264,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[3].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Care Access - 801 South Power Road, Mesa"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d158",
+        "site": "Care Access - Anderson",
+        "city": "Anderson",
+        "state": "South Carolina",
+        "country": "United States",
+        "lat": 34.50344,
+        "lon": -82.65013,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[163].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Care Access - Anderson"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d159",
+        "site": "Care Access - Arlington",
+        "city": "Arlington",
+        "state": "Virginia",
+        "country": "United States",
+        "lat": 38.88101,
+        "lon": -77.10428,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[191].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Care Access - Arlington"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d160",
+        "site": "Care Access - Aurora",
+        "city": "Aurora",
+        "state": "Colorado",
+        "country": "United States",
+        "lat": 39.72943,
+        "lon": -104.83192,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[40].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Care Access - Aurora"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d161",
+        "site": "Care Access - Berkeley",
+        "city": "Berkeley",
+        "state": "California",
+        "country": "United States",
+        "lat": 37.87159,
+        "lon": -122.27275,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[7].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Care Access - Berkeley"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d162",
+        "site": "Care Access - Beverly Hills",
+        "city": "Beverly Hills",
+        "state": "California",
+        "country": "United States",
+        "lat": 34.07362,
+        "lon": -118.40036,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[8].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Care Access - Beverly Hills"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d163",
+        "site": "Care Access - Charlotte",
+        "city": "Charlotte",
+        "state": "North Carolina",
+        "country": "United States",
+        "lat": 35.22709,
+        "lon": -80.84313,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[141].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Care Access - Charlotte"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d164",
+        "site": "Care Access - Daytona Beach",
+        "city": "Daytona Beach",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 29.21081,
+        "lon": -81.02283,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[51].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Care Access - Daytona Beach"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d165",
+        "site": "Care Access - Delray Beach",
+        "city": "Delray Beach",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 26.46146,
+        "lon": -80.07282,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[52].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Care Access - Delray Beach"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d166",
+        "site": "Care Access - Fairview Heights",
+        "city": "Fairview Heights",
+        "state": "Illinois",
+        "country": "United States",
+        "lat": 38.58894,
+        "lon": -89.99038,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[101].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Care Access - Fairview Heights"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d167",
+        "site": "Care Access - Fayetteville",
+        "city": "Fayetteville",
+        "state": "North Carolina",
+        "country": "United States",
+        "lat": 35.05266,
+        "lon": -78.87836,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[142].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Care Access - Fayetteville"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d168",
+        "site": "Care Access - Georgetown",
+        "city": "Georgetown",
+        "state": "Texas",
+        "country": "United States",
+        "lat": 30.63269,
+        "lon": -97.67723,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[180].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Care Access - Georgetown"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d169",
+        "site": "Care Access - Gilroy",
+        "city": "Gilroy",
+        "state": "California",
+        "country": "United States",
+        "lat": 37.00578,
+        "lon": -121.56828,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[12].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Care Access - Gilroy"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d170",
+        "site": "Care Access - Greensboro",
+        "city": "Greensboro",
+        "state": "North Carolina",
+        "country": "United States",
+        "lat": 36.07264,
+        "lon": -79.79198,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[143].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Care Access - Greensboro"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d171",
+        "site": "Care Access - Guava Street",
+        "city": "Lady Lake",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 28.91749,
+        "lon": -81.92286,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[57].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Care Access - Guava Street"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d172",
+        "site": "Care Access - Huntington Beach",
+        "city": "Huntington Beach",
+        "state": "California",
+        "country": "United States",
+        "lat": 33.6603,
+        "lon": -117.99923,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT07602582"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[1].facility",
+        "citations": [
+          {
+            "nct_id": "NCT07602582",
+            "excerpt": "Care Access - Huntington Beach"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d173",
+        "site": "Care Access - Kinston",
+        "city": "Kinston",
+        "state": "North Carolina",
+        "country": "United States",
+        "lat": 35.26266,
+        "lon": -77.58164,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[145].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Care Access - Kinston"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d174",
+        "site": "Care Access - Lake Charles",
+        "city": "Lake Charles",
+        "state": "Louisiana",
+        "country": "United States",
+        "lat": 30.21309,
+        "lon": -93.2044,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[111].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Care Access - Lake Charles"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d175",
+        "site": "Care Access - Lake Charles (Bayou Pines)",
+        "city": "Lake Charles",
+        "state": "Louisiana",
+        "country": "United States",
+        "lat": 30.21309,
+        "lon": -93.2044,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT07602582"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[36].facility",
+        "citations": [
+          {
+            "nct_id": "NCT07602582",
+            "excerpt": "Care Access - Lake Charles (Bayou Pines)"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d176",
+        "site": "Care Access - Los Gatos",
+        "city": "San Jose",
+        "state": "California",
+        "country": "United States",
+        "lat": 37.33939,
+        "lon": -121.89496,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[31].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Care Access - Los Gatos"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d177",
+        "site": "Care Access - Mauldin",
+        "city": "Mauldin",
+        "state": "South Carolina",
+        "country": "United States",
+        "lat": 34.77873,
+        "lon": -82.31012,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[168].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Care Access - Mauldin"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d178",
+        "site": "Care Access - Newport Beach",
+        "city": "Newport Beach",
+        "state": "California",
+        "country": "United States",
+        "lat": 33.61891,
+        "lon": -117.92895,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[22].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Care Access - Newport Beach"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d179",
+        "site": "Care Access - Pottsville",
+        "city": "Pottsville",
+        "state": "Pennsylvania",
+        "country": "United States",
+        "lat": 40.68565,
+        "lon": -76.1955,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[161].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Care Access - Pottsville"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d180",
+        "site": "Care Access - Quincy",
+        "city": "Quincy",
+        "state": "Massachusetts",
+        "country": "United States",
+        "lat": 42.25288,
+        "lon": -71.00227,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[115].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Care Access - Quincy"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d181",
+        "site": "Care Access - Raleigh",
+        "city": "Raleigh",
+        "state": "North Carolina",
+        "country": "United States",
+        "lat": 35.7721,
+        "lon": -78.63861,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[148].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Care Access - Raleigh"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d182",
+        "site": "Care Access - Santa Clarita",
+        "city": "Santa Clarita",
+        "state": "California",
+        "country": "United States",
+        "lat": 34.39166,
+        "lon": -118.54259,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[33].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Care Access - Santa Clarita"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d183",
+        "site": "Care Access - Tamarac",
+        "city": "Tamarac",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 26.21286,
+        "lon": -80.24977,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[80].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Care Access - Tamarac"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d184",
+        "site": "Care Access - Youngstown",
+        "city": "Poland",
+        "state": "Ohio",
+        "country": "United States",
+        "lat": 41.02423,
+        "lon": -80.6148,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[155].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Care Access - Youngstown"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d185",
+        "site": "Care Access Research - Huntington Beach",
+        "city": "Huntington Beach",
+        "state": "California",
+        "country": "United States",
+        "lat": 33.6603,
+        "lon": -117.99923,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[14].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Care Access Research - Huntington Beach"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d186",
+        "site": "Care Access Research - Warwick",
+        "city": "Warwick",
+        "state": "Rhode Island",
+        "country": "United States",
+        "lat": 41.7001,
+        "lon": -71.41617,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[162].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Care Access Research - Warwick"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d187",
+        "site": "CenExel Rocky Mountain Clinical Research",
+        "city": "Englewood",
+        "state": "Colorado",
+        "country": "United States",
+        "lat": 39.64777,
+        "lon": -104.98776,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT07589595"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[6].facility",
+        "citations": [
+          {
+            "nct_id": "NCT07589595",
+            "excerpt": "CenExel Rocky Mountain Clinical Research"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d188",
+        "site": "CenExel iResearch, LLC",
+        "city": "Decatur",
+        "state": "Georgia",
+        "country": "United States",
+        "lat": 33.77483,
+        "lon": -84.29631,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05738486"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[28].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05738486",
+            "excerpt": "CenExel iResearch, LLC"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d189",
+        "site": "CenExel iResearch, LLC",
+        "city": "Savannah",
+        "state": "Georgia",
+        "country": "United States",
+        "lat": 32.08354,
+        "lon": -81.09983,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05738486"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[30].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05738486",
+            "excerpt": "CenExel iResearch, LLC"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d190",
+        "site": "Charter Research - Lady Lake",
+        "city": "Lady Lake",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 28.91749,
+        "lon": -81.92286,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05108922"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[9].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05108922",
+            "excerpt": "Charter Research - Lady Lake"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d191",
+        "site": "Charter Research - The Villages",
+        "city": "The Villages",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 28.93408,
+        "lon": -81.95994,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT07602582"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[27].facility",
+        "citations": [
+          {
+            "nct_id": "NCT07602582",
+            "excerpt": "Charter Research - The Villages"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d192",
+        "site": "Charter Research - Winter Park",
+        "city": "Winter Park",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 28.6,
+        "lon": -81.33924,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT04437511"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[96].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Charter Research - Winter Park"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d193",
+        "site": "Clarity Clinical Research",
+        "city": "East Syracuse",
+        "state": "New York",
+        "country": "United States",
+        "lat": 43.06534,
+        "lon": -76.07853,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT04437511"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[139].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Clarity Clinical Research"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d194",
+        "site": "Clinical Research Institute",
+        "city": "Los Angeles",
+        "state": "California",
+        "country": "United States",
+        "lat": 34.05223,
+        "lon": -118.24368,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT04437511"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[17].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Clinical Research Institute"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d195",
+        "site": "Clinical Research of West Florida",
+        "city": "Tampa",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 27.94752,
+        "lon": -82.45843,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[81].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Clinical Research of West Florida"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d196",
+        "site": "Clinical Research of West Florida, Inc. (Clearwater)",
+        "city": "Clearwater",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 27.96585,
+        "lon": -82.8001,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT05026866"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[50].facility",
+        "citations": [
+          {
+            "nct_id": "NCT05026866",
+            "excerpt": "Clinical Research of West Florida, Inc. (Clearwater)"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d197",
+        "site": "Cognition Health",
+        "city": "Fairfax",
+        "state": "Virginia",
+        "country": "United States",
+        "lat": 38.84622,
+        "lon": -77.30637,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT03367403"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[54].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03367403",
+            "excerpt": "Cognition Health"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d198",
+        "site": "Cohen Medical Associates",
+        "city": "Delray Beach",
+        "state": "Florida",
+        "country": "United States",
+        "lat": 26.46146,
+        "lon": -80.07282,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT04437511"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[45].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Cohen Medical Associates"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d199",
+        "site": "Collaborative Neuroscience Research, LLC",
+        "city": "Los Alamitos",
+        "state": "California",
+        "country": "United States",
+        "lat": 33.80307,
+        "lon": -118.07256,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT04437511"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[15].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "Collaborative Neuroscience Research, LLC"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d200",
+        "site": "College Park Family Care Center/Multi Specialty Clinical Res",
+        "city": "Overland Park",
+        "state": "Kansas",
+        "country": "United States",
+        "lat": 38.98223,
+        "lon": -94.67079,
+        "trial_count": 1,
+        "nct_ids": [
+          "NCT04437511"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[111].facility",
+        "citations": [
+          {
+            "nct_id": "NCT04437511",
+            "excerpt": "College Park Family Care Center/Multi Specialty Clinical Res"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      }
+    ]
+  },
+  "answer_summary": "Conquest Research has the most trials (6), then Irvine Clinical Research (6), then JEM Research Institute (6). Based on 13 trials from ClinicalTrials.gov.",
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "drug_names": [
+        "donanemab"
+      ],
+      "countries": [
+        "United States"
+      ]
+    },
+    "query_interpretation": {
+      "intent": "geographic_distribution",
+      "persona": "researcher",
+      "scope": "cohort",
+      "confidence": 0.78,
+      "parser": "llm",
+      "cohorts": [
+        {
+          "label": "Donanemab · United States",
+          "drugs": [
+            "donanemab"
+          ],
+          "countries": [
+            "United States"
+          ]
+        }
+      ],
+      "resolved_entities": [
+        {
+          "input": "United States",
+          "resolved": "United States",
+          "kind": "country",
+          "method": "exact"
+        },
+        {
+          "input": "Donanemab",
+          "resolved": "donanemab",
+          "kind": "drug",
+          "method": "exact"
+        }
+      ]
+    },
+    "assumptions": [
+      "The question does not name a view, so the chart was chosen after profiling the 13 retrieved trials: geographic distribution as table.",
+      "I read this as: Trials per country (a trial counts once per country), optionally only recruiting trials. If that is not what you meant, please rephrase."
+    ],
+    "notes": [
+      {
+        "code": "TRUNCATED",
+        "severity": "info",
+        "message": "Showing the 200 sites with the most trials of 413."
+      }
+    ],
+    "sort": {
+      "by": "trial_count",
+      "order": "desc"
+    },
+    "grouping": {
+      "by": [
+        "site",
+        "city",
+        "country"
+      ],
+      "aggregate": "count_distinct_trials"
+    },
+    "geo": {
+      "level": "site",
+      "value_field": "trial_count",
+      "lat_field": "lat",
+      "lon_field": "lon"
+    },
+    "coverage": {
+      "studies_matched_total": 13,
+      "studies_analyzed": 13,
+      "counting_method": "all_records",
+      "sampled": false,
+      "queries": [
+        "https://clinicaltrials.gov/search?intr=donanemab&locStr=%22United+States%22"
+      ]
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "validation": {
+      "passed": true,
+      "checks": [
+        {
+          "name": "retrieval_matches_api_total",
+          "passed": true,
+          "detail": "Donanemab · United States: 13 of 13"
+        },
+        {
+          "name": "counts_match_trial_lists",
+          "passed": true,
+          "detail": "200 count datum(s) checked"
+        },
+        {
+          "name": "each_trial_in_one_bucket",
+          "passed": true,
+          "detail": "not a single-valued grouping"
+        },
+        {
+          "name": "citations_from_retrieved_records",
+          "passed": true,
+          "detail": "11 NCT id(s), all retrieved"
+        },
+        {
+          "name": "summary_numbers_in_data",
+          "passed": true,
+          "detail": "every number appears in the data"
+        },
+        {
+          "name": "value_axes_labeled",
+          "passed": true,
+          "detail": "all value axes say what they measure"
+        }
+      ]
+    },
+    "alternatives": [
+      {
+        "type": "table",
+        "reason": "all values as a sortable table"
+      },
+      {
+        "type": "bar_chart",
+        "reason": "compare categories side by side"
+      }
+    ],
+    "request_id": "2484294f2a904f13b77f21458e63d248",
+    "created_at": "2026-10-19T09:51:34+00:00",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-16T09:00:05"
+  }
+}

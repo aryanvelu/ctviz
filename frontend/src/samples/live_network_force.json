@@ -1,0 +1,1555 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "network_graph",
+    "title": "Sponsors and the drugs they test: Obesity",
+    "encoding": {
+      "nodes": {
+        "id": "id",
+        "label": "label",
+        "type": "type",
+        "size": "size"
+      },
+      "edges": {
+        "source": "source",
+        "target": "target",
+        "weight": "weight",
+        "type": "type"
+      },
+      "tooltip": [
+        "degree"
+      ]
+    },
+    "data": {
+      "nodes": [
+        {
+          "id": "sponsor:novo-nordisk-a-s",
+          "label": "Novo Nordisk A/S",
+          "type": "sponsor",
+          "size": 174,
+          "degree": 5,
+          "nct_ids": [
+            "NCT00422058",
+            "NCT00504673",
+            "NCT00612599",
+            "NCT00665665",
+            "NCT00728455",
+            "NCT00781937",
+            "NCT00795600",
+            "NCT00871416",
+            "NCT00978393",
+            "NCT01044108",
+            "NCT01272219",
+            "NCT01272232",
+            "NCT01401244",
+            "NCT01508949",
+            "NCT01511198",
+            "NCT01557166",
+            "NCT01789086",
+            "NCT02079870",
+            "NCT02207348",
+            "NCT02235961"
+          ],
+          "nct_ids_total": 174,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT00422058",
+              "excerpt": "Novo Nordisk A/S"
+            },
+            {
+              "nct_id": "NCT00504673",
+              "excerpt": "Novo Nordisk A/S"
+            },
+            {
+              "nct_id": "NCT00612599",
+              "excerpt": "Novo Nordisk A/S"
+            }
+          ],
+          "citations_total": 174,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "sponsor:eli-lilly-and-company",
+          "label": "Eli Lilly and Company",
+          "type": "sponsor",
+          "size": 118,
+          "degree": 5,
+          "nct_ids": [
+            "NCT00044187",
+            "NCT00090012",
+            "NCT00630825",
+            "NCT00993421",
+            "NCT04081337",
+            "NCT04184622",
+            "NCT04311411",
+            "NCT04407234",
+            "NCT04657003",
+            "NCT04657016",
+            "NCT04660643",
+            "NCT04844918",
+            "NCT04847557",
+            "NCT04881760",
+            "NCT05024032",
+            "NCT05051579",
+            "NCT05295940",
+            "NCT05313802",
+            "NCT05380323",
+            "NCT05412004"
+          ],
+          "nct_ids_total": 118,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT00044187",
+              "excerpt": "Eli Lilly and Company"
+            },
+            {
+              "nct_id": "NCT00090012",
+              "excerpt": "Eli Lilly and Company"
+            },
+            {
+              "nct_id": "NCT00630825",
+              "excerpt": "Eli Lilly and Company"
+            }
+          ],
+          "citations_total": 118,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "drug:semaglutide",
+          "label": "Semaglutide",
+          "type": "drug",
+          "size": 186,
+          "degree": 4,
+          "nct_ids": [
+            "NCT02079870",
+            "NCT02453711",
+            "NCT03292315",
+            "NCT03548935",
+            "NCT03548987",
+            "NCT03552757",
+            "NCT03574584",
+            "NCT03574597",
+            "NCT03600480",
+            "NCT03611582",
+            "NCT03693430",
+            "NCT03707990",
+            "NCT03811574",
+            "NCT03842202",
+            "NCT04007107",
+            "NCT04012255",
+            "NCT04074161",
+            "NCT04102189",
+            "NCT04143945",
+            "NCT04187300"
+          ],
+          "nct_ids_total": 186,
+          "field_path": "protocolSection.armsInterventionsModule.interventions[0].name",
+          "citations": [
+            {
+              "nct_id": "NCT02079870",
+              "excerpt": "semaglutide"
+            },
+            {
+              "nct_id": "NCT02453711",
+              "excerpt": "semaglutide"
+            },
+            {
+              "nct_id": "NCT03292315",
+              "excerpt": "Semaglutide 1MG Injection [Ozempic]"
+            }
+          ],
+          "citations_total": 186,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "drug:tirzepatide",
+          "label": "Tirzepatide",
+          "type": "drug",
+          "size": 126,
+          "degree": 3,
+          "nct_ids": [
+            "NCT04081337",
+            "NCT04184622",
+            "NCT04311411",
+            "NCT04407234",
+            "NCT04657003",
+            "NCT04657016",
+            "NCT04660643",
+            "NCT04844918",
+            "NCT04847557",
+            "NCT05024032",
+            "NCT05412004",
+            "NCT05536804",
+            "NCT05556512",
+            "NCT05582096",
+            "NCT05696847",
+            "NCT05822544",
+            "NCT05822830",
+            "NCT05912621",
+            "NCT05933499",
+            "NCT06009653"
+          ],
+          "nct_ids_total": 126,
+          "field_path": "protocolSection.armsInterventionsModule.interventions[0].name",
+          "citations": [
+            {
+              "nct_id": "NCT04081337",
+              "excerpt": "Tirzepatide"
+            },
+            {
+              "nct_id": "NCT04184622",
+              "excerpt": "Tirzepatide"
+            },
+            {
+              "nct_id": "NCT04311411",
+              "excerpt": "Tirzepatide"
+            }
+          ],
+          "citations_total": 126,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "sponsor:mayo-clinic",
+          "label": "Mayo Clinic",
+          "type": "sponsor",
+          "size": 108,
+          "degree": 3,
+          "nct_ids": [
+            "NCT00065338",
+            "NCT00330525",
+            "NCT00433641",
+            "NCT00589498",
+            "NCT00858247",
+            "NCT00976443",
+            "NCT01094054",
+            "NCT01117311",
+            "NCT01125397",
+            "NCT01160328",
+            "NCT01222988",
+            "NCT01375504",
+            "NCT01451554",
+            "NCT01453517",
+            "NCT01461382",
+            "NCT01497106",
+            "NCT01502007",
+            "NCT01580761",
+            "NCT01581736",
+            "NCT01682733"
+          ],
+          "nct_ids_total": 108,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT00065338",
+              "excerpt": "Mayo Clinic"
+            },
+            {
+              "nct_id": "NCT00330525",
+              "excerpt": "Mayo Clinic"
+            },
+            {
+              "nct_id": "NCT00433641",
+              "excerpt": "Mayo Clinic"
+            }
+          ],
+          "citations_total": 108,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "drug:liraglutide",
+          "label": "Liraglutide",
+          "type": "drug",
+          "size": 101,
+          "degree": 2,
+          "nct_ids": [
+            "NCT00422058",
+            "NCT00781937",
+            "NCT00978393",
+            "NCT01272219",
+            "NCT01272232",
+            "NCT01505673",
+            "NCT01508949",
+            "NCT01511198",
+            "NCT01542242",
+            "NCT01557166",
+            "NCT01562678",
+            "NCT01695109",
+            "NCT01725126",
+            "NCT01739049",
+            "NCT01789086",
+            "NCT01899430",
+            "NCT01911468",
+            "NCT02014740",
+            "NCT02043054",
+            "NCT02055014"
+          ],
+          "nct_ids_total": 101,
+          "field_path": "protocolSection.armsInterventionsModule.interventions[0].name",
+          "citations": [
+            {
+              "nct_id": "NCT00422058",
+              "excerpt": "liraglutide"
+            },
+            {
+              "nct_id": "NCT00781937",
+              "excerpt": "liraglutide"
+            },
+            {
+              "nct_id": "NCT00978393",
+              "excerpt": "liraglutide"
+            }
+          ],
+          "citations_total": 101,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "drug:metformin",
+          "label": "Metformin",
+          "type": "drug",
+          "size": 133,
+          "degree": 1,
+          "nct_ids": [
+            "NCT00005654",
+            "NCT00038727",
+            "NCT00063232",
+            "NCT00105066",
+            "NCT00118950",
+            "NCT00118963",
+            "NCT00134290",
+            "NCT00134303",
+            "NCT00139477",
+            "NCT00209482",
+            "NCT00283816",
+            "NCT00376038",
+            "NCT00391261",
+            "NCT00449605",
+            "NCT00536211",
+            "NCT00546728",
+            "NCT00667498",
+            "NCT00775164",
+            "NCT00806234",
+            "NCT00883259"
+          ],
+          "nct_ids_total": 133,
+          "field_path": "protocolSection.armsInterventionsModule.interventions[1].name",
+          "citations": [
+            {
+              "nct_id": "NCT00005654",
+              "excerpt": "metformin"
+            },
+            {
+              "nct_id": "NCT00038727",
+              "excerpt": "Metformin"
+            },
+            {
+              "nct_id": "NCT00063232",
+              "excerpt": "Metformin",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[0].name"
+            }
+          ],
+          "citations_total": 133,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "sponsor:pfizer",
+          "label": "Pfizer",
+          "type": "sponsor",
+          "size": 71,
+          "degree": 1,
+          "nct_ids": [
+            "NCT00134199",
+            "NCT00331175",
+            "NCT00367783",
+            "NCT00375401",
+            "NCT00376285",
+            "NCT00383253",
+            "NCT00391196",
+            "NCT00396448",
+            "NCT00471172",
+            "NCT00472836",
+            "NCT00479492",
+            "NCT00483171",
+            "NCT00542009",
+            "NCT00576589",
+            "NCT00644839",
+            "NCT00645021",
+            "NCT00645216",
+            "NCT00645463",
+            "NCT00799006",
+            "NCT00959426"
+          ],
+          "nct_ids_total": 71,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT00134199",
+              "excerpt": "Pfizer"
+            },
+            {
+              "nct_id": "NCT00331175",
+              "excerpt": "Pfizer"
+            },
+            {
+              "nct_id": "NCT00367783",
+              "excerpt": "Pfizer"
+            }
+          ],
+          "citations_total": 71,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "sponsor:sanofi",
+          "label": "Sanofi",
+          "type": "sponsor",
+          "size": 34,
+          "degree": 1,
+          "nct_ids": [
+            "NCT00029835",
+            "NCT00029848",
+            "NCT00029861",
+            "NCT00228176",
+            "NCT00239174",
+            "NCT00239967",
+            "NCT00263042",
+            "NCT00299325",
+            "NCT00310297",
+            "NCT00311077",
+            "NCT00325546",
+            "NCT00345410",
+            "NCT00386061",
+            "NCT00405808",
+            "NCT00408148",
+            "NCT00412698",
+            "NCT00434096",
+            "NCT00449605",
+            "NCT00458081",
+            "NCT00459004"
+          ],
+          "nct_ids_total": 34,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT00029835",
+              "excerpt": "Sanofi"
+            },
+            {
+              "nct_id": "NCT00029848",
+              "excerpt": "Sanofi"
+            },
+            {
+              "nct_id": "NCT00029861",
+              "excerpt": "Sanofi"
+            }
+          ],
+          "citations_total": 34,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "sponsor:amgen",
+          "label": "Amgen",
+          "type": "sponsor",
+          "size": 31,
+          "degree": 1,
+          "nct_ids": [
+            "NCT03757130",
+            "NCT04199351",
+            "NCT04478708",
+            "NCT05406115",
+            "NCT05669599",
+            "NCT06352892",
+            "NCT06585462",
+            "NCT06660173",
+            "NCT06858839",
+            "NCT06858878",
+            "NCT06976372",
+            "NCT06987695",
+            "NCT07037433",
+            "NCT07037459",
+            "NCT07225686",
+            "NCT07226765",
+            "NCT07226778",
+            "NCT07229157",
+            "NCT07310563",
+            "NCT07313761"
+          ],
+          "nct_ids_total": 31,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT03757130",
+              "excerpt": "Amgen"
+            },
+            {
+              "nct_id": "NCT04199351",
+              "excerpt": "Amgen"
+            },
+            {
+              "nct_id": "NCT04478708",
+              "excerpt": "Amgen"
+            }
+          ],
+          "citations_total": 31,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "drug:orforglipron",
+          "label": "Orforglipron",
+          "type": "drug",
+          "size": 27,
+          "degree": 1,
+          "nct_ids": [
+            "NCT05051579",
+            "NCT05313802",
+            "NCT05803421",
+            "NCT05841238",
+            "NCT05869903",
+            "NCT05872620",
+            "NCT05931380",
+            "NCT06023095",
+            "NCT06186622",
+            "NCT06440980",
+            "NCT06584916",
+            "NCT06649045",
+            "NCT06672549",
+            "NCT06672939",
+            "NCT06824051",
+            "NCT06948422",
+            "NCT06948435",
+            "NCT06952530",
+            "NCT06972459",
+            "NCT06972472"
+          ],
+          "nct_ids_total": 27,
+          "field_path": "protocolSection.armsInterventionsModule.interventions[0].name",
+          "citations": [
+            {
+              "nct_id": "NCT05051579",
+              "excerpt": "LY3502970"
+            },
+            {
+              "nct_id": "NCT05313802",
+              "excerpt": "LY3502970"
+            },
+            {
+              "nct_id": "NCT05803421",
+              "excerpt": "Orforglipron"
+            }
+          ],
+          "citations_total": 27,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "drug:cagrilintide",
+          "label": "Cagrilintide",
+          "type": "drug",
+          "size": 24,
+          "degree": 1,
+          "nct_ids": [
+            "NCT04940078",
+            "NCT05394519",
+            "NCT05567796",
+            "NCT05804162",
+            "NCT05813925",
+            "NCT05996848",
+            "NCT06131372",
+            "NCT06131437",
+            "NCT06207877",
+            "NCT06289504",
+            "NCT06388187",
+            "NCT06719011",
+            "NCT06780449",
+            "NCT07010432",
+            "NCT07220642",
+            "NCT07220759",
+            "NCT07253285",
+            "NCT07411560",
+            "NCT07527195",
+            "NCT07557953"
+          ],
+          "nct_ids_total": 24,
+          "field_path": "protocolSection.armsInterventionsModule.interventions[0].name",
+          "citations": [
+            {
+              "nct_id": "NCT04940078",
+              "excerpt": "Cagrilintide"
+            },
+            {
+              "nct_id": "NCT05394519",
+              "excerpt": "Cagrilintide"
+            },
+            {
+              "nct_id": "NCT05567796",
+              "excerpt": "Cagrilintide"
+            }
+          ],
+          "citations_total": 24,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "drug:maridebart-cafraglutide",
+          "label": "maridebart cafraglutide",
+          "type": "drug",
+          "size": 22,
+          "degree": 1,
+          "nct_ids": [
+            "NCT04478708",
+            "NCT05669599",
+            "NCT06352892",
+            "NCT06660173",
+            "NCT06858839",
+            "NCT06858878",
+            "NCT06987695",
+            "NCT07037433",
+            "NCT07037459",
+            "NCT07225686",
+            "NCT07226765",
+            "NCT07226778",
+            "NCT07229157",
+            "NCT07313761",
+            "NCT07441252",
+            "NCT07523711",
+            "NCT07575399",
+            "NCT07684144",
+            "NCT07684235",
+            "NCT07832799"
+          ],
+          "nct_ids_total": 22,
+          "field_path": "protocolSection.armsInterventionsModule.interventions[0].name",
+          "citations": [
+            {
+              "nct_id": "NCT04478708",
+              "excerpt": "maridebart cafraglutide"
+            },
+            {
+              "nct_id": "NCT05669599",
+              "excerpt": "Maridebart Cafraglutide"
+            },
+            {
+              "nct_id": "NCT06352892",
+              "excerpt": "Maridebart Cafraglutide"
+            }
+          ],
+          "citations_total": 22,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "drug:nnc0487-0111",
+          "label": "NNC0487-0111",
+          "type": "drug",
+          "size": 17,
+          "degree": 1,
+          "nct_ids": [
+            "NCT06049329",
+            "NCT06064006",
+            "NCT06559527",
+            "NCT06820476",
+            "NCT07339423",
+            "NCT07400107",
+            "NCT07481630",
+            "NCT07503210",
+            "NCT07508020",
+            "NCT07509307",
+            "NCT07533175",
+            "NCT07567001",
+            "NCT07571005",
+            "NCT07571109",
+            "NCT07587710",
+            "NCT07757087",
+            "NCT07822061"
+          ],
+          "nct_ids_total": 17,
+          "field_path": "protocolSection.armsInterventionsModule.interventions[0].name",
+          "citations": [
+            {
+              "nct_id": "NCT06049329",
+              "excerpt": "NNC0487-0111"
+            },
+            {
+              "nct_id": "NCT06064006",
+              "excerpt": "NNC0487-0111"
+            },
+            {
+              "nct_id": "NCT06559527",
+              "excerpt": "NNC0487-0111"
+            }
+          ],
+          "citations_total": 17,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "drug:retatrutide",
+          "label": "Retatrutide",
+          "type": "drug",
+          "size": 17,
+          "degree": 1,
+          "nct_ids": [
+            "NCT04881760",
+            "NCT05445232",
+            "NCT05548231",
+            "NCT05882045",
+            "NCT05929066",
+            "NCT05929079",
+            "NCT05931367",
+            "NCT05936151",
+            "NCT06039826",
+            "NCT06313528",
+            "NCT06383390",
+            "NCT06662383",
+            "NCT06859268",
+            "NCT07035093",
+            "NCT07232719",
+            "NCT07357415",
+            "NCT07467447"
+          ],
+          "nct_ids_total": 17,
+          "field_path": "protocolSection.armsInterventionsModule.interventions[0].name",
+          "citations": [
+            {
+              "nct_id": "NCT04881760",
+              "excerpt": "LY3437943"
+            },
+            {
+              "nct_id": "NCT05445232",
+              "excerpt": "LY3437943"
+            },
+            {
+              "nct_id": "NCT05548231",
+              "excerpt": "LY3437943"
+            }
+          ],
+          "citations_total": 17,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "drug:eloralintide",
+          "label": "Eloralintide",
+          "type": "drug",
+          "size": 14,
+          "degree": 1,
+          "nct_ids": [
+            "NCT06230523",
+            "NCT06916065",
+            "NCT06916091",
+            "NCT07215559",
+            "NCT07282600",
+            "NCT07321886",
+            "NCT07353931",
+            "NCT07369011",
+            "NCT07392190",
+            "NCT07589608",
+            "NCT07665879",
+            "NCT07738614",
+            "NCT07765511",
+            "NCT07808060"
+          ],
+          "nct_ids_total": 14,
+          "field_path": "protocolSection.armsInterventionsModule.interventions[0].name",
+          "citations": [
+            {
+              "nct_id": "NCT06230523",
+              "excerpt": "Eloralintide"
+            },
+            {
+              "nct_id": "NCT06916065",
+              "excerpt": "Eloralintide",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[1].name"
+            },
+            {
+              "nct_id": "NCT06916091",
+              "excerpt": "Eloralintide"
+            }
+          ],
+          "citations_total": 14,
+          "excerpts_truncated": true
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "sponsor:novo-nordisk-a-s",
+          "target": "drug:semaglutide",
+          "weight": 66,
+          "type": "sponsor_tests_drug",
+          "nct_ids": [
+            "NCT02079870",
+            "NCT02453711",
+            "NCT03548935",
+            "NCT03548987",
+            "NCT03552757",
+            "NCT03574584",
+            "NCT03574597",
+            "NCT03600480",
+            "NCT03611582",
+            "NCT03693430",
+            "NCT03707990",
+            "NCT03811574",
+            "NCT03842202",
+            "NCT04007107",
+            "NCT04012255",
+            "NCT04074161",
+            "NCT04102189",
+            "NCT04143945",
+            "NCT04187300",
+            "NCT04189848"
+          ],
+          "nct_ids_total": 66,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT02079870",
+              "excerpt": "Novo Nordisk A/S"
+            },
+            {
+              "nct_id": "NCT02079870",
+              "excerpt": "semaglutide",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[0].name"
+            },
+            {
+              "nct_id": "NCT02453711",
+              "excerpt": "Novo Nordisk A/S"
+            }
+          ],
+          "citations_total": 132,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "e2",
+          "source": "sponsor:eli-lilly-and-company",
+          "target": "drug:tirzepatide",
+          "weight": 41,
+          "type": "sponsor_tests_drug",
+          "nct_ids": [
+            "NCT04081337",
+            "NCT04184622",
+            "NCT04311411",
+            "NCT04407234",
+            "NCT04657003",
+            "NCT04657016",
+            "NCT04660643",
+            "NCT04844918",
+            "NCT04847557",
+            "NCT05024032",
+            "NCT05412004",
+            "NCT05536804",
+            "NCT05556512",
+            "NCT05582096",
+            "NCT05696847",
+            "NCT05822830",
+            "NCT06037252",
+            "NCT06047548",
+            "NCT06075667",
+            "NCT06143956"
+          ],
+          "nct_ids_total": 41,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT04081337",
+              "excerpt": "Eli Lilly and Company"
+            },
+            {
+              "nct_id": "NCT04081337",
+              "excerpt": "Tirzepatide",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[0].name"
+            },
+            {
+              "nct_id": "NCT04184622",
+              "excerpt": "Eli Lilly and Company"
+            }
+          ],
+          "citations_total": 82,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "e3",
+          "source": "sponsor:eli-lilly-and-company",
+          "target": "drug:orforglipron",
+          "weight": 25,
+          "type": "sponsor_tests_drug",
+          "nct_ids": [
+            "NCT05051579",
+            "NCT05313802",
+            "NCT05803421",
+            "NCT05841238",
+            "NCT05869903",
+            "NCT05872620",
+            "NCT05931380",
+            "NCT06023095",
+            "NCT06186622",
+            "NCT06440980",
+            "NCT06584916",
+            "NCT06649045",
+            "NCT06672549",
+            "NCT06672939",
+            "NCT06824051",
+            "NCT06948422",
+            "NCT06948435",
+            "NCT06952530",
+            "NCT06972459",
+            "NCT06972472"
+          ],
+          "nct_ids_total": 25,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT05051579",
+              "excerpt": "Eli Lilly and Company"
+            },
+            {
+              "nct_id": "NCT05051579",
+              "excerpt": "LY3502970",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[0].name"
+            },
+            {
+              "nct_id": "NCT05313802",
+              "excerpt": "Eli Lilly and Company"
+            }
+          ],
+          "citations_total": 50,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "e4",
+          "source": "sponsor:novo-nordisk-a-s",
+          "target": "drug:cagrilintide",
+          "weight": 24,
+          "type": "sponsor_tests_drug",
+          "nct_ids": [
+            "NCT04940078",
+            "NCT05394519",
+            "NCT05567796",
+            "NCT05804162",
+            "NCT05813925",
+            "NCT05996848",
+            "NCT06131372",
+            "NCT06131437",
+            "NCT06207877",
+            "NCT06289504",
+            "NCT06388187",
+            "NCT06719011",
+            "NCT06780449",
+            "NCT07010432",
+            "NCT07220642",
+            "NCT07220759",
+            "NCT07253285",
+            "NCT07411560",
+            "NCT07527195",
+            "NCT07557953"
+          ],
+          "nct_ids_total": 24,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT04940078",
+              "excerpt": "Novo Nordisk A/S"
+            },
+            {
+              "nct_id": "NCT04940078",
+              "excerpt": "Cagrilintide",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[0].name"
+            },
+            {
+              "nct_id": "NCT05394519",
+              "excerpt": "Novo Nordisk A/S"
+            }
+          ],
+          "citations_total": 48,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "e5",
+          "source": "sponsor:novo-nordisk-a-s",
+          "target": "drug:liraglutide",
+          "weight": 24,
+          "type": "sponsor_tests_drug",
+          "nct_ids": [
+            "NCT00422058",
+            "NCT00781937",
+            "NCT00978393",
+            "NCT01272219",
+            "NCT01272232",
+            "NCT01508949",
+            "NCT01511198",
+            "NCT01557166",
+            "NCT01789086",
+            "NCT02207348",
+            "NCT02235961",
+            "NCT02453711",
+            "NCT02527200",
+            "NCT02696148",
+            "NCT02717858",
+            "NCT02870231",
+            "NCT02918279",
+            "NCT02963922",
+            "NCT02963935",
+            "NCT03856047"
+          ],
+          "nct_ids_total": 24,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT00422058",
+              "excerpt": "Novo Nordisk A/S"
+            },
+            {
+              "nct_id": "NCT00422058",
+              "excerpt": "liraglutide",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[0].name"
+            },
+            {
+              "nct_id": "NCT00781937",
+              "excerpt": "Novo Nordisk A/S"
+            }
+          ],
+          "citations_total": 48,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "e6",
+          "source": "sponsor:amgen",
+          "target": "drug:maridebart-cafraglutide",
+          "weight": 22,
+          "type": "sponsor_tests_drug",
+          "nct_ids": [
+            "NCT04478708",
+            "NCT05669599",
+            "NCT06352892",
+            "NCT06660173",
+            "NCT06858839",
+            "NCT06858878",
+            "NCT06987695",
+            "NCT07037433",
+            "NCT07037459",
+            "NCT07225686",
+            "NCT07226765",
+            "NCT07226778",
+            "NCT07229157",
+            "NCT07313761",
+            "NCT07441252",
+            "NCT07523711",
+            "NCT07575399",
+            "NCT07684144",
+            "NCT07684235",
+            "NCT07832799"
+          ],
+          "nct_ids_total": 22,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT04478708",
+              "excerpt": "Amgen"
+            },
+            {
+              "nct_id": "NCT04478708",
+              "excerpt": "maridebart cafraglutide",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[0].name"
+            },
+            {
+              "nct_id": "NCT05669599",
+              "excerpt": "Amgen"
+            }
+          ],
+          "citations_total": 44,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "e7",
+          "source": "sponsor:novo-nordisk-a-s",
+          "target": "drug:nnc0487-0111",
+          "weight": 17,
+          "type": "sponsor_tests_drug",
+          "nct_ids": [
+            "NCT06049329",
+            "NCT06064006",
+            "NCT06559527",
+            "NCT06820476",
+            "NCT07339423",
+            "NCT07400107",
+            "NCT07481630",
+            "NCT07503210",
+            "NCT07508020",
+            "NCT07509307",
+            "NCT07533175",
+            "NCT07567001",
+            "NCT07571005",
+            "NCT07571109",
+            "NCT07587710",
+            "NCT07757087",
+            "NCT07822061"
+          ],
+          "nct_ids_total": 17,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT06049329",
+              "excerpt": "Novo Nordisk A/S"
+            },
+            {
+              "nct_id": "NCT06049329",
+              "excerpt": "NNC0487-0111",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[0].name"
+            },
+            {
+              "nct_id": "NCT06064006",
+              "excerpt": "Novo Nordisk A/S"
+            }
+          ],
+          "citations_total": 34,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "e8",
+          "source": "sponsor:eli-lilly-and-company",
+          "target": "drug:retatrutide",
+          "weight": 16,
+          "type": "sponsor_tests_drug",
+          "nct_ids": [
+            "NCT04881760",
+            "NCT05445232",
+            "NCT05548231",
+            "NCT05882045",
+            "NCT05929066",
+            "NCT05929079",
+            "NCT05931367",
+            "NCT05936151",
+            "NCT06039826",
+            "NCT06313528",
+            "NCT06383390",
+            "NCT06662383",
+            "NCT06859268",
+            "NCT07035093",
+            "NCT07232719",
+            "NCT07357415"
+          ],
+          "nct_ids_total": 16,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT04881760",
+              "excerpt": "Eli Lilly and Company"
+            },
+            {
+              "nct_id": "NCT04881760",
+              "excerpt": "LY3437943",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[0].name"
+            },
+            {
+              "nct_id": "NCT05445232",
+              "excerpt": "Eli Lilly and Company"
+            }
+          ],
+          "citations_total": 32,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "e9",
+          "source": "sponsor:eli-lilly-and-company",
+          "target": "drug:eloralintide",
+          "weight": 14,
+          "type": "sponsor_tests_drug",
+          "nct_ids": [
+            "NCT06230523",
+            "NCT06916065",
+            "NCT06916091",
+            "NCT07215559",
+            "NCT07282600",
+            "NCT07321886",
+            "NCT07353931",
+            "NCT07369011",
+            "NCT07392190",
+            "NCT07589608",
+            "NCT07665879",
+            "NCT07738614",
+            "NCT07765511",
+            "NCT07808060"
+          ],
+          "nct_ids_total": 14,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT06230523",
+              "excerpt": "Eli Lilly and Company"
+            },
+            {
+              "nct_id": "NCT06230523",
+              "excerpt": "Eloralintide",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[0].name"
+            },
+            {
+              "nct_id": "NCT06916065",
+              "excerpt": "Eli Lilly and Company"
+            }
+          ],
+          "citations_total": 28,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "e10",
+          "source": "sponsor:mayo-clinic",
+          "target": "drug:semaglutide",
+          "weight": 5,
+          "type": "sponsor_tests_drug",
+          "nct_ids": [
+            "NCT05371496",
+            "NCT06801015",
+            "NCT06814938",
+            "NCT07213466",
+            "NCT07769047"
+          ],
+          "nct_ids_total": 5,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT05371496",
+              "excerpt": "Mayo Clinic"
+            },
+            {
+              "nct_id": "NCT05371496",
+              "excerpt": "Semaglutide",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[0].name"
+            },
+            {
+              "nct_id": "NCT06801015",
+              "excerpt": "Mayo Clinic"
+            }
+          ],
+          "citations_total": 10,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "e11",
+          "source": "sponsor:sanofi",
+          "target": "drug:metformin",
+          "weight": 5,
+          "type": "sponsor_tests_drug",
+          "nct_ids": [
+            "NCT00449605",
+            "NCT00976937",
+            "NCT02274740",
+            "NCT02411825",
+            "NCT02836704"
+          ],
+          "nct_ids_total": 5,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT00449605",
+              "excerpt": "Sanofi"
+            },
+            {
+              "nct_id": "NCT00449605",
+              "excerpt": "Metformin",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[2].name"
+            },
+            {
+              "nct_id": "NCT00976937",
+              "excerpt": "Sanofi"
+            }
+          ],
+          "citations_total": 10,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "e12",
+          "source": "sponsor:mayo-clinic",
+          "target": "drug:liraglutide",
+          "weight": 3,
+          "type": "sponsor_tests_drug",
+          "nct_ids": [
+            "NCT02647944",
+            "NCT03115424",
+            "NCT03374956"
+          ],
+          "nct_ids_total": 3,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT02647944",
+              "excerpt": "Mayo Clinic"
+            },
+            {
+              "nct_id": "NCT02647944",
+              "excerpt": "Liraglutide",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[0].name"
+            },
+            {
+              "nct_id": "NCT03115424",
+              "excerpt": "Mayo Clinic"
+            }
+          ],
+          "citations_total": 6,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "e13",
+          "source": "sponsor:novo-nordisk-a-s",
+          "target": "drug:tirzepatide",
+          "weight": 3,
+          "type": "sponsor_tests_drug",
+          "nct_ids": [
+            "NCT06131437",
+            "NCT06326060",
+            "NCT07868354"
+          ],
+          "nct_ids_total": 3,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT06131437",
+              "excerpt": "Novo Nordisk A/S"
+            },
+            {
+              "nct_id": "NCT06131437",
+              "excerpt": "Tirzepatide",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[2].name"
+            },
+            {
+              "nct_id": "NCT06326060",
+              "excerpt": "Novo Nordisk A/S"
+            }
+          ],
+          "citations_total": 6,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "e14",
+          "source": "sponsor:pfizer",
+          "target": "drug:semaglutide",
+          "weight": 3,
+          "type": "sponsor_tests_drug",
+          "nct_ids": [
+            "NCT05579977",
+            "NCT05671653",
+            "NCT07845500"
+          ],
+          "nct_ids_total": 3,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT05579977",
+              "excerpt": "Pfizer"
+            },
+            {
+              "nct_id": "NCT05579977",
+              "excerpt": "Rybelsus",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[2].name"
+            },
+            {
+              "nct_id": "NCT05671653",
+              "excerpt": "Pfizer"
+            }
+          ],
+          "citations_total": 6,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "e15",
+          "source": "sponsor:eli-lilly-and-company",
+          "target": "drug:semaglutide",
+          "weight": 2,
+          "type": "sponsor_tests_drug",
+          "nct_ids": [
+            "NCT05616013",
+            "NCT05822830"
+          ],
+          "nct_ids_total": 2,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT05616013",
+              "excerpt": "Eli Lilly and Company"
+            },
+            {
+              "nct_id": "NCT05616013",
+              "excerpt": "Semaglutide",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[1].name"
+            },
+            {
+              "nct_id": "NCT05822830",
+              "excerpt": "Eli Lilly and Company"
+            }
+          ],
+          "citations_total": 4,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "e16",
+          "source": "sponsor:mayo-clinic",
+          "target": "drug:tirzepatide",
+          "weight": 2,
+          "type": "sponsor_tests_drug",
+          "nct_ids": [
+            "NCT06801015",
+            "NCT07218445"
+          ],
+          "nct_ids_total": 2,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT06801015",
+              "excerpt": "Mayo Clinic"
+            },
+            {
+              "nct_id": "NCT06801015",
+              "excerpt": "Tirzepatide",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[1].name"
+            },
+            {
+              "nct_id": "NCT07218445",
+              "excerpt": "Mayo Clinic"
+            }
+          ],
+          "citations_total": 4,
+          "excerpts_truncated": true
+        }
+      ]
+    }
+  },
+  "answer_summary": "The sponsor–drug pairs with the most trials are Novo Nordisk A/S – Semaglutide (66 trials), Eli Lilly and Company – Tirzepatide (41 trials), Eli Lilly and Company – Orforglipron (25 trials). The sponsors with the most trials here are Novo Nordisk A/S (174 trials), Eli Lilly and Company (118 trials). Based on 11,989 trials from ClinicalTrials.gov.",
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "conditions": [
+        "obesity"
+      ],
+      "interventional_only": true
+    },
+    "query_interpretation": {
+      "intent": "entity_network",
+      "persona": "researcher",
+      "scope": "cohort",
+      "confidence": 0.86,
+      "parser": "llm",
+      "cohorts": [
+        {
+          "label": "Obesity",
+          "conditions": [
+            "obesity"
+          ],
+          "interventional_only": true
+        }
+      ],
+      "resolved_entities": [
+        {
+          "input": "obesity",
+          "resolved": "obesity",
+          "kind": "condition",
+          "method": "structured_field"
+        }
+      ]
+    },
+    "notes": [
+      {
+        "code": "SNAPSHOT",
+        "severity": "info",
+        "message": "Obesity: all 11,989 trial records read from the stored cohort snapshot taken 2026-10-19 05:42 UTC; ClinicalTrials.gov still reports the same number of matching trials."
+      },
+      {
+        "code": "TRUNCATED",
+        "severity": "info",
+        "message": "Showing 16 of 5279 entities (most connected) and 16 of 3443 links; other links need weight >= 2."
+      }
+    ],
+    "units": {
+      "weight": "trials",
+      "size": "trials"
+    },
+    "grouping": {
+      "weight": "distinct_trials"
+    },
+    "truncation": {
+      "top_n": 16,
+      "other_bucket": false,
+      "omitted_count": 5263
+    },
+    "node_types": [
+      {
+        "type": "sponsor",
+        "label": "Lead sponsor",
+        "count": 6
+      },
+      {
+        "type": "drug",
+        "label": "Drug / biological",
+        "count": 10
+      }
+    ],
+    "edge_semantics": "Lead sponsor runs at least one trial testing the drug; weight = distinct trials.",
+    "network_kind": "sponsor_drug",
+    "directed": true,
+    "min_edge_weight": 2,
+    "coverage": {
+      "studies_matched_total": 11989,
+      "studies_analyzed": 11989,
+      "counting_method": "all_records",
+      "sampled": false,
+      "queries": [
+        "https://clinicaltrials.gov/search?cond=obesity&advanced=AREA%5BStudyType%5DINTERVENTIONAL"
+      ]
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "validation": {
+      "passed": true,
+      "checks": [
+        {
+          "name": "retrieval_matches_api_total",
+          "passed": true,
+          "detail": "Obesity: 11,989 of 11,989"
+        },
+        {
+          "name": "counts_match_trial_lists",
+          "passed": true,
+          "detail": "32 count datum(s) checked"
+        },
+        {
+          "name": "each_trial_in_one_bucket",
+          "passed": true,
+          "detail": "not a single-valued grouping"
+        },
+        {
+          "name": "citations_from_retrieved_records",
+          "passed": true,
+          "detail": "909 NCT id(s), all retrieved"
+        },
+        {
+          "name": "summary_numbers_in_data",
+          "passed": true,
+          "detail": "every number appears in the data"
+        },
+        {
+          "name": "value_axes_labeled",
+          "passed": true,
+          "detail": "all value axes say what they measure"
+        }
+      ]
+    },
+    "alternatives": [
+      {
+        "type": "table",
+        "reason": "all values as a sortable table"
+      },
+      {
+        "type": "bar_chart",
+        "reason": "compare categories side by side"
+      }
+    ],
+    "request_id": "f85e8a6e50794d7aa1bc9d45886a9614",
+    "created_at": "2026-10-19T09:35:36+00:00",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-16T09:00:05"
+  }
+}

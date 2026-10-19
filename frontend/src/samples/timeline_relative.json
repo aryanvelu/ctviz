@@ -1,0 +1,344 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "timeline",
+    "title": "Your journey in STEP 1 (NCT03548935)",
+    "subtitle": "Study dates on a calendar axis; your treatment and visits in days from randomization",
+    "encoding": {
+      "y": {
+        "field": "row",
+        "type": "nominal",
+        "title": "Stage"
+      },
+      "series": {
+        "field": "lane",
+        "type": "nominal",
+        "title": "Lane",
+        "sort": {
+          "values": [
+            "Study dates",
+            "Treatment",
+            "Visits"
+          ]
+        }
+      },
+      "label": {
+        "field": "description",
+        "type": "nominal",
+        "title": "Description"
+      }
+    },
+    "data": [
+      {
+        "id": "d1",
+        "row": "Study start",
+        "lane": "Study dates",
+        "start_date": "2018-06-04",
+        "description": "First participant enrolled",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "2018-06-04"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d2",
+        "row": "Primary completion",
+        "lane": "Study dates",
+        "start_date": "2020-03-30",
+        "description": "Last primary-endpoint visit",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.primaryCompletionDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "2020-03-30"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d3",
+        "row": "Dose escalation",
+        "lane": "Treatment",
+        "day_start": 0,
+        "day_end": 112,
+        "description": "Dose escalation every 4 weeks to 2.4 mg",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "dose escalation every 4 weeks",
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].description",
+            "kind": "text_excerpt",
+            "char_start": 120,
+            "char_end": 149
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d4",
+        "row": "Maintenance",
+        "lane": "Treatment",
+        "day_start": 112,
+        "day_end": 476,
+        "description": "Maintenance at 2.4 mg",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "once-weekly for 68 weeks",
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].description",
+            "kind": "text_excerpt",
+            "char_start": 52,
+            "char_end": 76
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d5",
+        "row": "Follow-up",
+        "lane": "Treatment",
+        "day_start": 476,
+        "day_end": 525,
+        "description": "Follow-up off treatment (7 weeks)",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "7 weeks follow-up",
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].description",
+            "kind": "text_excerpt",
+            "char_start": 300,
+            "char_end": 317
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d6",
+        "row": "Clinic visits",
+        "lane": "Visits",
+        "day_start": 28,
+        "description": "Week 4 visit",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "week 4",
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].description",
+            "kind": "text_excerpt",
+            "char_start": 340,
+            "char_end": 346
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d7",
+        "row": "Clinic visits",
+        "lane": "Visits",
+        "day_start": 112,
+        "description": "Week 16 visit",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "week 16",
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].description",
+            "kind": "text_excerpt",
+            "char_start": 360,
+            "char_end": 367
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d8",
+        "row": "Clinic visits",
+        "lane": "Visits",
+        "day_start": 280,
+        "description": "Week 40 visit",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "week 40",
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].description",
+            "kind": "text_excerpt",
+            "char_start": 380,
+            "char_end": 387
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d9",
+        "row": "Clinic visits",
+        "lane": "Visits",
+        "day_start": 476,
+        "description": "Week 68 visit (end of treatment)",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "week 68",
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].description",
+            "kind": "text_excerpt",
+            "char_start": 400,
+            "char_end": 407
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      }
+    ]
+  },
+  "answer_summary": "Treatment in [NCT03548935] lasts 68 weeks after randomization, followed by 7 weeks of follow-up.",
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "nct_ids": [
+        "NCT03548935"
+      ]
+    },
+    "query_interpretation": {
+      "intent": "trial_journey_timeline",
+      "persona": "patient",
+      "scope": "single_trial",
+      "confidence": 0.92,
+      "parser": "llm"
+    },
+    "notes": [
+      {
+        "code": "APPROXIMATED",
+        "severity": "info",
+        "message": "Visit days are derived from week numbers in the protocol text.",
+        "affects": [
+          "d3",
+          "d4",
+          "d5",
+          "d6",
+          "d7",
+          "d8",
+          "d9"
+        ]
+      },
+      {
+        "code": "NOT_IN_REGISTRY",
+        "severity": "warning",
+        "message": "The registry does not list exact visit procedures; ask the study team for the visit schedule."
+      }
+    ],
+    "units": {
+      "day_start": "days"
+    },
+    "lanes": [
+      {
+        "name": "Study dates",
+        "axis": {
+          "kind": "calendar"
+        },
+        "start_field": "start_date",
+        "approximated": false
+      },
+      {
+        "name": "Treatment",
+        "axis": {
+          "kind": "relative",
+          "unit": "days",
+          "origin": "Randomization"
+        },
+        "start_field": "day_start",
+        "end_field": "day_end",
+        "approximated": true
+      },
+      {
+        "name": "Visits",
+        "axis": {
+          "kind": "relative",
+          "unit": "days",
+          "origin": "Randomization"
+        },
+        "start_field": "day_start",
+        "approximated": true
+      }
+    ],
+    "approximation": {
+      "method": "Week numbers in the protocol converted to days (1 week = 7 days)",
+      "assumptions": [
+        "Visit windows of ±3 days ignored"
+      ]
+    },
+    "coverage": {
+      "studies_matched_total": 1,
+      "studies_analyzed": 1,
+      "counting_method": "all_records",
+      "sampled": false
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "alternatives": [
+      {
+        "type": "table",
+        "reason": "all values as a sortable table"
+      }
+    ],
+    "request_id": "req_sample_13_timeline_rel",
+    "created_at": "2026-10-18T14:22:05Z",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-17T09:00:12"
+  }
+}

@@ -1,0 +1,444 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "heatmap",
+    "title": "GLP-1 agonist trials: condition × phase",
+    "subtitle": "Outlined cells have no registered trials (potential gaps)",
+    "encoding": {
+      "x": {
+        "field": "phase",
+        "type": "ordinal",
+        "title": "Phase",
+        "sort": {
+          "values": [
+            "PHASE1",
+            "PHASE2",
+            "PHASE3",
+            "PHASE4"
+          ]
+        }
+      },
+      "y": {
+        "field": "condition",
+        "type": "nominal",
+        "title": "Condition",
+        "sort": {
+          "values": [
+            "Obesity",
+            "Type 2 Diabetes",
+            "NASH",
+            "Heart Failure",
+            "Chronic Kidney Disease"
+          ]
+        }
+      },
+      "series": {
+        "field": "trials",
+        "type": "quantitative",
+        "title": "Trials",
+        "unit": "trials",
+        "format": ",d"
+      }
+    },
+    "data": [
+      {
+        "id": "d1",
+        "condition": "Obesity",
+        "phase": "PHASE1",
+        "trials": 22,
+        "is_gap": false,
+        "citations": [
+          {
+            "excerpt": "22",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "Obesity · PHASE1"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d2",
+        "condition": "Obesity",
+        "phase": "PHASE2",
+        "trials": 41,
+        "is_gap": false,
+        "citations": [
+          {
+            "excerpt": "41",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "Obesity · PHASE2"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d3",
+        "condition": "Obesity",
+        "phase": "PHASE3",
+        "trials": 63,
+        "is_gap": false,
+        "citations": [
+          {
+            "excerpt": "63",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "Obesity · PHASE3"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d4",
+        "condition": "Obesity",
+        "phase": "PHASE4",
+        "trials": 18,
+        "is_gap": false,
+        "citations": [
+          {
+            "excerpt": "18",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "Obesity · PHASE4"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d5",
+        "condition": "Type 2 Diabetes",
+        "phase": "PHASE1",
+        "trials": 30,
+        "is_gap": false,
+        "citations": [
+          {
+            "excerpt": "30",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "Type 2 Diabetes · PHASE1"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d6",
+        "condition": "Type 2 Diabetes",
+        "phase": "PHASE2",
+        "trials": 55,
+        "is_gap": false,
+        "citations": [
+          {
+            "excerpt": "55",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "Type 2 Diabetes · PHASE2"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d7",
+        "condition": "Type 2 Diabetes",
+        "phase": "PHASE3",
+        "trials": 88,
+        "is_gap": false,
+        "citations": [
+          {
+            "excerpt": "88",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "Type 2 Diabetes · PHASE3"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d8",
+        "condition": "Type 2 Diabetes",
+        "phase": "PHASE4",
+        "trials": 47,
+        "is_gap": false,
+        "citations": [
+          {
+            "excerpt": "47",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "Type 2 Diabetes · PHASE4"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d9",
+        "condition": "NASH",
+        "phase": "PHASE1",
+        "trials": 4,
+        "is_gap": false,
+        "citations": [
+          {
+            "excerpt": "4",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "NASH · PHASE1"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d10",
+        "condition": "NASH",
+        "phase": "PHASE2",
+        "trials": 12,
+        "is_gap": false,
+        "citations": [
+          {
+            "excerpt": "12",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "NASH · PHASE2"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d11",
+        "condition": "NASH",
+        "phase": "PHASE3",
+        "trials": 3,
+        "is_gap": false,
+        "citations": [
+          {
+            "excerpt": "3",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "NASH · PHASE3"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d12",
+        "condition": "NASH",
+        "phase": "PHASE4",
+        "trials": 0,
+        "is_gap": true,
+        "cite_note": "no supporting record (empty bucket or derived value)",
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d13",
+        "condition": "Heart Failure",
+        "phase": "PHASE1",
+        "trials": 0,
+        "is_gap": true,
+        "cite_note": "no supporting record (empty bucket or derived value)",
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d14",
+        "condition": "Heart Failure",
+        "phase": "PHASE2",
+        "trials": 6,
+        "is_gap": false,
+        "citations": [
+          {
+            "excerpt": "6",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "Heart Failure · PHASE2"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d15",
+        "condition": "Heart Failure",
+        "phase": "PHASE3",
+        "trials": 9,
+        "is_gap": false,
+        "citations": [
+          {
+            "excerpt": "9",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "Heart Failure · PHASE3"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d16",
+        "condition": "Heart Failure",
+        "phase": "PHASE4",
+        "trials": 2,
+        "is_gap": false,
+        "citations": [
+          {
+            "excerpt": "2",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "Heart Failure · PHASE4"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d17",
+        "condition": "Chronic Kidney Disease",
+        "phase": "PHASE1",
+        "trials": 1,
+        "is_gap": false,
+        "citations": [
+          {
+            "excerpt": "1",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "Chronic Kidney Disease · PHASE1"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d18",
+        "condition": "Chronic Kidney Disease",
+        "phase": "PHASE2",
+        "trials": 3,
+        "is_gap": false,
+        "citations": [
+          {
+            "excerpt": "3",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "Chronic Kidney Disease · PHASE2"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d19",
+        "condition": "Chronic Kidney Disease",
+        "phase": "PHASE3",
+        "trials": 5,
+        "is_gap": false,
+        "citations": [
+          {
+            "excerpt": "5",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "Chronic Kidney Disease · PHASE3"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d20",
+        "condition": "Chronic Kidney Disease",
+        "phase": "PHASE4",
+        "trials": 0,
+        "is_gap": true,
+        "cite_note": "no supporting record (empty bucket or derived value)",
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      }
+    ]
+  },
+  "answer_summary": "No phase 4 GLP-1 trials are registered for NASH or chronic kidney disease, and none in phase 1 for heart failure.",
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "drug_names": [
+        "semaglutide",
+        "liraglutide",
+        "tirzepatide",
+        "dulaglutide",
+        "exenatide"
+      ]
+    },
+    "query_interpretation": {
+      "intent": "landscape_gap_heatmap",
+      "persona": "researcher",
+      "scope": "cohort",
+      "confidence": 0.92,
+      "parser": "llm",
+      "cohorts": [
+        {
+          "label": "GLP-1",
+          "drugs": [
+            "semaglutide",
+            "liraglutide",
+            "tirzepatide",
+            "dulaglutide",
+            "exenatide"
+          ]
+        }
+      ],
+      "resolved_entities": [
+        {
+          "input": "GLP-1 agonist",
+          "resolved": "GLP-1 receptor agonists",
+          "kind": "drug",
+          "method": "alias"
+        }
+      ]
+    },
+    "assumptions": [
+      "'GLP-1 agonist' expanded to 5 approved molecules"
+    ],
+    "units": {
+      "trials": "trials"
+    },
+    "highlight_zero": true,
+    "coverage": {
+      "studies_matched_total": 1512,
+      "studies_analyzed": 1512,
+      "counting_method": "all_records",
+      "sampled": false
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "alternatives": [
+      {
+        "type": "bar_chart",
+        "reason": "compare categories side by side"
+      }
+    ],
+    "request_id": "req_sample_08_heatmap",
+    "created_at": "2026-10-18T14:22:05Z",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-17T09:00:12"
+  }
+}

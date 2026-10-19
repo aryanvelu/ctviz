@@ -1,0 +1,557 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "time_series",
+    "title": "Trials started per year: pembrolizumab vs nivolumab",
+    "encoding": {
+      "x": {
+        "field": "year",
+        "type": "temporal",
+        "title": "Start year",
+        "time_format": "%Y"
+      },
+      "y": {
+        "field": "trials",
+        "type": "quantitative",
+        "title": "Trials started",
+        "unit": "trials",
+        "format": ",d"
+      },
+      "series": {
+        "field": "drug",
+        "type": "nominal",
+        "title": "Drug"
+      }
+    },
+    "data": [
+      {
+        "id": "d1",
+        "year": "2015",
+        "trials": 98,
+        "drug": "pembrolizumab",
+        "citations": [
+          {
+            "excerpt": "98",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "pembrolizumab 2015"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d2",
+        "year": "2016",
+        "trials": 142,
+        "drug": "pembrolizumab",
+        "citations": [
+          {
+            "excerpt": "142",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "pembrolizumab 2016"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d3",
+        "year": "2017",
+        "trials": 205,
+        "drug": "pembrolizumab",
+        "citations": [
+          {
+            "excerpt": "205",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "pembrolizumab 2017"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d4",
+        "year": "2018",
+        "trials": 251,
+        "drug": "pembrolizumab",
+        "citations": [
+          {
+            "excerpt": "251",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "pembrolizumab 2018"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d5",
+        "year": "2019",
+        "trials": 263,
+        "drug": "pembrolizumab",
+        "citations": [
+          {
+            "excerpt": "263",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "pembrolizumab 2019"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d6",
+        "year": "2020",
+        "trials": 240,
+        "drug": "pembrolizumab",
+        "citations": [
+          {
+            "excerpt": "240",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "pembrolizumab 2020"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d7",
+        "year": "2021",
+        "trials": 236,
+        "drug": "pembrolizumab",
+        "citations": [
+          {
+            "excerpt": "236",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "pembrolizumab 2021"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d8",
+        "year": "2022",
+        "trials": 228,
+        "drug": "pembrolizumab",
+        "citations": [
+          {
+            "excerpt": "228",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "pembrolizumab 2022"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d9",
+        "year": "2023",
+        "trials": 219,
+        "drug": "pembrolizumab",
+        "citations": [
+          {
+            "excerpt": "219",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "pembrolizumab 2023"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d10",
+        "year": "2024",
+        "trials": 201,
+        "drug": "pembrolizumab",
+        "citations": [
+          {
+            "excerpt": "201",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "pembrolizumab 2024"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d11",
+        "year": "2025",
+        "trials": 174,
+        "drug": "pembrolizumab",
+        "citations": [
+          {
+            "excerpt": "174",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "pembrolizumab 2025"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d12",
+        "year": "2015",
+        "trials": 61,
+        "drug": "nivolumab",
+        "citations": [
+          {
+            "excerpt": "61",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "nivolumab 2015"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d13",
+        "year": "2016",
+        "trials": 102,
+        "drug": "nivolumab",
+        "citations": [
+          {
+            "excerpt": "102",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "nivolumab 2016"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d14",
+        "year": "2017",
+        "trials": 151,
+        "drug": "nivolumab",
+        "citations": [
+          {
+            "excerpt": "151",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "nivolumab 2017"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d15",
+        "year": "2018",
+        "trials": 170,
+        "drug": "nivolumab",
+        "citations": [
+          {
+            "excerpt": "170",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "nivolumab 2018"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d16",
+        "year": "2019",
+        "trials": 166,
+        "drug": "nivolumab",
+        "citations": [
+          {
+            "excerpt": "166",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "nivolumab 2019"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d17",
+        "year": "2020",
+        "trials": 138,
+        "drug": "nivolumab",
+        "citations": [
+          {
+            "excerpt": "138",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "nivolumab 2020"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d18",
+        "year": "2021",
+        "trials": 121,
+        "drug": "nivolumab",
+        "citations": [
+          {
+            "excerpt": "121",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "nivolumab 2021"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d19",
+        "year": "2022",
+        "trials": 104,
+        "drug": "nivolumab",
+        "citations": [
+          {
+            "excerpt": "104",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "nivolumab 2022"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d20",
+        "year": "2023",
+        "trials": 88,
+        "drug": "nivolumab",
+        "citations": [
+          {
+            "excerpt": "88",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "nivolumab 2023"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d21",
+        "year": "2024",
+        "trials": 79,
+        "drug": "nivolumab",
+        "citations": [
+          {
+            "excerpt": "79",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "nivolumab 2024"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d22",
+        "year": "2025",
+        "trials": 62,
+        "drug": "nivolumab",
+        "citations": [
+          {
+            "excerpt": "62",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "nivolumab 2025"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      }
+    ]
+  },
+  "answer_summary": "Pembrolizumab trial starts peaked at 263 in 2019 [NCT03765918]; nivolumab peaked at 170 in 2018.",
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "compare": [
+        {
+          "label": "pembrolizumab",
+          "drug_names": [
+            "pembrolizumab"
+          ],
+          "start_year": 2015
+        },
+        {
+          "label": "nivolumab",
+          "drug_names": [
+            "nivolumab"
+          ],
+          "start_year": 2015
+        }
+      ]
+    },
+    "query_interpretation": {
+      "intent": "trend_over_time",
+      "persona": "researcher",
+      "scope": "comparison",
+      "confidence": 0.92,
+      "parser": "llm",
+      "cohorts": [
+        {
+          "label": "pembrolizumab",
+          "drugs": [
+            "pembrolizumab"
+          ],
+          "start_year": 2015
+        },
+        {
+          "label": "nivolumab",
+          "drugs": [
+            "nivolumab"
+          ],
+          "start_year": 2015
+        }
+      ]
+    },
+    "notes": [
+      {
+        "code": "PARTIAL_DATES",
+        "severity": "info",
+        "message": "2025 is a partial year (data through 2026-10-17 includes late registrations).",
+        "affects": [
+          "d11",
+          "d22"
+        ]
+      }
+    ],
+    "units": {
+      "trials": "trials"
+    },
+    "time_granularity": "year",
+    "time_axis": {
+      "kind": "calendar"
+    },
+    "coverage": {
+      "studies_matched_total": 3714,
+      "studies_analyzed": 3714,
+      "counting_method": "all_records",
+      "sampled": false,
+      "queries": [
+        "https://clinicaltrials.gov/search?intr=pembrolizumab&start=2015-01-01_",
+        "https://clinicaltrials.gov/search?intr=nivolumab&start=2015-01-01_"
+      ]
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "alternatives": [
+      {
+        "type": "bar_chart",
+        "reason": "compare categories side by side"
+      },
+      {
+        "type": "table",
+        "reason": "all values as a sortable table"
+      }
+    ],
+    "request_id": "req_sample_06_time_series",
+    "created_at": "2026-10-18T14:22:05Z",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-17T09:00:12",
+    "debug": {
+      "api_params": {
+        "drug_names": [
+          "pembrolizumab",
+          "nivolumab"
+        ],
+        "start_year": 2015
+      },
+      "cache": {
+        "response_hit": false,
+        "ctgov_hits": 3,
+        "ctgov_misses": 2
+      },
+      "trace": {
+        "total_ms": 1543.1,
+        "steps": [
+          {
+            "name": "validate",
+            "ms": 0.4,
+            "status": "ok"
+          },
+          {
+            "name": "response_cache",
+            "ms": 1.2,
+            "status": "ok",
+            "detail": {
+              "hit": false
+            }
+          },
+          {
+            "name": "plan",
+            "ms": 612.5,
+            "status": "ok",
+            "detail": {
+              "parser": "llm"
+            }
+          },
+          {
+            "name": "retrieve",
+            "ms": 884.0,
+            "status": "ok",
+            "detail": {
+              "pages": 2
+            }
+          },
+          {
+            "name": "handler",
+            "ms": 38.7,
+            "status": "ok"
+          },
+          {
+            "name": "verify",
+            "ms": 6.3,
+            "status": "ok",
+            "detail": {
+              "citations_checked": 120,
+              "dropped": 0
+            }
+          }
+        ],
+        "llm_calls": [
+          {
+            "agent": "planner",
+            "model": "gpt-5.4-nano",
+            "input_tokens": 1840,
+            "cached_tokens": 1536,
+            "output_tokens": 212,
+            "ms": 598.2,
+            "cost_usd": 0.00021,
+            "tool_calls": 0
+          }
+        ],
+        "ctgov_calls": 2,
+        "cost_usd": 0.00021
+      }
+    }
+  }
+}

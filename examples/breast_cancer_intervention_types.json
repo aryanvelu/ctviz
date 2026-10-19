@@ -1,0 +1,698 @@
+{
+  "name": "breast_cancer_intervention_types",
+  "request": {
+    "query": "What are the most common intervention types in breast cancer trials?",
+    "condition": "breast cancer",
+    "persona": "researcher"
+  },
+  "response": {
+    "status": "ok",
+    "visualization": {
+      "type": "bar_chart",
+      "title": "Trials by intervention type: Breast cancer",
+      "encoding": {
+        "x": {
+          "field": "intervention_type",
+          "type": "nominal",
+          "title": "Intervention type",
+          "sort": {
+            "values": [
+              "Drug",
+              "Other",
+              "Procedure",
+              "Behavioral",
+              "Device",
+              "Biological",
+              "Radiation",
+              "Diagnostic test",
+              "Dietary supplement",
+              "Genetic",
+              "Combination product"
+            ]
+          }
+        },
+        "y": {
+          "field": "trial_count",
+          "type": "quantitative",
+          "title": "Trials",
+          "unit": "trials",
+          "format": ",d"
+        }
+      },
+      "data": [
+        {
+          "id": "d1",
+          "intervention_type": "Drug",
+          "trial_count": 7706,
+          "nct_ids": [
+            "NCT00000611",
+            "NCT00001239",
+            "NCT00001250",
+            "NCT00001269",
+            "NCT00001270",
+            "NCT00001302",
+            "NCT00001338",
+            "NCT00001378",
+            "NCT00001383",
+            "NCT00001384",
+            "NCT00001440",
+            "NCT00001444",
+            "NCT00001498",
+            "NCT00001504",
+            "NCT00001507",
+            "NCT00001805",
+            "NCT00001832",
+            "NCT00001944",
+            "NCT00002460",
+            "NCT00002465"
+          ],
+          "nct_ids_total": 7706,
+          "field_path": "protocolSection.armsInterventionsModule.interventions[0].type",
+          "citations": [
+            {
+              "nct_id": "NCT00000611",
+              "excerpt": "DRUG"
+            },
+            {
+              "nct_id": "NCT00001239",
+              "excerpt": "DRUG"
+            },
+            {
+              "nct_id": "NCT00001250",
+              "excerpt": "DRUG"
+            }
+          ],
+          "citations_total": 7706,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d2",
+          "intervention_type": "Other",
+          "trial_count": 3229,
+          "nct_ids": [
+            "NCT00001806",
+            "NCT00002564",
+            "NCT00002644",
+            "NCT00003098",
+            "NCT00003099",
+            "NCT00003140",
+            "NCT00003253",
+            "NCT00003440",
+            "NCT00003600",
+            "NCT00003854",
+            "NCT00004261",
+            "NCT00004888",
+            "NCT00005095",
+            "NCT00005817",
+            "NCT00005970",
+            "NCT00006228",
+            "NCT00016276",
+            "NCT00017095",
+            "NCT00017394",
+            "NCT00024154"
+          ],
+          "nct_ids_total": 3229,
+          "field_path": "protocolSection.armsInterventionsModule.interventions[0].type",
+          "citations": [
+            {
+              "nct_id": "NCT00001806",
+              "excerpt": "OTHER"
+            },
+            {
+              "nct_id": "NCT00002564",
+              "excerpt": "OTHER"
+            },
+            {
+              "nct_id": "NCT00002644",
+              "excerpt": "OTHER",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[1].type"
+            }
+          ],
+          "citations_total": 3229,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d3",
+          "intervention_type": "Procedure",
+          "trial_count": 2102,
+          "nct_ids": [
+            "NCT00001193",
+            "NCT00001440",
+            "NCT00001498",
+            "NCT00001832",
+            "NCT00002455",
+            "NCT00002460",
+            "NCT00002509",
+            "NCT00002528",
+            "NCT00002564",
+            "NCT00002579",
+            "NCT00002580",
+            "NCT00002581",
+            "NCT00002582",
+            "NCT00002616",
+            "NCT00002627",
+            "NCT00002628",
+            "NCT00002673",
+            "NCT00002680",
+            "NCT00002696",
+            "NCT00002720"
+          ],
+          "nct_ids_total": 2102,
+          "field_path": "protocolSection.armsInterventionsModule.interventions[0].type",
+          "citations": [
+            {
+              "nct_id": "NCT00001193",
+              "excerpt": "PROCEDURE"
+            },
+            {
+              "nct_id": "NCT00001440",
+              "excerpt": "PROCEDURE"
+            },
+            {
+              "nct_id": "NCT00001498",
+              "excerpt": "PROCEDURE",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[4].type"
+            }
+          ],
+          "citations_total": 2102,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d4",
+          "intervention_type": "Behavioral",
+          "trial_count": 1647,
+          "nct_ids": [
+            "NCT00000611",
+            "NCT00002520",
+            "NCT00002668",
+            "NCT00002762",
+            "NCT00003787",
+            "NCT00010829",
+            "NCT00026858",
+            "NCT00086762",
+            "NCT00092950",
+            "NCT00115713",
+            "NCT00120016",
+            "NCT00120029",
+            "NCT00121160",
+            "NCT00122369",
+            "NCT00141635",
+            "NCT00145197",
+            "NCT00145743",
+            "NCT00148057",
+            "NCT00150917",
+            "NCT00153894"
+          ],
+          "nct_ids_total": 1647,
+          "field_path": "protocolSection.armsInterventionsModule.interventions[4].type",
+          "citations": [
+            {
+              "nct_id": "NCT00000611",
+              "excerpt": "BEHAVIORAL"
+            },
+            {
+              "nct_id": "NCT00002520",
+              "excerpt": "BEHAVIORAL",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[1].type"
+            },
+            {
+              "nct_id": "NCT00002668",
+              "excerpt": "BEHAVIORAL",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[0].type"
+            }
+          ],
+          "citations_total": 1647,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d5",
+          "intervention_type": "Device",
+          "trial_count": 1184,
+          "nct_ids": [
+            "NCT00001507",
+            "NCT00008437",
+            "NCT00028405",
+            "NCT00147108",
+            "NCT00148655",
+            "NCT00165581",
+            "NCT00181363",
+            "NCT00187343",
+            "NCT00195026",
+            "NCT00207324",
+            "NCT00221221",
+            "NCT00267449",
+            "NCT00268125",
+            "NCT00277069",
+            "NCT00282529",
+            "NCT00321048",
+            "NCT00328783",
+            "NCT00345072",
+            "NCT00347568",
+            "NCT00355745"
+          ],
+          "nct_ids_total": 1184,
+          "field_path": "protocolSection.armsInterventionsModule.interventions[3].type",
+          "citations": [
+            {
+              "nct_id": "NCT00001507",
+              "excerpt": "DEVICE"
+            },
+            {
+              "nct_id": "NCT00008437",
+              "excerpt": "DEVICE",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[0].type"
+            },
+            {
+              "nct_id": "NCT00028405",
+              "excerpt": "DEVICE",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[1].type"
+            }
+          ],
+          "citations_total": 1184,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d6",
+          "intervention_type": "Biological",
+          "trial_count": 964,
+          "nct_ids": [
+            "NCT00001832",
+            "NCT00002455",
+            "NCT00002475",
+            "NCT00002509",
+            "NCT00002616",
+            "NCT00002627",
+            "NCT00002628",
+            "NCT00002679",
+            "NCT00002680",
+            "NCT00002755",
+            "NCT00002772",
+            "NCT00002780",
+            "NCT00002784",
+            "NCT00002836",
+            "NCT00002837",
+            "NCT00002854",
+            "NCT00002866",
+            "NCT00002870",
+            "NCT00003002",
+            "NCT00003032"
+          ],
+          "nct_ids_total": 964,
+          "field_path": "protocolSection.armsInterventionsModule.interventions[0].type",
+          "citations": [
+            {
+              "nct_id": "NCT00001832",
+              "excerpt": "BIOLOGICAL",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[4].type"
+            },
+            {
+              "nct_id": "NCT00002455",
+              "excerpt": "BIOLOGICAL"
+            },
+            {
+              "nct_id": "NCT00002475",
+              "excerpt": "BIOLOGICAL"
+            }
+          ],
+          "citations_total": 964,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d7",
+          "intervention_type": "Radiation",
+          "trial_count": 920,
+          "nct_ids": [
+            "NCT00002528",
+            "NCT00002542",
+            "NCT00002579",
+            "NCT00002580",
+            "NCT00002581",
+            "NCT00002582",
+            "NCT00002679",
+            "NCT00002680",
+            "NCT00002696",
+            "NCT00002755",
+            "NCT00002772",
+            "NCT00002784",
+            "NCT00002851",
+            "NCT00002873",
+            "NCT00003013",
+            "NCT00003035",
+            "NCT00003050",
+            "NCT00003086",
+            "NCT00003162",
+            "NCT00003199"
+          ],
+          "nct_ids_total": 920,
+          "field_path": "protocolSection.armsInterventionsModule.interventions[2].type",
+          "citations": [
+            {
+              "nct_id": "NCT00002528",
+              "excerpt": "RADIATION"
+            },
+            {
+              "nct_id": "NCT00002542",
+              "excerpt": "RADIATION",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[7].type"
+            },
+            {
+              "nct_id": "NCT00002579",
+              "excerpt": "RADIATION",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[6].type"
+            }
+          ],
+          "citations_total": 920,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d8",
+          "intervention_type": "Diagnostic test",
+          "trial_count": 517,
+          "nct_ids": [
+            "NCT00003302",
+            "NCT00008346",
+            "NCT01110174",
+            "NCT01173341",
+            "NCT01479348",
+            "NCT01653964",
+            "NCT01817374",
+            "NCT01892540",
+            "NCT02000089",
+            "NCT02317783",
+            "NCT02479100",
+            "NCT02566109",
+            "NCT02658708",
+            "NCT02708511",
+            "NCT02770586",
+            "NCT02791581",
+            "NCT02933489",
+            "NCT02941536",
+            "NCT03033030",
+            "NCT03053193"
+          ],
+          "nct_ids_total": 517,
+          "field_path": "protocolSection.armsInterventionsModule.interventions[0].type",
+          "citations": [
+            {
+              "nct_id": "NCT00003302",
+              "excerpt": "DIAGNOSTIC_TEST",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[1].type"
+            },
+            {
+              "nct_id": "NCT00008346",
+              "excerpt": "DIAGNOSTIC_TEST"
+            },
+            {
+              "nct_id": "NCT01110174",
+              "excerpt": "DIAGNOSTIC_TEST"
+            }
+          ],
+          "citations_total": 517,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d9",
+          "intervention_type": "Dietary supplement",
+          "trial_count": 225,
+          "nct_ids": [
+            "NCT00022087",
+            "NCT00022204",
+            "NCT00028964",
+            "NCT00031720",
+            "NCT00036686",
+            "NCT00041223",
+            "NCT00049608",
+            "NCT00054418",
+            "NCT00060320",
+            "NCT00068458",
+            "NCT00073073",
+            "NCT00079170",
+            "NCT00096356",
+            "NCT00099008",
+            "NCT00100893",
+            "NCT00114296",
+            "NCT00204477",
+            "NCT00204490",
+            "NCT00228943",
+            "NCT00244933"
+          ],
+          "nct_ids_total": 225,
+          "field_path": "protocolSection.armsInterventionsModule.interventions[0].type",
+          "citations": [
+            {
+              "nct_id": "NCT00022087",
+              "excerpt": "DIETARY_SUPPLEMENT"
+            },
+            {
+              "nct_id": "NCT00022204",
+              "excerpt": "DIETARY_SUPPLEMENT"
+            },
+            {
+              "nct_id": "NCT00028964",
+              "excerpt": "DIETARY_SUPPLEMENT"
+            }
+          ],
+          "citations_total": 225,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d10",
+          "intervention_type": "Genetic",
+          "trial_count": 189,
+          "nct_ids": [
+            "NCT00001493",
+            "NCT00003329",
+            "NCT00017095",
+            "NCT00070278",
+            "NCT00080860",
+            "NCT00081003",
+            "NCT00082979",
+            "NCT00083018",
+            "NCT00088829",
+            "NCT00104650",
+            "NCT00283608",
+            "NCT00286247",
+            "NCT00343512",
+            "NCT00361049",
+            "NCT00373191",
+            "NCT00379509",
+            "NCT00381901",
+            "NCT00425672",
+            "NCT00429988",
+            "NCT00436254"
+          ],
+          "nct_ids_total": 189,
+          "field_path": "protocolSection.armsInterventionsModule.interventions[0].type",
+          "citations": [
+            {
+              "nct_id": "NCT00001493",
+              "excerpt": "GENETIC"
+            },
+            {
+              "nct_id": "NCT00003329",
+              "excerpt": "GENETIC"
+            },
+            {
+              "nct_id": "NCT00017095",
+              "excerpt": "GENETIC",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[5].type"
+            }
+          ],
+          "citations_total": 189,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d11",
+          "intervention_type": "Combination product",
+          "trial_count": 84,
+          "nct_ids": [
+            "NCT00567606",
+            "NCT02602067",
+            "NCT02700386",
+            "NCT03185169",
+            "NCT03200704",
+            "NCT03251313",
+            "NCT03321929",
+            "NCT03462251",
+            "NCT03564171",
+            "NCT03576521",
+            "NCT03586154",
+            "NCT03686215",
+            "NCT03731026",
+            "NCT03797248",
+            "NCT03817359",
+            "NCT03839823",
+            "NCT03919253",
+            "NCT03948568",
+            "NCT03983954",
+            "NCT04032080"
+          ],
+          "nct_ids_total": 84,
+          "field_path": "protocolSection.armsInterventionsModule.interventions[0].type",
+          "citations": [
+            {
+              "nct_id": "NCT00567606",
+              "excerpt": "COMBINATION_PRODUCT",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[1].type"
+            },
+            {
+              "nct_id": "NCT02602067",
+              "excerpt": "COMBINATION_PRODUCT"
+            },
+            {
+              "nct_id": "NCT02700386",
+              "excerpt": "COMBINATION_PRODUCT"
+            }
+          ],
+          "citations_total": 84,
+          "excerpts_truncated": true
+        }
+      ]
+    },
+    "answer_summary": "Drug has the most trials (7,706), then Other (3,229), then Procedure (2,102). Based on 16,734 trials from ClinicalTrials.gov.",
+    "meta": {
+      "source": "clinicaltrials.gov",
+      "filters": {
+        "conditions": [
+          "breast cancer"
+        ]
+      },
+      "query_interpretation": {
+        "intent": "intervention_landscape",
+        "persona": "researcher",
+        "scope": "cohort",
+        "confidence": 0.86,
+        "parser": "cache",
+        "cohorts": [
+          {
+            "label": "Breast cancer",
+            "conditions": [
+              "breast cancer"
+            ]
+          }
+        ],
+        "resolved_entities": [
+          {
+            "input": "breast cancer",
+            "resolved": "breast cancer",
+            "kind": "condition",
+            "method": "structured_field"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "code": "SNAPSHOT",
+          "severity": "info",
+          "message": "Breast cancer: all 16,734 trial records read from the stored cohort snapshot taken 2026-10-19 04:37 UTC; ClinicalTrials.gov still reports the same number of matching trials."
+        },
+        {
+          "code": "NOT_IN_REGISTRY",
+          "severity": "info",
+          "message": "1469 trial(s) do not report a intervention type and are not counted."
+        }
+      ],
+      "units": {
+        "trial_count": "trials"
+      },
+      "sort": {
+        "values": [
+          "Drug",
+          "Other",
+          "Procedure",
+          "Behavioral",
+          "Device",
+          "Biological",
+          "Radiation",
+          "Diagnostic test",
+          "Dietary supplement",
+          "Genetic",
+          "Combination product"
+        ]
+      },
+      "grouping": {
+        "by": [
+          "intervention_type"
+        ],
+        "aggregate": "count_distinct_trials",
+        "multi_valued": true
+      },
+      "layout": {
+        "orientation": "vertical",
+        "mode": "grouped",
+        "donut": false
+      },
+      "coverage": {
+        "studies_matched_total": 16734,
+        "studies_analyzed": 16734,
+        "counting_method": "all_records",
+        "sampled": false,
+        "queries": [
+          "https://clinicaltrials.gov/search?cond=%22breast+cancer%22"
+        ]
+      },
+      "citation_policy": {
+        "detail": "sample",
+        "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+        "nct_ids": "first_20",
+        "nct_ids_per_datum": 20,
+        "nct_ids_order": "nct_id",
+        "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+        "excerpts_per_datum": 3,
+        "excerpts_single_trial": 10,
+        "excerpt_order": "nct_id",
+        "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+      },
+      "validation": {
+        "passed": true,
+        "checks": [
+          {
+            "name": "retrieval_matches_api_total",
+            "passed": true,
+            "detail": "Breast cancer: 16,734 of 16,734"
+          },
+          {
+            "name": "counts_match_trial_lists",
+            "passed": true,
+            "detail": "11 count datum(s) checked"
+          },
+          {
+            "name": "each_trial_in_one_bucket",
+            "passed": true,
+            "detail": "not a single-valued grouping"
+          },
+          {
+            "name": "citations_from_retrieved_records",
+            "passed": true,
+            "detail": "15265 NCT id(s), all retrieved"
+          },
+          {
+            "name": "summary_numbers_in_data",
+            "passed": true,
+            "detail": "every number appears in the data"
+          },
+          {
+            "name": "value_axes_labeled",
+            "passed": true,
+            "detail": "all value axes say what they measure"
+          }
+        ]
+      },
+      "alternatives": [
+        {
+          "type": "pie_chart",
+          "reason": "share of the whole"
+        },
+        {
+          "type": "table",
+          "reason": "all values as a sortable table"
+        }
+      ],
+      "request_id": "8b1eeed4b9f4406d87094dc7e49155b7",
+      "created_at": "2026-10-19T10:10:22+00:00",
+      "schema_version": "2.2",
+      "ctgov_api_version": "2.0.5",
+      "data_timestamp": "2026-10-16T09:00:05"
+    }
+  }
+}

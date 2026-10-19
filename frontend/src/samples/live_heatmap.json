@@ -1,0 +1,3076 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "heatmap",
+    "title": "Phase × status: Melanoma",
+    "encoding": {
+      "x": {
+        "field": "phase",
+        "type": "ordinal",
+        "title": "Phase",
+        "sort": {
+          "values": [
+            "Early Phase 1",
+            "Phase 1",
+            "Phase 1/2",
+            "Phase 2",
+            "Phase 2/3",
+            "Phase 3",
+            "Phase 4",
+            "Not applicable"
+          ]
+        }
+      },
+      "y": {
+        "field": "status",
+        "type": "ordinal",
+        "title": "Status",
+        "sort": {
+          "values": [
+            "Not yet recruiting",
+            "Recruiting",
+            "Enrolling by invitation",
+            "Active, not recruiting",
+            "Suspended",
+            "Completed",
+            "Terminated",
+            "Withdrawn",
+            "Unknown status",
+            "Available",
+            "No longer available"
+          ]
+        }
+      },
+      "series": {
+        "field": "trial_count",
+        "type": "quantitative",
+        "title": "Trials",
+        "unit": "trials",
+        "format": ",d"
+      },
+      "tooltip": [
+        "is_gap"
+      ]
+    },
+    "data": [
+      {
+        "id": "d1",
+        "phase": "Early Phase 1",
+        "status": "Not yet recruiting",
+        "trial_count": 5,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT06212388",
+          "NCT06756295",
+          "NCT07389525",
+          "NCT07700121",
+          "NCT07813533"
+        ],
+        "nct_ids_total": 5,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT06212388",
+            "excerpt": "[\"EARLY_PHASE1\"]"
+          },
+          {
+            "nct_id": "NCT06212388",
+            "excerpt": "NOT_YET_RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT06756295",
+            "excerpt": "[\"EARLY_PHASE1\"]"
+          }
+        ],
+        "citations_total": 10,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d2",
+        "phase": "Phase 1",
+        "status": "Not yet recruiting",
+        "trial_count": 13,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT05903937",
+          "NCT07107178",
+          "NCT07183852",
+          "NCT07252661",
+          "NCT07320222",
+          "NCT07414979",
+          "NCT07444606",
+          "NCT07628894",
+          "NCT07664735",
+          "NCT07694414",
+          "NCT07707986",
+          "NCT07838974",
+          "NCT07857616"
+        ],
+        "nct_ids_total": 13,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT05903937",
+            "excerpt": "[\"PHASE1\"]"
+          },
+          {
+            "nct_id": "NCT05903937",
+            "excerpt": "NOT_YET_RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07107178",
+            "excerpt": "[\"PHASE1\"]"
+          }
+        ],
+        "citations_total": 26,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d3",
+        "phase": "Phase 1/2",
+        "status": "Not yet recruiting",
+        "trial_count": 11,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT05275374",
+          "NCT05539118",
+          "NCT06739226",
+          "NCT06896552",
+          "NCT07040436",
+          "NCT07615881",
+          "NCT07631325",
+          "NCT07747935",
+          "NCT07817901",
+          "NCT07841925",
+          "NCT07863024"
+        ],
+        "nct_ids_total": 11,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT05275374",
+            "excerpt": "[\"PHASE1\",\"PHASE2\"]"
+          },
+          {
+            "nct_id": "NCT05275374",
+            "excerpt": "NOT_YET_RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT05539118",
+            "excerpt": "[\"PHASE1\",\"PHASE2\"]"
+          }
+        ],
+        "citations_total": 22,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d4",
+        "phase": "Phase 2",
+        "status": "Not yet recruiting",
+        "trial_count": 29,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT02498756",
+          "NCT04622566",
+          "NCT06183736",
+          "NCT06327698",
+          "NCT06470880",
+          "NCT06500091",
+          "NCT06670300",
+          "NCT06708455",
+          "NCT06976021",
+          "NCT07236528",
+          "NCT07340619",
+          "NCT07347444",
+          "NCT07353073",
+          "NCT07406724",
+          "NCT07477548",
+          "NCT07492121",
+          "NCT07501104",
+          "NCT07511036",
+          "NCT07517653",
+          "NCT07527325"
+        ],
+        "nct_ids_total": 29,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT02498756",
+            "excerpt": "[\"PHASE2\"]"
+          },
+          {
+            "nct_id": "NCT02498756",
+            "excerpt": "NOT_YET_RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT04622566",
+            "excerpt": "[\"PHASE2\"]"
+          }
+        ],
+        "citations_total": 58,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d5",
+        "cite_note": "no supporting record (empty bucket or derived value)",
+        "phase": "Phase 2/3",
+        "status": "Not yet recruiting",
+        "trial_count": 0,
+        "is_gap": true,
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d6",
+        "phase": "Phase 3",
+        "status": "Not yet recruiting",
+        "trial_count": 2,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT07552597",
+          "NCT07815574"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT07552597",
+            "excerpt": "[\"PHASE3\"]"
+          },
+          {
+            "nct_id": "NCT07552597",
+            "excerpt": "NOT_YET_RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07815574",
+            "excerpt": "[\"PHASE3\"]"
+          }
+        ],
+        "citations_total": 4,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d7",
+        "phase": "Phase 4",
+        "status": "Not yet recruiting",
+        "trial_count": 5,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT06785974",
+          "NCT07004335",
+          "NCT07459543",
+          "NCT07720726",
+          "NCT07854522"
+        ],
+        "nct_ids_total": 5,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT06785974",
+            "excerpt": "[\"PHASE4\"]"
+          },
+          {
+            "nct_id": "NCT06785974",
+            "excerpt": "NOT_YET_RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07004335",
+            "excerpt": "[\"PHASE4\"]"
+          }
+        ],
+        "citations_total": 10,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d8",
+        "phase": "Not applicable",
+        "status": "Not yet recruiting",
+        "trial_count": 39,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT04477876",
+          "NCT05004792",
+          "NCT06093594",
+          "NCT06273722",
+          "NCT06553781",
+          "NCT06566404",
+          "NCT06661577",
+          "NCT06710093",
+          "NCT06780397",
+          "NCT06788665",
+          "NCT06870994",
+          "NCT06999499",
+          "NCT07005297",
+          "NCT07028008",
+          "NCT07032701",
+          "NCT07046728",
+          "NCT07114172",
+          "NCT07246759",
+          "NCT07293598",
+          "NCT07307534"
+        ],
+        "nct_ids_total": 39,
+        "field_path": "protocolSection.identificationModule.nctId",
+        "citations": [
+          {
+            "nct_id": "NCT04477876",
+            "excerpt": "NCT04477876"
+          },
+          {
+            "nct_id": "NCT04477876",
+            "excerpt": "NOT_YET_RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT05004792",
+            "excerpt": "[\"NA\"]",
+            "field_path": "protocolSection.designModule.phases"
+          }
+        ],
+        "citations_total": 78,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d9",
+        "phase": "Early Phase 1",
+        "status": "Recruiting",
+        "trial_count": 8,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT04741997",
+          "NCT05098184",
+          "NCT05498792",
+          "NCT06216938",
+          "NCT06305962",
+          "NCT06472661",
+          "NCT07586904",
+          "NCT07628634"
+        ],
+        "nct_ids_total": 8,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT04741997",
+            "excerpt": "[\"EARLY_PHASE1\"]"
+          },
+          {
+            "nct_id": "NCT04741997",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT05098184",
+            "excerpt": "[\"EARLY_PHASE1\"]"
+          }
+        ],
+        "citations_total": 16,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d10",
+        "phase": "Phase 1",
+        "status": "Recruiting",
+        "trial_count": 71,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT02870244",
+          "NCT03093909",
+          "NCT03454035",
+          "NCT03819296",
+          "NCT04038619",
+          "NCT04119024",
+          "NCT04282044",
+          "NCT04389281",
+          "NCT04697576",
+          "NCT04855435",
+          "NCT04897321",
+          "NCT04903119",
+          "NCT04913285",
+          "NCT05039801",
+          "NCT05076760",
+          "NCT05077137",
+          "NCT05098210",
+          "NCT05107674",
+          "NCT05366478",
+          "NCT05492682"
+        ],
+        "nct_ids_total": 71,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT02870244",
+            "excerpt": "[\"PHASE1\"]"
+          },
+          {
+            "nct_id": "NCT02870244",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT03093909",
+            "excerpt": "[\"PHASE1\"]"
+          }
+        ],
+        "citations_total": 142,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d11",
+        "phase": "Phase 1/2",
+        "status": "Recruiting",
+        "trial_count": 80,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00722228",
+          "NCT01638676",
+          "NCT01898039",
+          "NCT02332668",
+          "NCT02830724",
+          "NCT03685890",
+          "NCT03686124",
+          "NCT03829254",
+          "NCT03947385",
+          "NCT04198766",
+          "NCT04370587",
+          "NCT04616443",
+          "NCT04729543",
+          "NCT04752826",
+          "NCT04787042",
+          "NCT04851119",
+          "NCT04895709",
+          "NCT05086692",
+          "NCT05144698",
+          "NCT05251389"
+        ],
+        "nct_ids_total": 80,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT00722228",
+            "excerpt": "[\"PHASE1\",\"PHASE2\"]"
+          },
+          {
+            "nct_id": "NCT00722228",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT01638676",
+            "excerpt": "[\"PHASE1\",\"PHASE2\"]"
+          }
+        ],
+        "citations_total": 160,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d12",
+        "phase": "Phase 2",
+        "status": "Recruiting",
+        "trial_count": 91,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT02621021",
+          "NCT02896335",
+          "NCT03340129",
+          "NCT03563729",
+          "NCT03842943",
+          "NCT04114136",
+          "NCT04126876",
+          "NCT04318717",
+          "NCT04331093",
+          "NCT04511013",
+          "NCT04594187",
+          "NCT04598009",
+          "NCT04771520",
+          "NCT04844528",
+          "NCT04899908",
+          "NCT05026983",
+          "NCT05136196",
+          "NCT05155033",
+          "NCT05280314",
+          "NCT05384496"
+        ],
+        "nct_ids_total": 91,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT02621021",
+            "excerpt": "[\"PHASE2\"]"
+          },
+          {
+            "nct_id": "NCT02621021",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT02896335",
+            "excerpt": "[\"PHASE2\"]"
+          }
+        ],
+        "citations_total": 182,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d13",
+        "phase": "Phase 2/3",
+        "status": "Recruiting",
+        "trial_count": 9,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT03755739",
+          "NCT05768178",
+          "NCT05770102",
+          "NCT05770544",
+          "NCT06581406",
+          "NCT06624644",
+          "NCT06697301",
+          "NCT07310758",
+          "NCT07440290"
+        ],
+        "nct_ids_total": 9,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT03755739",
+            "excerpt": "[\"PHASE2\",\"PHASE3\"]"
+          },
+          {
+            "nct_id": "NCT03755739",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT05768178",
+            "excerpt": "[\"PHASE2\",\"PHASE3\"]"
+          }
+        ],
+        "citations_total": 18,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d14",
+        "phase": "Phase 3",
+        "status": "Recruiting",
+        "trial_count": 27,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT02000089",
+          "NCT02821013",
+          "NCT03567889",
+          "NCT05502900",
+          "NCT05522660",
+          "NCT05549297",
+          "NCT05727904",
+          "NCT05789043",
+          "NCT05868707",
+          "NCT05899465",
+          "NCT05955924",
+          "NCT06008106",
+          "NCT06112314",
+          "NCT06246149",
+          "NCT06246916",
+          "NCT06264180",
+          "NCT06488482",
+          "NCT06519266",
+          "NCT06585410",
+          "NCT06743126"
+        ],
+        "nct_ids_total": 27,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT02000089",
+            "excerpt": "[\"PHASE3\"]"
+          },
+          {
+            "nct_id": "NCT02000089",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT02821013",
+            "excerpt": "[\"PHASE3\"]"
+          }
+        ],
+        "citations_total": 54,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d15",
+        "phase": "Phase 4",
+        "status": "Recruiting",
+        "trial_count": 3,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT03340506",
+          "NCT07405086",
+          "NCT07445022"
+        ],
+        "nct_ids_total": 3,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT03340506",
+            "excerpt": "[\"PHASE4\"]"
+          },
+          {
+            "nct_id": "NCT03340506",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07405086",
+            "excerpt": "[\"PHASE4\"]"
+          }
+        ],
+        "citations_total": 6,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d16",
+        "phase": "Not applicable",
+        "status": "Recruiting",
+        "trial_count": 191,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00001823",
+          "NCT00040352",
+          "NCT01205815",
+          "NCT01438658",
+          "NCT01772771",
+          "NCT01776905",
+          "NCT02012699",
+          "NCT02280889",
+          "NCT02333604",
+          "NCT02402244",
+          "NCT02775461",
+          "NCT02775643",
+          "NCT02828202",
+          "NCT02906943",
+          "NCT03050268",
+          "NCT03054584",
+          "NCT03116412",
+          "NCT03315468",
+          "NCT03452774",
+          "NCT03702309"
+        ],
+        "nct_ids_total": 191,
+        "field_path": "protocolSection.identificationModule.nctId",
+        "citations": [
+          {
+            "nct_id": "NCT00001823",
+            "excerpt": "NCT00001823"
+          },
+          {
+            "nct_id": "NCT00001823",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT00040352",
+            "excerpt": "NCT00040352"
+          }
+        ],
+        "citations_total": 382,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d17",
+        "cite_note": "no supporting record (empty bucket or derived value)",
+        "phase": "Early Phase 1",
+        "status": "Enrolling by invitation",
+        "trial_count": 0,
+        "is_gap": true,
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d18",
+        "phase": "Phase 1",
+        "status": "Enrolling by invitation",
+        "trial_count": 2,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT05418959",
+          "NCT06424626"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT05418959",
+            "excerpt": "[\"PHASE1\"]"
+          },
+          {
+            "nct_id": "NCT05418959",
+            "excerpt": "ENROLLING_BY_INVITATION",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT06424626",
+            "excerpt": "[\"PHASE1\"]"
+          }
+        ],
+        "citations_total": 4,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d19",
+        "phase": "Phase 1/2",
+        "status": "Enrolling by invitation",
+        "trial_count": 1,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT05893654"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT05893654",
+            "excerpt": "[\"PHASE1\",\"PHASE2\"]"
+          },
+          {
+            "nct_id": "NCT05893654",
+            "excerpt": "ENROLLING_BY_INVITATION",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d20",
+        "phase": "Phase 2",
+        "status": "Enrolling by invitation",
+        "trial_count": 1,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT06848088"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT06848088",
+            "excerpt": "[\"PHASE2\"]"
+          },
+          {
+            "nct_id": "NCT06848088",
+            "excerpt": "ENROLLING_BY_INVITATION",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d21",
+        "cite_note": "no supporting record (empty bucket or derived value)",
+        "phase": "Phase 2/3",
+        "status": "Enrolling by invitation",
+        "trial_count": 0,
+        "is_gap": true,
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d22",
+        "cite_note": "no supporting record (empty bucket or derived value)",
+        "phase": "Phase 3",
+        "status": "Enrolling by invitation",
+        "trial_count": 0,
+        "is_gap": true,
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d23",
+        "cite_note": "no supporting record (empty bucket or derived value)",
+        "phase": "Phase 4",
+        "status": "Enrolling by invitation",
+        "trial_count": 0,
+        "is_gap": true,
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d24",
+        "phase": "Not applicable",
+        "status": "Enrolling by invitation",
+        "trial_count": 9,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00068003",
+          "NCT00923026",
+          "NCT05212103",
+          "NCT05600933",
+          "NCT06388252",
+          "NCT06605833",
+          "NCT07328516",
+          "NCT07338968",
+          "NCT07347392"
+        ],
+        "nct_ids_total": 9,
+        "field_path": "protocolSection.identificationModule.nctId",
+        "citations": [
+          {
+            "nct_id": "NCT00068003",
+            "excerpt": "NCT00068003"
+          },
+          {
+            "nct_id": "NCT00068003",
+            "excerpt": "ENROLLING_BY_INVITATION",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT00923026",
+            "excerpt": "NCT00923026"
+          }
+        ],
+        "citations_total": 18,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d25",
+        "phase": "Early Phase 1",
+        "status": "Active, not recruiting",
+        "trial_count": 4,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT03543969",
+          "NCT04541108",
+          "NCT05279027",
+          "NCT05358938"
+        ],
+        "nct_ids_total": 4,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT03543969",
+            "excerpt": "[\"EARLY_PHASE1\"]"
+          },
+          {
+            "nct_id": "NCT03543969",
+            "excerpt": "ACTIVE_NOT_RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT04541108",
+            "excerpt": "[\"EARLY_PHASE1\"]"
+          }
+        ],
+        "citations_total": 8,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d26",
+        "phase": "Phase 1",
+        "status": "Active, not recruiting",
+        "trial_count": 72,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT01303341",
+          "NCT01364051",
+          "NCT01366144",
+          "NCT01480154",
+          "NCT01586403",
+          "NCT01955460",
+          "NCT02298959",
+          "NCT02432963",
+          "NCT02721459",
+          "NCT02817633",
+          "NCT02869217",
+          "NCT02988960",
+          "NCT03025256",
+          "NCT03132922",
+          "NCT03161431",
+          "NCT03212404",
+          "NCT03311308",
+          "NCT03589339",
+          "NCT03635632",
+          "NCT03769155"
+        ],
+        "nct_ids_total": 72,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT01303341",
+            "excerpt": "[\"PHASE1\"]"
+          },
+          {
+            "nct_id": "NCT01303341",
+            "excerpt": "ACTIVE_NOT_RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT01364051",
+            "excerpt": "[\"PHASE1\"]"
+          }
+        ],
+        "citations_total": 144,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d27",
+        "phase": "Phase 1/2",
+        "status": "Active, not recruiting",
+        "trial_count": 33,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00508443",
+          "NCT01590069",
+          "NCT01989585",
+          "NCT02106598",
+          "NCT02650986",
+          "NCT03474497",
+          "NCT03611868",
+          "NCT04074967",
+          "NCT04083599",
+          "NCT04130516",
+          "NCT04140500",
+          "NCT04140526",
+          "NCT04283890",
+          "NCT04407247",
+          "NCT04464759",
+          "NCT04478279",
+          "NCT04557956",
+          "NCT04971499",
+          "NCT05057013",
+          "NCT05081609"
+        ],
+        "nct_ids_total": 33,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT00508443",
+            "excerpt": "[\"PHASE1\",\"PHASE2\"]"
+          },
+          {
+            "nct_id": "NCT00508443",
+            "excerpt": "ACTIVE_NOT_RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT01590069",
+            "excerpt": "[\"PHASE1\",\"PHASE2\"]"
+          }
+        ],
+        "citations_total": 66,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d28",
+        "phase": "Phase 2",
+        "status": "Active, not recruiting",
+        "trial_count": 91,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00338377",
+          "NCT00539591",
+          "NCT00937937",
+          "NCT01134614",
+          "NCT01416831",
+          "NCT01587352",
+          "NCT01644591",
+          "NCT01979523",
+          "NCT02068586",
+          "NCT02196181",
+          "NCT02231775",
+          "NCT02374242",
+          "NCT02465060",
+          "NCT02568267",
+          "NCT02644369",
+          "NCT02656706",
+          "NCT02713269",
+          "NCT02743819",
+          "NCT02775851",
+          "NCT02858921"
+        ],
+        "nct_ids_total": 91,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT00338377",
+            "excerpt": "[\"PHASE2\"]"
+          },
+          {
+            "nct_id": "NCT00338377",
+            "excerpt": "ACTIVE_NOT_RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT00539591",
+            "excerpt": "[\"PHASE2\"]"
+          }
+        ],
+        "citations_total": 182,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d29",
+        "phase": "Phase 2/3",
+        "status": "Active, not recruiting",
+        "trial_count": 3,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT02339571",
+          "NCT03470922",
+          "NCT05987332"
+        ],
+        "nct_ids_total": 3,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT02339571",
+            "excerpt": "[\"PHASE2\",\"PHASE3\"]"
+          },
+          {
+            "nct_id": "NCT02339571",
+            "excerpt": "ACTIVE_NOT_RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT03470922",
+            "excerpt": "[\"PHASE2\",\"PHASE3\"]"
+          }
+        ],
+        "citations_total": 6,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d30",
+        "phase": "Phase 3",
+        "status": "Active, not recruiting",
+        "trial_count": 28,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT01223248",
+          "NCT01274338",
+          "NCT01592968",
+          "NCT02224781",
+          "NCT02362594",
+          "NCT02506153",
+          "NCT02938299",
+          "NCT03553836",
+          "NCT04099251",
+          "NCT04309409",
+          "NCT04657991",
+          "NCT04674683",
+          "NCT04949113",
+          "NCT05022901",
+          "NCT05078047",
+          "NCT05155254",
+          "NCT05270044",
+          "NCT05352672",
+          "NCT05608291",
+          "NCT05625399"
+        ],
+        "nct_ids_total": 28,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT01223248",
+            "excerpt": "[\"PHASE3\"]"
+          },
+          {
+            "nct_id": "NCT01223248",
+            "excerpt": "ACTIVE_NOT_RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT01274338",
+            "excerpt": "[\"PHASE3\"]"
+          }
+        ],
+        "citations_total": 56,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d31",
+        "phase": "Phase 4",
+        "status": "Active, not recruiting",
+        "trial_count": 2,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT02068196",
+          "NCT03315975"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT02068196",
+            "excerpt": "[\"PHASE4\"]"
+          },
+          {
+            "nct_id": "NCT02068196",
+            "excerpt": "ACTIVE_NOT_RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT03315975",
+            "excerpt": "[\"PHASE4\"]"
+          }
+        ],
+        "citations_total": 4,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d32",
+        "phase": "Not applicable",
+        "status": "Active, not recruiting",
+        "trial_count": 61,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00582647",
+          "NCT00591500",
+          "NCT00835133",
+          "NCT01266096",
+          "NCT01505400",
+          "NCT01942603",
+          "NCT02279004",
+          "NCT02307630",
+          "NCT02385214",
+          "NCT03075072",
+          "NCT03285230",
+          "NCT03605771",
+          "NCT03677739",
+          "NCT03728842",
+          "NCT03941379",
+          "NCT04056247",
+          "NCT04196452",
+          "NCT04314401",
+          "NCT04385732",
+          "NCT04478318"
+        ],
+        "nct_ids_total": 61,
+        "field_path": "protocolSection.identificationModule.nctId",
+        "citations": [
+          {
+            "nct_id": "NCT00582647",
+            "excerpt": "NCT00582647"
+          },
+          {
+            "nct_id": "NCT00582647",
+            "excerpt": "ACTIVE_NOT_RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT00591500",
+            "excerpt": "NCT00591500"
+          }
+        ],
+        "citations_total": 122,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d33",
+        "cite_note": "no supporting record (empty bucket or derived value)",
+        "phase": "Early Phase 1",
+        "status": "Suspended",
+        "trial_count": 0,
+        "is_gap": true,
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d34",
+        "phase": "Phase 1",
+        "status": "Suspended",
+        "trial_count": 9,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00160992",
+          "NCT01841463",
+          "NCT03932253",
+          "NCT03970382",
+          "NCT04418167",
+          "NCT04714983",
+          "NCT05264974",
+          "NCT05629546",
+          "NCT05967533"
+        ],
+        "nct_ids_total": 9,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT00160992",
+            "excerpt": "[\"PHASE1\"]"
+          },
+          {
+            "nct_id": "NCT00160992",
+            "excerpt": "SUSPENDED",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT01841463",
+            "excerpt": "[\"PHASE1\"]"
+          }
+        ],
+        "citations_total": 18,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d35",
+        "phase": "Phase 1/2",
+        "status": "Suspended",
+        "trial_count": 3,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00033956",
+          "NCT03384836",
+          "NCT05669352"
+        ],
+        "nct_ids_total": 3,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT00033956",
+            "excerpt": "[\"PHASE1\",\"PHASE2\"]"
+          },
+          {
+            "nct_id": "NCT00033956",
+            "excerpt": "SUSPENDED",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT03384836",
+            "excerpt": "[\"PHASE1\",\"PHASE2\"]"
+          }
+        ],
+        "citations_total": 6,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d36",
+        "phase": "Phase 2",
+        "status": "Suspended",
+        "trial_count": 5,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00042497",
+          "NCT00278122",
+          "NCT01988831",
+          "NCT04427306",
+          "NCT05756556"
+        ],
+        "nct_ids_total": 5,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT00042497",
+            "excerpt": "[\"PHASE2\"]"
+          },
+          {
+            "nct_id": "NCT00042497",
+            "excerpt": "SUSPENDED",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT00278122",
+            "excerpt": "[\"PHASE2\"]"
+          }
+        ],
+        "citations_total": 10,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d37",
+        "cite_note": "no supporting record (empty bucket or derived value)",
+        "phase": "Phase 2/3",
+        "status": "Suspended",
+        "trial_count": 0,
+        "is_gap": true,
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d38",
+        "cite_note": "no supporting record (empty bucket or derived value)",
+        "phase": "Phase 3",
+        "status": "Suspended",
+        "trial_count": 0,
+        "is_gap": true,
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d39",
+        "cite_note": "no supporting record (empty bucket or derived value)",
+        "phase": "Phase 4",
+        "status": "Suspended",
+        "trial_count": 0,
+        "is_gap": true,
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d40",
+        "phase": "Not applicable",
+        "status": "Suspended",
+        "trial_count": 4,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT04866810",
+          "NCT06391099",
+          "NCT07102212",
+          "NCT07258446"
+        ],
+        "nct_ids_total": 4,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT04866810",
+            "excerpt": "[\"NA\"]"
+          },
+          {
+            "nct_id": "NCT04866810",
+            "excerpt": "SUSPENDED",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT06391099",
+            "excerpt": "[\"NA\"]"
+          }
+        ],
+        "citations_total": 8,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d41",
+        "phase": "Early Phase 1",
+        "status": "Completed",
+        "trial_count": 25,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00276835",
+          "NCT00436410",
+          "NCT00470379",
+          "NCT00580060",
+          "NCT00743353",
+          "NCT00962845",
+          "NCT00972933",
+          "NCT01209676",
+          "NCT01425749",
+          "NCT01568996",
+          "NCT01666353",
+          "NCT01748747",
+          "NCT01789827",
+          "NCT02013492",
+          "NCT02316795",
+          "NCT02320305",
+          "NCT02652455",
+          "NCT03276832",
+          "NCT03655756",
+          "NCT03784625"
+        ],
+        "nct_ids_total": 25,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT00276835",
+            "excerpt": "[\"EARLY_PHASE1\"]"
+          },
+          {
+            "nct_id": "NCT00276835",
+            "excerpt": "COMPLETED",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT00436410",
+            "excerpt": "[\"EARLY_PHASE1\"]"
+          }
+        ],
+        "citations_total": 50,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d42",
+        "phase": "Phase 1",
+        "status": "Completed",
+        "trial_count": 452,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00001439",
+          "NCT00001577",
+          "NCT00001683",
+          "NCT00002754",
+          "NCT00002854",
+          "NCT00002980",
+          "NCT00003022",
+          "NCT00003224",
+          "NCT00003556",
+          "NCT00003597",
+          "NCT00003665",
+          "NCT00003690",
+          "NCT00003750",
+          "NCT00003792",
+          "NCT00003897",
+          "NCT00004016",
+          "NCT00004065",
+          "NCT00004148",
+          "NCT00004244",
+          "NCT00005057"
+        ],
+        "nct_ids_total": 452,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT00001439",
+            "excerpt": "[\"PHASE1\"]"
+          },
+          {
+            "nct_id": "NCT00001439",
+            "excerpt": "COMPLETED",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT00001577",
+            "excerpt": "[\"PHASE1\"]"
+          }
+        ],
+        "citations_total": 904,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d43",
+        "phase": "Phase 1/2",
+        "status": "Completed",
+        "trial_count": 179,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00002786",
+          "NCT00002952",
+          "NCT00003229",
+          "NCT00004184",
+          "NCT00005615",
+          "NCT00005815",
+          "NCT00007969",
+          "NCT00012064",
+          "NCT00019214",
+          "NCT00033228",
+          "NCT00039325",
+          "NCT00039572",
+          "NCT00041808",
+          "NCT00053391",
+          "NCT00056134",
+          "NCT00058279",
+          "NCT00062036",
+          "NCT00068172",
+          "NCT00073892",
+          "NCT00074230"
+        ],
+        "nct_ids_total": 179,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT00002786",
+            "excerpt": "[\"PHASE1\",\"PHASE2\"]"
+          },
+          {
+            "nct_id": "NCT00002786",
+            "excerpt": "COMPLETED",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT00002952",
+            "excerpt": "[\"PHASE1\",\"PHASE2\"]"
+          }
+        ],
+        "citations_total": 358,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d44",
+        "phase": "Phase 2",
+        "status": "Completed",
+        "trial_count": 486,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00001144",
+          "NCT00001685",
+          "NCT00001705",
+          "NCT00001832",
+          "NCT00002535",
+          "NCT00002669",
+          "NCT00002733",
+          "NCT00002860",
+          "NCT00002973",
+          "NCT00003091",
+          "NCT00003222",
+          "NCT00003274",
+          "NCT00003308",
+          "NCT00003339",
+          "NCT00003346",
+          "NCT00003362",
+          "NCT00003568",
+          "NCT00003601",
+          "NCT00003646",
+          "NCT00003802"
+        ],
+        "nct_ids_total": 486,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT00001144",
+            "excerpt": "[\"PHASE2\"]"
+          },
+          {
+            "nct_id": "NCT00001144",
+            "excerpt": "COMPLETED",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT00001685",
+            "excerpt": "[\"PHASE2\"]"
+          }
+        ],
+        "citations_total": 972,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d45",
+        "phase": "Phase 2/3",
+        "status": "Completed",
+        "trial_count": 2,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00055562",
+          "NCT02829775"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT00055562",
+            "excerpt": "[\"PHASE2\",\"PHASE3\"]"
+          },
+          {
+            "nct_id": "NCT00055562",
+            "excerpt": "COMPLETED",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT02829775",
+            "excerpt": "[\"PHASE2\",\"PHASE3\"]"
+          }
+        ],
+        "citations_total": 4,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d46",
+        "phase": "Phase 3",
+        "status": "Completed",
+        "trial_count": 92,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00001296",
+          "NCT00002882",
+          "NCT00002892",
+          "NCT00003027",
+          "NCT00003266",
+          "NCT00003444",
+          "NCT00003641",
+          "NCT00003647",
+          "NCT00003789",
+          "NCT00004196",
+          "NCT00006237",
+          "NCT00016263",
+          "NCT00019682",
+          "NCT00039000",
+          "NCT00057616",
+          "NCT00072124",
+          "NCT00091572",
+          "NCT00094653",
+          "NCT00110019",
+          "NCT00111007"
+        ],
+        "nct_ids_total": 92,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT00001296",
+            "excerpt": "[\"PHASE3\"]"
+          },
+          {
+            "nct_id": "NCT00001296",
+            "excerpt": "COMPLETED",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT00002882",
+            "excerpt": "[\"PHASE3\"]"
+          }
+        ],
+        "citations_total": 184,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d47",
+        "phase": "Phase 4",
+        "status": "Completed",
+        "trial_count": 15,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00075166",
+          "NCT00129961",
+          "NCT00324272",
+          "NCT00414765",
+          "NCT01053819",
+          "NCT01161888",
+          "NCT01735955",
+          "NCT01794793",
+          "NCT01898585",
+          "NCT02451488",
+          "NCT02626065",
+          "NCT02685592",
+          "NCT03715205",
+          "NCT04074460",
+          "NCT04320316"
+        ],
+        "nct_ids_total": 15,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT00075166",
+            "excerpt": "[\"PHASE4\"]"
+          },
+          {
+            "nct_id": "NCT00075166",
+            "excerpt": "COMPLETED",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT00129961",
+            "excerpt": "[\"PHASE4\"]"
+          }
+        ],
+        "citations_total": 30,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d48",
+        "phase": "Not applicable",
+        "status": "Completed",
+        "trial_count": 498,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00001503",
+          "NCT00001898",
+          "NCT00004153",
+          "NCT00005781",
+          "NCT00006243",
+          "NCT00025012",
+          "NCT00026754",
+          "NCT00046189",
+          "NCT00049010",
+          "NCT00132704",
+          "NCT00179764",
+          "NCT00184275",
+          "NCT00203008",
+          "NCT00207298",
+          "NCT00237965",
+          "NCT00253708",
+          "NCT00287001",
+          "NCT00288938",
+          "NCT00297895",
+          "NCT00323206"
+        ],
+        "nct_ids_total": 498,
+        "field_path": "protocolSection.identificationModule.nctId",
+        "citations": [
+          {
+            "nct_id": "NCT00001503",
+            "excerpt": "NCT00001503"
+          },
+          {
+            "nct_id": "NCT00001503",
+            "excerpt": "COMPLETED",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT00001898",
+            "excerpt": "NCT00001898"
+          }
+        ],
+        "citations_total": 996,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d49",
+        "phase": "Early Phase 1",
+        "status": "Terminated",
+        "trial_count": 13,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00499733",
+          "NCT00663910",
+          "NCT00871533",
+          "NCT01730157",
+          "NCT02382549",
+          "NCT02442466",
+          "NCT02591654",
+          "NCT03060356",
+          "NCT03338777",
+          "NCT03454243",
+          "NCT03526185",
+          "NCT03893019",
+          "NCT04663126"
+        ],
+        "nct_ids_total": 13,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT00499733",
+            "excerpt": "[\"EARLY_PHASE1\"]"
+          },
+          {
+            "nct_id": "NCT00499733",
+            "excerpt": "TERMINATED",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT00663910",
+            "excerpt": "[\"EARLY_PHASE1\"]"
+          }
+        ],
+        "citations_total": 26,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d50",
+        "phase": "Phase 1",
+        "status": "Terminated",
+        "trial_count": 167,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00002947",
+          "NCT00003060",
+          "NCT00005841",
+          "NCT00039091",
+          "NCT00272415",
+          "NCT00311558",
+          "NCT00492440",
+          "NCT00571116",
+          "NCT00585000",
+          "NCT00629187",
+          "NCT00667901",
+          "NCT00689065",
+          "NCT00739609",
+          "NCT00747825",
+          "NCT00758797",
+          "NCT00791271",
+          "NCT00937482",
+          "NCT00977145",
+          "NCT01032122",
+          "NCT01039844"
+        ],
+        "nct_ids_total": 167,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT00002947",
+            "excerpt": "[\"PHASE1\"]"
+          },
+          {
+            "nct_id": "NCT00002947",
+            "excerpt": "TERMINATED",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT00003060",
+            "excerpt": "[\"PHASE1\"]"
+          }
+        ],
+        "citations_total": 334,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d51",
+        "phase": "Phase 1/2",
+        "status": "Terminated",
+        "trial_count": 99,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00003552",
+          "NCT00087477",
+          "NCT00145145",
+          "NCT00145158",
+          "NCT00147550",
+          "NCT00199342",
+          "NCT00304200",
+          "NCT00358319",
+          "NCT00365937",
+          "NCT00496223",
+          "NCT00512798",
+          "NCT00615160",
+          "NCT00667953",
+          "NCT00671554",
+          "NCT00675727",
+          "NCT00716495",
+          "NCT00724841",
+          "NCT00733798",
+          "NCT00924001",
+          "NCT00925132"
+        ],
+        "nct_ids_total": 99,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT00003552",
+            "excerpt": "[\"PHASE1\",\"PHASE2\"]"
+          },
+          {
+            "nct_id": "NCT00003552",
+            "excerpt": "TERMINATED",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT00087477",
+            "excerpt": "[\"PHASE1\",\"PHASE2\"]"
+          }
+        ],
+        "citations_total": 198,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d52",
+        "phase": "Phase 2",
+        "status": "Terminated",
+        "trial_count": 186,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00003509",
+          "NCT00003715",
+          "NCT00003911",
+          "NCT00006003",
+          "NCT00006113",
+          "NCT00060710",
+          "NCT00068666",
+          "NCT00072189",
+          "NCT00082875",
+          "NCT00085059",
+          "NCT00087373",
+          "NCT00087386",
+          "NCT00104884",
+          "NCT00121420",
+          "NCT00138229",
+          "NCT00184067",
+          "NCT00303836",
+          "NCT00369395",
+          "NCT00402662",
+          "NCT00421317"
+        ],
+        "nct_ids_total": 186,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT00003509",
+            "excerpt": "[\"PHASE2\"]"
+          },
+          {
+            "nct_id": "NCT00003509",
+            "excerpt": "TERMINATED",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT00003715",
+            "excerpt": "[\"PHASE2\"]"
+          }
+        ],
+        "citations_total": 372,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d53",
+        "phase": "Phase 2/3",
+        "status": "Terminated",
+        "trial_count": 5,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00543205",
+          "NCT01259284",
+          "NCT03552549",
+          "NCT04695977",
+          "NCT04901988"
+        ],
+        "nct_ids_total": 5,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT00543205",
+            "excerpt": "[\"PHASE2\",\"PHASE3\"]"
+          },
+          {
+            "nct_id": "NCT00543205",
+            "excerpt": "TERMINATED",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT01259284",
+            "excerpt": "[\"PHASE2\",\"PHASE3\"]"
+          }
+        ],
+        "citations_total": 10,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d54",
+        "phase": "Phase 3",
+        "status": "Terminated",
+        "trial_count": 26,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00020839",
+          "NCT00036816",
+          "NCT00087776",
+          "NCT00110123",
+          "NCT00522834",
+          "NCT00540969",
+          "NCT00796445",
+          "NCT01006252",
+          "NCT01013623",
+          "NCT01264874",
+          "NCT01272609",
+          "NCT01280565",
+          "NCT01546571",
+          "NCT01875653",
+          "NCT02263508",
+          "NCT02288897",
+          "NCT02967692",
+          "NCT03233828",
+          "NCT03273153",
+          "NCT03445533"
+        ],
+        "nct_ids_total": 26,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT00020839",
+            "excerpt": "[\"PHASE3\"]"
+          },
+          {
+            "nct_id": "NCT00020839",
+            "excerpt": "TERMINATED",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT00036816",
+            "excerpt": "[\"PHASE3\"]"
+          }
+        ],
+        "citations_total": 52,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d55",
+        "phase": "Phase 4",
+        "status": "Terminated",
+        "trial_count": 3,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT01683188",
+          "NCT01856023",
+          "NCT03673332"
+        ],
+        "nct_ids_total": 3,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT01683188",
+            "excerpt": "[\"PHASE4\"]"
+          },
+          {
+            "nct_id": "NCT01683188",
+            "excerpt": "TERMINATED",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT01856023",
+            "excerpt": "[\"PHASE4\"]"
+          }
+        ],
+        "citations_total": 6,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d56",
+        "phase": "Not applicable",
+        "status": "Terminated",
+        "trial_count": 61,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00346372",
+          "NCT00482105",
+          "NCT00507325",
+          "NCT00685750",
+          "NCT00716560",
+          "NCT00776945",
+          "NCT00897312",
+          "NCT00965861",
+          "NCT00991991",
+          "NCT00996827",
+          "NCT01068470",
+          "NCT01085396",
+          "NCT01193036",
+          "NCT01324609",
+          "NCT01412749",
+          "NCT01557881",
+          "NCT01700114",
+          "NCT01993654",
+          "NCT02005614",
+          "NCT02113683"
+        ],
+        "nct_ids_total": 61,
+        "field_path": "protocolSection.identificationModule.nctId",
+        "citations": [
+          {
+            "nct_id": "NCT00346372",
+            "excerpt": "NCT00346372"
+          },
+          {
+            "nct_id": "NCT00346372",
+            "excerpt": "TERMINATED",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT00482105",
+            "excerpt": "[\"NA\"]",
+            "field_path": "protocolSection.designModule.phases"
+          }
+        ],
+        "citations_total": 122,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d57",
+        "phase": "Early Phase 1",
+        "status": "Withdrawn",
+        "trial_count": 5,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT02699918",
+          "NCT03022565",
+          "NCT04223648",
+          "NCT04285749",
+          "NCT04891718"
+        ],
+        "nct_ids_total": 5,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT02699918",
+            "excerpt": "[\"EARLY_PHASE1\"]"
+          },
+          {
+            "nct_id": "NCT02699918",
+            "excerpt": "WITHDRAWN",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT03022565",
+            "excerpt": "[\"EARLY_PHASE1\"]"
+          }
+        ],
+        "citations_total": 10,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d58",
+        "phase": "Phase 1",
+        "status": "Withdrawn",
+        "trial_count": 24,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00006126",
+          "NCT00661336",
+          "NCT00803374",
+          "NCT01455103",
+          "NCT01765556",
+          "NCT01843738",
+          "NCT02068079",
+          "NCT02145910",
+          "NCT02210104",
+          "NCT02300935",
+          "NCT02357732",
+          "NCT02447939",
+          "NCT02489266",
+          "NCT02839694",
+          "NCT02915666",
+          "NCT03773744",
+          "NCT03982134",
+          "NCT04125719",
+          "NCT04759846",
+          "NCT04955262"
+        ],
+        "nct_ids_total": 24,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT00006126",
+            "excerpt": "[\"PHASE1\"]"
+          },
+          {
+            "nct_id": "NCT00006126",
+            "excerpt": "WITHDRAWN",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT00661336",
+            "excerpt": "[\"PHASE1\"]"
+          }
+        ],
+        "citations_total": 48,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d59",
+        "phase": "Phase 1/2",
+        "status": "Withdrawn",
+        "trial_count": 29,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00346502",
+          "NCT00769990",
+          "NCT01340729",
+          "NCT01409187",
+          "NCT01531244",
+          "NCT01689870",
+          "NCT01764009",
+          "NCT02065466",
+          "NCT02143050",
+          "NCT02452281",
+          "NCT02535078",
+          "NCT02661100",
+          "NCT02719015",
+          "NCT02736123",
+          "NCT02812693",
+          "NCT02862145",
+          "NCT03111901",
+          "NCT03167177",
+          "NCT03282188",
+          "NCT03297463"
+        ],
+        "nct_ids_total": 29,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT00346502",
+            "excerpt": "[\"PHASE1\",\"PHASE2\"]"
+          },
+          {
+            "nct_id": "NCT00346502",
+            "excerpt": "WITHDRAWN",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT00769990",
+            "excerpt": "[\"PHASE1\",\"PHASE2\"]"
+          }
+        ],
+        "citations_total": 58,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d60",
+        "phase": "Phase 2",
+        "status": "Withdrawn",
+        "trial_count": 43,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00085579",
+          "NCT00357461",
+          "NCT00535314",
+          "NCT00963664",
+          "NCT00979693",
+          "NCT01216787",
+          "NCT01328106",
+          "NCT01355562",
+          "NCT01416844",
+          "NCT01833767",
+          "NCT01851408",
+          "NCT01933061",
+          "NCT02061007",
+          "NCT02263898",
+          "NCT02400385",
+          "NCT02663258",
+          "NCT02763761",
+          "NCT03005639",
+          "NCT03126461",
+          "NCT03220009"
+        ],
+        "nct_ids_total": 43,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT00085579",
+            "excerpt": "[\"PHASE2\"]"
+          },
+          {
+            "nct_id": "NCT00085579",
+            "excerpt": "WITHDRAWN",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT00357461",
+            "excerpt": "[\"PHASE2\"]"
+          }
+        ],
+        "citations_total": 86,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d61",
+        "phase": "Phase 2/3",
+        "status": "Withdrawn",
+        "trial_count": 2,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT01861938",
+          "NCT03928275"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT01861938",
+            "excerpt": "[\"PHASE2\",\"PHASE3\"]"
+          },
+          {
+            "nct_id": "NCT01861938",
+            "excerpt": "WITHDRAWN",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT03928275",
+            "excerpt": "[\"PHASE2\",\"PHASE3\"]"
+          }
+        ],
+        "citations_total": 4,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d62",
+        "phase": "Phase 3",
+        "status": "Withdrawn",
+        "trial_count": 3,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00447356",
+          "NCT01826864",
+          "NCT02427893"
+        ],
+        "nct_ids_total": 3,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT00447356",
+            "excerpt": "[\"PHASE3\"]"
+          },
+          {
+            "nct_id": "NCT00447356",
+            "excerpt": "WITHDRAWN",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT01826864",
+            "excerpt": "[\"PHASE3\"]"
+          }
+        ],
+        "citations_total": 6,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d63",
+        "phase": "Phase 4",
+        "status": "Withdrawn",
+        "trial_count": 2,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT02000739",
+          "NCT07092410"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT02000739",
+            "excerpt": "[\"PHASE4\"]"
+          },
+          {
+            "nct_id": "NCT02000739",
+            "excerpt": "WITHDRAWN",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07092410",
+            "excerpt": "[\"PHASE4\"]"
+          }
+        ],
+        "citations_total": 4,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d64",
+        "phase": "Not applicable",
+        "status": "Withdrawn",
+        "trial_count": 30,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00093678",
+          "NCT00184288",
+          "NCT00378781",
+          "NCT00406120",
+          "NCT00588263",
+          "NCT00621439",
+          "NCT01003626",
+          "NCT01312506",
+          "NCT01593579",
+          "NCT01930968",
+          "NCT02306512",
+          "NCT02309632",
+          "NCT02321982",
+          "NCT02473874",
+          "NCT02507076",
+          "NCT02507947",
+          "NCT02828345",
+          "NCT02854488",
+          "NCT02867722",
+          "NCT03161613"
+        ],
+        "nct_ids_total": 30,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT00093678",
+            "excerpt": "[\"NA\"]"
+          },
+          {
+            "nct_id": "NCT00093678",
+            "excerpt": "WITHDRAWN",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT00184288",
+            "excerpt": "NCT00184288",
+            "field_path": "protocolSection.identificationModule.nctId"
+          }
+        ],
+        "citations_total": 60,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d65",
+        "phase": "Early Phase 1",
+        "status": "Unknown status",
+        "trial_count": 6,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT01620749",
+          "NCT03649529",
+          "NCT05009446",
+          "NCT05180851",
+          "NCT05932511",
+          "NCT05961111"
+        ],
+        "nct_ids_total": 6,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT01620749",
+            "excerpt": "[\"EARLY_PHASE1\"]"
+          },
+          {
+            "nct_id": "NCT01620749",
+            "excerpt": "UNKNOWN",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT03649529",
+            "excerpt": "[\"EARLY_PHASE1\"]"
+          }
+        ],
+        "citations_total": 12,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d66",
+        "phase": "Phase 1",
+        "status": "Unknown status",
+        "trial_count": 61,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00002781",
+          "NCT00003747",
+          "NCT00006035",
+          "NCT00016055",
+          "NCT00017355",
+          "NCT00022568",
+          "NCT00037037",
+          "NCT00391300",
+          "NCT00409383",
+          "NCT00701987",
+          "NCT00986661",
+          "NCT01946373",
+          "NCT02366546",
+          "NCT02437279",
+          "NCT02457650",
+          "NCT02608437",
+          "NCT02619058",
+          "NCT02637531",
+          "NCT02671513",
+          "NCT03050047"
+        ],
+        "nct_ids_total": 61,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT00002781",
+            "excerpt": "[\"PHASE1\"]"
+          },
+          {
+            "nct_id": "NCT00002781",
+            "excerpt": "UNKNOWN",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT00003747",
+            "excerpt": "[\"PHASE1\"]"
+          }
+        ],
+        "citations_total": 122,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d67",
+        "phase": "Phase 1/2",
+        "status": "Unknown status",
+        "trial_count": 45,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00002817",
+          "NCT00004025",
+          "NCT00010309",
+          "NCT00108875",
+          "NCT00111046",
+          "NCT00126685",
+          "NCT00538005",
+          "NCT00553683",
+          "NCT00811759",
+          "NCT01082198",
+          "NCT01331915",
+          "NCT01409733",
+          "NCT01584115",
+          "NCT01614301",
+          "NCT01882946",
+          "NCT02076646",
+          "NCT02202200",
+          "NCT02557321",
+          "NCT02654821",
+          "NCT02759536"
+        ],
+        "nct_ids_total": 45,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT00002817",
+            "excerpt": "[\"PHASE1\",\"PHASE2\"]"
+          },
+          {
+            "nct_id": "NCT00002817",
+            "excerpt": "UNKNOWN",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT00004025",
+            "excerpt": "[\"PHASE1\",\"PHASE2\"]"
+          }
+        ],
+        "citations_total": 90,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d68",
+        "phase": "Phase 2",
+        "status": "Unknown status",
+        "trial_count": 110,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00002845",
+          "NCT00006200",
+          "NCT00085397",
+          "NCT00086866",
+          "NCT00116363",
+          "NCT00128583",
+          "NCT00153569",
+          "NCT00168870",
+          "NCT00287131",
+          "NCT00294476",
+          "NCT00383851",
+          "NCT00489944",
+          "NCT00492505",
+          "NCT00553618",
+          "NCT00604136",
+          "NCT00610389",
+          "NCT00656227",
+          "NCT00746746",
+          "NCT00813449",
+          "NCT00925314"
+        ],
+        "nct_ids_total": 110,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT00002845",
+            "excerpt": "[\"PHASE2\"]"
+          },
+          {
+            "nct_id": "NCT00002845",
+            "excerpt": "UNKNOWN",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT00006200",
+            "excerpt": "[\"PHASE2\"]"
+          }
+        ],
+        "citations_total": 220,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d69",
+        "phase": "Phase 2/3",
+        "status": "Unknown status",
+        "trial_count": 4,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00811200",
+          "NCT01088737",
+          "NCT01729663",
+          "NCT02962947"
+        ],
+        "nct_ids_total": 4,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT00811200",
+            "excerpt": "[\"PHASE2\",\"PHASE3\"]"
+          },
+          {
+            "nct_id": "NCT00811200",
+            "excerpt": "UNKNOWN",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT01088737",
+            "excerpt": "[\"PHASE2\",\"PHASE3\"]"
+          }
+        ],
+        "citations_total": 8,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d70",
+        "phase": "Phase 3",
+        "status": "Unknown status",
+        "trial_count": 18,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00000124",
+          "NCT00002455",
+          "NCT00002763",
+          "NCT00002767",
+          "NCT00005052",
+          "NCT00006249",
+          "NCT00039234",
+          "NCT00052130",
+          "NCT00052156",
+          "NCT00226408",
+          "NCT00477906",
+          "NCT00779714",
+          "NCT01502696",
+          "NCT02460068",
+          "NCT03435302",
+          "NCT05647954",
+          "NCT05783882",
+          "NCT05986331"
+        ],
+        "nct_ids_total": 18,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT00000124",
+            "excerpt": "[\"PHASE3\"]"
+          },
+          {
+            "nct_id": "NCT00000124",
+            "excerpt": "UNKNOWN",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT00002455",
+            "excerpt": "[\"PHASE3\"]"
+          }
+        ],
+        "citations_total": 36,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d71",
+        "phase": "Phase 4",
+        "status": "Unknown status",
+        "trial_count": 7,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00226473",
+          "NCT00540930",
+          "NCT02379000",
+          "NCT03313544",
+          "NCT04261179",
+          "NCT05467137",
+          "NCT06116461"
+        ],
+        "nct_ids_total": 7,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT00226473",
+            "excerpt": "[\"PHASE4\"]"
+          },
+          {
+            "nct_id": "NCT00226473",
+            "excerpt": "UNKNOWN",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT00540930",
+            "excerpt": "[\"PHASE4\"]"
+          }
+        ],
+        "citations_total": 14,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d72",
+        "phase": "Not applicable",
+        "status": "Unknown status",
+        "trial_count": 143,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00070343",
+          "NCT00264056",
+          "NCT00295906",
+          "NCT00368615",
+          "NCT00390351",
+          "NCT00406900",
+          "NCT00445783",
+          "NCT00450593",
+          "NCT00459849",
+          "NCT00672321",
+          "NCT00757614",
+          "NCT00849407",
+          "NCT00872391",
+          "NCT00897481",
+          "NCT00963261",
+          "NCT01002560",
+          "NCT01018004",
+          "NCT01167998",
+          "NCT01194947",
+          "NCT01281722"
+        ],
+        "nct_ids_total": 143,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT00070343",
+            "excerpt": "[\"NA\"]"
+          },
+          {
+            "nct_id": "NCT00070343",
+            "excerpt": "UNKNOWN",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT00264056",
+            "excerpt": "[\"NA\"]"
+          }
+        ],
+        "citations_total": 286,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d73",
+        "cite_note": "no supporting record (empty bucket or derived value)",
+        "phase": "Early Phase 1",
+        "status": "Available",
+        "trial_count": 0,
+        "is_gap": true,
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d74",
+        "cite_note": "no supporting record (empty bucket or derived value)",
+        "phase": "Phase 1",
+        "status": "Available",
+        "trial_count": 0,
+        "is_gap": true,
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d75",
+        "cite_note": "no supporting record (empty bucket or derived value)",
+        "phase": "Phase 1/2",
+        "status": "Available",
+        "trial_count": 0,
+        "is_gap": true,
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d76",
+        "cite_note": "no supporting record (empty bucket or derived value)",
+        "phase": "Phase 2",
+        "status": "Available",
+        "trial_count": 0,
+        "is_gap": true,
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d77",
+        "cite_note": "no supporting record (empty bucket or derived value)",
+        "phase": "Phase 2/3",
+        "status": "Available",
+        "trial_count": 0,
+        "is_gap": true,
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d78",
+        "cite_note": "no supporting record (empty bucket or derived value)",
+        "phase": "Phase 3",
+        "status": "Available",
+        "trial_count": 0,
+        "is_gap": true,
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d79",
+        "cite_note": "no supporting record (empty bucket or derived value)",
+        "phase": "Phase 4",
+        "status": "Available",
+        "trial_count": 0,
+        "is_gap": true,
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d80",
+        "phase": "Not applicable",
+        "status": "Available",
+        "trial_count": 5,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT04566393",
+          "NCT04853602",
+          "NCT04960891",
+          "NCT05398640",
+          "NCT06751524"
+        ],
+        "nct_ids_total": 5,
+        "field_path": "protocolSection.identificationModule.nctId",
+        "citations": [
+          {
+            "nct_id": "NCT04566393",
+            "excerpt": "NCT04566393"
+          },
+          {
+            "nct_id": "NCT04566393",
+            "excerpt": "AVAILABLE",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT04853602",
+            "excerpt": "NCT04853602"
+          }
+        ],
+        "citations_total": 10,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d81",
+        "cite_note": "no supporting record (empty bucket or derived value)",
+        "phase": "Early Phase 1",
+        "status": "No longer available",
+        "trial_count": 0,
+        "is_gap": true,
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d82",
+        "cite_note": "no supporting record (empty bucket or derived value)",
+        "phase": "Phase 1",
+        "status": "No longer available",
+        "trial_count": 0,
+        "is_gap": true,
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d83",
+        "cite_note": "no supporting record (empty bucket or derived value)",
+        "phase": "Phase 1/2",
+        "status": "No longer available",
+        "trial_count": 0,
+        "is_gap": true,
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d84",
+        "cite_note": "no supporting record (empty bucket or derived value)",
+        "phase": "Phase 2",
+        "status": "No longer available",
+        "trial_count": 0,
+        "is_gap": true,
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d85",
+        "cite_note": "no supporting record (empty bucket or derived value)",
+        "phase": "Phase 2/3",
+        "status": "No longer available",
+        "trial_count": 0,
+        "is_gap": true,
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d86",
+        "cite_note": "no supporting record (empty bucket or derived value)",
+        "phase": "Phase 3",
+        "status": "No longer available",
+        "trial_count": 0,
+        "is_gap": true,
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d87",
+        "cite_note": "no supporting record (empty bucket or derived value)",
+        "phase": "Phase 4",
+        "status": "No longer available",
+        "trial_count": 0,
+        "is_gap": true,
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d88",
+        "phase": "Not applicable",
+        "status": "No longer available",
+        "trial_count": 18,
+        "is_gap": false,
+        "nct_ids": [
+          "NCT00495066",
+          "NCT00584493",
+          "NCT01005537",
+          "NCT01728051",
+          "NCT02083484",
+          "NCT02142218",
+          "NCT02147951",
+          "NCT02186249",
+          "NCT02297529",
+          "NCT02416232",
+          "NCT03311542",
+          "NCT03554434",
+          "NCT03593499",
+          "NCT04289155",
+          "NCT04489433",
+          "NCT04544202",
+          "NCT06063746",
+          "NCT06590480"
+        ],
+        "nct_ids_total": 18,
+        "field_path": "protocolSection.identificationModule.nctId",
+        "citations": [
+          {
+            "nct_id": "NCT00495066",
+            "excerpt": "NCT00495066"
+          },
+          {
+            "nct_id": "NCT00495066",
+            "excerpt": "NO_LONGER_AVAILABLE",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT00584493",
+            "excerpt": "NCT00584493"
+          }
+        ],
+        "citations_total": 36,
+        "excerpts_truncated": true
+      }
+    ]
+  },
+  "answer_summary": "The largest cell is Completed × Not applicable (498 trials). 23 of 88 combinations have no trials (e.g. Not yet recruiting × Phase 2/3; Enrolling by invitation × Early Phase 1; Enrolling by invitation × Phase 2/3). Based on 3,776 trials from ClinicalTrials.gov.",
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "conditions": [
+        "melanoma"
+      ]
+    },
+    "query_interpretation": {
+      "intent": "phase_status_heatmap",
+      "persona": "researcher",
+      "scope": "cohort",
+      "confidence": 0.9,
+      "parser": "rules",
+      "cohorts": [
+        {
+          "label": "Melanoma",
+          "conditions": [
+            "melanoma"
+          ]
+        }
+      ],
+      "resolved_entities": [
+        {
+          "input": "melanoma",
+          "resolved": "melanoma",
+          "kind": "condition",
+          "method": "exact"
+        }
+      ]
+    },
+    "notes": [
+      {
+        "code": "SNAPSHOT",
+        "severity": "info",
+        "message": "Melanoma: all 3,776 trial records read from the stored cohort snapshot taken 2026-10-19 04:57 UTC; ClinicalTrials.gov still reports the same number of matching trials."
+      }
+    ],
+    "units": {
+      "trial_count": "trials"
+    },
+    "grouping": {
+      "by": [
+        "phase",
+        "status"
+      ],
+      "aggregate": "count_distinct_trials",
+      "phase_combination": "joined",
+      "each_trial_counted_once": true
+    },
+    "highlight_zero": false,
+    "coverage": {
+      "studies_matched_total": 3776,
+      "studies_analyzed": 3776,
+      "counting_method": "all_records",
+      "sampled": false,
+      "queries": [
+        "https://clinicaltrials.gov/search?cond=melanoma"
+      ]
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "validation": {
+      "passed": true,
+      "checks": [
+        {
+          "name": "retrieval_matches_api_total",
+          "passed": true,
+          "detail": "Melanoma: 3,776 of 3,776"
+        },
+        {
+          "name": "counts_match_trial_lists",
+          "passed": true,
+          "detail": "88 count datum(s) checked"
+        },
+        {
+          "name": "each_trial_in_one_bucket",
+          "passed": true,
+          "detail": "3776 trial(s), each in exactly one bucket"
+        },
+        {
+          "name": "citations_from_retrieved_records",
+          "passed": true,
+          "detail": "3776 NCT id(s), all retrieved"
+        },
+        {
+          "name": "summary_numbers_in_data",
+          "passed": true,
+          "detail": "every number appears in the data"
+        },
+        {
+          "name": "value_axes_labeled",
+          "passed": true,
+          "detail": "all value axes say what they measure"
+        }
+      ]
+    },
+    "alternatives": [
+      {
+        "type": "bar_chart",
+        "reason": "compare categories side by side"
+      },
+      {
+        "type": "table",
+        "reason": "all values as a sortable table"
+      }
+    ],
+    "request_id": "a269fdea258c425bb9d08eceb0dbffcd",
+    "created_at": "2026-10-19T09:35:10+00:00",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-16T09:00:05"
+  }
+}

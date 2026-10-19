@@ -1,0 +1,99 @@
+{
+  "status": "needs_clarification",
+  "clarification": {
+    "reason": "trial_required",
+    "message": "This question is about one specific trial. Please give its NCT ID (e.g. NCT03548935).",
+    "options": [
+      {
+        "nct_id": "NCT03548935",
+        "title": "Research Study Investigating How Well Semaglutide Works in People Suffering From Overweight or Obesity (STEP 1)",
+        "status": "COMPLETED"
+      },
+      {
+        "nct_id": "NCT02142738",
+        "title": "Study of Pembrolizumab (MK-3475) Compared to Platinum-Based Chemotherapies in Participants With Metastatic Non-Small Cell Lung Cancer (MK-3475-024/KEYNOTE-024)",
+        "status": "COMPLETED"
+      }
+    ]
+  },
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "query_interpretation": {
+      "intent": "eligibility_check",
+      "persona": "patient",
+      "scope": "single_trial",
+      "confidence": 0.8,
+      "parser": "rules"
+    },
+    "assumptions": [
+      "Which trial do you mean? Add an NCT ID (e.g. NCT03548935) or a drug/condition."
+    ],
+    "coverage": {
+      "studies_matched_total": 0,
+      "studies_analyzed": 0,
+      "counting_method": "none",
+      "sampled": false
+    },
+    "request_id": "d45216d4132a4271bf30c6bdaf7f9236",
+    "created_at": "2026-10-19T01:40:05+00:00",
+    "schema_version": "2.2",
+    "debug": {
+      "cache": {
+        "response_hit": false,
+        "ctgov_hits": 0,
+        "ctgov_misses": 0
+      },
+      "trace": {
+        "total_ms": 0.3,
+        "steps": [
+          {
+            "name": "response_cache",
+            "ms": 0.0,
+            "status": "ok",
+            "detail": {
+              "summary": {
+                "hit": false
+              }
+            }
+          },
+          {
+            "name": "plan",
+            "ms": 0.1,
+            "status": "ok",
+            "detail": {
+              "model": "gpt-5.4-nano",
+              "parser": "rules",
+              "fallback_reason": "LLMUnavailable"
+            }
+          },
+          {
+            "name": "plan",
+            "ms": 0.2,
+            "status": "ok",
+            "detail": {
+              "summary": {
+                "intent": "eligibility_check",
+                "scope": "single_trial",
+                "parser": "rules",
+                "confidence": 0.8
+              }
+            }
+          },
+          {
+            "name": "no_chart",
+            "ms": 0.0,
+            "status": "ok",
+            "detail": {
+              "summary": {
+                "status": "needs_clarification",
+                "reason": "trial_required"
+              }
+            }
+          }
+        ],
+        "ctgov_calls": 0,
+        "cost_usd": 0.0
+      }
+    }
+  }
+}

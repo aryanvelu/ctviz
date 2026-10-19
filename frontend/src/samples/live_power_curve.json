@@ -1,0 +1,3499 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "power_curve",
+    "title": "Power vs effect size: STEP 1",
+    "subtitle": "Approximation from the sample size; not the trial's registered power calculation",
+    "encoding": {
+      "x": {
+        "field": "effect_size",
+        "type": "quantitative",
+        "title": "Standardized effect size (d)",
+        "unit": "Cohen's d",
+        "format": ".2f"
+      },
+      "y": {
+        "field": "power",
+        "type": "quantitative",
+        "title": "Power",
+        "format": ".0%",
+        "scale": {
+          "type": "linear",
+          "domain": [
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "series": {
+        "field": "series",
+        "type": "nominal",
+        "title": "Sample size scenario"
+      },
+      "tooltip": [
+        "n_per_arm"
+      ]
+    },
+    "data": [
+      {
+        "id": "d1",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.0,
+        "power": 0.025,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d2",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.025,
+        "power": 0.0558,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d3",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.05,
+        "power": 0.1109,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d4",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.075,
+        "power": 0.197,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d5",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.1,
+        "power": 0.3145,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d6",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.125,
+        "power": 0.4547,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d7",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.15,
+        "power": 0.6008,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d8",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.175,
+        "power": 0.7339,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d9",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.2,
+        "power": 0.8398,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d10",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.225,
+        "power": 0.9136,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d11",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.25,
+        "power": 0.9584,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d12",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.275,
+        "power": 0.9822,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d13",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.3,
+        "power": 0.9933,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d14",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.325,
+        "power": 0.9977,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d15",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.35,
+        "power": 0.9993,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d16",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.375,
+        "power": 0.9998,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d17",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.4,
+        "power": 1.0,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d18",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.425,
+        "power": 1.0,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d19",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.45,
+        "power": 1.0,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d20",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.475,
+        "power": 1.0,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d21",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.5,
+        "power": 1.0,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d22",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.525,
+        "power": 1.0,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d23",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.55,
+        "power": 1.0,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d24",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.575,
+        "power": 1.0,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d25",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.6,
+        "power": 1.0,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d26",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.625,
+        "power": 1.0,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d27",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.65,
+        "power": 1.0,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d28",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.675,
+        "power": 1.0,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d29",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.7,
+        "power": 1.0,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d30",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.725,
+        "power": 1.0,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d31",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.75,
+        "power": 1.0,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d32",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.775,
+        "power": 1.0,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d33",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.8,
+        "power": 1.0,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d34",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.825,
+        "power": 1.0,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d35",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.85,
+        "power": 1.0,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d36",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.875,
+        "power": 1.0,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d37",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.9,
+        "power": 1.0,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d38",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.925,
+        "power": 1.0,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d39",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.95,
+        "power": 1.0,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d40",
+        "series": "n/2: 436 per arm",
+        "effect_size": 0.975,
+        "power": 1.0,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d41",
+        "series": "n/2: 436 per arm",
+        "effect_size": 1.0,
+        "power": 1.0,
+        "n_per_arm": 436.2,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d42",
+        "series": "n: 872 per arm",
+        "effect_size": 0.0,
+        "power": 0.025,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d43",
+        "series": "n: 872 per arm",
+        "effect_size": 0.025,
+        "power": 0.0752,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d44",
+        "series": "n: 872 per arm",
+        "effect_size": 0.05,
+        "power": 0.1799,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d45",
+        "series": "n: 872 per arm",
+        "effect_size": 0.075,
+        "power": 0.347,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d46",
+        "series": "n: 872 per arm",
+        "effect_size": 0.1,
+        "power": 0.5512,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d47",
+        "series": "n: 872 per arm",
+        "effect_size": 0.125,
+        "power": 0.7424,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d48",
+        "series": "n: 872 per arm",
+        "effect_size": 0.15,
+        "power": 0.8796,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d49",
+        "series": "n: 872 per arm",
+        "effect_size": 0.175,
+        "power": 0.955,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d50",
+        "series": "n: 872 per arm",
+        "effect_size": 0.2,
+        "power": 0.9867,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d51",
+        "series": "n: 872 per arm",
+        "effect_size": 0.225,
+        "power": 0.9969,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d52",
+        "series": "n: 872 per arm",
+        "effect_size": 0.25,
+        "power": 0.9994,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d53",
+        "series": "n: 872 per arm",
+        "effect_size": 0.275,
+        "power": 0.9999,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d54",
+        "series": "n: 872 per arm",
+        "effect_size": 0.3,
+        "power": 1.0,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d55",
+        "series": "n: 872 per arm",
+        "effect_size": 0.325,
+        "power": 1.0,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d56",
+        "series": "n: 872 per arm",
+        "effect_size": 0.35,
+        "power": 1.0,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d57",
+        "series": "n: 872 per arm",
+        "effect_size": 0.375,
+        "power": 1.0,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d58",
+        "series": "n: 872 per arm",
+        "effect_size": 0.4,
+        "power": 1.0,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d59",
+        "series": "n: 872 per arm",
+        "effect_size": 0.425,
+        "power": 1.0,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d60",
+        "series": "n: 872 per arm",
+        "effect_size": 0.45,
+        "power": 1.0,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d61",
+        "series": "n: 872 per arm",
+        "effect_size": 0.475,
+        "power": 1.0,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d62",
+        "series": "n: 872 per arm",
+        "effect_size": 0.5,
+        "power": 1.0,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d63",
+        "series": "n: 872 per arm",
+        "effect_size": 0.525,
+        "power": 1.0,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d64",
+        "series": "n: 872 per arm",
+        "effect_size": 0.55,
+        "power": 1.0,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d65",
+        "series": "n: 872 per arm",
+        "effect_size": 0.575,
+        "power": 1.0,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d66",
+        "series": "n: 872 per arm",
+        "effect_size": 0.6,
+        "power": 1.0,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d67",
+        "series": "n: 872 per arm",
+        "effect_size": 0.625,
+        "power": 1.0,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d68",
+        "series": "n: 872 per arm",
+        "effect_size": 0.65,
+        "power": 1.0,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d69",
+        "series": "n: 872 per arm",
+        "effect_size": 0.675,
+        "power": 1.0,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d70",
+        "series": "n: 872 per arm",
+        "effect_size": 0.7,
+        "power": 1.0,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d71",
+        "series": "n: 872 per arm",
+        "effect_size": 0.725,
+        "power": 1.0,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d72",
+        "series": "n: 872 per arm",
+        "effect_size": 0.75,
+        "power": 1.0,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d73",
+        "series": "n: 872 per arm",
+        "effect_size": 0.775,
+        "power": 1.0,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d74",
+        "series": "n: 872 per arm",
+        "effect_size": 0.8,
+        "power": 1.0,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d75",
+        "series": "n: 872 per arm",
+        "effect_size": 0.825,
+        "power": 1.0,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d76",
+        "series": "n: 872 per arm",
+        "effect_size": 0.85,
+        "power": 1.0,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d77",
+        "series": "n: 872 per arm",
+        "effect_size": 0.875,
+        "power": 1.0,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d78",
+        "series": "n: 872 per arm",
+        "effect_size": 0.9,
+        "power": 1.0,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d79",
+        "series": "n: 872 per arm",
+        "effect_size": 0.925,
+        "power": 1.0,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d80",
+        "series": "n: 872 per arm",
+        "effect_size": 0.95,
+        "power": 1.0,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d81",
+        "series": "n: 872 per arm",
+        "effect_size": 0.975,
+        "power": 1.0,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d82",
+        "series": "n: 872 per arm",
+        "effect_size": 1.0,
+        "power": 1.0,
+        "n_per_arm": 872.4,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d83",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.0,
+        "power": 0.025,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d84",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.025,
+        "power": 0.1109,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d85",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.05,
+        "power": 0.3145,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d86",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.075,
+        "power": 0.6008,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d87",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.1,
+        "power": 0.8398,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d88",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.125,
+        "power": 0.9584,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d89",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.15,
+        "power": 0.9933,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d90",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.175,
+        "power": 0.9993,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d91",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.2,
+        "power": 1.0,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d92",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.225,
+        "power": 1.0,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d93",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.25,
+        "power": 1.0,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d94",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.275,
+        "power": 1.0,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d95",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.3,
+        "power": 1.0,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d96",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.325,
+        "power": 1.0,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d97",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.35,
+        "power": 1.0,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d98",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.375,
+        "power": 1.0,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d99",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.4,
+        "power": 1.0,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d100",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.425,
+        "power": 1.0,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d101",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.45,
+        "power": 1.0,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d102",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.475,
+        "power": 1.0,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d103",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.5,
+        "power": 1.0,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d104",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.525,
+        "power": 1.0,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d105",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.55,
+        "power": 1.0,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d106",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.575,
+        "power": 1.0,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d107",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.6,
+        "power": 1.0,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d108",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.625,
+        "power": 1.0,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d109",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.65,
+        "power": 1.0,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d110",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.675,
+        "power": 1.0,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d111",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.7,
+        "power": 1.0,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d112",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.725,
+        "power": 1.0,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d113",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.75,
+        "power": 1.0,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d114",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.775,
+        "power": 1.0,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d115",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.8,
+        "power": 1.0,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d116",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.825,
+        "power": 1.0,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d117",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.85,
+        "power": 1.0,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d118",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.875,
+        "power": 1.0,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d119",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.9,
+        "power": 1.0,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d120",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.925,
+        "power": 1.0,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d121",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.95,
+        "power": 1.0,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d122",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 0.975,
+        "power": 1.0,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d123",
+        "series": "2n: 1,745 per arm",
+        "effect_size": 1.0,
+        "power": 1.0,
+        "n_per_arm": 1744.9,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "label": "Semaglutide 2.4 mg: started"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[1].numSubjects",
+            "label": "Placebo: started"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      }
+    ]
+  },
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "nct_ids": [
+        "NCT03548935"
+      ]
+    },
+    "query_interpretation": {
+      "intent": "enrollment_vs_power",
+      "persona": "researcher",
+      "scope": "single_trial",
+      "confidence": 0.85,
+      "parser": "llm",
+      "resolved_entities": [
+        {
+          "input": "NCT03548935",
+          "resolved": "NCT03548935",
+          "kind": "nct_id",
+          "method": "exact"
+        }
+      ]
+    },
+    "notes": [
+      {
+        "code": "APPROXIMATED",
+        "severity": "warning",
+        "message": "Power is approximated from the sample size with a two-sample z-test (alpha 0.05, two-sided); the registry does not report the trial's own power calculation."
+      }
+    ],
+    "units": {
+      "effect_size": "Cohen's d",
+      "power": "probability"
+    },
+    "thresholds": [
+      {
+        "axis": "y",
+        "value": 0.8,
+        "label": "80% power (convention)",
+        "source": "convention"
+      }
+    ],
+    "stats": {
+      "mde_at_80": {
+        "n/2: 436 per arm": 0.1897,
+        "n: 872 per arm": 0.1341,
+        "2n: 1,745 per arm": 0.0948
+      },
+      "power_inputs": {
+        "n_per_arm": 872.4,
+        "arms": 2,
+        "alpha": 0.05,
+        "n_source": "actual participants started per arm (participant flow)"
+      }
+    },
+    "approximation": {
+      "method": "two-sample z-test normal approximation, power(d) = Phi(d*sqrt(n/2) - z_{0.975})",
+      "assumptions": [
+        "Two-sided alpha = 0.05, two-sample z-test (normal approximation; opposite tail ignored).",
+        "Continuous endpoint with equal variance; effect size is standardized (Cohen's d).",
+        "Equal allocation: n per arm (unequal arms use the harmonic mean of the arm sizes).",
+        "No dropout, multiplicity, interim-analysis or non-inferiority adjustments.",
+        "This is not the trial's registered power calculation (the registry does not report one).",
+        "n per arm = 872.4 from actual participants started per arm (participant flow)."
+      ]
+    },
+    "coverage": {
+      "studies_matched_total": 1,
+      "studies_analyzed": 1,
+      "counting_method": "single_trials",
+      "studies_with_results": 1,
+      "sampled": false,
+      "queries": [
+        "https://clinicaltrials.gov/study/NCT03548935"
+      ]
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "validation": {
+      "passed": true,
+      "checks": [
+        {
+          "name": "retrieval_matches_api_total",
+          "passed": true,
+          "detail": "single_trials"
+        },
+        {
+          "name": "counts_match_trial_lists",
+          "passed": true,
+          "detail": "0 count datum(s) checked"
+        },
+        {
+          "name": "each_trial_in_one_bucket",
+          "passed": true,
+          "detail": "not a single-valued grouping"
+        },
+        {
+          "name": "citations_from_retrieved_records",
+          "passed": true,
+          "detail": "1 NCT id(s), all retrieved"
+        },
+        {
+          "name": "summary_numbers_in_data",
+          "passed": true,
+          "detail": "no numeric summary"
+        },
+        {
+          "name": "value_axes_labeled",
+          "passed": true,
+          "detail": "all value axes say what they measure"
+        }
+      ]
+    },
+    "alternatives": [
+      {
+        "type": "kpi_cards",
+        "reason": "headline numbers only"
+      },
+      {
+        "type": "scatter_plot",
+        "reason": "one point per trial"
+      }
+    ],
+    "request_id": "9d43953c4bf64267938db418da33381b",
+    "created_at": "2026-10-19T09:35:40+00:00",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-16T09:00:05"
+  }
+}

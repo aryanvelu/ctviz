@@ -1,0 +1,623 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "network_graph",
+    "title": "Sponsors ↔ drugs in lung cancer immunotherapy trials",
+    "encoding": {
+      "nodes": {
+        "id": "id",
+        "label": "label",
+        "type": "type",
+        "size": "trials"
+      },
+      "edges": {
+        "source": "source",
+        "target": "target",
+        "weight": "trials",
+        "type": "type"
+      }
+    },
+    "data": {
+      "nodes": [
+        {
+          "id": "s:merck",
+          "label": "Merck Sharp & Dohme LLC",
+          "type": "sponsor",
+          "trials": 710,
+          "nct_ids": [
+            "NCT02142738"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT02142738",
+              "excerpt": "Merck Sharp & Dohme LLC"
+            }
+          ],
+          "citations_total": 710,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "s:bms",
+          "label": "Bristol-Myers Squibb",
+          "type": "sponsor",
+          "trials": 420,
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Bristol-Myers Squibb"
+            }
+          ],
+          "citations_total": 420,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "s:az",
+          "label": "AstraZeneca",
+          "type": "sponsor",
+          "trials": 260,
+          "nct_ids": [
+            "NCT01905657"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT01905657",
+              "excerpt": "AstraZeneca"
+            }
+          ],
+          "citations_total": 260,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "s:nci",
+          "label": "National Cancer Institute (NCI)",
+          "type": "sponsor",
+          "trials": 310,
+          "nct_ids": [
+            "NCT01866319"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT01866319",
+              "excerpt": "National Cancer Institute (NCI)"
+            }
+          ],
+          "citations_total": 310,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d:pembro",
+          "label": "Pembrolizumab",
+          "type": "drug",
+          "trials": 1867,
+          "nct_ids": [
+            "NCT02362594"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "protocolSection.armsInterventionsModule.interventions[0].name",
+          "citations": [
+            {
+              "nct_id": "NCT02362594",
+              "excerpt": "Pembrolizumab"
+            }
+          ],
+          "citations_total": 1867,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d:nivo",
+          "label": "Nivolumab",
+          "type": "drug",
+          "trials": 1120,
+          "nct_ids": [
+            "NCT02775435"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "protocolSection.armsInterventionsModule.interventions[0].name",
+          "citations": [
+            {
+              "nct_id": "NCT02775435",
+              "excerpt": "Nivolumab"
+            }
+          ],
+          "citations_total": 1120,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d:ipi",
+          "label": "Ipilimumab",
+          "type": "drug",
+          "trials": 540,
+          "nct_ids": [
+            "NCT03142334"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "protocolSection.armsInterventionsModule.interventions[0].name",
+          "citations": [
+            {
+              "nct_id": "NCT03142334",
+              "excerpt": "Ipilimumab"
+            }
+          ],
+          "citations_total": 540,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d:durva",
+          "label": "Durvalumab",
+          "type": "drug",
+          "trials": 610,
+          "nct_ids": [
+            "NCT02853305"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "protocolSection.armsInterventionsModule.interventions[0].name",
+          "citations": [
+            {
+              "nct_id": "NCT02853305",
+              "excerpt": "Durvalumab"
+            }
+          ],
+          "citations_total": 610,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d:lenva",
+          "label": "Lenvatinib",
+          "type": "drug",
+          "trials": 230,
+          "nct_ids": [
+            "NCT03036488"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "protocolSection.armsInterventionsModule.interventions[0].name",
+          "citations": [
+            {
+              "nct_id": "NCT03036488",
+              "excerpt": "Lenvatinib"
+            }
+          ],
+          "citations_total": 230,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d:carbo",
+          "label": "Carboplatin",
+          "type": "drug",
+          "trials": 820,
+          "nct_ids": [
+            "NCT02564263"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "protocolSection.armsInterventionsModule.interventions[0].name",
+          "citations": [
+            {
+              "nct_id": "NCT02564263",
+              "excerpt": "Carboplatin"
+            }
+          ],
+          "citations_total": 820,
+          "excerpts_truncated": true
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "s:merck",
+          "target": "d:pembro",
+          "trials": 690,
+          "type": "sponsor_drug",
+          "nct_ids": [
+            "NCT02142738"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT02142738",
+              "excerpt": "Merck Sharp & Dohme LLC"
+            },
+            {
+              "nct_id": "NCT02142738",
+              "excerpt": "Pembrolizumab",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[0].name"
+            }
+          ],
+          "citations_total": 690,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "e2",
+          "source": "s:merck",
+          "target": "d:lenva",
+          "trials": 88,
+          "type": "sponsor_drug",
+          "nct_ids": [
+            "NCT02578680"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Merck Sharp & Dohme LLC"
+            },
+            {
+              "nct_id": "NCT02578680",
+              "excerpt": "Lenvatinib",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[0].name"
+            }
+          ],
+          "citations_total": 88,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "e3",
+          "source": "s:merck",
+          "target": "d:carbo",
+          "trials": 140,
+          "type": "sponsor_drug",
+          "nct_ids": [
+            "NCT01905657"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT01905657",
+              "excerpt": "Merck Sharp & Dohme LLC"
+            },
+            {
+              "nct_id": "NCT01905657",
+              "excerpt": "Carboplatin",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[0].name"
+            }
+          ],
+          "citations_total": 140,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "e4",
+          "source": "s:bms",
+          "target": "d:nivo",
+          "trials": 401,
+          "type": "sponsor_drug",
+          "nct_ids": [
+            "NCT01866319"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT01866319",
+              "excerpt": "Bristol-Myers Squibb"
+            },
+            {
+              "nct_id": "NCT01866319",
+              "excerpt": "Nivolumab",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[0].name"
+            }
+          ],
+          "citations_total": 401,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "e5",
+          "source": "s:bms",
+          "target": "d:ipi",
+          "trials": 212,
+          "type": "sponsor_drug",
+          "nct_ids": [
+            "NCT02362594"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT02362594",
+              "excerpt": "Bristol-Myers Squibb"
+            },
+            {
+              "nct_id": "NCT02362594",
+              "excerpt": "Ipilimumab",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[0].name"
+            }
+          ],
+          "citations_total": 212,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "e6",
+          "source": "s:az",
+          "target": "d:durva",
+          "trials": 240,
+          "type": "sponsor_drug",
+          "nct_ids": [
+            "NCT02775435"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT02775435",
+              "excerpt": "AstraZeneca"
+            },
+            {
+              "nct_id": "NCT02775435",
+              "excerpt": "Durvalumab",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[0].name"
+            }
+          ],
+          "citations_total": 240,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "e7",
+          "source": "s:nci",
+          "target": "d:pembro",
+          "trials": 122,
+          "type": "sponsor_drug",
+          "nct_ids": [
+            "NCT03142334"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT03142334",
+              "excerpt": "National Cancer Institute (NCI)"
+            },
+            {
+              "nct_id": "NCT03142334",
+              "excerpt": "Pembrolizumab",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[0].name"
+            }
+          ],
+          "citations_total": 122,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "e8",
+          "source": "s:nci",
+          "target": "d:nivo",
+          "trials": 140,
+          "type": "sponsor_drug",
+          "nct_ids": [
+            "NCT02853305"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT02853305",
+              "excerpt": "National Cancer Institute (NCI)"
+            },
+            {
+              "nct_id": "NCT02853305",
+              "excerpt": "Nivolumab",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[0].name"
+            }
+          ],
+          "citations_total": 140,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "e9",
+          "source": "s:nci",
+          "target": "d:ipi",
+          "trials": 61,
+          "type": "sponsor_drug",
+          "nct_ids": [
+            "NCT03036488"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT03036488",
+              "excerpt": "National Cancer Institute (NCI)"
+            },
+            {
+              "nct_id": "NCT03036488",
+              "excerpt": "Ipilimumab",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[0].name"
+            }
+          ],
+          "citations_total": 61,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "e10",
+          "source": "s:nci",
+          "target": "d:carbo",
+          "trials": 95,
+          "type": "sponsor_drug",
+          "nct_ids": [
+            "NCT02564263"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+          "citations": [
+            {
+              "nct_id": "NCT02564263",
+              "excerpt": "National Cancer Institute (NCI)"
+            },
+            {
+              "nct_id": "NCT02564263",
+              "excerpt": "Carboplatin",
+              "field_path": "protocolSection.armsInterventionsModule.interventions[0].name"
+            }
+          ],
+          "citations_total": 95,
+          "excerpts_truncated": true
+        }
+      ]
+    }
+  },
+  "answer_summary": "Merck Sharp & Dohme LLC is linked to pembrolizumab in 690 trials, the strongest sponsor-drug tie.",
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "conditions": [
+        "non-small cell lung cancer"
+      ]
+    },
+    "query_interpretation": {
+      "intent": "entity_network",
+      "persona": "researcher",
+      "scope": "cohort",
+      "confidence": 0.92,
+      "parser": "llm",
+      "cohorts": [
+        {
+          "label": "lung cancer",
+          "conditions": [
+            "non-small cell lung cancer"
+          ]
+        }
+      ]
+    },
+    "notes": [
+      {
+        "code": "SAMPLED",
+        "severity": "warning",
+        "message": "3000 of 3120 trials analyzed (most recent by start date)."
+      }
+    ],
+    "units": {
+      "trials": "trials"
+    },
+    "node_types": [
+      {
+        "type": "sponsor",
+        "label": "Lead sponsor",
+        "count": 4
+      },
+      {
+        "type": "drug",
+        "label": "Drug",
+        "count": 6
+      }
+    ],
+    "edge_semantics": "Edge = number of trials where the sponsor leads a study that uses the drug",
+    "network_kind": "sponsor_drug",
+    "directed": false,
+    "min_edge_weight": 50,
+    "pinned": [
+      "d:pembro"
+    ],
+    "coverage": {
+      "studies_matched_total": 3120,
+      "studies_analyzed": 3000,
+      "counting_method": "all_records",
+      "sampled": true,
+      "sampling_method": "most recent 3000 by start date"
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "alternatives": [
+      {
+        "type": "table",
+        "reason": "all values as a sortable table"
+      },
+      {
+        "type": "heatmap",
+        "reason": "two-way matrix view"
+      }
+    ],
+    "request_id": "req_sample_10_network",
+    "created_at": "2026-10-18T14:22:05Z",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-17T09:00:12",
+    "debug": {
+      "cache": {
+        "response_hit": false,
+        "ctgov_hits": 3,
+        "ctgov_misses": 2
+      },
+      "trace": {
+        "total_ms": 1543.1,
+        "steps": [
+          {
+            "name": "validate",
+            "ms": 0.4,
+            "status": "ok"
+          },
+          {
+            "name": "response_cache",
+            "ms": 1.2,
+            "status": "ok",
+            "detail": {
+              "hit": false
+            }
+          },
+          {
+            "name": "plan",
+            "ms": 612.5,
+            "status": "ok",
+            "detail": {
+              "parser": "llm"
+            }
+          },
+          {
+            "name": "retrieve",
+            "ms": 884.0,
+            "status": "ok",
+            "detail": {
+              "pages": 2
+            }
+          },
+          {
+            "name": "handler",
+            "ms": 38.7,
+            "status": "ok"
+          },
+          {
+            "name": "verify",
+            "ms": 6.3,
+            "status": "ok",
+            "detail": {
+              "citations_checked": 120,
+              "dropped": 0
+            }
+          }
+        ],
+        "llm_calls": [
+          {
+            "agent": "planner",
+            "model": "gpt-5.4-nano",
+            "input_tokens": 1840,
+            "cached_tokens": 1536,
+            "output_tokens": 212,
+            "ms": 598.2,
+            "cost_usd": 0.00021,
+            "tool_calls": 0
+          }
+        ],
+        "ctgov_calls": 2,
+        "cost_usd": 0.00021
+      }
+    }
+  }
+}

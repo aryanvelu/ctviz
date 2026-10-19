@@ -1,0 +1,512 @@
+{
+  "name": "step1_patient_eligibility",
+  "request": {
+    "query": "Am I eligible for this trial?",
+    "nct_id": "NCT03548935",
+    "persona": "patient",
+    "patient_profile": {
+      "age": 45,
+      "sex": "female",
+      "conditions": [
+        "obesity"
+      ],
+      "medications": [
+        "metformin"
+      ]
+    }
+  },
+  "response": {
+    "status": "ok",
+    "visualization": {
+      "type": "eligibility_checklist",
+      "title": "Eligibility checklist for NCT03548935 (STEP 1)",
+      "encoding": {
+        "series": {
+          "field": "status",
+          "type": "nominal",
+          "title": "Status",
+          "sort": {
+            "values": [
+              "met",
+              "unmet",
+              "needs_review",
+              "unknown"
+            ]
+          }
+        },
+        "label": {
+          "field": "text",
+          "type": "nominal",
+          "title": "Criterion"
+        },
+        "tooltip": [
+          "section",
+          "reason",
+          "evaluated_by",
+          "relevance"
+        ]
+      },
+      "data": [
+        {
+          "id": "c1",
+          "section": "structured",
+          "index": 1,
+          "text": "Age: 18 Years or older",
+          "status": "met",
+          "reason": "Age 45 is within the registered age range.",
+          "evaluated_by": "rule",
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "protocolSection.eligibilityModule.minimumAge",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "18 Years",
+              "label": "Age: 18 Years or older"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c2",
+          "section": "structured",
+          "index": 2,
+          "text": "Sex: all",
+          "status": "met",
+          "reason": "The trial is open to all sexes.",
+          "evaluated_by": "rule",
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "protocolSection.eligibilityModule.sex",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "ALL",
+              "label": "Sex: all"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c3",
+          "section": "structured",
+          "index": 3,
+          "text": "Does not accept healthy volunteers",
+          "status": "needs_review",
+          "reason": "Participants must have the studied condition; the study team confirms whether yours qualifies.",
+          "evaluated_by": "rule",
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "protocolSection.eligibilityModule.healthyVolunteers",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "false",
+              "label": "Does not accept healthy volunteers"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c4",
+          "section": "inclusion",
+          "index": 1,
+          "text": "Male or female, age greater than or equal to 18 years at the time of signing informed consent",
+          "status": "met",
+          "reason": "Based on your profile this criterion does not appear to exclude you (\"age greater than or equal to 18 years\").",
+          "evaluated_by": "llm",
+          "subheading": "Main phase",
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "Male or female, age greater than or equal to 18 years at the time of signing informed consent",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 36,
+              "char_end": 129,
+              "label": "Inclusion criterion 1"
+            },
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "age greater than or equal to 18 years",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 52,
+              "char_end": 89,
+              "label": "Quote used for the evaluation"
+            }
+          ],
+          "citations_total": 2,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c5",
+          "section": "inclusion",
+          "index": 2,
+          "text": "Body mass index (BMI) greater than or equal to 30.0 kg/sqm or greater than or equal to 27.0 kg/sqm with the presence of at least one of the following weight-related comorbidities (treated or untreated): hypertension, dyslipidaemia, obstructive sleep apnoea or cardiovascular disease",
+          "status": "needs_review",
+          "reason": "Possibly relevant to your profile (\"Body mass index (BMI) greater than or equal to 30.0 kg/sqm\"); confirm with the study team.",
+          "evaluated_by": "llm",
+          "subheading": "Main phase",
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "Body mass index (BMI) greater than or equal to 30.0 kg/sqm or greater than or equal to 27.0 kg/sqm with the presence of at least one of the following weight-related comorbidities (treated or untreated): hypertension, dyslipidaemia, obstructive sleep apnoea or cardiovascular disease",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 132,
+              "char_end": 414,
+              "label": "Inclusion criterion 2"
+            },
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "Body mass index (BMI) greater than or equal to 30.0 kg/sqm",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 132,
+              "char_end": 190,
+              "label": "Quote used for the evaluation"
+            }
+          ],
+          "citations_total": 2,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c6",
+          "section": "inclusion",
+          "index": 3,
+          "text": "History of at least one self-reported unsuccessful dietary effort to lose body weight",
+          "status": "needs_review",
+          "reason": "Possibly relevant to your profile (\"History of at least one self-reported unsuccessful dietary effort to lose body weight\"); confirm with the study team.",
+          "evaluated_by": "llm",
+          "subheading": "Main phase",
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "History of at least one self-reported unsuccessful dietary effort to lose body weight",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 417,
+              "char_end": 502,
+              "label": "Inclusion criterion 3"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c7",
+          "section": "inclusion",
+          "index": 4,
+          "text": "Informed consent for the extension phase obtained before any trial related activities for the extension phase",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "subheading": "Extension phase",
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "Informed consent for the extension phase obtained before any trial related activities for the extension phase",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 524,
+              "char_end": 633,
+              "label": "Inclusion criterion 4"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c8",
+          "section": "inclusion",
+          "index": 5,
+          "text": "On randomised treatment on the target dose at week 68, i.e. treated with 2.4 mg semaglutide once-weekly or semaglutide placebo",
+          "status": "needs_review",
+          "reason": "Possibly relevant to your profile (\"treated with 2.4 mg semaglutide once-weekly or semaglutide placebo\"); confirm with the study team.",
+          "evaluated_by": "llm",
+          "subheading": "Extension phase",
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "On randomised treatment on the target dose at week 68, i.e. treated with 2.4 mg semaglutide once-weekly or semaglutide placebo",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 636,
+              "char_end": 762,
+              "label": "Inclusion criterion 5"
+            },
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "treated with 2.4 mg semaglutide once-weekly or semaglutide placebo",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 696,
+              "char_end": 762,
+              "label": "Quote used for the evaluation"
+            }
+          ],
+          "citations_total": 2,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c9",
+          "section": "exclusion",
+          "index": 1,
+          "text": "Glycated haemoglobin (HbA1C) greater than or equal to 48 mmol/mol (6.5%) as measured by the central laboratory at screening",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "subheading": "Main phase",
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "Glycated haemoglobin (HbA1C) greater than or equal to 48 mmol/mol (6.5%) as measured by the central laboratory at screening",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 800,
+              "char_end": 923,
+              "label": "Exclusion criterion 1"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c10",
+          "section": "exclusion",
+          "index": 2,
+          "text": "A self-reported change in body weight greater than 5 kg (11 lbs) within 90 days before screening irrespective of medical records",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "subheading": "Main phase",
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "A self-reported change in body weight greater than 5 kg (11 lbs) within 90 days before screening irrespective of medical records",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 926,
+              "char_end": 1054,
+              "label": "Exclusion criterion 2"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c11",
+          "section": "exclusion",
+          "index": 3,
+          "text": "Female who is pregnant or intends to become pregnant during the extension phase",
+          "status": "needs_review",
+          "reason": "Possibly relevant to your profile (\"Female who is pregnant or intends to become pregnant during the extension phase\"); confirm with the study team.",
+          "evaluated_by": "llm",
+          "subheading": "Extension phase",
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "Female who is pregnant or intends to become pregnant during the extension phase",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 1076,
+              "char_end": 1155,
+              "label": "Exclusion criterion 3"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "c12",
+          "section": "exclusion",
+          "index": 4,
+          "text": "Any disorder, unwillingness or inability, not covered by any of the other exclusion criteria, which in the investigator's opinion, might jeopardise the subject's compliance with the extension of the trial",
+          "status": "unknown",
+          "reason": "Not evaluated: free-text criterion; confirm with the study team.",
+          "evaluated_by": "none",
+          "subheading": "Extension phase",
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "Any disorder, unwillingness or inability, not covered by any of the other exclusion criteria, which in the investigator's opinion, might jeopardise the subject's compliance with the extension of the trial",
+              "field_path": "protocolSection.eligibilityModule.eligibilityCriteria",
+              "kind": "text_excerpt",
+              "char_start": 1158,
+              "char_end": 1362,
+              "label": "Exclusion criterion 4"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        }
+      ]
+    },
+    "answer_summary": "Of 12 criteria checked, 3 are met, 0 would exclude you, 5 need review with the study team and 4 cannot be checked from the information given.",
+    "meta": {
+      "source": "clinicaltrials.gov",
+      "filters": {
+        "nct_ids": [
+          "NCT03548935"
+        ]
+      },
+      "query_interpretation": {
+        "intent": "eligibility_check",
+        "persona": "patient",
+        "scope": "single_trial",
+        "confidence": 0.86,
+        "parser": "llm",
+        "resolved_entities": [
+          {
+            "input": "NCT03548935",
+            "resolved": "NCT03548935",
+            "kind": "nct_id",
+            "method": "exact"
+          }
+        ]
+      },
+      "assumptions": [
+        "I read this as: Inclusion/exclusion criteria as a checklist, evaluated against an optional patient profile. If that is not what you meant, please rephrase."
+      ],
+      "notes": [
+        {
+          "code": "LLM_EVALUATED",
+          "severity": "info",
+          "message": "5 free-text criteria were checked by a language model against your profile, each backed by a verified verbatim quote; anything not clear-cut is marked needs_review. Only the study team can confirm eligibility."
+        }
+      ],
+      "summary": {
+        "total": 12,
+        "by_status": {
+          "met": 3,
+          "unmet": 0,
+          "needs_review": 5,
+          "unknown": 4
+        },
+        "by_section": {
+          "structured": 3,
+          "inclusion": 5,
+          "exclusion": 4
+        },
+        "by_evaluator": {
+          "rule": 3,
+          "llm": 5,
+          "none": 4
+        }
+      },
+      "coverage": {
+        "studies_matched_total": 1,
+        "studies_analyzed": 1,
+        "counting_method": "single_trials",
+        "sampled": false,
+        "queries": [
+          "https://clinicaltrials.gov/study/NCT03548935"
+        ]
+      },
+      "citation_policy": {
+        "detail": "sample",
+        "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+        "nct_ids": "first_20",
+        "nct_ids_per_datum": 20,
+        "nct_ids_order": "nct_id",
+        "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+        "excerpts_per_datum": 3,
+        "excerpts_single_trial": 10,
+        "excerpt_order": "nct_id",
+        "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+      },
+      "validation": {
+        "passed": true,
+        "checks": [
+          {
+            "name": "retrieval_matches_api_total",
+            "passed": true,
+            "detail": "single_trials"
+          },
+          {
+            "name": "counts_match_trial_lists",
+            "passed": true,
+            "detail": "0 count datum(s) checked"
+          },
+          {
+            "name": "each_trial_in_one_bucket",
+            "passed": true,
+            "detail": "not a single-valued grouping"
+          },
+          {
+            "name": "citations_from_retrieved_records",
+            "passed": true,
+            "detail": "1 NCT id(s), all retrieved"
+          },
+          {
+            "name": "summary_numbers_in_data",
+            "passed": true,
+            "detail": "every number appears in the data"
+          },
+          {
+            "name": "value_axes_labeled",
+            "passed": true,
+            "detail": "all value axes say what they measure"
+          }
+        ]
+      },
+      "alternatives": [
+        {
+          "type": "table",
+          "reason": "all values as a sortable table"
+        }
+      ],
+      "request_id": "b194eee771f44f608f504d05a183d771",
+      "created_at": "2026-10-19T10:10:47+00:00",
+      "schema_version": "2.2",
+      "ctgov_api_version": "2.0.5",
+      "data_timestamp": "2026-10-16T09:00:05"
+    }
+  }
+}

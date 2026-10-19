@@ -1,0 +1,865 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "bar_chart",
+    "title": "Trials by phase: Semaglutide vs Tirzepatide",
+    "encoding": {
+      "x": {
+        "field": "phase",
+        "type": "ordinal",
+        "title": "Phase",
+        "sort": {
+          "values": [
+            "Early Phase 1",
+            "Phase 1",
+            "Phase 1/2",
+            "Phase 2",
+            "Phase 2/3",
+            "Phase 3",
+            "Phase 4",
+            "Not applicable"
+          ]
+        }
+      },
+      "y": {
+        "field": "trial_count",
+        "type": "quantitative",
+        "title": "Trials",
+        "unit": "trials",
+        "format": ",d"
+      },
+      "series": {
+        "field": "cohort",
+        "type": "nominal",
+        "title": "Cohort"
+      }
+    },
+    "data": [
+      {
+        "id": "d1",
+        "phase": "Early Phase 1",
+        "trial_count": 8,
+        "cohort": "Semaglutide",
+        "nct_ids": [
+          "NCT05249881",
+          "NCT06338553",
+          "NCT06751589",
+          "NCT06807970",
+          "NCT07092605",
+          "NCT07627191",
+          "NCT07727473",
+          "NCT07820722"
+        ],
+        "nct_ids_total": 8,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT05249881",
+            "excerpt": "[\"EARLY_PHASE1\"]"
+          },
+          {
+            "nct_id": "NCT06338553",
+            "excerpt": "[\"EARLY_PHASE1\"]"
+          },
+          {
+            "nct_id": "NCT06751589",
+            "excerpt": "[\"EARLY_PHASE1\"]"
+          }
+        ],
+        "citations_total": 8,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d2",
+        "phase": "Phase 1",
+        "trial_count": 116,
+        "cohort": "Semaglutide",
+        "nct_ids": [
+          "NCT00813020",
+          "NCT00833716",
+          "NCT00851773",
+          "NCT01272973",
+          "NCT01324505",
+          "NCT01572753",
+          "NCT01619345",
+          "NCT01686945",
+          "NCT01766245",
+          "NCT01866748",
+          "NCT02014259",
+          "NCT02016911",
+          "NCT02022254",
+          "NCT02060266",
+          "NCT02064348",
+          "NCT02070510",
+          "NCT02079870",
+          "NCT02146079",
+          "NCT02147431",
+          "NCT02161588"
+        ],
+        "nct_ids_total": 116,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT00813020",
+            "excerpt": "[\"PHASE1\"]"
+          },
+          {
+            "nct_id": "NCT00833716",
+            "excerpt": "[\"PHASE1\"]"
+          },
+          {
+            "nct_id": "NCT00851773",
+            "excerpt": "[\"PHASE1\"]"
+          }
+        ],
+        "citations_total": 116,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d3",
+        "phase": "Phase 1/2",
+        "trial_count": 12,
+        "cohort": "Semaglutide",
+        "nct_ids": [
+          "NCT04702516",
+          "NCT05746039",
+          "NCT05751720",
+          "NCT06057077",
+          "NCT06541509",
+          "NCT06827002",
+          "NCT07171723",
+          "NCT07336862",
+          "NCT07374328",
+          "NCT07563699",
+          "NCT07642635",
+          "NCT07651319"
+        ],
+        "nct_ids_total": 12,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT04702516",
+            "excerpt": "[\"PHASE1\",\"PHASE2\"]"
+          },
+          {
+            "nct_id": "NCT05746039",
+            "excerpt": "[\"PHASE1\",\"PHASE2\"]"
+          },
+          {
+            "nct_id": "NCT05751720",
+            "excerpt": "[\"PHASE1\",\"PHASE2\"]"
+          }
+        ],
+        "citations_total": 12,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d4",
+        "phase": "Phase 2",
+        "trial_count": 124,
+        "cohort": "Semaglutide",
+        "nct_ids": [
+          "NCT00696657",
+          "NCT01923181",
+          "NCT02453711",
+          "NCT02461589",
+          "NCT02970942",
+          "NCT03659682",
+          "NCT03884075",
+          "NCT03987074",
+          "NCT03987451",
+          "NCT04007107",
+          "NCT04019197",
+          "NCT04143945",
+          "NCT04153929",
+          "NCT04216589",
+          "NCT04451837",
+          "NCT04466345",
+          "NCT04515849",
+          "NCT04615871",
+          "NCT04873245",
+          "NCT04944992"
+        ],
+        "nct_ids_total": 124,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT00696657",
+            "excerpt": "[\"PHASE2\"]"
+          },
+          {
+            "nct_id": "NCT01923181",
+            "excerpt": "[\"PHASE2\"]"
+          },
+          {
+            "nct_id": "NCT02453711",
+            "excerpt": "[\"PHASE2\"]"
+          }
+        ],
+        "citations_total": 124,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d5",
+        "phase": "Phase 2/3",
+        "trial_count": 15,
+        "cohort": "Semaglutide",
+        "nct_ids": [
+          "NCT03899402",
+          "NCT03919929",
+          "NCT05205928",
+          "NCT05646199",
+          "NCT05788965",
+          "NCT06363747",
+          "NCT06387199",
+          "NCT06423599",
+          "NCT06619015",
+          "NCT06896981",
+          "NCT06913023",
+          "NCT06975111",
+          "NCT07092618",
+          "NCT07223242",
+          "NCT07797036"
+        ],
+        "nct_ids_total": 15,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT03899402",
+            "excerpt": "[\"PHASE2\",\"PHASE3\"]"
+          },
+          {
+            "nct_id": "NCT03919929",
+            "excerpt": "[\"PHASE2\",\"PHASE3\"]"
+          },
+          {
+            "nct_id": "NCT05205928",
+            "excerpt": "[\"PHASE2\",\"PHASE3\"]"
+          }
+        ],
+        "citations_total": 15,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d6",
+        "phase": "Phase 3",
+        "trial_count": 169,
+        "cohort": "Semaglutide",
+        "nct_ids": [
+          "NCT01720446",
+          "NCT01885208",
+          "NCT01930188",
+          "NCT02054897",
+          "NCT02128932",
+          "NCT02207374",
+          "NCT02254291",
+          "NCT02305381",
+          "NCT02607865",
+          "NCT02648204",
+          "NCT02692716",
+          "NCT02827708",
+          "NCT02849080",
+          "NCT02863328",
+          "NCT02863419",
+          "NCT02906930",
+          "NCT03015220",
+          "NCT03018028",
+          "NCT03021187",
+          "NCT03061214"
+        ],
+        "nct_ids_total": 169,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT01720446",
+            "excerpt": "[\"PHASE3\"]"
+          },
+          {
+            "nct_id": "NCT01885208",
+            "excerpt": "[\"PHASE3\"]"
+          },
+          {
+            "nct_id": "NCT01930188",
+            "excerpt": "[\"PHASE3\"]"
+          }
+        ],
+        "citations_total": 169,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d7",
+        "phase": "Phase 4",
+        "trial_count": 121,
+        "cohort": "Semaglutide",
+        "nct_ids": [
+          "NCT03292315",
+          "NCT03596450",
+          "NCT03724981",
+          "NCT03985384",
+          "NCT04061200",
+          "NCT04126603",
+          "NCT04189848",
+          "NCT04263415",
+          "NCT04538352",
+          "NCT04624672",
+          "NCT04639414",
+          "NCT04854083",
+          "NCT04865744",
+          "NCT04873050",
+          "NCT04892199",
+          "NCT04938388",
+          "NCT04979130",
+          "NCT05035082",
+          "NCT05119179",
+          "NCT05195944"
+        ],
+        "nct_ids_total": 121,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT03292315",
+            "excerpt": "[\"PHASE4\"]"
+          },
+          {
+            "nct_id": "NCT03596450",
+            "excerpt": "[\"PHASE4\"]"
+          },
+          {
+            "nct_id": "NCT03724981",
+            "excerpt": "[\"PHASE4\"]"
+          }
+        ],
+        "citations_total": 121,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d8",
+        "phase": "Not applicable",
+        "trial_count": 220,
+        "cohort": "Semaglutide",
+        "nct_ids": [
+          "NCT01511393",
+          "NCT03457012",
+          "NCT03498001",
+          "NCT03631186",
+          "NCT03648281",
+          "NCT03876015",
+          "NCT03929679",
+          "NCT04067999",
+          "NCT04083820",
+          "NCT04094415",
+          "NCT04174755",
+          "NCT04175665",
+          "NCT04200625",
+          "NCT04261933",
+          "NCT04383197",
+          "NCT04469855",
+          "NCT04537624",
+          "NCT04537637",
+          "NCT04559815",
+          "NCT04572165"
+        ],
+        "nct_ids_total": 220,
+        "field_path": "protocolSection.identificationModule.nctId",
+        "citations": [
+          {
+            "nct_id": "NCT01511393",
+            "excerpt": "NCT01511393"
+          },
+          {
+            "nct_id": "NCT03457012",
+            "excerpt": "NCT03457012"
+          },
+          {
+            "nct_id": "NCT03498001",
+            "excerpt": "[\"NA\"]",
+            "field_path": "protocolSection.designModule.phases"
+          }
+        ],
+        "citations_total": 220,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d9",
+        "phase": "Early Phase 1",
+        "trial_count": 6,
+        "cohort": "Tirzepatide",
+        "nct_ids": [
+          "NCT06734273",
+          "NCT06751589",
+          "NCT06759701",
+          "NCT06934642",
+          "NCT07065552",
+          "NCT07812636"
+        ],
+        "nct_ids_total": 6,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT06734273",
+            "excerpt": "[\"EARLY_PHASE1\"]"
+          },
+          {
+            "nct_id": "NCT06751589",
+            "excerpt": "[\"EARLY_PHASE1\"]"
+          },
+          {
+            "nct_id": "NCT06759701",
+            "excerpt": "[\"EARLY_PHASE1\"]"
+          }
+        ],
+        "citations_total": 6,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d10",
+        "phase": "Phase 1",
+        "trial_count": 34,
+        "cohort": "Tirzepatide",
+        "nct_ids": [
+          "NCT02759107",
+          "NCT03322631",
+          "NCT03375463",
+          "NCT03482024",
+          "NCT03940742",
+          "NCT03951753",
+          "NCT04004988",
+          "NCT04050553",
+          "NCT04050670",
+          "NCT04081337",
+          "NCT04172987",
+          "NCT04235959",
+          "NCT04311411",
+          "NCT04311424",
+          "NCT04407234",
+          "NCT05582096",
+          "NCT05696847",
+          "NCT05810597",
+          "NCT05822544",
+          "NCT05978713"
+        ],
+        "nct_ids_total": 34,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT02759107",
+            "excerpt": "[\"PHASE1\"]"
+          },
+          {
+            "nct_id": "NCT03322631",
+            "excerpt": "[\"PHASE1\"]"
+          },
+          {
+            "nct_id": "NCT03375463",
+            "excerpt": "[\"PHASE1\"]"
+          }
+        ],
+        "citations_total": 34,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d11",
+        "phase": "Phase 1/2",
+        "trial_count": 6,
+        "cohort": "Tirzepatide",
+        "nct_ids": [
+          "NCT05751720",
+          "NCT06700538",
+          "NCT06937203",
+          "NCT07000955",
+          "NCT07245771",
+          "NCT07463846"
+        ],
+        "nct_ids_total": 6,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT05751720",
+            "excerpt": "[\"PHASE1\",\"PHASE2\"]"
+          },
+          {
+            "nct_id": "NCT06700538",
+            "excerpt": "[\"PHASE1\",\"PHASE2\"]"
+          },
+          {
+            "nct_id": "NCT06937203",
+            "excerpt": "[\"PHASE1\",\"PHASE2\"]"
+          }
+        ],
+        "citations_total": 6,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d12",
+        "phase": "Phase 2",
+        "trial_count": 67,
+        "cohort": "Tirzepatide",
+        "nct_ids": [
+          "NCT03131687",
+          "NCT03311724",
+          "NCT04166773",
+          "NCT05536804",
+          "NCT05659368",
+          "NCT05912621",
+          "NCT05933499",
+          "NCT06037252",
+          "NCT06143956",
+          "NCT06180616",
+          "NCT06326047",
+          "NCT06326060",
+          "NCT06373146",
+          "NCT06400615",
+          "NCT06445075",
+          "NCT06515418",
+          "NCT06517212",
+          "NCT06518837",
+          "NCT06565611",
+          "NCT06582875"
+        ],
+        "nct_ids_total": 67,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT03131687",
+            "excerpt": "[\"PHASE2\"]"
+          },
+          {
+            "nct_id": "NCT03311724",
+            "excerpt": "[\"PHASE2\"]"
+          },
+          {
+            "nct_id": "NCT04166773",
+            "excerpt": "[\"PHASE2\"]"
+          }
+        ],
+        "citations_total": 67,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d13",
+        "phase": "Phase 2/3",
+        "trial_count": 5,
+        "cohort": "Tirzepatide",
+        "nct_ids": [
+          "NCT06162715",
+          "NCT07223242",
+          "NCT07284511",
+          "NCT07734792",
+          "NCT07846865"
+        ],
+        "nct_ids_total": 5,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT06162715",
+            "excerpt": "[\"PHASE2\",\"PHASE3\"]"
+          },
+          {
+            "nct_id": "NCT07223242",
+            "excerpt": "[\"PHASE2\",\"PHASE3\"]"
+          },
+          {
+            "nct_id": "NCT07284511",
+            "excerpt": "[\"PHASE2\",\"PHASE3\"]"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d14",
+        "phase": "Phase 3",
+        "trial_count": 52,
+        "cohort": "Tirzepatide",
+        "nct_ids": [
+          "NCT03730662",
+          "NCT03861039",
+          "NCT03861052",
+          "NCT03882970",
+          "NCT03954834",
+          "NCT03987919",
+          "NCT04039503",
+          "NCT04093752",
+          "NCT04184622",
+          "NCT04255433",
+          "NCT04537923",
+          "NCT04657003",
+          "NCT04657016",
+          "NCT04660643",
+          "NCT04844918",
+          "NCT04847557",
+          "NCT05024032",
+          "NCT05260021",
+          "NCT05412004",
+          "NCT05556512"
+        ],
+        "nct_ids_total": 52,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT03730662",
+            "excerpt": "[\"PHASE3\"]"
+          },
+          {
+            "nct_id": "NCT03861039",
+            "excerpt": "[\"PHASE3\"]"
+          },
+          {
+            "nct_id": "NCT03861052",
+            "excerpt": "[\"PHASE3\"]"
+          }
+        ],
+        "citations_total": 52,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d15",
+        "phase": "Phase 4",
+        "trial_count": 48,
+        "cohort": "Tirzepatide",
+        "nct_ids": [
+          "NCT05433584",
+          "NCT05553093",
+          "NCT05564039",
+          "NCT05706506",
+          "NCT05708859",
+          "NCT05812183",
+          "NCT06009653",
+          "NCT06191848",
+          "NCT06374875",
+          "NCT06533527",
+          "NCT06605703",
+          "NCT06606821",
+          "NCT06635057",
+          "NCT06657209",
+          "NCT06721507",
+          "NCT06774079",
+          "NCT06801015",
+          "NCT06803888",
+          "NCT06854614",
+          "NCT06857942"
+        ],
+        "nct_ids_total": 48,
+        "field_path": "protocolSection.designModule.phases",
+        "citations": [
+          {
+            "nct_id": "NCT05433584",
+            "excerpt": "[\"PHASE4\"]"
+          },
+          {
+            "nct_id": "NCT05553093",
+            "excerpt": "[\"PHASE4\"]"
+          },
+          {
+            "nct_id": "NCT05564039",
+            "excerpt": "[\"PHASE4\"]"
+          }
+        ],
+        "citations_total": 48,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d16",
+        "phase": "Not applicable",
+        "trial_count": 82,
+        "cohort": "Tirzepatide",
+        "nct_ids": [
+          "NCT05756764",
+          "NCT05766358",
+          "NCT05990374",
+          "NCT06301256",
+          "NCT06354101",
+          "NCT06467604",
+          "NCT06484114",
+          "NCT06485089",
+          "NCT06734312",
+          "NCT06761703",
+          "NCT06779929",
+          "NCT06790160",
+          "NCT06856928",
+          "NCT06885736",
+          "NCT06914141",
+          "NCT06914154",
+          "NCT06980623",
+          "NCT07041983",
+          "NCT07042672",
+          "NCT07088718"
+        ],
+        "nct_ids_total": 82,
+        "field_path": "protocolSection.identificationModule.nctId",
+        "citations": [
+          {
+            "nct_id": "NCT05756764",
+            "excerpt": "NCT05756764"
+          },
+          {
+            "nct_id": "NCT05766358",
+            "excerpt": "NCT05766358"
+          },
+          {
+            "nct_id": "NCT05990374",
+            "excerpt": "[\"NA\"]",
+            "field_path": "protocolSection.designModule.phases"
+          }
+        ],
+        "citations_total": 82,
+        "excerpts_truncated": true
+      }
+    ]
+  },
+  "answer_summary": "For Semaglutide, Not applicable has the most trials (220), then Phase 3 (169), then Phase 2 (124). For Tirzepatide, Not applicable has the most trials (82), then Phase 2 (67), then Phase 3 (52). Based on 1,085 trials from ClinicalTrials.gov.",
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "compare": [
+        {
+          "label": "Semaglutide",
+          "drug_names": [
+            "semaglutide"
+          ]
+        },
+        {
+          "label": "Tirzepatide",
+          "drug_names": [
+            "tirzepatide"
+          ]
+        }
+      ]
+    },
+    "query_interpretation": {
+      "intent": "phase_distribution",
+      "persona": "researcher",
+      "scope": "comparison",
+      "confidence": 0.94,
+      "parser": "llm",
+      "cohorts": [
+        {
+          "label": "Semaglutide",
+          "drugs": [
+            "semaglutide"
+          ]
+        },
+        {
+          "label": "Tirzepatide",
+          "drugs": [
+            "tirzepatide"
+          ]
+        }
+      ],
+      "resolved_entities": [
+        {
+          "input": "semaglutide",
+          "resolved": "semaglutide",
+          "kind": "drug",
+          "method": "structured_field"
+        },
+        {
+          "input": "tirzepatide",
+          "resolved": "tirzepatide",
+          "kind": "drug",
+          "method": "structured_field"
+        }
+      ]
+    },
+    "units": {
+      "trial_count": "trials"
+    },
+    "sort": {
+      "values": [
+        "Early Phase 1",
+        "Phase 1",
+        "Phase 1/2",
+        "Phase 2",
+        "Phase 2/3",
+        "Phase 3",
+        "Phase 4",
+        "Not applicable"
+      ]
+    },
+    "grouping": {
+      "by": [
+        "phase"
+      ],
+      "aggregate": "count_distinct_trials",
+      "phase_combination": "joined",
+      "each_trial_counted_once": true
+    },
+    "layout": {
+      "orientation": "vertical",
+      "mode": "grouped",
+      "donut": false
+    },
+    "coverage": {
+      "studies_matched_total": 1085,
+      "studies_analyzed": 1085,
+      "counting_method": "all_records",
+      "sampled": false,
+      "queries": [
+        "https://clinicaltrials.gov/search?intr=semaglutide",
+        "https://clinicaltrials.gov/search?intr=tirzepatide"
+      ]
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "validation": {
+      "passed": true,
+      "checks": [
+        {
+          "name": "retrieval_matches_api_total",
+          "passed": true,
+          "detail": "Semaglutide: 785 of 785; Tirzepatide: 300 of 300"
+        },
+        {
+          "name": "counts_match_trial_lists",
+          "passed": true,
+          "detail": "16 count datum(s) checked"
+        },
+        {
+          "name": "each_trial_in_one_bucket",
+          "passed": true,
+          "detail": "1085 trial(s), each in exactly one bucket"
+        },
+        {
+          "name": "citations_from_retrieved_records",
+          "passed": true,
+          "detail": "1006 NCT id(s), all retrieved"
+        },
+        {
+          "name": "summary_numbers_in_data",
+          "passed": true,
+          "detail": "every number appears in the data"
+        },
+        {
+          "name": "value_axes_labeled",
+          "passed": true,
+          "detail": "all value axes say what they measure"
+        }
+      ]
+    },
+    "alternatives": [
+      {
+        "type": "pie_chart",
+        "reason": "share of the whole"
+      },
+      {
+        "type": "table",
+        "reason": "all values as a sortable table"
+      }
+    ],
+    "request_id": "13a363caacbf4050ab95caf3abef4733",
+    "created_at": "2026-10-19T09:25:51+00:00",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-16T09:00:05"
+  }
+}

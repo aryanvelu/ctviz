@@ -1,0 +1,422 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "survival_curve",
+    "title": "Overall survival — KEYNOTE-024 (NCT02142738)",
+    "subtitle": "Reconstructed from reported landmarks and hazard ratio",
+    "encoding": {
+      "x": {
+        "field": "months",
+        "type": "quantitative",
+        "title": "Time since randomization",
+        "unit": "months",
+        "format": "d"
+      },
+      "y": {
+        "field": "survival",
+        "type": "quantitative",
+        "title": "Overall survival",
+        "format": ".0%",
+        "scale": {
+          "type": "linear",
+          "domain": [
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "series": {
+        "field": "arm",
+        "type": "nominal",
+        "title": "Arm"
+      },
+      "error_low": {
+        "field": "ci_low",
+        "type": "quantitative",
+        "title": "95% CI low",
+        "format": ".0%"
+      },
+      "error_high": {
+        "field": "ci_high",
+        "type": "quantitative",
+        "title": "95% CI high",
+        "format": ".0%"
+      },
+      "tooltip": [
+        "source"
+      ]
+    },
+    "data": [
+      {
+        "id": "d1",
+        "months": 0,
+        "survival": 1,
+        "arm": "Pembrolizumab",
+        "ci_low": 0.94,
+        "ci_high": 1,
+        "source": "reported",
+        "cite_note": "curve origin: survival is 100% at time 0 by definition",
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d2",
+        "months": 3,
+        "survival": 0.89,
+        "arm": "Pembrolizumab",
+        "ci_low": 0.824,
+        "ci_high": 0.946,
+        "source": "interpolated",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].analyses[0].paramValue",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "0.60",
+            "label": "Hazard ratio used for interpolation"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d3",
+        "months": 6,
+        "survival": 0.802,
+        "arm": "Pembrolizumab",
+        "ci_low": 0.73,
+        "ci_high": 0.864,
+        "source": "reported",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].classes[0].categories[0].measurements[0].value",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "80.2",
+            "label": "Pembrolizumab · 6 months"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d4",
+        "months": 12,
+        "survival": 0.703,
+        "arm": "Pembrolizumab",
+        "ci_low": 0.619,
+        "ci_high": 0.777,
+        "source": "reported",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].classes[0].categories[0].measurements[0].value",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "70.3",
+            "label": "Pembrolizumab · 12 months"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d5",
+        "months": 18,
+        "survival": 0.62,
+        "arm": "Pembrolizumab",
+        "ci_low": 0.524,
+        "ci_high": 0.706,
+        "source": "interpolated",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].analyses[0].paramValue",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "0.60",
+            "label": "Hazard ratio used for interpolation"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d6",
+        "months": 24,
+        "survival": 0.55,
+        "arm": "Pembrolizumab",
+        "ci_low": 0.442,
+        "ci_high": 0.648,
+        "source": "interpolated",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].analyses[0].paramValue",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "0.60",
+            "label": "Hazard ratio used for interpolation"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d7",
+        "months": 30,
+        "survival": 0.5,
+        "arm": "Pembrolizumab",
+        "ci_low": 0.38,
+        "ci_high": 0.61,
+        "source": "reported",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].classes[0].categories[0].measurements[0].value",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "50",
+            "label": "Pembrolizumab · 30 months"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d8",
+        "months": 0,
+        "survival": 1,
+        "arm": "Chemotherapy",
+        "ci_low": 0.94,
+        "ci_high": 1,
+        "source": "reported",
+        "cite_note": "curve origin: survival is 100% at time 0 by definition",
+        "citations": [],
+        "citations_total": 0,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d9",
+        "months": 3,
+        "survival": 0.84,
+        "arm": "Chemotherapy",
+        "ci_low": 0.774,
+        "ci_high": 0.896,
+        "source": "interpolated",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].analyses[0].paramValue",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "0.60",
+            "label": "Hazard ratio used for interpolation"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d10",
+        "months": 6,
+        "survival": 0.72,
+        "arm": "Chemotherapy",
+        "ci_low": 0.648,
+        "ci_high": 0.782,
+        "source": "reported",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].classes[0].categories[0].measurements[1].value",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "72",
+            "label": "Chemotherapy · 6 months"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d11",
+        "months": 12,
+        "survival": 0.541,
+        "arm": "Chemotherapy",
+        "ci_low": 0.457,
+        "ci_high": 0.615,
+        "source": "reported",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[1].classes[0].categories[0].measurements[1].value",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "54.1",
+            "label": "Chemotherapy · 12 months"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d12",
+        "months": 18,
+        "survival": 0.45,
+        "arm": "Chemotherapy",
+        "ci_low": 0.354,
+        "ci_high": 0.536,
+        "source": "interpolated",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].analyses[0].paramValue",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "0.60",
+            "label": "Hazard ratio used for interpolation"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d13",
+        "months": 24,
+        "survival": 0.37,
+        "arm": "Chemotherapy",
+        "ci_low": 0.262,
+        "ci_high": 0.468,
+        "source": "interpolated",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].analyses[0].paramValue",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "0.60",
+            "label": "Hazard ratio used for interpolation"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d14",
+        "months": 30,
+        "survival": 0.32,
+        "arm": "Chemotherapy",
+        "ci_low": 0.2,
+        "ci_high": 0.43,
+        "source": "interpolated",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].analyses[0].paramValue",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "0.60",
+            "label": "Hazard ratio used for interpolation"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      }
+    ]
+  },
+  "answer_summary": "At 12 months, overall survival was 70.3% with pembrolizumab vs 54.1% with chemotherapy in [NCT02142738].",
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "nct_ids": [
+        "NCT02142738"
+      ]
+    },
+    "query_interpretation": {
+      "intent": "survival_summary",
+      "persona": "researcher",
+      "scope": "single_trial",
+      "confidence": 0.92,
+      "parser": "llm"
+    },
+    "notes": [
+      {
+        "code": "APPROXIMATED",
+        "severity": "warning",
+        "message": "ClinicalTrials.gov has no patient-level time-to-event data; this curve is reconstructed from summary statistics."
+      }
+    ],
+    "units": {
+      "months": "months"
+    },
+    "approximation": {
+      "method": "Piecewise-exponential interpolation between reported landmark survival rates, scaled by the reported hazard ratio",
+      "assumptions": [
+        "Proportional hazards",
+        "No patient-level data; dashed segments are interpolated",
+        "CI band is approximate"
+      ]
+    },
+    "coverage": {
+      "studies_matched_total": 1,
+      "studies_analyzed": 1,
+      "counting_method": "all_records",
+      "studies_with_results": 1,
+      "sampled": false
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "alternatives": [
+      {
+        "type": "forest_plot",
+        "reason": "effect estimates with confidence intervals"
+      },
+      {
+        "type": "kpi_cards",
+        "reason": "headline numbers only"
+      }
+    ],
+    "request_id": "req_sample_14_survival",
+    "created_at": "2026-10-18T14:22:05Z",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-17T09:00:12"
+  }
+}

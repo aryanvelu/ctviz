@@ -1,0 +1,439 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "sankey",
+    "title": "Participant flow — STEP 1 (NCT03548935)",
+    "encoding": {
+      "nodes": {
+        "id": "id",
+        "label": "label",
+        "type": "stage_name",
+        "size": "participants"
+      },
+      "edges": {
+        "source": "source",
+        "target": "target",
+        "weight": "participants",
+        "type": "type"
+      }
+    },
+    "data": {
+      "nodes": [
+        {
+          "id": "n_rand",
+          "label": "Randomized",
+          "stage": 0,
+          "stage_name": "Enrolled",
+          "participants": 1961,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "1961"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "n_sema",
+          "label": "Semaglutide 2.4 mg",
+          "stage": 1,
+          "stage_name": "Arm",
+          "participants": 1306,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "1306"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "n_plac",
+          "label": "Placebo",
+          "stage": 1,
+          "stage_name": "Arm",
+          "participants": 655,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "1306"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "n_compS",
+          "label": "Completed",
+          "stage": 2,
+          "stage_name": "Outcome",
+          "participants": 1224,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "1306"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "n_ae",
+          "label": "Adverse event",
+          "stage": 2,
+          "stage_name": "Outcome",
+          "participants": 55,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "1306"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "n_wd",
+          "label": "Withdrawal by subject",
+          "stage": 2,
+          "stage_name": "Outcome",
+          "participants": 53,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "1306"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "n_lost",
+          "label": "Lost to follow-up",
+          "stage": 2,
+          "stage_name": "Outcome",
+          "participants": 32,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "1306"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "n_compP",
+          "label": "Completed (placebo)",
+          "stage": 2,
+          "stage_name": "Outcome",
+          "participants": 597,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].milestones[0].achievements[0].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "1306"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "n_rand",
+          "target": "n_sema",
+          "participants": 1306,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].dropWithdraws[0].reasons[0].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "1306"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "e2",
+          "source": "n_rand",
+          "target": "n_plac",
+          "participants": 655,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].dropWithdraws[1].reasons[1].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "655"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "e3",
+          "source": "n_sema",
+          "target": "n_compS",
+          "participants": 1224,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].dropWithdraws[2].reasons[0].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "1224"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "e4",
+          "source": "n_sema",
+          "target": "n_ae",
+          "participants": 46,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].dropWithdraws[3].reasons[1].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "46"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "e5",
+          "source": "n_sema",
+          "target": "n_wd",
+          "participants": 22,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].dropWithdraws[0].reasons[0].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "22"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "e6",
+          "source": "n_sema",
+          "target": "n_lost",
+          "participants": 14,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].dropWithdraws[1].reasons[1].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "14"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "e7",
+          "source": "n_plac",
+          "target": "n_compP",
+          "participants": 597,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].dropWithdraws[2].reasons[0].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "597"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "e8",
+          "source": "n_plac",
+          "target": "n_ae",
+          "participants": 9,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].dropWithdraws[3].reasons[1].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "9"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "e9",
+          "source": "n_plac",
+          "target": "n_wd",
+          "participants": 31,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].dropWithdraws[0].reasons[0].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "31"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "e10",
+          "source": "n_plac",
+          "target": "n_lost",
+          "participants": 18,
+          "nct_ids": [
+            "NCT03548935"
+          ],
+          "nct_ids_total": 1,
+          "field_path": "resultsSection.participantFlowModule.periods[0].dropWithdraws[1].reasons[1].numSubjects",
+          "citations": [
+            {
+              "nct_id": "NCT03548935",
+              "excerpt": "18"
+            }
+          ],
+          "citations_total": 1,
+          "excerpts_truncated": false
+        }
+      ]
+    }
+  },
+  "answer_summary": "Of 1961 randomized participants in [NCT03548935], 1821 completed; adverse events caused 55 withdrawals.",
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "nct_ids": [
+        "NCT03548935"
+      ]
+    },
+    "query_interpretation": {
+      "intent": "dropout_flow",
+      "persona": "patient",
+      "scope": "single_trial",
+      "confidence": 0.92,
+      "parser": "llm"
+    },
+    "units": {
+      "participants": "participants"
+    },
+    "stages": [
+      "Enrolled",
+      "Arm",
+      "Outcome"
+    ],
+    "stats": {
+      "Dropout rate (semaglutide)": "6.3%",
+      "Dropout rate (placebo)": "8.9%"
+    },
+    "coverage": {
+      "studies_matched_total": 1,
+      "studies_analyzed": 1,
+      "counting_method": "all_records",
+      "studies_with_results": 1,
+      "sampled": false
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "alternatives": [
+      {
+        "type": "bar_chart",
+        "reason": "compare categories side by side"
+      },
+      {
+        "type": "table",
+        "reason": "all values as a sortable table"
+      }
+    ],
+    "request_id": "req_sample_11_sankey",
+    "created_at": "2026-10-18T14:22:05Z",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-17T09:00:12"
+  }
+}

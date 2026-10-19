@@ -1,0 +1,53 @@
+{
+  "status": "needs_clarification",
+  "clarification": {
+    "reason": "unrecognized_entity",
+    "message": "I could not find any ClinicalTrials.gov trials for 'flurbozzle', so I stopped instead of answering about a different set of trials. Can you check the name?",
+    "unmatched_terms": [
+      "flurbozzle"
+    ],
+    "suggestions": [
+      "Check the spelling, or use the generic drug name or the official condition name (e.g. 'type 2 diabetes', 'pembrolizumab')."
+    ]
+  },
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "conditions": [
+        "flurbozzle"
+      ]
+    },
+    "query_interpretation": {
+      "intent": "trend_over_time",
+      "persona": "researcher",
+      "scope": "cohort",
+      "confidence": 0.9,
+      "parser": "llm",
+      "cohorts": [
+        {
+          "label": "Flurbozzle",
+          "conditions": [
+            "flurbozzle"
+          ]
+        }
+      ],
+      "resolved_entities": [
+        {
+          "input": "flurbozzle",
+          "resolved": "flurbozzle",
+          "kind": "condition",
+          "method": "passthrough"
+        }
+      ]
+    },
+    "coverage": {
+      "studies_matched_total": 0,
+      "studies_analyzed": 0,
+      "counting_method": "none",
+      "sampled": false
+    },
+    "request_id": "64a06ead7a29431f8a891afc300735ab",
+    "created_at": "2026-10-19T09:53:10+00:00",
+    "schema_version": "2.2"
+  }
+}

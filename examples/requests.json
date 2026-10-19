@@ -1,0 +1,120 @@
+[
+  {
+    "name": "pembrolizumab_trend_since_2015",
+    "request": {
+      "query": "How has the number of trials for Pembrolizumab changed over time since 2015?",
+      "drug_name": "Pembrolizumab",
+      "start_year": 2015,
+      "persona": "researcher"
+    }
+  },
+  {
+    "name": "obesity_trials_started_per_year",
+    "request": {
+      "query": "How many obesity trials started each year since 2015?",
+      "condition": "obesity",
+      "start_year": 2015,
+      "time_granularity": "year",
+      "persona": "researcher"
+    }
+  },
+  {
+    "name": "melanoma_phase_distribution",
+    "request": {
+      "query": "How are melanoma trials distributed across phases?",
+      "condition": "melanoma",
+      "persona": "researcher"
+    }
+  },
+  {
+    "name": "breast_cancer_intervention_types",
+    "request": {
+      "query": "What are the most common intervention types in breast cancer trials?",
+      "condition": "breast cancer",
+      "persona": "researcher"
+    }
+  },
+  {
+    "name": "semaglutide_vs_tirzepatide_phases",
+    "request": {
+      "query": "Compare the phase distribution of semaglutide vs tirzepatide trials",
+      "drug_names": ["semaglutide", "tirzepatide"],
+      "persona": "researcher"
+    }
+  },
+  {
+    "name": "sponsor_categories_lung_vs_breast_cancer",
+    "request": {
+      "query": "Compare sponsor categories (industry, academic, government) for lung cancer vs breast cancer trials",
+      "conditions": ["lung cancer", "breast cancer"],
+      "persona": "researcher"
+    }
+  },
+  {
+    "name": "alzheimers_recruiting_countries",
+    "request": {
+      "query": "Which countries have the most recruiting trials for Alzheimer's disease?",
+      "condition": "Alzheimer's disease",
+      "status": ["RECRUITING"],
+      "persona": "researcher"
+    }
+  },
+  {
+    "name": "obesity_sponsor_drug_network",
+    "request": {
+      "query": "Show the network of sponsors and the drugs they test in obesity trials",
+      "condition": "obesity",
+      "persona": "researcher"
+    }
+  },
+  {
+    "name": "melanoma_drug_combination_network",
+    "request": {
+      "query": "Which drugs are tested together in combination in melanoma trials?",
+      "condition": "melanoma",
+      "persona": "researcher"
+    }
+  },
+  {
+    "name": "step1_patient_eligibility",
+    "request": {
+      "query": "Am I eligible for this trial?",
+      "nct_id": "NCT03548935",
+      "persona": "patient",
+      "patient_profile": {"age": 45, "sex": "female", "conditions": ["obesity"], "medications": ["metformin"]}
+    }
+  },
+  {
+    "name": "step1_patient_side_effects",
+    "request": {
+      "query": "What side effects did people have in this trial?",
+      "nct_id": "NCT03548935",
+      "persona": "patient"
+    }
+  },
+  {
+    "name": "step1_dropout_flow",
+    "request": {
+      "query": "How many participants dropped out of this trial and why?",
+      "nct_id": "NCT03548935",
+      "persona": "researcher"
+    }
+  },
+  {
+    "name": "keynote189_survival",
+    "request": {
+      "query": "What were the overall survival results of this trial?",
+      "nct_id": "NCT02578680",
+      "persona": "researcher"
+    }
+  },
+  {
+    "name": "keynote189_patient_eligibility",
+    "request": {
+      "query": "Could I join this lung cancer trial?",
+      "nct_id": "NCT02578680",
+      "persona": "patient",
+      "patient_profile": {"age": 63, "sex": "male", "conditions": ["non-small cell lung cancer"]}
+    }
+  }
+]

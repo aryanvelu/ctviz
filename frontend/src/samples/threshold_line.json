@@ -1,0 +1,549 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "threshold_line",
+    "title": "Most common adverse events — STEP 1 (NCT03548935)",
+    "encoding": {
+      "x": {
+        "field": "term",
+        "type": "nominal",
+        "title": "Adverse event",
+        "sort": {
+          "by": "pct",
+          "order": "desc"
+        }
+      },
+      "y": {
+        "field": "pct",
+        "type": "quantitative",
+        "title": "Participants affected",
+        "unit": "%",
+        "format": ".1f"
+      },
+      "series": {
+        "field": "arm",
+        "type": "nominal",
+        "title": "Arm"
+      },
+      "tooltip": [
+        "n_affected"
+      ]
+    },
+    "data": [
+      {
+        "id": "d1",
+        "term": "Nausea",
+        "arm": "Semaglutide 2.4 mg",
+        "pct": 44.2,
+        "n_affected": 577,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[0].stats[0].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "577",
+            "label": "Nausea / Semaglutide 2.4 mg"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[0].stats[0].numAtRisk",
+            "label": "Nausea / Semaglutide 2.4 mg"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d2",
+        "term": "Nausea",
+        "arm": "Placebo",
+        "pct": 17.4,
+        "n_affected": 114,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[0].stats[1].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "114",
+            "label": "Nausea / Placebo"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[0].stats[1].numAtRisk",
+            "label": "Nausea / Placebo"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d3",
+        "term": "Diarrhoea",
+        "arm": "Semaglutide 2.4 mg",
+        "pct": 31.5,
+        "n_affected": 411,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[1].stats[0].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "411",
+            "label": "Diarrhoea / Semaglutide 2.4 mg"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[1].stats[0].numAtRisk",
+            "label": "Diarrhoea / Semaglutide 2.4 mg"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d4",
+        "term": "Diarrhoea",
+        "arm": "Placebo",
+        "pct": 15.9,
+        "n_affected": 104,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[1].stats[1].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "104",
+            "label": "Diarrhoea / Placebo"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[1].stats[1].numAtRisk",
+            "label": "Diarrhoea / Placebo"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d5",
+        "term": "Vomiting",
+        "arm": "Semaglutide 2.4 mg",
+        "pct": 24.8,
+        "n_affected": 324,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[2].stats[0].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "324",
+            "label": "Vomiting / Semaglutide 2.4 mg"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[2].stats[0].numAtRisk",
+            "label": "Vomiting / Semaglutide 2.4 mg"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d6",
+        "term": "Vomiting",
+        "arm": "Placebo",
+        "pct": 6.6,
+        "n_affected": 43,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[2].stats[1].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "43",
+            "label": "Vomiting / Placebo"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[2].stats[1].numAtRisk",
+            "label": "Vomiting / Placebo"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d7",
+        "term": "Constipation",
+        "arm": "Semaglutide 2.4 mg",
+        "pct": 23.4,
+        "n_affected": 306,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[3].stats[0].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "306",
+            "label": "Constipation / Semaglutide 2.4 mg"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[3].stats[0].numAtRisk",
+            "label": "Constipation / Semaglutide 2.4 mg"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d8",
+        "term": "Constipation",
+        "arm": "Placebo",
+        "pct": 9.5,
+        "n_affected": 62,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[3].stats[1].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "62",
+            "label": "Constipation / Placebo"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[3].stats[1].numAtRisk",
+            "label": "Constipation / Placebo"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d9",
+        "term": "Headache",
+        "arm": "Semaglutide 2.4 mg",
+        "pct": 14.2,
+        "n_affected": 185,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[4].stats[0].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "185",
+            "label": "Headache / Semaglutide 2.4 mg"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[4].stats[0].numAtRisk",
+            "label": "Headache / Semaglutide 2.4 mg"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d10",
+        "term": "Headache",
+        "arm": "Placebo",
+        "pct": 10.1,
+        "n_affected": 66,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[4].stats[1].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "66",
+            "label": "Headache / Placebo"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[4].stats[1].numAtRisk",
+            "label": "Headache / Placebo"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d11",
+        "term": "Dyspepsia",
+        "arm": "Semaglutide 2.4 mg",
+        "pct": 10.3,
+        "n_affected": 135,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[5].stats[0].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "135",
+            "label": "Dyspepsia / Semaglutide 2.4 mg"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[5].stats[0].numAtRisk",
+            "label": "Dyspepsia / Semaglutide 2.4 mg"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d12",
+        "term": "Dyspepsia",
+        "arm": "Placebo",
+        "pct": 3.5,
+        "n_affected": 23,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[5].stats[1].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "23",
+            "label": "Dyspepsia / Placebo"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[5].stats[1].numAtRisk",
+            "label": "Dyspepsia / Placebo"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d13",
+        "term": "Fatigue",
+        "arm": "Semaglutide 2.4 mg",
+        "pct": 10.7,
+        "n_affected": 140,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[6].stats[0].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "140",
+            "label": "Fatigue / Semaglutide 2.4 mg"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[6].stats[0].numAtRisk",
+            "label": "Fatigue / Semaglutide 2.4 mg"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d14",
+        "term": "Fatigue",
+        "arm": "Placebo",
+        "pct": 5,
+        "n_affected": 33,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[6].stats[1].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "33",
+            "label": "Fatigue / Placebo"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[6].stats[1].numAtRisk",
+            "label": "Fatigue / Placebo"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d15",
+        "term": "Dizziness",
+        "arm": "Semaglutide 2.4 mg",
+        "pct": 8.6,
+        "n_affected": 112,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[7].stats[0].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "112",
+            "label": "Dizziness / Semaglutide 2.4 mg"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[7].stats[0].numAtRisk",
+            "label": "Dizziness / Semaglutide 2.4 mg"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d16",
+        "term": "Dizziness",
+        "arm": "Placebo",
+        "pct": 4.9,
+        "n_affected": 32,
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[7].stats[1].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "32",
+            "label": "Dizziness / Placebo"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[7].stats[1].numAtRisk",
+            "label": "Dizziness / Placebo"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      }
+    ]
+  },
+  "answer_summary": "Nausea affected 44.2% of participants on semaglutide versus 17.4% on placebo in [NCT03548935].",
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "nct_ids": [
+        "NCT03548935"
+      ]
+    },
+    "query_interpretation": {
+      "intent": "risks_adverse_events",
+      "persona": "patient",
+      "scope": "single_trial",
+      "confidence": 0.92,
+      "parser": "llm"
+    },
+    "units": {
+      "pct": "%"
+    },
+    "thresholds": [
+      {
+        "axis": "y",
+        "value": 5.0,
+        "label": "5% reporting threshold",
+        "source": "registry",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "5",
+            "field_path": "resultsSection.adverseEventsModule.frequencyThreshold"
+          }
+        ]
+      },
+      {
+        "axis": "y",
+        "value": 10.0,
+        "label": "Very common (≥10%)",
+        "source": "convention"
+      }
+    ],
+    "bands": [
+      {
+        "axis": "y",
+        "low": 0.0,
+        "high": 5.0,
+        "label": "Below reporting threshold"
+      }
+    ],
+    "coverage": {
+      "studies_matched_total": 1,
+      "studies_analyzed": 1,
+      "counting_method": "all_records",
+      "studies_with_results": 1,
+      "sampled": false
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "alternatives": [
+      {
+        "type": "bar_chart",
+        "reason": "compare categories side by side"
+      },
+      {
+        "type": "table",
+        "reason": "all values as a sortable table"
+      }
+    ],
+    "request_id": "req_sample_15_threshold",
+    "created_at": "2026-10-18T14:22:05Z",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-17T09:00:12"
+  }
+}

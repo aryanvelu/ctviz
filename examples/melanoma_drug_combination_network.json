@@ -1,0 +1,3483 @@
+{
+  "name": "melanoma_drug_combination_network",
+  "request": {
+    "query": "Which drugs are tested together in combination in melanoma trials?",
+    "condition": "melanoma",
+    "persona": "researcher"
+  },
+  "response": {
+    "status": "ok",
+    "visualization": {
+      "type": "network_graph",
+      "title": "Drugs given together in the same arm: Melanoma",
+      "encoding": {
+        "nodes": {
+          "id": "id",
+          "label": "label",
+          "type": "type",
+          "size": "size"
+        },
+        "edges": {
+          "source": "source",
+          "target": "target",
+          "weight": "weight",
+          "type": "type"
+        },
+        "tooltip": [
+          "degree"
+        ]
+      },
+      "data": {
+        "nodes": [
+          {
+            "id": "drug:pembrolizumab",
+            "label": "Pembrolizumab",
+            "type": "biological",
+            "size": 284,
+            "degree": 15,
+            "nct_ids": [
+              "NCT01295827",
+              "NCT01704287",
+              "NCT01866319",
+              "NCT01993719",
+              "NCT02009449",
+              "NCT02054520",
+              "NCT02073123",
+              "NCT02085070",
+              "NCT02089685",
+              "NCT02112032",
+              "NCT02130466",
+              "NCT02178722",
+              "NCT02180061",
+              "NCT02263508",
+              "NCT02298959",
+              "NCT02306850",
+              "NCT02318771",
+              "NCT02332668",
+              "NCT02346955",
+              "NCT02359851"
+            ],
+            "nct_ids_total": 284,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT01295827",
+                "excerpt": "Biological: Pembrolizumab"
+              },
+              {
+                "nct_id": "NCT01295827",
+                "excerpt": "Biological: Pembrolizumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[0]"
+              },
+              {
+                "nct_id": "NCT01295827",
+                "excerpt": "Biological: Pembrolizumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[2].interventionNames[0]"
+              }
+            ],
+            "citations_total": 574,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "drug:ipilimumab",
+            "label": "Ipilimumab",
+            "type": "biological",
+            "size": 228,
+            "degree": 13,
+            "nct_ids": [
+              "NCT00039091",
+              "NCT00084656",
+              "NCT00162123",
+              "NCT00261365",
+              "NCT00289627",
+              "NCT00289640",
+              "NCT00324155",
+              "NCT00623766",
+              "NCT00636168",
+              "NCT00796991",
+              "NCT00803374",
+              "NCT00871481",
+              "NCT00920907",
+              "NCT00972933",
+              "NCT01024231",
+              "NCT01119508",
+              "NCT01134614",
+              "NCT01176474",
+              "NCT01216696",
+              "NCT01245556"
+            ],
+            "nct_ids_total": 228,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT00039091",
+                "excerpt": "Biological: ipilimumab"
+              },
+              {
+                "nct_id": "NCT00084656",
+                "excerpt": "Biological: ipilimumab"
+              },
+              {
+                "nct_id": "NCT00162123",
+                "excerpt": "Drug: Ipilimumab"
+              }
+            ],
+            "citations_total": 378,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "drug:nivolumab",
+            "label": "Nivolumab",
+            "type": "biological",
+            "size": 247,
+            "degree": 12,
+            "nct_ids": [
+              "NCT00730639",
+              "NCT01024231",
+              "NCT01176461",
+              "NCT01176474",
+              "NCT01585194",
+              "NCT01621490",
+              "NCT01721746",
+              "NCT01721772",
+              "NCT01783938",
+              "NCT01844505",
+              "NCT01927419",
+              "NCT01940809",
+              "NCT02009449",
+              "NCT02054520",
+              "NCT02073123",
+              "NCT02156804",
+              "NCT02224781",
+              "NCT02259231",
+              "NCT02304458",
+              "NCT02320058"
+            ],
+            "nct_ids_total": 247,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT00730639",
+                "excerpt": "Biological: BMS-936558 (MDX-1106)"
+              },
+              {
+                "nct_id": "NCT00730639",
+                "excerpt": "Biological: BMS-936558 (MDX-1106)",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[0]"
+              },
+              {
+                "nct_id": "NCT00730639",
+                "excerpt": "Biological: BMS-936558 (MDX-1106)",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[2].interventionNames[0]"
+              }
+            ],
+            "citations_total": 472,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "drug:cyclophosphamide",
+            "label": "Cyclophosphamide",
+            "type": "drug",
+            "size": 114,
+            "degree": 9,
+            "nct_ids": [
+              "NCT00001832",
+              "NCT00002854",
+              "NCT00004135",
+              "NCT00085423",
+              "NCT00096382",
+              "NCT00118274",
+              "NCT00303836",
+              "NCT00314106",
+              "NCT00324623",
+              "NCT00328861",
+              "NCT00338377",
+              "NCT00438984",
+              "NCT00482911",
+              "NCT00499733",
+              "NCT00509288",
+              "NCT00509496",
+              "NCT00513604",
+              "NCT00518206",
+              "NCT00553306",
+              "NCT00553683"
+            ],
+            "nct_ids_total": 114,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[2]",
+            "citations": [
+              {
+                "nct_id": "NCT00001832",
+                "excerpt": "Drug: Cyclophosphamide"
+              },
+              {
+                "nct_id": "NCT00001832",
+                "excerpt": "Drug: Cyclophosphamide",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[2].interventionNames[2]"
+              },
+              {
+                "nct_id": "NCT00001832",
+                "excerpt": "Drug: Cyclophosphamide",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[3].interventionNames[3]"
+              }
+            ],
+            "citations_total": 226,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "drug:aldesleukin",
+            "label": "aldesleukin",
+            "type": "biological",
+            "size": 62,
+            "degree": 7,
+            "nct_ids": [
+              "NCT00003222",
+              "NCT00005949",
+              "NCT00019682",
+              "NCT00085423",
+              "NCT00096382",
+              "NCT00303836",
+              "NCT00414765",
+              "NCT00418496",
+              "NCT00438984",
+              "NCT00509288",
+              "NCT00509496",
+              "NCT00513604",
+              "NCT00553306",
+              "NCT00610311",
+              "NCT00612222",
+              "NCT00665470",
+              "NCT00670748",
+              "NCT00704938",
+              "NCT00706992",
+              "NCT00726739"
+            ],
+            "nct_ids_total": 62,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT00003222",
+                "excerpt": "Biological: aldesleukin"
+              },
+              {
+                "nct_id": "NCT00003222",
+                "excerpt": "Biological: aldesleukin",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[0]"
+              },
+              {
+                "nct_id": "NCT00005949",
+                "excerpt": "Biological: aldesleukin"
+              }
+            ],
+            "citations_total": 113,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "drug:bevacizumab",
+            "label": "Bevacizumab",
+            "type": "biological",
+            "size": 38,
+            "degree": 7,
+            "nct_ids": [
+              "NCT00026221",
+              "NCT00074308",
+              "NCT00139360",
+              "NCT00255762",
+              "NCT00387751",
+              "NCT00397982",
+              "NCT00405405",
+              "NCT00434252",
+              "NCT00462423",
+              "NCT00466687",
+              "NCT00568048",
+              "NCT00591734",
+              "NCT00596362",
+              "NCT00626405",
+              "NCT00976573",
+              "NCT01048554",
+              "NCT01069627",
+              "NCT01164007",
+              "NCT01183663",
+              "NCT01471054"
+            ],
+            "nct_ids_total": 38,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[1]",
+            "citations": [
+              {
+                "nct_id": "NCT00026221",
+                "excerpt": "Biological: Bevacizumab"
+              },
+              {
+                "nct_id": "NCT00026221",
+                "excerpt": "Biological: Bevacizumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[0]"
+              },
+              {
+                "nct_id": "NCT00026221",
+                "excerpt": "Biological: Bevacizumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[2].interventionNames[1]"
+              }
+            ],
+            "citations_total": 50,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "drug:paclitaxel",
+            "label": "Paclitaxel",
+            "type": "drug",
+            "size": 36,
+            "degree": 7,
+            "nct_ids": [
+              "NCT00002854",
+              "NCT00110019",
+              "NCT00255762",
+              "NCT00288041",
+              "NCT00329641",
+              "NCT00434252",
+              "NCT00522834",
+              "NCT00568451",
+              "NCT00796991",
+              "NCT00976573",
+              "NCT01006252",
+              "NCT01014351",
+              "NCT01174238",
+              "NCT01200342",
+              "NCT01366144",
+              "NCT01676649",
+              "NCT01704287",
+              "NCT01721746",
+              "NCT02009449",
+              "NCT02023710"
+            ],
+            "nct_ids_total": 36,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[7]",
+            "citations": [
+              {
+                "nct_id": "NCT00002854",
+                "excerpt": "Drug: paclitaxel"
+              },
+              {
+                "nct_id": "NCT00110019",
+                "excerpt": "Drug: Paclitaxel",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[2]"
+              },
+              {
+                "nct_id": "NCT00110019",
+                "excerpt": "Drug: Paclitaxel",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[2]"
+              }
+            ],
+            "citations_total": 52,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "drug:cisplatin",
+            "label": "Cisplatin",
+            "type": "drug",
+            "size": 23,
+            "degree": 7,
+            "nct_ids": [
+              "NCT00002854",
+              "NCT00002882",
+              "NCT00004141",
+              "NCT00006237",
+              "NCT00405405",
+              "NCT00498979",
+              "NCT00505635",
+              "NCT00527761",
+              "NCT00707161",
+              "NCT00970996",
+              "NCT01029873",
+              "NCT01196416",
+              "NCT01409174",
+              "NCT02817633",
+              "NCT03167177",
+              "NCT03645928",
+              "NCT03872947",
+              "NCT04083599",
+              "NCT04198766",
+              "NCT04328844"
+            ],
+            "nct_ids_total": 23,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[2]",
+            "citations": [
+              {
+                "nct_id": "NCT00002854",
+                "excerpt": "Drug: cisplatin"
+              },
+              {
+                "nct_id": "NCT00002882",
+                "excerpt": "Drug: Cisplatin",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[2].interventionNames[2]"
+              },
+              {
+                "nct_id": "NCT00004141",
+                "excerpt": "Drug: Cisplatin",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]"
+              }
+            ],
+            "citations_total": 31,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "drug:dacarbazine",
+            "label": "Dacarbazine",
+            "type": "drug",
+            "size": 48,
+            "degree": 6,
+            "nct_ids": [
+              "NCT00002882",
+              "NCT00004141",
+              "NCT00006237",
+              "NCT00070642",
+              "NCT00087776",
+              "NCT00091572",
+              "NCT00110994",
+              "NCT00246012",
+              "NCT00257205",
+              "NCT00324155",
+              "NCT00412581",
+              "NCT00496223",
+              "NCT00498979",
+              "NCT00516802",
+              "NCT00533702",
+              "NCT00600496",
+              "NCT00615160",
+              "NCT00796991",
+              "NCT00849875",
+              "NCT00864253"
+            ],
+            "nct_ids_total": 48,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[2].interventionNames[3]",
+            "citations": [
+              {
+                "nct_id": "NCT00002882",
+                "excerpt": "Drug: Dacarbazine"
+              },
+              {
+                "nct_id": "NCT00004141",
+                "excerpt": "Drug: dacarbazine",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[1]"
+              },
+              {
+                "nct_id": "NCT00006237",
+                "excerpt": "Drug: dacarbazine",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[4]"
+              }
+            ],
+            "citations_total": 64,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "drug:carboplatin",
+            "label": "Carboplatin",
+            "type": "drug",
+            "size": 32,
+            "degree": 6,
+            "nct_ids": [
+              "NCT00002854",
+              "NCT00003597",
+              "NCT00110019",
+              "NCT00255762",
+              "NCT00288041",
+              "NCT00329641",
+              "NCT00404235",
+              "NCT00434252",
+              "NCT00568451",
+              "NCT00626405",
+              "NCT00796991",
+              "NCT00976573",
+              "NCT01014351",
+              "NCT01174238",
+              "NCT01200342",
+              "NCT01366144",
+              "NCT01676649",
+              "NCT01704287",
+              "NCT01721746",
+              "NCT02023710"
+            ],
+            "nct_ids_total": 32,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[1]",
+            "citations": [
+              {
+                "nct_id": "NCT00002854",
+                "excerpt": "Drug: carboplatin"
+              },
+              {
+                "nct_id": "NCT00003597",
+                "excerpt": "Drug: carboplatin"
+              },
+              {
+                "nct_id": "NCT00003597",
+                "excerpt": "Drug: carboplatin",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[1]"
+              }
+            ],
+            "citations_total": 50,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "drug:interleukin-2",
+            "label": "interleukin-2",
+            "type": "biological",
+            "size": 27,
+            "degree": 6,
+            "nct_ids": [
+              "NCT00006237",
+              "NCT00338377",
+              "NCT00505635",
+              "NCT00970996",
+              "NCT01124734",
+              "NCT01409174",
+              "NCT01480323",
+              "NCT01702896",
+              "NCT01946373",
+              "NCT01995344",
+              "NCT02278887",
+              "NCT02354690",
+              "NCT02379195",
+              "NCT02652455",
+              "NCT03111901",
+              "NCT03475134",
+              "NCT03476174",
+              "NCT03928275",
+              "NCT04562129",
+              "NCT04812470"
+            ],
+            "nct_ids_total": 27,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT00006237",
+                "excerpt": "Biological: interleukin-2"
+              },
+              {
+                "nct_id": "NCT00338377",
+                "excerpt": "Biological: Interleukin-2",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[3]"
+              },
+              {
+                "nct_id": "NCT00338377",
+                "excerpt": "Biological: Interleukin-2",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[4]"
+              }
+            ],
+            "citations_total": 37,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "drug:fludarabine",
+            "label": "Fludarabine",
+            "type": "drug",
+            "size": 59,
+            "degree": 5,
+            "nct_ids": [
+              "NCT00001832",
+              "NCT00313508",
+              "NCT00314106",
+              "NCT00328861",
+              "NCT00338377",
+              "NCT00509288",
+              "NCT00923195",
+              "NCT00924001",
+              "NCT01218867",
+              "NCT01236573",
+              "NCT01271907",
+              "NCT01273181",
+              "NCT01319565",
+              "NCT01369875",
+              "NCT01369888",
+              "NCT01468818",
+              "NCT01495572",
+              "NCT01585415",
+              "NCT01625351",
+              "NCT01814046"
+            ],
+            "nct_ids_total": 59,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[1]",
+            "citations": [
+              {
+                "nct_id": "NCT00001832",
+                "excerpt": "Drug: Fludarabine"
+              },
+              {
+                "nct_id": "NCT00001832",
+                "excerpt": "Drug: Fludarabine",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[2].interventionNames[1]"
+              },
+              {
+                "nct_id": "NCT00001832",
+                "excerpt": "Drug: Fludarabine",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[3].interventionNames[2]"
+              }
+            ],
+            "citations_total": 142,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "drug:trametinib",
+            "label": "Trametinib",
+            "type": "drug",
+            "size": 56,
+            "degree": 5,
+            "nct_ids": [
+              "NCT01584648",
+              "NCT01597908",
+              "NCT01682083",
+              "NCT01701037",
+              "NCT01721603",
+              "NCT01767454",
+              "NCT01928940",
+              "NCT01940809",
+              "NCT01972347",
+              "NCT01979523",
+              "NCT01989585",
+              "NCT02027961",
+              "NCT02039947",
+              "NCT02065063",
+              "NCT02083354",
+              "NCT02097225",
+              "NCT02110355",
+              "NCT02130466",
+              "NCT02143050",
+              "NCT02231775"
+            ],
+            "nct_ids_total": 56,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[1]",
+            "citations": [
+              {
+                "nct_id": "NCT01584648",
+                "excerpt": "Drug: Trametinib"
+              },
+              {
+                "nct_id": "NCT01597908",
+                "excerpt": "Drug: Trametinib"
+              },
+              {
+                "nct_id": "NCT01682083",
+                "excerpt": "Drug: Trametinib"
+              }
+            ],
+            "citations_total": 121,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "drug:dabrafenib",
+            "label": "Dabrafenib",
+            "type": "drug",
+            "size": 49,
+            "degree": 5,
+            "nct_ids": [
+              "NCT01584648",
+              "NCT01597908",
+              "NCT01682083",
+              "NCT01682213",
+              "NCT01701037",
+              "NCT01721603",
+              "NCT01767454",
+              "NCT01928940",
+              "NCT01940809",
+              "NCT01972347",
+              "NCT01989585",
+              "NCT02027961",
+              "NCT02039947",
+              "NCT02052193",
+              "NCT02083354",
+              "NCT02097225",
+              "NCT02110355",
+              "NCT02130466",
+              "NCT02143050",
+              "NCT02231775"
+            ],
+            "nct_ids_total": 49,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT01584648",
+                "excerpt": "Drug: Dabrafenib"
+              },
+              {
+                "nct_id": "NCT01584648",
+                "excerpt": "Drug: Dabrafenib",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[0]"
+              },
+              {
+                "nct_id": "NCT01597908",
+                "excerpt": "Drug: Dabrafenib"
+              }
+            ],
+            "citations_total": 91,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "drug:atezolizumab",
+            "label": "Atezolizumab",
+            "type": "drug",
+            "size": 30,
+            "degree": 5,
+            "nct_ids": [
+              "NCT01656642",
+              "NCT02303951",
+              "NCT02902029",
+              "NCT02908672",
+              "NCT03050060",
+              "NCT03175432",
+              "NCT03178851",
+              "NCT03228667",
+              "NCT03273153",
+              "NCT03289962",
+              "NCT03554083",
+              "NCT03625141",
+              "NCT03829501",
+              "NCT03841110",
+              "NCT03901573",
+              "NCT04020809",
+              "NCT04091217",
+              "NCT04096638",
+              "NCT04109456",
+              "NCT04123470"
+            ],
+            "nct_ids_total": 30,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT01656642",
+                "excerpt": "Drug: Atezolizumab"
+              },
+              {
+                "nct_id": "NCT01656642",
+                "excerpt": "Drug: Atezolizumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[0]"
+              },
+              {
+                "nct_id": "NCT01656642",
+                "excerpt": "Drug: Atezolizumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[2].interventionNames[0]"
+              }
+            ],
+            "citations_total": 60,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "drug:binimetinib",
+            "label": "binimetinib",
+            "type": "drug",
+            "size": 26,
+            "degree": 5,
+            "nct_ids": [
+              "NCT02263898",
+              "NCT02465060",
+              "NCT02902042",
+              "NCT02910700",
+              "NCT03543969",
+              "NCT03563729",
+              "NCT03864042",
+              "NCT03878719",
+              "NCT03898908",
+              "NCT03911869",
+              "NCT03947385",
+              "NCT04221438",
+              "NCT04375527",
+              "NCT04439344",
+              "NCT04511013",
+              "NCT04543188",
+              "NCT04598009",
+              "NCT04655157",
+              "NCT04657991",
+              "NCT04720768"
+            ],
+            "nct_ids_total": 26,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[1]",
+            "citations": [
+              {
+                "nct_id": "NCT02263898",
+                "excerpt": "Drug: binimetinib"
+              },
+              {
+                "nct_id": "NCT02465060",
+                "excerpt": "Drug: Binimetinib",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[26].interventionNames[0]"
+              },
+              {
+                "nct_id": "NCT02902042",
+                "excerpt": "Drug: Binimetinib"
+              }
+            ],
+            "citations_total": 42,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "drug:vemurafenib",
+            "label": "vemurafenib",
+            "type": "drug",
+            "size": 63,
+            "degree": 4,
+            "nct_ids": [
+              "NCT00949702",
+              "NCT01006980",
+              "NCT01271803",
+              "NCT01307397",
+              "NCT01378975",
+              "NCT01400451",
+              "NCT01474551",
+              "NCT01495988",
+              "NCT01519323",
+              "NCT01585415",
+              "NCT01586195",
+              "NCT01596140",
+              "NCT01597908",
+              "NCT01603212",
+              "NCT01611675",
+              "NCT01616199",
+              "NCT01638676",
+              "NCT01656642",
+              "NCT01657591",
+              "NCT01659151"
+            ],
+            "nct_ids_total": 63,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT00949702",
+                "excerpt": "Drug: vemurafenib"
+              },
+              {
+                "nct_id": "NCT01006980",
+                "excerpt": "Drug: Vemurafenib"
+              },
+              {
+                "nct_id": "NCT01271803",
+                "excerpt": "Drug: vemurafenib",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[1]"
+              }
+            ],
+            "citations_total": 103,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "drug:cobimetinib",
+            "label": "Cobimetinib",
+            "type": "drug",
+            "size": 28,
+            "degree": 3,
+            "nct_ids": [
+              "NCT01271803",
+              "NCT01495988",
+              "NCT01656642",
+              "NCT01689519",
+              "NCT01813214",
+              "NCT01959633",
+              "NCT02036086",
+              "NCT02230306",
+              "NCT02303951",
+              "NCT02427893",
+              "NCT02457793",
+              "NCT02721459",
+              "NCT02768207",
+              "NCT02818023",
+              "NCT02902029",
+              "NCT02908672",
+              "NCT03101254",
+              "NCT03175432",
+              "NCT03178851",
+              "NCT03224208"
+            ],
+            "nct_ids_total": 28,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT01271803",
+                "excerpt": "Drug: Cobimetinib"
+              },
+              {
+                "nct_id": "NCT01271803",
+                "excerpt": "Drug: Cobimetinib",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[0]"
+              },
+              {
+                "nct_id": "NCT01271803",
+                "excerpt": "Drug: Cobimetinib",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[2].interventionNames[0]"
+              }
+            ],
+            "citations_total": 60,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "drug:fludarabine-phosphate",
+            "label": "fludarabine phosphate",
+            "type": "drug",
+            "size": 19,
+            "degree": 3,
+            "nct_ids": [
+              "NCT00004135",
+              "NCT00085423",
+              "NCT00096382",
+              "NCT00303836",
+              "NCT00324623",
+              "NCT00509496",
+              "NCT00513604",
+              "NCT00610311",
+              "NCT00612222",
+              "NCT00670748",
+              "NCT00704938",
+              "NCT01740557",
+              "NCT01807182",
+              "NCT01955460",
+              "NCT02500576",
+              "NCT04119024",
+              "NCT04904185",
+              "NCT05470283",
+              "NCT06204991"
+            ],
+            "nct_ids_total": 19,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[3]",
+            "citations": [
+              {
+                "nct_id": "NCT00004135",
+                "excerpt": "Drug: fludarabine phosphate"
+              },
+              {
+                "nct_id": "NCT00085423",
+                "excerpt": "Drug: fludarabine phosphate"
+              },
+              {
+                "nct_id": "NCT00096382",
+                "excerpt": "Drug: fludarabine phosphate",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[4]"
+              }
+            ],
+            "citations_total": 32,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "drug:incomplete-freund-s-adjuvant",
+            "label": "incomplete Freund's adjuvant",
+            "type": "biological",
+            "size": 9,
+            "degree": 2,
+            "nct_ids": [
+              "NCT00003222",
+              "NCT00006243",
+              "NCT00071981",
+              "NCT00085189",
+              "NCT00089063",
+              "NCT00118274",
+              "NCT00303836",
+              "NCT00705640",
+              "NCT00706992"
+            ],
+            "nct_ids_total": 9,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[2]",
+            "citations": [
+              {
+                "nct_id": "NCT00003222",
+                "excerpt": "Biological: incomplete Freund's adjuvant"
+              },
+              {
+                "nct_id": "NCT00003222",
+                "excerpt": "Biological: incomplete Freund's adjuvant",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[2]"
+              },
+              {
+                "nct_id": "NCT00006243",
+                "excerpt": "Biological: incomplete Freund's adjuvant",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[3]"
+              }
+            ],
+            "citations_total": 30,
+            "excerpts_truncated": true
+          }
+        ],
+        "edges": [
+          {
+            "id": "e1",
+            "source": "drug:ipilimumab",
+            "target": "drug:nivolumab",
+            "weight": 112,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT01024231",
+              "NCT01176474",
+              "NCT01585194",
+              "NCT01621490",
+              "NCT01783938",
+              "NCT01844505",
+              "NCT01927419",
+              "NCT01940809",
+              "NCT02224781",
+              "NCT02304458",
+              "NCT02320058",
+              "NCT02339571",
+              "NCT02374242",
+              "NCT02419495",
+              "NCT02519322",
+              "NCT02599402",
+              "NCT02626962",
+              "NCT02631447",
+              "NCT02658890",
+              "NCT02659540"
+            ],
+            "nct_ids_total": 112,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT01024231",
+                "excerpt": "Drug: BMS-936558 (MDX1106-04)"
+              },
+              {
+                "nct_id": "NCT01024231",
+                "excerpt": "Drug: Ipilimumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[1]"
+              },
+              {
+                "nct_id": "NCT01024231",
+                "excerpt": "Drug: BMS-936558 (MDX1106-04)",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[0]"
+              }
+            ],
+            "citations_total": 344,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e2",
+            "source": "drug:cyclophosphamide",
+            "target": "drug:fludarabine",
+            "weight": 57,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT00001832",
+              "NCT00314106",
+              "NCT00328861",
+              "NCT00338377",
+              "NCT00509288",
+              "NCT00923195",
+              "NCT00924001",
+              "NCT01218867",
+              "NCT01236573",
+              "NCT01271907",
+              "NCT01273181",
+              "NCT01319565",
+              "NCT01369875",
+              "NCT01369888",
+              "NCT01468818",
+              "NCT01495572",
+              "NCT01585415",
+              "NCT01814046",
+              "NCT01883323",
+              "NCT01946373"
+            ],
+            "nct_ids_total": 57,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[1]",
+            "citations": [
+              {
+                "nct_id": "NCT00001832",
+                "excerpt": "Drug: Fludarabine"
+              },
+              {
+                "nct_id": "NCT00001832",
+                "excerpt": "Drug: Cyclophosphamide",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[2]"
+              },
+              {
+                "nct_id": "NCT00001832",
+                "excerpt": "Drug: Fludarabine",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[2].interventionNames[1]"
+              }
+            ],
+            "citations_total": 278,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e3",
+            "source": "drug:dabrafenib",
+            "target": "drug:trametinib",
+            "weight": 44,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT01584648",
+              "NCT01597908",
+              "NCT01682083",
+              "NCT01701037",
+              "NCT01721603",
+              "NCT01767454",
+              "NCT01928940",
+              "NCT01940809",
+              "NCT01972347",
+              "NCT01989585",
+              "NCT02027961",
+              "NCT02039947",
+              "NCT02083354",
+              "NCT02097225",
+              "NCT02110355",
+              "NCT02130466",
+              "NCT02143050",
+              "NCT02231775",
+              "NCT02314143",
+              "NCT02357732"
+            ],
+            "nct_ids_total": 44,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT01584648",
+                "excerpt": "Drug: Dabrafenib"
+              },
+              {
+                "nct_id": "NCT01584648",
+                "excerpt": "Drug: Trametinib",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[1]"
+              },
+              {
+                "nct_id": "NCT01597908",
+                "excerpt": "Drug: Dabrafenib"
+              }
+            ],
+            "citations_total": 156,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e4",
+            "source": "drug:aldesleukin",
+            "target": "drug:cyclophosphamide",
+            "weight": 42,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT00085423",
+              "NCT00096382",
+              "NCT00303836",
+              "NCT00438984",
+              "NCT00509288",
+              "NCT00509496",
+              "NCT00513604",
+              "NCT00553306",
+              "NCT00610311",
+              "NCT00612222",
+              "NCT00670748",
+              "NCT00704938",
+              "NCT00871481",
+              "NCT00923195",
+              "NCT00924001",
+              "NCT01106235",
+              "NCT01218867",
+              "NCT01271907",
+              "NCT01273181",
+              "NCT01319565"
+            ],
+            "nct_ids_total": 42,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT00085423",
+                "excerpt": "Biological: aldesleukin"
+              },
+              {
+                "nct_id": "NCT00085423",
+                "excerpt": "Drug: cyclophosphamide",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[2]"
+              },
+              {
+                "nct_id": "NCT00096382",
+                "excerpt": "Biological: aldesleukin"
+              }
+            ],
+            "citations_total": 162,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e5",
+            "source": "drug:carboplatin",
+            "target": "drug:paclitaxel",
+            "weight": 24,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT00002854",
+              "NCT00110019",
+              "NCT00255762",
+              "NCT00288041",
+              "NCT00329641",
+              "NCT00434252",
+              "NCT00568451",
+              "NCT00796991",
+              "NCT00976573",
+              "NCT01014351",
+              "NCT01174238",
+              "NCT01200342",
+              "NCT01366144",
+              "NCT01676649",
+              "NCT01704287",
+              "NCT01721746",
+              "NCT02023710",
+              "NCT02419495",
+              "NCT02617849",
+              "NCT03645928"
+            ],
+            "nct_ids_total": 24,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[1]",
+            "citations": [
+              {
+                "nct_id": "NCT00002854",
+                "excerpt": "Drug: carboplatin"
+              },
+              {
+                "nct_id": "NCT00002854",
+                "excerpt": "Drug: paclitaxel",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[7]"
+              },
+              {
+                "nct_id": "NCT00110019",
+                "excerpt": "Drug: Carboplatin",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]"
+              }
+            ],
+            "citations_total": 70,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e6",
+            "source": "drug:nivolumab",
+            "target": "drug:pembrolizumab",
+            "weight": 22,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT03050060",
+              "NCT03228667",
+              "NCT03229278",
+              "NCT03589339",
+              "NCT03620019",
+              "NCT03633110",
+              "NCT03841110",
+              "NCT03872947",
+              "NCT04462406",
+              "NCT04581382",
+              "NCT04697576",
+              "NCT04902040",
+              "NCT04913025",
+              "NCT05034536",
+              "NCT05180799",
+              "NCT05987332",
+              "NCT06047379",
+              "NCT06264180",
+              "NCT06743126",
+              "NCT07223424"
+            ],
+            "nct_ids_total": 22,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[4]",
+            "citations": [
+              {
+                "nct_id": "NCT03050060",
+                "excerpt": "Biological: Nivolumab"
+              },
+              {
+                "nct_id": "NCT03050060",
+                "excerpt": "Biological: Pembrolizumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[5]"
+              },
+              {
+                "nct_id": "NCT03228667",
+                "excerpt": "Drug: N-803 + Pembrolizumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]"
+              }
+            ],
+            "citations_total": 64,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e7",
+            "source": "drug:aldesleukin",
+            "target": "drug:fludarabine",
+            "weight": 21,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT00509288",
+              "NCT00923195",
+              "NCT00924001",
+              "NCT01218867",
+              "NCT01271907",
+              "NCT01273181",
+              "NCT01319565",
+              "NCT01369875",
+              "NCT01495572",
+              "NCT01585415",
+              "NCT01814046",
+              "NCT01967823",
+              "NCT01993719",
+              "NCT02062359",
+              "NCT02111850",
+              "NCT02111863",
+              "NCT02153905",
+              "NCT02489266",
+              "NCT02621021",
+              "NCT02830724"
+            ],
+            "nct_ids_total": 21,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[2]",
+            "citations": [
+              {
+                "nct_id": "NCT00509288",
+                "excerpt": "Drug: Fludarabine"
+              },
+              {
+                "nct_id": "NCT00509288",
+                "excerpt": "Biological: Aldesleukin",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[3]"
+              },
+              {
+                "nct_id": "NCT00509288",
+                "excerpt": "Drug: Fludarabine",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[1]"
+              }
+            ],
+            "citations_total": 98,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e8",
+            "source": "drug:cobimetinib",
+            "target": "drug:vemurafenib",
+            "weight": 21,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT01271803",
+              "NCT01495988",
+              "NCT01656642",
+              "NCT01689519",
+              "NCT01813214",
+              "NCT01959633",
+              "NCT02036086",
+              "NCT02230306",
+              "NCT02303951",
+              "NCT02427893",
+              "NCT02721459",
+              "NCT02768207",
+              "NCT02818023",
+              "NCT02902029",
+              "NCT02908672",
+              "NCT03101254",
+              "NCT03224208",
+              "NCT03430947",
+              "NCT03554083",
+              "NCT03625141"
+            ],
+            "nct_ids_total": 21,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT01271803",
+                "excerpt": "Drug: Cobimetinib"
+              },
+              {
+                "nct_id": "NCT01271803",
+                "excerpt": "Drug: vemurafenib",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[1]"
+              },
+              {
+                "nct_id": "NCT01271803",
+                "excerpt": "Drug: Cobimetinib",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[0]"
+              }
+            ],
+            "citations_total": 82,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e9",
+            "source": "drug:cyclophosphamide",
+            "target": "drug:fludarabine-phosphate",
+            "weight": 19,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT00004135",
+              "NCT00085423",
+              "NCT00096382",
+              "NCT00303836",
+              "NCT00324623",
+              "NCT00509496",
+              "NCT00513604",
+              "NCT00610311",
+              "NCT00612222",
+              "NCT00670748",
+              "NCT00704938",
+              "NCT01740557",
+              "NCT01807182",
+              "NCT01955460",
+              "NCT02500576",
+              "NCT04119024",
+              "NCT04904185",
+              "NCT05470283",
+              "NCT06204991"
+            ],
+            "nct_ids_total": 19,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[2]",
+            "citations": [
+              {
+                "nct_id": "NCT00004135",
+                "excerpt": "Drug: cyclophosphamide"
+              },
+              {
+                "nct_id": "NCT00004135",
+                "excerpt": "Drug: fludarabine phosphate",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[3]"
+              },
+              {
+                "nct_id": "NCT00085423",
+                "excerpt": "Drug: cyclophosphamide"
+              }
+            ],
+            "citations_total": 64,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e10",
+            "source": "drug:aldesleukin",
+            "target": "drug:fludarabine-phosphate",
+            "weight": 13,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT00085423",
+              "NCT00096382",
+              "NCT00303836",
+              "NCT00509496",
+              "NCT00513604",
+              "NCT00610311",
+              "NCT00612222",
+              "NCT00670748",
+              "NCT00704938",
+              "NCT01740557",
+              "NCT01807182",
+              "NCT01955460",
+              "NCT02500576"
+            ],
+            "nct_ids_total": 13,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT00085423",
+                "excerpt": "Biological: aldesleukin"
+              },
+              {
+                "nct_id": "NCT00085423",
+                "excerpt": "Drug: fludarabine phosphate",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[3]"
+              },
+              {
+                "nct_id": "NCT00096382",
+                "excerpt": "Biological: aldesleukin"
+              }
+            ],
+            "citations_total": 48,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e11",
+            "source": "drug:cyclophosphamide",
+            "target": "drug:pembrolizumab",
+            "weight": 13,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT01993719",
+              "NCT02500576",
+              "NCT02621021",
+              "NCT03003676",
+              "NCT03092453",
+              "NCT03773744",
+              "NCT03841110",
+              "NCT04904185",
+              "NCT05176470",
+              "NCT05269381",
+              "NCT05492682",
+              "NCT06190249",
+              "NCT06771544"
+            ],
+            "nct_ids_total": 13,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[4].interventionNames[2]",
+            "citations": [
+              {
+                "nct_id": "NCT01993719",
+                "excerpt": "Drug: Cyclophosphamide"
+              },
+              {
+                "nct_id": "NCT01993719",
+                "excerpt": "Drug: Pembrolizumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[4].interventionNames[4]"
+              },
+              {
+                "nct_id": "NCT02500576",
+                "excerpt": "Drug: Cyclophosphamide",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[1]"
+              }
+            ],
+            "citations_total": 38,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e12",
+            "source": "drug:cyclophosphamide",
+            "target": "drug:interleukin-2",
+            "weight": 12,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT00338377",
+              "NCT01946373",
+              "NCT01995344",
+              "NCT02278887",
+              "NCT02379195",
+              "NCT02652455",
+              "NCT03475134",
+              "NCT05628883",
+              "NCT05798546",
+              "NCT06151847",
+              "NCT06237881",
+              "NCT06961357"
+            ],
+            "nct_ids_total": 12,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT00338377",
+                "excerpt": "Drug: Cyclophosphamide"
+              },
+              {
+                "nct_id": "NCT00338377",
+                "excerpt": "Biological: Interleukin-2",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[3]"
+              },
+              {
+                "nct_id": "NCT00338377",
+                "excerpt": "Drug: Cyclophosphamide",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[1]"
+              }
+            ],
+            "citations_total": 40,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e13",
+            "source": "drug:fludarabine",
+            "target": "drug:interleukin-2",
+            "weight": 12,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT00338377",
+              "NCT01946373",
+              "NCT01995344",
+              "NCT02278887",
+              "NCT02379195",
+              "NCT02652455",
+              "NCT03475134",
+              "NCT05628883",
+              "NCT05798546",
+              "NCT06151847",
+              "NCT06237881",
+              "NCT06961357"
+            ],
+            "nct_ids_total": 12,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[1]",
+            "citations": [
+              {
+                "nct_id": "NCT00338377",
+                "excerpt": "Drug: Fludarabine"
+              },
+              {
+                "nct_id": "NCT00338377",
+                "excerpt": "Biological: Interleukin-2",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[3]"
+              },
+              {
+                "nct_id": "NCT00338377",
+                "excerpt": "Drug: Fludarabine",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[2]"
+              }
+            ],
+            "citations_total": 40,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e14",
+            "source": "drug:ipilimumab",
+            "target": "drug:pembrolizumab",
+            "weight": 11,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT02089685",
+              "NCT02743819",
+              "NCT03070392",
+              "NCT03396952",
+              "NCT03873818",
+              "NCT04462406",
+              "NCT04697576",
+              "NCT05987332",
+              "NCT06047379",
+              "NCT06743126",
+              "NCT06784648"
+            ],
+            "nct_ids_total": 11,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT02089685",
+                "excerpt": "Biological: Pembrolizumab"
+              },
+              {
+                "nct_id": "NCT02089685",
+                "excerpt": "Biological: Ipilimumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[1]"
+              },
+              {
+                "nct_id": "NCT02089685",
+                "excerpt": "Biological: Pembrolizumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[2].interventionNames[0]"
+              }
+            ],
+            "citations_total": 26,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e15",
+            "source": "drug:atezolizumab",
+            "target": "drug:cobimetinib",
+            "weight": 10,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT01656642",
+              "NCT02303951",
+              "NCT02902029",
+              "NCT02908672",
+              "NCT03175432",
+              "NCT03178851",
+              "NCT03273153",
+              "NCT03554083",
+              "NCT03625141",
+              "NCT04109456"
+            ],
+            "nct_ids_total": 10,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[3].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT01656642",
+                "excerpt": "Drug: Atezolizumab"
+              },
+              {
+                "nct_id": "NCT01656642",
+                "excerpt": "Drug: Cobimetinib",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[3].interventionNames[1]"
+              },
+              {
+                "nct_id": "NCT01656642",
+                "excerpt": "Drug: Atezolizumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[4].interventionNames[0]"
+              }
+            ],
+            "citations_total": 34,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e16",
+            "source": "drug:carboplatin",
+            "target": "drug:pembrolizumab",
+            "weight": 8,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT01704287",
+              "NCT02617849",
+              "NCT03645928",
+              "NCT04083599",
+              "NCT04198766",
+              "NCT04452214",
+              "NCT04993677",
+              "NCT06047379"
+            ],
+            "nct_ids_total": 8,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[3].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT01704287",
+                "excerpt": "Biological: Pembrolizumab"
+              },
+              {
+                "nct_id": "NCT01704287",
+                "excerpt": "Drug: Carboplatin",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[3].interventionNames[1]"
+              },
+              {
+                "nct_id": "NCT01704287",
+                "excerpt": "Biological: Pembrolizumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[4].interventionNames[0]"
+              }
+            ],
+            "citations_total": 24,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e17",
+            "source": "drug:bevacizumab",
+            "target": "drug:carboplatin",
+            "weight": 7,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT00255762",
+              "NCT00434252",
+              "NCT00626405",
+              "NCT00976573",
+              "NCT02023710",
+              "NCT03872947",
+              "NCT06047379"
+            ],
+            "nct_ids_total": 7,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT00255762",
+                "excerpt": "Drug: carboplatin"
+              },
+              {
+                "nct_id": "NCT00255762",
+                "excerpt": "Biological: bevacizumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[2]"
+              },
+              {
+                "nct_id": "NCT00434252",
+                "excerpt": "Drug: bevacizumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[0]"
+              }
+            ],
+            "citations_total": 18,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e18",
+            "source": "drug:bevacizumab",
+            "target": "drug:paclitaxel",
+            "weight": 7,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT00255762",
+              "NCT00434252",
+              "NCT00976573",
+              "NCT02023710",
+              "NCT05039801",
+              "NCT05824975",
+              "NCT06047379"
+            ],
+            "nct_ids_total": 7,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[1]",
+            "citations": [
+              {
+                "nct_id": "NCT00255762",
+                "excerpt": "Drug: paclitaxel"
+              },
+              {
+                "nct_id": "NCT00255762",
+                "excerpt": "Biological: bevacizumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[2]"
+              },
+              {
+                "nct_id": "NCT00434252",
+                "excerpt": "Drug: bevacizumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[0]"
+              }
+            ],
+            "citations_total": 16,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e19",
+            "source": "drug:paclitaxel",
+            "target": "drug:pembrolizumab",
+            "weight": 7,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT01704287",
+              "NCT02617849",
+              "NCT03645928",
+              "NCT04083599",
+              "NCT04198766",
+              "NCT06047379",
+              "NCT06743126"
+            ],
+            "nct_ids_total": 7,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[3].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT01704287",
+                "excerpt": "Biological: Pembrolizumab"
+              },
+              {
+                "nct_id": "NCT01704287",
+                "excerpt": "Drug: Paclitaxel",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[3].interventionNames[2]"
+              },
+              {
+                "nct_id": "NCT01704287",
+                "excerpt": "Biological: Pembrolizumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[4].interventionNames[0]"
+              }
+            ],
+            "citations_total": 18,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e20",
+            "source": "drug:atezolizumab",
+            "target": "drug:vemurafenib",
+            "weight": 6,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT01656642",
+              "NCT02303951",
+              "NCT02902029",
+              "NCT02908672",
+              "NCT03554083",
+              "NCT03625141"
+            ],
+            "nct_ids_total": 6,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT01656642",
+                "excerpt": "Drug: Atezolizumab"
+              },
+              {
+                "nct_id": "NCT01656642",
+                "excerpt": "Drug: Vemurafenib",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[1]"
+              },
+              {
+                "nct_id": "NCT01656642",
+                "excerpt": "Drug: Atezolizumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[0]"
+              }
+            ],
+            "citations_total": 26,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e21",
+            "source": "drug:binimetinib",
+            "target": "drug:nivolumab",
+            "weight": 6,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT02910700",
+              "NCT03543969",
+              "NCT03563729",
+              "NCT04375527",
+              "NCT04511013",
+              "NCT04655157"
+            ],
+            "nct_ids_total": 6,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[2].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT02910700",
+                "excerpt": "Drug: Binimetinib"
+              },
+              {
+                "nct_id": "NCT02910700",
+                "excerpt": "Biological: Nivolumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[2].interventionNames[3]"
+              },
+              {
+                "nct_id": "NCT03543969",
+                "excerpt": "Drug: Binimetinib",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[1]"
+              }
+            ],
+            "citations_total": 12,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e22",
+            "source": "drug:cyclophosphamide",
+            "target": "drug:nivolumab",
+            "weight": 6,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT02652455",
+              "NCT03166397",
+              "NCT03167177",
+              "NCT03475134",
+              "NCT03841110",
+              "NCT05061017"
+            ],
+            "nct_ids_total": 6,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT02652455",
+                "excerpt": "Drug: Nivolumab"
+              },
+              {
+                "nct_id": "NCT02652455",
+                "excerpt": "Drug: Cyclophosphamide",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[3]"
+              },
+              {
+                "nct_id": "NCT03166397",
+                "excerpt": "Drug: Cyclophosphamide",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[1]"
+              }
+            ],
+            "citations_total": 14,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e23",
+            "source": "drug:dacarbazine",
+            "target": "drug:ipilimumab",
+            "weight": 6,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT00324155",
+              "NCT00796991",
+              "NCT01681212",
+              "NCT03070392",
+              "NCT05987332",
+              "NCT06743126"
+            ],
+            "nct_ids_total": 6,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT00324155",
+                "excerpt": "Drug: Ipilimumab"
+              },
+              {
+                "nct_id": "NCT00324155",
+                "excerpt": "Drug: Dacarbazine",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[1]"
+              },
+              {
+                "nct_id": "NCT00796991",
+                "excerpt": "Drug: Ipilimumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[0]"
+              }
+            ],
+            "citations_total": 12,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e24",
+            "source": "drug:aldesleukin",
+            "target": "drug:pembrolizumab",
+            "weight": 5,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT01993719",
+              "NCT02500576",
+              "NCT02621021",
+              "NCT02748564",
+              "NCT05155033"
+            ],
+            "nct_ids_total": 5,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[4].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT01993719",
+                "excerpt": "Drug: Aldesleukin"
+              },
+              {
+                "nct_id": "NCT01993719",
+                "excerpt": "Drug: Pembrolizumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[4].interventionNames[4]"
+              },
+              {
+                "nct_id": "NCT02500576",
+                "excerpt": "Biological: Aldesleukin",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]"
+              }
+            ],
+            "citations_total": 12,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e25",
+            "source": "drug:atezolizumab",
+            "target": "drug:pembrolizumab",
+            "weight": 5,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT03050060",
+              "NCT03228667",
+              "NCT03841110",
+              "NCT04902040",
+              "NCT05581004"
+            ],
+            "nct_ids_total": 5,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT03050060",
+                "excerpt": "Drug: Atezolizumab"
+              },
+              {
+                "nct_id": "NCT03050060",
+                "excerpt": "Biological: Pembrolizumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[5]"
+              },
+              {
+                "nct_id": "NCT03228667",
+                "excerpt": "Drug: N-803 + Pembrolizumab"
+              }
+            ],
+            "citations_total": 16,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e26",
+            "source": "drug:cyclophosphamide",
+            "target": "drug:ipilimumab",
+            "weight": 5,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT00871481",
+              "NCT02027935",
+              "NCT02210104",
+              "NCT03068624",
+              "NCT03166397"
+            ],
+            "nct_ids_total": 5,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT00871481",
+                "excerpt": "Biological: ipilimumab"
+              },
+              {
+                "nct_id": "NCT00871481",
+                "excerpt": "Drug: cyclophosphamide",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[1]"
+              },
+              {
+                "nct_id": "NCT02027935",
+                "excerpt": "Drug: Cyclophosphamide",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[2]"
+              }
+            ],
+            "citations_total": 10,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e27",
+            "source": "drug:fludarabine",
+            "target": "drug:pembrolizumab",
+            "weight": 5,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT01993719",
+              "NCT02621021",
+              "NCT03841110",
+              "NCT05176470",
+              "NCT06190249"
+            ],
+            "nct_ids_total": 5,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[4].interventionNames[1]",
+            "citations": [
+              {
+                "nct_id": "NCT01993719",
+                "excerpt": "Drug: Fludarabine"
+              },
+              {
+                "nct_id": "NCT01993719",
+                "excerpt": "Drug: Pembrolizumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[4].interventionNames[4]"
+              },
+              {
+                "nct_id": "NCT02621021",
+                "excerpt": "Drug: Pembrolizumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[1]"
+              }
+            ],
+            "citations_total": 12,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e28",
+            "source": "drug:aldesleukin",
+            "target": "drug:ipilimumab",
+            "weight": 4,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT00871481",
+              "NCT02027935",
+              "NCT02203604",
+              "NCT03068624"
+            ],
+            "nct_ids_total": 4,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT00871481",
+                "excerpt": "Biological: ipilimumab"
+              },
+              {
+                "nct_id": "NCT00871481",
+                "excerpt": "Biological: aldesleukin",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[3]"
+              },
+              {
+                "nct_id": "NCT02027935",
+                "excerpt": "Biological: Aldesleukin"
+              }
+            ],
+            "citations_total": 8,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e29",
+            "source": "drug:atezolizumab",
+            "target": "drug:nivolumab",
+            "weight": 4,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT03050060",
+              "NCT03228667",
+              "NCT03841110",
+              "NCT04902040"
+            ],
+            "nct_ids_total": 4,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT03050060",
+                "excerpt": "Drug: Atezolizumab"
+              },
+              {
+                "nct_id": "NCT03050060",
+                "excerpt": "Biological: Nivolumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[4]"
+              },
+              {
+                "nct_id": "NCT03228667",
+                "excerpt": "Drug: N-803 + Nivolumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[1]"
+              }
+            ],
+            "citations_total": 14,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e30",
+            "source": "drug:binimetinib",
+            "target": "drug:pembrolizumab",
+            "weight": 4,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT02902042",
+              "NCT04657991",
+              "NCT05304546",
+              "NCT05926960"
+            ],
+            "nct_ids_total": 4,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[1]",
+            "citations": [
+              {
+                "nct_id": "NCT02902042",
+                "excerpt": "Drug: Binimetinib"
+              },
+              {
+                "nct_id": "NCT02902042",
+                "excerpt": "Drug: Pembrolizumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[2]"
+              },
+              {
+                "nct_id": "NCT04657991",
+                "excerpt": "Drug: Binimetinib"
+              }
+            ],
+            "citations_total": 8,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e31",
+            "source": "drug:carboplatin",
+            "target": "drug:cisplatin",
+            "weight": 4,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT00002854",
+              "NCT03645928",
+              "NCT04083599",
+              "NCT04198766"
+            ],
+            "nct_ids_total": 4,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[1]",
+            "citations": [
+              {
+                "nct_id": "NCT00002854",
+                "excerpt": "Drug: carboplatin"
+              },
+              {
+                "nct_id": "NCT00002854",
+                "excerpt": "Drug: cisplatin",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[2]"
+              },
+              {
+                "nct_id": "NCT03645928",
+                "excerpt": "Drug: Cisplatin",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[7].interventionNames[3]"
+              }
+            ],
+            "citations_total": 10,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e32",
+            "source": "drug:cisplatin",
+            "target": "drug:dacarbazine",
+            "weight": 4,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT00002882",
+              "NCT00004141",
+              "NCT00006237",
+              "NCT00498979"
+            ],
+            "nct_ids_total": 4,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[2].interventionNames[2]",
+            "citations": [
+              {
+                "nct_id": "NCT00002882",
+                "excerpt": "Drug: Cisplatin"
+              },
+              {
+                "nct_id": "NCT00002882",
+                "excerpt": "Drug: Dacarbazine",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[2].interventionNames[3]"
+              },
+              {
+                "nct_id": "NCT00004141",
+                "excerpt": "Drug: Cisplatin",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]"
+              }
+            ],
+            "citations_total": 8,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e33",
+            "source": "drug:cisplatin",
+            "target": "drug:interleukin-2",
+            "weight": 4,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT00006237",
+              "NCT00505635",
+              "NCT00970996",
+              "NCT01409174"
+            ],
+            "nct_ids_total": 4,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT00006237",
+                "excerpt": "Biological: interleukin-2"
+              },
+              {
+                "nct_id": "NCT00006237",
+                "excerpt": "Drug: cisplatin",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[3]"
+              },
+              {
+                "nct_id": "NCT00505635",
+                "excerpt": "Drug: Cisplatin",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[2]"
+              }
+            ],
+            "citations_total": 8,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e34",
+            "source": "drug:dabrafenib",
+            "target": "drug:nivolumab",
+            "weight": 4,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT01940809",
+              "NCT02357732",
+              "NCT02910700",
+              "NCT03563729"
+            ],
+            "nct_ids_total": 4,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT01940809",
+                "excerpt": "Drug: Dabrafenib"
+              },
+              {
+                "nct_id": "NCT01940809",
+                "excerpt": "Biological: Nivolumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[3]"
+              },
+              {
+                "nct_id": "NCT01940809",
+                "excerpt": "Drug: Dabrafenib",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[5].interventionNames[0]"
+              }
+            ],
+            "citations_total": 12,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e35",
+            "source": "drug:dabrafenib",
+            "target": "drug:pembrolizumab",
+            "weight": 4,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT02130466",
+              "NCT02625337",
+              "NCT02858921",
+              "NCT03149029"
+            ],
+            "nct_ids_total": 4,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT02130466",
+                "excerpt": "Biological: Pembrolizumab"
+              },
+              {
+                "nct_id": "NCT02130466",
+                "excerpt": "Drug: Dabrafenib",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[1]"
+              },
+              {
+                "nct_id": "NCT02130466",
+                "excerpt": "Biological: Pembrolizumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[3].interventionNames[0]"
+              }
+            ],
+            "citations_total": 18,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e36",
+            "source": "drug:dacarbazine",
+            "target": "drug:pembrolizumab",
+            "weight": 4,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT01704287",
+              "NCT03070392",
+              "NCT05987332",
+              "NCT06743126"
+            ],
+            "nct_ids_total": 4,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[3].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT01704287",
+                "excerpt": "Biological: Pembrolizumab"
+              },
+              {
+                "nct_id": "NCT01704287",
+                "excerpt": "Drug: Dacarbazine",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[3].interventionNames[3]"
+              },
+              {
+                "nct_id": "NCT01704287",
+                "excerpt": "Biological: Pembrolizumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[4].interventionNames[0]"
+              }
+            ],
+            "citations_total": 10,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e37",
+            "source": "drug:fludarabine",
+            "target": "drug:nivolumab",
+            "weight": 4,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT02652455",
+              "NCT03166397",
+              "NCT03475134",
+              "NCT03841110"
+            ],
+            "nct_ids_total": 4,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT02652455",
+                "excerpt": "Drug: Nivolumab"
+              },
+              {
+                "nct_id": "NCT02652455",
+                "excerpt": "Drug: Fludarabine",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[4]"
+              },
+              {
+                "nct_id": "NCT03166397",
+                "excerpt": "Drug: Fludarabine",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[0]"
+              }
+            ],
+            "citations_total": 10,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e38",
+            "source": "drug:ipilimumab",
+            "target": "drug:paclitaxel",
+            "weight": 4,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT00796991",
+              "NCT01676649",
+              "NCT06047379",
+              "NCT06743126"
+            ],
+            "nct_ids_total": 4,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT00796991",
+                "excerpt": "Drug: Ipilimumab"
+              },
+              {
+                "nct_id": "NCT00796991",
+                "excerpt": "Drug: Paclitaxel",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[2]"
+              },
+              {
+                "nct_id": "NCT01676649",
+                "excerpt": "Biological: Ipilimumab"
+              }
+            ],
+            "citations_total": 10,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e39",
+            "source": "drug:nivolumab",
+            "target": "drug:trametinib",
+            "weight": 4,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT01940809",
+              "NCT02357732",
+              "NCT02910700",
+              "NCT03563729"
+            ],
+            "nct_ids_total": 4,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[3]",
+            "citations": [
+              {
+                "nct_id": "NCT01940809",
+                "excerpt": "Biological: Nivolumab"
+              },
+              {
+                "nct_id": "NCT01940809",
+                "excerpt": "Drug: Trametinib",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[4]"
+              },
+              {
+                "nct_id": "NCT01940809",
+                "excerpt": "Biological: Nivolumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[3].interventionNames[2]"
+              }
+            ],
+            "citations_total": 14,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e40",
+            "source": "drug:pembrolizumab",
+            "target": "drug:trametinib",
+            "weight": 4,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT02130466",
+              "NCT02625337",
+              "NCT02858921",
+              "NCT03149029"
+            ],
+            "nct_ids_total": 4,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT02130466",
+                "excerpt": "Biological: Pembrolizumab"
+              },
+              {
+                "nct_id": "NCT02130466",
+                "excerpt": "Drug: Trametinib",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[2]"
+              },
+              {
+                "nct_id": "NCT02130466",
+                "excerpt": "Biological: Pembrolizumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[0]"
+              }
+            ],
+            "citations_total": 40,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e41",
+            "source": "drug:aldesleukin",
+            "target": "drug:incomplete-freund-s-adjuvant",
+            "weight": 3,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT00003222",
+              "NCT00303836",
+              "NCT00706992"
+            ],
+            "nct_ids_total": 3,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT00003222",
+                "excerpt": "Biological: aldesleukin"
+              },
+              {
+                "nct_id": "NCT00003222",
+                "excerpt": "Biological: incomplete Freund's adjuvant",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[2]"
+              },
+              {
+                "nct_id": "NCT00003222",
+                "excerpt": "Biological: aldesleukin",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[0]"
+              }
+            ],
+            "citations_total": 8,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e42",
+            "source": "drug:atezolizumab",
+            "target": "drug:bevacizumab",
+            "weight": 3,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT03175432",
+              "NCT04091217",
+              "NCT04356729"
+            ],
+            "nct_ids_total": 3,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT03175432",
+                "excerpt": "Drug: Atezolizumab"
+              },
+              {
+                "nct_id": "NCT03175432",
+                "excerpt": "Biological: Bevacizumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[1]"
+              },
+              {
+                "nct_id": "NCT03175432",
+                "excerpt": "Drug: Atezolizumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[0]"
+              }
+            ],
+            "citations_total": 8,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e43",
+            "source": "drug:bevacizumab",
+            "target": "drug:ipilimumab",
+            "weight": 3,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT01950390",
+              "NCT06047379",
+              "NCT06163820"
+            ],
+            "nct_ids_total": 3,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT01950390",
+                "excerpt": "Biological: Bevacizumab"
+              },
+              {
+                "nct_id": "NCT01950390",
+                "excerpt": "Biological: Ipilimumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[1]"
+              },
+              {
+                "nct_id": "NCT06047379",
+                "excerpt": "Drug: Ipilimumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[7].interventionNames[1]"
+              }
+            ],
+            "citations_total": 6,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e44",
+            "source": "drug:bevacizumab",
+            "target": "drug:nivolumab",
+            "weight": 3,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT03167177",
+              "NCT06047379",
+              "NCT06163820"
+            ],
+            "nct_ids_total": 3,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[1]",
+            "citations": [
+              {
+                "nct_id": "NCT03167177",
+                "excerpt": "Biological: Bevacizumab"
+              },
+              {
+                "nct_id": "NCT03167177",
+                "excerpt": "Biological: Nivolumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[8]"
+              },
+              {
+                "nct_id": "NCT06047379",
+                "excerpt": "Drug: Nivolumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[7].interventionNames[3]"
+              }
+            ],
+            "citations_total": 6,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e45",
+            "source": "drug:carboplatin",
+            "target": "drug:ipilimumab",
+            "weight": 3,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT00796991",
+              "NCT01676649",
+              "NCT06047379"
+            ],
+            "nct_ids_total": 3,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT00796991",
+                "excerpt": "Drug: Ipilimumab"
+              },
+              {
+                "nct_id": "NCT00796991",
+                "excerpt": "Drug: Carboplatin",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[1]"
+              },
+              {
+                "nct_id": "NCT01676649",
+                "excerpt": "Biological: Ipilimumab"
+              }
+            ],
+            "citations_total": 8,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e46",
+            "source": "drug:cisplatin",
+            "target": "drug:paclitaxel",
+            "weight": 3,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT00002854",
+              "NCT03645928",
+              "NCT04083599"
+            ],
+            "nct_ids_total": 3,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[2]",
+            "citations": [
+              {
+                "nct_id": "NCT00002854",
+                "excerpt": "Drug: cisplatin"
+              },
+              {
+                "nct_id": "NCT00002854",
+                "excerpt": "Drug: paclitaxel",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[7]"
+              },
+              {
+                "nct_id": "NCT03645928",
+                "excerpt": "Drug: Cisplatin",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[7].interventionNames[3]"
+              }
+            ],
+            "citations_total": 8,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e47",
+            "source": "drug:cisplatin",
+            "target": "drug:pembrolizumab",
+            "weight": 3,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT03645928",
+              "NCT04083599",
+              "NCT04198766"
+            ],
+            "nct_ids_total": 3,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[7].interventionNames[2]",
+            "citations": [
+              {
+                "nct_id": "NCT03645928",
+                "excerpt": "Drug: Pembrolizumab"
+              },
+              {
+                "nct_id": "NCT03645928",
+                "excerpt": "Drug: Cisplatin",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[7].interventionNames[3]"
+              },
+              {
+                "nct_id": "NCT03645928",
+                "excerpt": "Drug: Pembrolizumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[8].interventionNames[2]"
+              }
+            ],
+            "citations_total": 10,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e48",
+            "source": "drug:dabrafenib",
+            "target": "drug:ipilimumab",
+            "weight": 3,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT01767454",
+              "NCT01940809",
+              "NCT03563729"
+            ],
+            "nct_ids_total": 3,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT01767454",
+                "excerpt": "Drug: Dabrafenib"
+              },
+              {
+                "nct_id": "NCT01767454",
+                "excerpt": "Drug: Ipilimumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[1]"
+              },
+              {
+                "nct_id": "NCT01767454",
+                "excerpt": "Drug: Dabrafenib",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[0]"
+              }
+            ],
+            "citations_total": 14,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e49",
+            "source": "drug:dacarbazine",
+            "target": "drug:paclitaxel",
+            "weight": 3,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT01704287",
+              "NCT01721746",
+              "NCT06743126"
+            ],
+            "nct_ids_total": 3,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[2].interventionNames[1]",
+            "citations": [
+              {
+                "nct_id": "NCT01704287",
+                "excerpt": "Drug: Paclitaxel"
+              },
+              {
+                "nct_id": "NCT01704287",
+                "excerpt": "Drug: Dacarbazine",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[2].interventionNames[2]"
+              },
+              {
+                "nct_id": "NCT01704287",
+                "excerpt": "Drug: Paclitaxel",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[3].interventionNames[2]"
+              }
+            ],
+            "citations_total": 10,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e50",
+            "source": "drug:interleukin-2",
+            "target": "drug:ipilimumab",
+            "weight": 3,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT01409174",
+              "NCT01480323",
+              "NCT04562129"
+            ],
+            "nct_ids_total": 3,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT01409174",
+                "excerpt": "Drug: Ipilimumab"
+              },
+              {
+                "nct_id": "NCT01409174",
+                "excerpt": "Drug: Interleukin-2",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[4]"
+              },
+              {
+                "nct_id": "NCT01480323",
+                "excerpt": "Drug: Interleukin-2"
+              }
+            ],
+            "citations_total": 6,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e51",
+            "source": "drug:interleukin-2",
+            "target": "drug:nivolumab",
+            "weight": 3,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT02652455",
+              "NCT03475134",
+              "NCT04562129"
+            ],
+            "nct_ids_total": 3,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT02652455",
+                "excerpt": "Drug: Nivolumab"
+              },
+              {
+                "nct_id": "NCT02652455",
+                "excerpt": "Drug: Interleukin-2",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[6]"
+              },
+              {
+                "nct_id": "NCT03475134",
+                "excerpt": "Drug: Interleukin-2",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[3]"
+              }
+            ],
+            "citations_total": 6,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e52",
+            "source": "drug:ipilimumab",
+            "target": "drug:trametinib",
+            "weight": 3,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT01767454",
+              "NCT01940809",
+              "NCT03563729"
+            ],
+            "nct_ids_total": 3,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[1]",
+            "citations": [
+              {
+                "nct_id": "NCT01767454",
+                "excerpt": "Drug: Trametinib"
+              },
+              {
+                "nct_id": "NCT01767454",
+                "excerpt": "Drug: Ipilimumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[2]"
+              },
+              {
+                "nct_id": "NCT01940809",
+                "excerpt": "Biological: Ipilimumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[1]"
+              }
+            ],
+            "citations_total": 12,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e53",
+            "source": "drug:aldesleukin",
+            "target": "drug:vemurafenib",
+            "weight": 2,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT01585415",
+              "NCT01754376"
+            ],
+            "nct_ids_total": 2,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT01585415",
+                "excerpt": "Drug: Vemurafenib"
+              },
+              {
+                "nct_id": "NCT01585415",
+                "excerpt": "Drug: Aldesleukin",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[4]"
+              },
+              {
+                "nct_id": "NCT01754376",
+                "excerpt": "Drug: Aldesleukin"
+              }
+            ],
+            "citations_total": 4,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e54",
+            "source": "drug:bevacizumab",
+            "target": "drug:cisplatin",
+            "weight": 2,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT00405405",
+              "NCT03167177"
+            ],
+            "nct_ids_total": 2,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT00405405",
+                "excerpt": "Drug: Cisplatin"
+              },
+              {
+                "nct_id": "NCT00405405",
+                "excerpt": "Drug: Bevacizumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[2]"
+              },
+              {
+                "nct_id": "NCT03167177",
+                "excerpt": "Biological: Bevacizumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[1]"
+              }
+            ],
+            "citations_total": 4,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e55",
+            "source": "drug:bevacizumab",
+            "target": "drug:cobimetinib",
+            "weight": 2,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT01495988",
+              "NCT03175432"
+            ],
+            "nct_ids_total": 2,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[1]",
+            "citations": [
+              {
+                "nct_id": "NCT01495988",
+                "excerpt": "Drug: Bevacizumab"
+              },
+              {
+                "nct_id": "NCT01495988",
+                "excerpt": "Drug: Cobimetinib",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[2]"
+              },
+              {
+                "nct_id": "NCT03175432",
+                "excerpt": "Biological: Bevacizumab"
+              }
+            ],
+            "citations_total": 4,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e56",
+            "source": "drug:binimetinib",
+            "target": "drug:dabrafenib",
+            "weight": 2,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT03563729",
+              "NCT04903119"
+            ],
+            "nct_ids_total": 2,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[3].interventionNames[3]",
+            "citations": [
+              {
+                "nct_id": "NCT03563729",
+                "excerpt": "Drug: Binimetinib"
+              },
+              {
+                "nct_id": "NCT03563729",
+                "excerpt": "Drug: Dabrafenib",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[3].interventionNames[4]"
+              },
+              {
+                "nct_id": "NCT04903119",
+                "excerpt": "Drug: Dabrafenib",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[1]"
+              }
+            ],
+            "citations_total": 10,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e57",
+            "source": "drug:binimetinib",
+            "target": "drug:ipilimumab",
+            "weight": 2,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT03563729",
+              "NCT04655157"
+            ],
+            "nct_ids_total": 2,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[3].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT03563729",
+                "excerpt": "Drug: Ipilimumab Injection [Yervoy]"
+              },
+              {
+                "nct_id": "NCT03563729",
+                "excerpt": "Drug: Binimetinib",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[3].interventionNames[3]"
+              },
+              {
+                "nct_id": "NCT04655157",
+                "excerpt": "Drug: ipilimumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[2]"
+              }
+            ],
+            "citations_total": 4,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e58",
+            "source": "drug:binimetinib",
+            "target": "drug:trametinib",
+            "weight": 2,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT03563729",
+              "NCT04903119"
+            ],
+            "nct_ids_total": 2,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[3].interventionNames[3]",
+            "citations": [
+              {
+                "nct_id": "NCT03563729",
+                "excerpt": "Drug: Binimetinib"
+              },
+              {
+                "nct_id": "NCT03563729",
+                "excerpt": "Drug: Trametinib",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[3].interventionNames[5]"
+              },
+              {
+                "nct_id": "NCT04903119",
+                "excerpt": "Drug: Trametinib",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[2]"
+              }
+            ],
+            "citations_total": 10,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e59",
+            "source": "drug:carboplatin",
+            "target": "drug:dacarbazine",
+            "weight": 2,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT01704287",
+              "NCT01721746"
+            ],
+            "nct_ids_total": 2,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[2].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT01704287",
+                "excerpt": "Drug: Carboplatin"
+              },
+              {
+                "nct_id": "NCT01704287",
+                "excerpt": "Drug: Dacarbazine",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[2].interventionNames[2]"
+              },
+              {
+                "nct_id": "NCT01704287",
+                "excerpt": "Drug: Carboplatin",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[3].interventionNames[1]"
+              }
+            ],
+            "citations_total": 8,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e60",
+            "source": "drug:cisplatin",
+            "target": "drug:cyclophosphamide",
+            "weight": 2,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT00002854",
+              "NCT03167177"
+            ],
+            "nct_ids_total": 2,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[3]",
+            "citations": [
+              {
+                "nct_id": "NCT00002854",
+                "excerpt": "Drug: cisplatin",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[2]"
+              },
+              {
+                "nct_id": "NCT00002854",
+                "excerpt": "Drug: cyclophosphamide"
+              },
+              {
+                "nct_id": "NCT03167177",
+                "excerpt": "Drug: Cisplatin"
+              }
+            ],
+            "citations_total": 4,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e61",
+            "source": "drug:cyclophosphamide",
+            "target": "drug:incomplete-freund-s-adjuvant",
+            "weight": 2,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT00118274",
+              "NCT00303836"
+            ],
+            "nct_ids_total": 2,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT00118274",
+                "excerpt": "Biological: incomplete Freund's adjuvant"
+              },
+              {
+                "nct_id": "NCT00118274",
+                "excerpt": "Drug: cyclophosphamide",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[3]"
+              },
+              {
+                "nct_id": "NCT00118274",
+                "excerpt": "Biological: incomplete Freund's adjuvant",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[3].interventionNames[0]"
+              }
+            ],
+            "citations_total": 8,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e62",
+            "source": "drug:dacarbazine",
+            "target": "drug:nivolumab",
+            "weight": 2,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT05987332",
+              "NCT06743126"
+            ],
+            "nct_ids_total": 2,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[2].interventionNames[2]",
+            "citations": [
+              {
+                "nct_id": "NCT05987332",
+                "excerpt": "Drug: Nivolumab"
+              },
+              {
+                "nct_id": "NCT05987332",
+                "excerpt": "Drug: Dacarbazine",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[2].interventionNames[3]"
+              },
+              {
+                "nct_id": "NCT06743126",
+                "excerpt": "Biological: nivolumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[2]"
+              }
+            ],
+            "citations_total": 4,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e63",
+            "source": "drug:fludarabine-phosphate",
+            "target": "drug:pembrolizumab",
+            "weight": 2,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT02500576",
+              "NCT04904185"
+            ],
+            "nct_ids_total": 2,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[2]",
+            "citations": [
+              {
+                "nct_id": "NCT02500576",
+                "excerpt": "Drug: Fludarabine Phosphate"
+              },
+              {
+                "nct_id": "NCT02500576",
+                "excerpt": "Biological: Pembrolizumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[4]"
+              },
+              {
+                "nct_id": "NCT02500576",
+                "excerpt": "Drug: Fludarabine Phosphate",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[2]"
+              }
+            ],
+            "citations_total": 6,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e64",
+            "source": "drug:interleukin-2",
+            "target": "drug:pembrolizumab",
+            "weight": 2,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT03111901",
+              "NCT03476174"
+            ],
+            "nct_ids_total": 2,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT03111901",
+                "excerpt": "Drug: Pembrolizumab"
+              },
+              {
+                "nct_id": "NCT03111901",
+                "excerpt": "Drug: Interleukin-2",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[1]"
+              },
+              {
+                "nct_id": "NCT03111901",
+                "excerpt": "Drug: Pembrolizumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[0]"
+              }
+            ],
+            "citations_total": 6,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e65",
+            "source": "drug:ipilimumab",
+            "target": "drug:vemurafenib",
+            "weight": 2,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT01400451",
+              "NCT01673854"
+            ],
+            "nct_ids_total": 2,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[0]",
+            "citations": [
+              {
+                "nct_id": "NCT01400451",
+                "excerpt": "Drug: Ipilimumab (BMS-734016)"
+              },
+              {
+                "nct_id": "NCT01400451",
+                "excerpt": "Drug: Vemurafenib",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[0].interventionNames[1]"
+              },
+              {
+                "nct_id": "NCT01673854",
+                "excerpt": "Drug: Ipilimumab"
+              }
+            ],
+            "citations_total": 4,
+            "excerpts_truncated": true
+          },
+          {
+            "id": "e66",
+            "source": "drug:nivolumab",
+            "target": "drug:paclitaxel",
+            "weight": 2,
+            "type": "combined_in_arm",
+            "nct_ids": [
+              "NCT06047379",
+              "NCT06743126"
+            ],
+            "nct_ids_total": 2,
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[7].interventionNames[3]",
+            "citations": [
+              {
+                "nct_id": "NCT06047379",
+                "excerpt": "Drug: Nivolumab"
+              },
+              {
+                "nct_id": "NCT06047379",
+                "excerpt": "Drug: Paclitaxel",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[7].interventionNames[6]"
+              },
+              {
+                "nct_id": "NCT06743126",
+                "excerpt": "Biological: nivolumab",
+                "field_path": "protocolSection.armsInterventionsModule.armGroups[1].interventionNames[2]"
+              }
+            ],
+            "citations_total": 4,
+            "excerpts_truncated": true
+          }
+        ]
+      }
+    },
+    "answer_summary": "The drugs most often given together in the same arm are Ipilimumab + Nivolumab (112 trials), Cyclophosphamide + Fludarabine (57 trials), Dabrafenib + Trametinib (44 trials). Based on 3,140 trials from ClinicalTrials.gov.",
+    "meta": {
+      "source": "clinicaltrials.gov",
+      "filters": {
+        "conditions": [
+          "melanoma"
+        ],
+        "interventional_only": true
+      },
+      "query_interpretation": {
+        "intent": "entity_network",
+        "persona": "researcher",
+        "scope": "cohort",
+        "confidence": 0.86,
+        "parser": "cache",
+        "cohorts": [
+          {
+            "label": "Melanoma",
+            "conditions": [
+              "melanoma"
+            ],
+            "interventional_only": true
+          }
+        ],
+        "resolved_entities": [
+          {
+            "input": "melanoma",
+            "resolved": "melanoma",
+            "kind": "condition",
+            "method": "structured_field"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "code": "SNAPSHOT",
+          "severity": "info",
+          "message": "Melanoma: all 3,140 trial records read from the stored cohort snapshot taken 2026-10-19 04:58 UTC; ClinicalTrials.gov still reports the same number of matching trials."
+        },
+        {
+          "code": "TRUNCATED",
+          "severity": "info",
+          "message": "Showing 20 of 2296 entities (most connected) and 66 of 2458 links; other links need weight >= 2."
+        }
+      ],
+      "units": {
+        "weight": "trials",
+        "size": "trials"
+      },
+      "grouping": {
+        "weight": "distinct_trials"
+      },
+      "truncation": {
+        "top_n": 20,
+        "other_bucket": false,
+        "omitted_count": 2276
+      },
+      "node_types": [
+        {
+          "type": "drug",
+          "label": "Drug",
+          "count": 13
+        },
+        {
+          "type": "biological",
+          "label": "Biological",
+          "count": 7
+        }
+      ],
+      "edge_semantics": "Both drugs are given together in the same arm (armGroups[].interventionNames, >= 2 drug/biological, placebo excluded); weight = distinct trials.",
+      "network_kind": "drug_drug",
+      "directed": false,
+      "min_edge_weight": 2,
+      "coverage": {
+        "studies_matched_total": 3140,
+        "studies_analyzed": 3140,
+        "counting_method": "all_records",
+        "sampled": false,
+        "queries": [
+          "https://clinicaltrials.gov/search?cond=melanoma&advanced=AREA%5BStudyType%5DINTERVENTIONAL"
+        ]
+      },
+      "citation_policy": {
+        "detail": "sample",
+        "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+        "nct_ids": "first_20",
+        "nct_ids_per_datum": 20,
+        "nct_ids_order": "nct_id",
+        "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+        "excerpts_per_datum": 3,
+        "excerpts_single_trial": 10,
+        "excerpt_order": "nct_id",
+        "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+      },
+      "validation": {
+        "passed": true,
+        "checks": [
+          {
+            "name": "retrieval_matches_api_total",
+            "passed": true,
+            "detail": "Melanoma: 3,140 of 3,140"
+          },
+          {
+            "name": "counts_match_trial_lists",
+            "passed": true,
+            "detail": "86 count datum(s) checked"
+          },
+          {
+            "name": "each_trial_in_one_bucket",
+            "passed": true,
+            "detail": "not a single-valued grouping"
+          },
+          {
+            "name": "citations_from_retrieved_records",
+            "passed": true,
+            "detail": "947 NCT id(s), all retrieved"
+          },
+          {
+            "name": "summary_numbers_in_data",
+            "passed": true,
+            "detail": "every number appears in the data"
+          },
+          {
+            "name": "value_axes_labeled",
+            "passed": true,
+            "detail": "all value axes say what they measure"
+          }
+        ]
+      },
+      "alternatives": [
+        {
+          "type": "table",
+          "reason": "all values as a sortable table"
+        },
+        {
+          "type": "bar_chart",
+          "reason": "compare categories side by side"
+        }
+      ],
+      "follow_ups": [
+        "Which sponsors are testing which drugs in Melanoma trials?"
+      ],
+      "request_id": "b50d0435697a47d0baf2c9dd52efd6f6",
+      "created_at": "2026-10-19T10:10:40+00:00",
+      "schema_version": "2.2",
+      "ctgov_api_version": "2.0.5",
+      "data_timestamp": "2026-10-16T09:00:05"
+    }
+  }
+}

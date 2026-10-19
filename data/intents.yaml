@@ -1,0 +1,369 @@
+# Intent registry: one entry per supported question type.
+# field_set: landscape | outcomes | people | eligibility | full   (see ctviz/ctgov/fields.py)
+# needs: full_records (fetch GET /studies/{id}), results (resultsSection required for best viz),
+#        extraction (LLM text extraction), analysis (Analysis agent), graph (knowledge graph)
+# keywords: regexes (case-insensitive) used by the rule-based planner; higher priority first.
+
+trend_over_time:
+  description: Number of trials started per time bucket, optionally split by phase/status or compared across cohorts.
+  personas: [researcher, patient]
+  scopes: [cohort, comparison]
+  field_set: landscape
+  primary: time_series
+  fallbacks: [bar_chart, table]
+  keywords: ['over time', 'per year', 'each year', 'by year', 'trend', 'since \d{4}', 'changed', 'growth', 'timeline of trials', 'annual']
+  examples:
+    - How has the number of trials for pembrolizumab changed per year since 2015?
+    - How many trials started each year for Alzheimer's disease?
+    - Compare trials per year for semaglutide vs tirzepatide
+
+phase_distribution:
+  description: Count of trials per phase (phase combinations kept as their own bucket).
+  personas: [researcher, patient]
+  scopes: [cohort, comparison]
+  field_set: landscape
+  primary: bar_chart
+  fallbacks: [pie_chart, table]
+  keywords: ['phases?\b', 'distributed across phases', 'by phase', 'what phase']
+  examples:
+    - How are breast cancer trials distributed across phases?
+    - Compare phases for trials involving semaglutide vs tirzepatide
+
+status_distribution:
+  description: Count of trials per overall recruitment status.
+  personas: [researcher, patient]
+  scopes: [cohort, comparison]
+  field_set: landscape
+  primary: bar_chart
+  fallbacks: [pie_chart, table]
+  keywords: ['recruiting', 'status', 'how many .* (active|completed|terminated)', 'terminated', 'withdrawn']
+  examples:
+    - How many semaglutide trials are recruiting?
+    - Status breakdown of Moderna trials
+
+phase_status_heatmap:
+  description: Phase × status matrix of trial counts.
+  personas: [researcher]
+  scopes: [cohort]
+  field_set: landscape
+  primary: heatmap
+  fallbacks: [bar_chart, table]
+  keywords: ['heat ?map', 'phase.*(status|recruit)', '(status|recruit).*phase', 'matrix']
+  examples:
+    - Heatmap of phase by recruitment status across all GLP-1 trials
+
+landscape_gap_heatmap:
+  description: Rows (conditions/drugs/sponsors) × columns (phase/status/year) with explicit zero cells to show gaps.
+  personas: [researcher]
+  scopes: [cohort]
+  field_set: landscape
+  primary: heatmap
+  fallbacks: [table]
+  keywords: ['gaps?\b', 'white ?space', 'under-?studied', 'no phase \d', 'missing']
+  examples:
+    - Where are the gaps in obesity drug development by phase?
+
+sponsor_landscape:
+  description: Top sponsors (or sponsor classes) by trial count, optionally stacked by phase, or compared across cohorts.
+  personas: [researcher]
+  scopes: [cohort, comparison]
+  field_set: landscape
+  primary: bar_chart
+  fallbacks: [pie_chart, table]
+  keywords: ['sponsor categor', 'sponsor class', 'industry vs', 'academic', 'who (is )?(sponsor|fund|run)', 'top sponsors', 'most trials', 'sponsors?\b']
+  examples:
+    - Who sponsors the most obesity trials?
+    - Compare sponsor categories across breast cancer and lung cancer
+
+sponsor_activity:
+  description: Gantt-style timeline of one sponsor's trials (start to completion), colored by phase/status.
+  personas: [researcher]
+  scopes: [cohort]
+  field_set: outcomes
+  primary: timeline
+  fallbacks: [bar_chart, table]
+  keywords: ['what is .* doing', 'pipeline', "'s trials", 'portfolio', 'activity of', 'gantt']
+  examples:
+    - What is Eli Lilly doing in obesity?
+
+geographic_distribution:
+  description: Trials per country (a trial counts once per country), optionally only recruiting trials.
+  personas: [researcher, patient]
+  scopes: [cohort, comparison]
+  field_set: landscape
+  primary: geo_map
+  fallbacks: [bar_chart, table]
+  keywords: ['countr', 'where are', 'geograph', 'region', 'map\b', 'location', 'where .* recruit', 'near\b']
+  examples:
+    - Which countries have the most recruiting trials for type 2 diabetes?
+
+entity_network:
+  description: Co-occurrence network (sponsor–drug, drug–drug combinations, drug–condition, site–investigator, sponsor–collaborator); edge weight = shared trials.
+  personas: [researcher]
+  scopes: [cohort]
+  field_set: landscape
+  primary: network_graph
+  fallbacks: [table, bar_chart]
+  needs: {graph: true}
+  keywords: ['network', 'co-?occur', 'combination', 'combined with', 'paired with', 'relationship', 'connected', 'connect', 'collaborat', 'work together', '↔', '<->']
+  examples:
+    - Show a network of sponsors and drugs for obesity trials
+    - Which drugs frequently co-occur in combination studies for melanoma?
+
+enrollment_distribution:
+  description: Histogram of planned/actual enrollment, or scatter of enrollment vs start date.
+  personas: [researcher]
+  scopes: [cohort, comparison]
+  field_set: landscape
+  primary: histogram
+  fallbacks: [scatter_plot, table]
+  keywords: ['enrollment', 'sample sizes?', 'how big', 'how large', 'number of participants', 'distribution of size', 'histogram', 'scatter']
+  examples:
+    - How big are phase 3 obesity trials?
+
+intervention_landscape:
+  description: Most common interventions (names) or intervention types in a cohort.
+  personas: [researcher, patient]
+  scopes: [cohort, comparison]
+  field_set: landscape
+  primary: bar_chart
+  fallbacks: [pie_chart, table]
+  keywords: ['intervention types?', 'what (drugs|treatments)', 'which (drugs|treatments)', 'most common (drug|intervention|treatment)', 'being tested']
+  examples:
+    - What are the most common intervention types for insomnia trials?
+    - What drugs are being tested for ALS?
+
+development_progression:
+  description: First and last trial start per phase for a drug (registered human studies only).
+  personas: [researcher]
+  scopes: [cohort]
+  field_set: landscape
+  primary: timeline
+  fallbacks: [bar_chart, table]
+  keywords: ['first[- ]in[- ]human', 'progress(ed|ion)', 'preclinical', 'development history', 'from phase 1 to', 'advanced into']
+  examples:
+    - How did semaglutide progress from first-in-human to phase 3?
+
+single_trial_overview:
+  description: Key facts about one trial.
+  personas: [patient, researcher]
+  scopes: [single_trial]
+  field_set: full
+  primary: kpi_cards
+  fallbacks: [table]
+  needs: {full_records: true}
+  keywords: ['tell me about', 'overview', 'summary of', 'what is nct', 'what phase is']
+  examples:
+    - Tell me about NCT03548935
+
+study_rationale:
+  description: Main goal of the study and why researchers think the treatment may work.
+  personas: [patient, researcher]
+  scopes: [single_trial]
+  field_set: full
+  primary: kpi_cards
+  fallbacks: [table]
+  needs: {full_records: true}
+  keywords: ['main goal', 'purpose', 'why (do|are) researchers', 'why .* work', 'rationale', 'hypothes', 'mechanism', 'aim of']
+  examples:
+    - What is the main goal of this study and why do researchers think it will work?
+
+eligibility_check:
+  description: Inclusion/exclusion criteria as a checklist, evaluated against an optional patient profile.
+  personas: [patient]
+  scopes: [single_trial]
+  field_set: full
+  primary: eligibility_checklist
+  fallbacks: [table]
+  needs: {full_records: true, extraction: true}
+  keywords: ['eligib', 'qualify', 'can i (join|participate|enroll)', 'criteria', 'inclusion', 'exclusion', 'am i a candidate', 'do i meet']
+  examples:
+    - Am I eligible for NCT03548935? I'm 45 and have obesity.
+
+concomitant_medications:
+  description: Rules about current/prior medications (allowed, prohibited, washout).
+  personas: [patient]
+  scopes: [single_trial]
+  field_set: full
+  primary: eligibility_checklist
+  fallbacks: [table]
+  needs: {full_records: true, extraction: true}
+  keywords: ['current med', 'my med', 'keep taking', 'continue taking', 'stop taking', 'concomitant', 'allowed to take', 'medications?\b']
+  examples:
+    - Can I keep taking my current medications in NCT03548935?
+
+trial_journey_timeline:
+  description: Registry milestones plus an approximate participant journey from outcome time frames.
+  personas: [patient, researcher]
+  scopes: [single_trial]
+  field_set: full
+  primary: timeline
+  fallbacks: [kpi_cards, table]
+  needs: {full_records: true}
+  keywords: ['how long', 'duration', 'last\b', 'when (will|does) .* (end|finish|complete)', 'what happens (during|when)', 'schedule', 'journey']
+  examples:
+    - How long will the trial last?
+
+visit_burden:
+  description: Assessment time points (a lower bound on visits) and mentions of visits/hospital stays.
+  personas: [patient]
+  scopes: [single_trial]
+  field_set: full
+  primary: timeline
+  fallbacks: [bar_chart, table]
+  needs: {full_records: true}
+  keywords: ['visits?\b', 'clinic', 'hospital stay', 'how often', 'come in', 'appointments?', 'overnight']
+  examples:
+    - How many clinic visits or hospital stays are required?
+
+risks_adverse_events:
+  description: Reported adverse event rates per arm (with registry threshold), or risk statements when no results.
+  personas: [patient, researcher]
+  scopes: [single_trial, cohort]
+  field_set: full
+  primary: bar_chart
+  fallbacks: [threshold_line, table, kpi_cards]
+  needs: {full_records: true, results: true, analysis: true}
+  keywords: ['side effects?', 'adverse', 'risks?\b', 'safety profile', 'toxicit', 'harm', 'tolerab']
+  examples:
+    - What are the known side effects in NCT03548935?
+
+results_outcomes:
+  description: Posted results of outcome measures (forest plot for effect estimates, bars otherwise).
+  personas: [patient, researcher]
+  scopes: [single_trial, cohort, comparison]
+  field_set: full
+  primary: forest_plot
+  fallbacks: [bar_chart, table, kpi_cards]
+  needs: {full_records: true, results: true, analysis: true}
+  keywords: ['results?\b', 'did (it|the drug|the treatment) work', 'efficacy', 'outcome', 'findings', 'effect size', 'p-?value', 'primary endpoint result', 'forest plot']
+  examples:
+    - What were the final results of NCT03548935?
+
+survival_summary:
+  description: Survival curve reconstructed from reported medians/landmark rates (approximation; no patient-level data).
+  personas: [researcher, patient]
+  scopes: [single_trial, cohort, comparison]
+  field_set: full
+  primary: survival_curve
+  fallbacks: [forest_plot, table]
+  needs: {full_records: true, results: true, analysis: true}
+  keywords: ['surviv', 'kaplan', 'meier', '\bpfs\b', '\bos\b', 'progression[- ]free', 'time to (event|progression|death)', 'hazard ratio', 'live longer']
+  examples:
+    - Show the survival curve for NCT02142738
+
+dropout_flow:
+  description: Participant flow (started → completed / dropped out by reason) per arm.
+  personas: [researcher]
+  scopes: [single_trial, cohort]
+  field_set: full
+  primary: sankey
+  fallbacks: [bar_chart, kpi_cards]
+  needs: {full_records: true, results: true, analysis: true}
+  keywords: ['drop ?outs?', 'withdr', 'participant flow', 'completed the study', 'attrition', 'discontinu', 'lost to follow', 'sankey']
+  examples:
+    - How many patients dropped out of NCT03548935 and why?
+
+demographics:
+  description: Baseline demographics (age, sex, race) per arm, or eligible age groups across a cohort.
+  personas: [researcher, patient]
+  scopes: [single_trial, cohort]
+  field_set: full
+  primary: bar_chart
+  fallbacks: [pie_chart, kpi_cards, table]
+  needs: {full_records: true, results: true}
+  keywords: ['demograph', 'age (group|breakdown)', 'sex breakdown', 'gender', '\brace\b', 'ethnic', 'people like me', 'who (was|were) enrolled']
+  examples:
+    - What was the patient demographic of NCT03548935?
+
+enrollment_vs_power:
+  description: Statistical power vs effect size implied by the registered sample size (approximation).
+  personas: [researcher]
+  scopes: [single_trial, cohort, comparison]
+  field_set: full
+  primary: power_curve
+  fallbacks: [kpi_cards, scatter_plot]
+  needs: {full_records: true, analysis: true}
+  keywords: ['power', 'sample size', 'adequately powered', 'detect', 'minimum detectable']
+  examples:
+    - What is the statistical power and sample size of NCT03548935?
+
+sites_and_contacts:
+  description: Study sites, contacts and investigators; honest note about keeping your regular doctor.
+  personas: [patient]
+  scopes: [single_trial]
+  field_set: full
+  primary: geo_map
+  fallbacks: [table, kpi_cards]
+  needs: {full_records: true}
+  keywords: ['where can i', 'sites?\b', 'near me', 'contact', 'regular doctor', 'my doctor', 'investigators?', 'who do i (call|contact)']
+  examples:
+    - Where can I join NCT03548935 and can I keep my regular doctor?
+
+safety_provisions:
+  description: What happens if the condition worsens (rescue therapy, discontinuation, monitoring).
+  personas: [patient]
+  scopes: [single_trial]
+  field_set: full
+  primary: table
+  fallbacks: [kpi_cards]
+  needs: {full_records: true}
+  keywords: ['get(s)? worse', 'worsen', 'rescue', 'what if', 'leave the study', 'quit', 'stop the study', 'monitoring board', 'dsmb']
+  examples:
+    - What happens if my condition gets worse during the study?
+
+study_limitations:
+  description: Limitations, caveats, early termination reasons (protocol deviation logs are not in the registry).
+  personas: [researcher]
+  scopes: [single_trial]
+  field_set: full
+  primary: table
+  fallbacks: [kpi_cards]
+  needs: {full_records: true}
+  keywords: ['limitation', 'caveat', 'deviation', 'why (was it|did it) stop', 'terminated because', 'data integrity']
+  examples:
+    - How were protocol deviations handled in NCT03548935?
+
+design_methodology:
+  description: Study design (allocation, masking, model, purpose, arms) for one trial, or design mix across a cohort.
+  personas: [researcher]
+  scopes: [single_trial, cohort]
+  field_set: landscape
+  primary: kpi_cards
+  fallbacks: [bar_chart, table, heatmap]
+  keywords: ['design', 'methodolog', 'randomi[sz]', 'blind', 'mask', 'placebo[- ]controlled', 'open[- ]label', 'allocation', 'parallel', 'crossover']
+  examples:
+    - How is randomization and blinding structured in NCT03548935?
+
+endpoints_catalog:
+  description: Primary/secondary endpoints classified as safety, dose, efficacy, PK, PD, biomarker, QoL.
+  personas: [researcher]
+  scopes: [single_trial, cohort]
+  field_set: outcomes
+  primary: table
+  fallbacks: [bar_chart, kpi_cards]
+  keywords: ['endpoints?', 'measuring', 'primary outcome', 'secondary outcome', 'what (are they|is being) measur']
+  examples:
+    - What endpoints are being measured in NCT03548935 — safety, dosage or efficacy?
+
+biomarkers_pkpd:
+  description: Biomarkers and pharmacokinetic/pharmacodynamic measures tracked in outcomes.
+  personas: [researcher]
+  scopes: [single_trial, cohort]
+  field_set: outcomes
+  primary: table
+  fallbacks: [bar_chart, kpi_cards]
+  keywords: ['biomarker', 'pharmacokinetic', 'pharmacodynamic', '\bpk\b', '\bpd\b', 'cmax', '\bauc\b', 'half-?life', 'hba1c', 'ctdna']
+  examples:
+    - What biomarkers and PK/PD measures are tracked in NCT03548935?
+
+not_in_registry_fallback:
+  description: Questions ClinicalTrials.gov cannot answer (costs, reimbursement, insurance); honest explanation plus what the record does contain.
+  personas: [patient]
+  scopes: [single_trial, cohort]
+  field_set: full
+  primary: kpi_cards
+  fallbacks: [table]
+  keywords: ['cost', 'pay\b', 'paid', 'out[- ]of[- ]pocket', 'reimburs', 'compensat', 'insurance', 'parking', 'travel expense', 'stipend', 'price']
+  examples:
+    - Will the trial cost me anything, and are travel and parking reimbursed?

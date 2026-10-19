@@ -1,0 +1,2640 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "timeline",
+    "title": "Trial activity: Novo Nordisk · Obesity",
+    "encoding": {
+      "x": {
+        "field": "start",
+        "type": "temporal",
+        "title": "Start",
+        "time_format": "%Y-%m-%d"
+      },
+      "x2": {
+        "field": "end",
+        "type": "temporal",
+        "title": "End",
+        "time_format": "%Y-%m-%d"
+      },
+      "y": {
+        "field": "task",
+        "type": "nominal",
+        "title": "Item"
+      },
+      "series": {
+        "field": "category",
+        "type": "nominal",
+        "title": "Status"
+      },
+      "tooltip": [
+        "title",
+        "lane",
+        "status",
+        "is_estimated",
+        "point"
+      ]
+    },
+    "data": [
+      {
+        "id": "d1",
+        "task": "NCT07557953",
+        "nct_id": "NCT07557953",
+        "title": "A Research Study Looking Into How Cagrilintide Influences Food Intake and Appetite in People With Overweight or Obesity",
+        "start": "2026-04-30",
+        "start_raw": "2026-04-30",
+        "start_precision": "day",
+        "end": "2027-04-13",
+        "end_raw": "2027-04-13",
+        "end_precision": "day",
+        "lane": "Phase 1",
+        "category": "Recruiting",
+        "status": "RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07557953"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07557953",
+            "excerpt": "2026-04-30"
+          },
+          {
+            "nct_id": "NCT07557953",
+            "excerpt": "2027-04-13",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07557953",
+            "excerpt": "[\"PHASE1\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT07557953",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07557953",
+            "excerpt": "A Research Study Looking Into How Cagrilintide Influences Food Intake and Appetite in People With Overweight or Obesity",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07557953",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07557953",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 7,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d2",
+        "task": "NCT07566390",
+        "nct_id": "NCT07566390",
+        "title": "A Research Study Investigating How a New Medicine NNC0113-5840 Works in People With Overweight or Obesity",
+        "start": "2026-05-01",
+        "start_raw": "2026-05-01",
+        "start_precision": "day",
+        "end": "2027-01-31",
+        "end_raw": "2027-01-31",
+        "end_precision": "day",
+        "lane": "Phase 1",
+        "category": "Recruiting",
+        "status": "RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07566390"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07566390",
+            "excerpt": "2026-05-01"
+          },
+          {
+            "nct_id": "NCT07566390",
+            "excerpt": "2027-01-31",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07566390",
+            "excerpt": "[\"PHASE1\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT07566390",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07566390",
+            "excerpt": "A Research Study Investigating How a New Medicine NNC0113-5840 Works in People With Overweight or Obesity",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07566390",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07566390",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 7,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d3",
+        "task": "NCT07578584",
+        "nct_id": "NCT07578584",
+        "title": "A Research Study Investigating the Effect of NNC0497-0040 in Healthy Participants, Participants With Overweight or Obesity, and Participants With Type 1 Diabetes With Overweight or Obesity",
+        "start": "2026-05-07",
+        "start_raw": "2026-05-07",
+        "start_precision": "day",
+        "end": "2028-02-18",
+        "end_raw": "2028-02-18",
+        "end_precision": "day",
+        "lane": "Phase 1",
+        "category": "Recruiting",
+        "status": "RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07578584"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07578584",
+            "excerpt": "2026-05-07"
+          },
+          {
+            "nct_id": "NCT07578584",
+            "excerpt": "2028-02-18",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07578584",
+            "excerpt": "[\"PHASE1\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT07578584",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07578584",
+            "excerpt": "A Research Study Investigating the Effect of NNC0497-0040 in Healthy Participants, Participants With Overweight or Obesity, and Participants With Type 1 Diabetes With Overweight or Obesity",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07578584",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07578584",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 7,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d4",
+        "task": "NCT07587710",
+        "nct_id": "NCT07587710",
+        "title": "A Research Study Looking Into Blood Levels of the Medicine NNC0487-0111 in the Body and How Well it is Tolerated in People With Reduced Liver Function and Normal Liver Function",
+        "start": "2026-05-13",
+        "start_raw": "2026-05-13",
+        "start_precision": "day",
+        "end": "2027-12-01",
+        "end_raw": "2027-12-01",
+        "end_precision": "day",
+        "lane": "Phase 1",
+        "category": "Not yet recruiting",
+        "status": "NOT_YET_RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07587710"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07587710",
+            "excerpt": "2026-05-13"
+          },
+          {
+            "nct_id": "NCT07587710",
+            "excerpt": "2027-12-01",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07587710",
+            "excerpt": "[\"PHASE1\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT07587710",
+            "excerpt": "NOT_YET_RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07587710",
+            "excerpt": "A Research Study Looking Into Blood Levels of the Medicine NNC0487-0111 in the Body and How Well it is Tolerated in People With Reduced Liver Function and Normal Liver Function",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07587710",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07587710",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 7,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d5",
+        "task": "NCT07597018",
+        "nct_id": "NCT07597018",
+        "title": "A Research Study to Compare Blood Levels of Cagrilintide After Multiple Doses of Different Versions of Cagrilintide in Adults With Overweight or Obesity",
+        "start": "2026-05-18",
+        "start_raw": "2026-05-18",
+        "start_precision": "day",
+        "end": "2027-06-01",
+        "end_raw": "2027-06-01",
+        "end_precision": "day",
+        "lane": "Phase 1",
+        "category": "Recruiting",
+        "status": "RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07597018"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07597018",
+            "excerpt": "2026-05-18"
+          },
+          {
+            "nct_id": "NCT07597018",
+            "excerpt": "2027-06-01",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07597018",
+            "excerpt": "[\"PHASE1\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT07597018",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07597018",
+            "excerpt": "A Research Study to Compare Blood Levels of Cagrilintide After Multiple Doses of Different Versions of Cagrilintide in Adults With Overweight or Obesity",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07597018",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07597018",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 7,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d6",
+        "task": "NCT07605052",
+        "nct_id": "NCT07605052",
+        "title": "A Research Study to Compare Blood Levels of Two Different Versions of Cagrilintide in Adults With Excess Body Weight",
+        "start": "2026-05-20",
+        "start_raw": "2026-05-20",
+        "start_precision": "day",
+        "end": "2026-08-19",
+        "end_raw": "2026-08-19",
+        "end_precision": "day",
+        "lane": "Phase 1",
+        "category": "Completed",
+        "status": "COMPLETED",
+        "is_estimated": false,
+        "point": false,
+        "nct_ids": [
+          "NCT07605052"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07605052",
+            "excerpt": "2026-05-20"
+          },
+          {
+            "nct_id": "NCT07605052",
+            "excerpt": "2026-08-19",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07605052",
+            "excerpt": "[\"PHASE1\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT07605052",
+            "excerpt": "COMPLETED",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07605052",
+            "excerpt": "A Research Study to Compare Blood Levels of Two Different Versions of Cagrilintide in Adults With Excess Body Weight",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d7",
+        "task": "NCT07607587",
+        "nct_id": "NCT07607587",
+        "title": "Evaluation of the Tolerability of Cagrilintide in Participants Not Tolerating GLP-1-RA Therapies Due to Gastrointestinal Adverse Events",
+        "start": "2026-05-29",
+        "start_raw": "2026-05-29",
+        "start_precision": "day",
+        "end": "2027-11-19",
+        "end_raw": "2027-11-19",
+        "end_precision": "day",
+        "lane": "Phase 1",
+        "category": "Recruiting",
+        "status": "RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07607587"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07607587",
+            "excerpt": "2026-05-29"
+          },
+          {
+            "nct_id": "NCT07607587",
+            "excerpt": "2027-11-19",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07607587",
+            "excerpt": "[\"PHASE1\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT07607587",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07607587",
+            "excerpt": "Evaluation of the Tolerability of Cagrilintide in Participants Not Tolerating GLP-1-RA Therapies Due to Gastrointestinal Adverse Events",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07607587",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07607587",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 7,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d8",
+        "task": "NCT07693868",
+        "nct_id": "NCT07693868",
+        "title": "A Study to See How Safe a New Medicine (NNC6022-0004) is in Healthy People and People Living With Obesity",
+        "start": "2026-07-06",
+        "start_raw": "2026-07-06",
+        "start_precision": "day",
+        "end": "2027-08-03",
+        "end_raw": "2027-08-03",
+        "end_precision": "day",
+        "lane": "Phase 1",
+        "category": "Recruiting",
+        "status": "RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07693868"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07693868",
+            "excerpt": "2026-07-06"
+          },
+          {
+            "nct_id": "NCT07693868",
+            "excerpt": "2027-08-03",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07693868",
+            "excerpt": "[\"PHASE1\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT07693868",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07693868",
+            "excerpt": "A Study to See How Safe a New Medicine (NNC6022-0004) is in Healthy People and People Living With Obesity",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07693868",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07693868",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 7,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d9",
+        "task": "NCT07710768",
+        "nct_id": "NCT07710768",
+        "title": "A Research Study on How UBT251 Affects Levels of Midazolam, Caffeine and Warfarin in the Blood of Participants With Excess Body Weight",
+        "start": "2026-07-15",
+        "start_raw": "2026-07-15",
+        "start_precision": "day",
+        "end": "2027-04-07",
+        "end_raw": "2027-04-07",
+        "end_precision": "day",
+        "lane": "Phase 1",
+        "category": "Recruiting",
+        "status": "RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07710768"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07710768",
+            "excerpt": "2026-07-15"
+          },
+          {
+            "nct_id": "NCT07710768",
+            "excerpt": "2027-04-07",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07710768",
+            "excerpt": "[\"PHASE1\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT07710768",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07710768",
+            "excerpt": "A Research Study on How UBT251 Affects Levels of Midazolam, Caffeine and Warfarin in the Blood of Participants With Excess Body Weight",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07710768",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07710768",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 7,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d10",
+        "task": "NCT07710729",
+        "nct_id": "NCT07710729",
+        "title": "A Research Study Looking Into How UBT251 Works With Birth Control Tablets and Emptying of the Stomach in Women With Excess Body Weight Not Able to Become Pregnant",
+        "start": "2026-07-17",
+        "start_raw": "2026-07-17",
+        "start_precision": "day",
+        "end": "2027-04-27",
+        "end_raw": "2027-04-27",
+        "end_precision": "day",
+        "lane": "Phase 1",
+        "category": "Recruiting",
+        "status": "RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07710729"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07710729",
+            "excerpt": "2026-07-17"
+          },
+          {
+            "nct_id": "NCT07710729",
+            "excerpt": "2027-04-27",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07710729",
+            "excerpt": "[\"PHASE1\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT07710729",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07710729",
+            "excerpt": "A Research Study Looking Into How UBT251 Works With Birth Control Tablets and Emptying of the Stomach in Women With Excess Body Weight Not Able to Become Pregnant",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07710729",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07710729",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 7,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d11",
+        "task": "NCT07757087",
+        "nct_id": "NCT07757087",
+        "title": "A Research Study to See How NNC0487-0111 Affects the Body's Energy Use After a Weight Loss in Adults Living With Overweight or Obesity, Compared to a Low-calorie Diet or Placebo",
+        "start": "2026-08-03",
+        "start_raw": "2026-08-03",
+        "start_precision": "day",
+        "end": "2028-09-18",
+        "end_raw": "2028-09-18",
+        "end_precision": "day",
+        "lane": "Phase 1",
+        "category": "Recruiting",
+        "status": "RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07757087"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07757087",
+            "excerpt": "2026-08-03"
+          },
+          {
+            "nct_id": "NCT07757087",
+            "excerpt": "2028-09-18",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07757087",
+            "excerpt": "[\"PHASE1\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT07757087",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07757087",
+            "excerpt": "A Research Study to See How NNC0487-0111 Affects the Body's Energy Use After a Weight Loss in Adults Living With Overweight or Obesity, Compared to a Low-calorie Diet or Placebo",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07757087",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07757087",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 7,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d12",
+        "task": "NCT07767175",
+        "nct_id": "NCT07767175",
+        "title": "A First-in-human Research Study on How NNC0721-8060 Works in People Living With Overweight or Obesity",
+        "start": "2026-08-12",
+        "start_raw": "2026-08-12",
+        "start_precision": "day",
+        "end": "2027-09-23",
+        "end_raw": "2027-09-23",
+        "end_precision": "day",
+        "lane": "Phase 1",
+        "category": "Recruiting",
+        "status": "RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07767175"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07767175",
+            "excerpt": "2026-08-12"
+          },
+          {
+            "nct_id": "NCT07767175",
+            "excerpt": "2027-09-23",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07767175",
+            "excerpt": "[\"PHASE1\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT07767175",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07767175",
+            "excerpt": "A First-in-human Research Study on How NNC0721-8060 Works in People Living With Overweight or Obesity",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07767175",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07767175",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 7,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d13",
+        "task": "NCT07815067",
+        "nct_id": "NCT07815067",
+        "title": "A Research Study Looking at the Effect of Timing of Meal After Dosing and Water Volume at Dosing on How the Medicine Zenagamtide is Taken up by the Body of Participants With Overweight or Obesity",
+        "start": "2026-09-07",
+        "start_raw": "2026-09-07",
+        "start_precision": "day",
+        "end": "2028-06-12",
+        "end_raw": "2028-06-12",
+        "end_precision": "day",
+        "lane": "Phase 1",
+        "category": "Recruiting",
+        "status": "RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07815067"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07815067",
+            "excerpt": "2026-09-07"
+          },
+          {
+            "nct_id": "NCT07815067",
+            "excerpt": "2028-06-12",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07815067",
+            "excerpt": "[\"PHASE1\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT07815067",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07815067",
+            "excerpt": "A Research Study Looking at the Effect of Timing of Meal After Dosing and Water Volume at Dosing on How the Medicine Zenagamtide is Taken up by the Body of Participants With Overweight or Obesity",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07815067",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07815067",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 7,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d14",
+        "task": "NCT07845578",
+        "nct_id": "NCT07845578",
+        "title": "A Research Study Looking Into How a High Dose of s.c. Semaglutide Works With Emptying of the Stomach in People With Excess Body Weight",
+        "start": "2026-09-25",
+        "start_raw": "2026-09-25",
+        "start_precision": "day",
+        "end": "2027-09-11",
+        "end_raw": "2027-09-11",
+        "end_precision": "day",
+        "lane": "Phase 1",
+        "category": "Not yet recruiting",
+        "status": "NOT_YET_RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07845578"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07845578",
+            "excerpt": "2026-09-25"
+          },
+          {
+            "nct_id": "NCT07845578",
+            "excerpt": "2027-09-11",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07845578",
+            "excerpt": "[\"PHASE1\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT07845578",
+            "excerpt": "NOT_YET_RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07845578",
+            "excerpt": "A Research Study Looking Into How a High Dose of s.c. Semaglutide Works With Emptying of the Stomach in People With Excess Body Weight",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07845578",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07845578",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 7,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d15",
+        "task": "NCT07855133",
+        "nct_id": "NCT07855133",
+        "title": "A Research Study Investigating How Adults With Overweight or Obesity, With or Without Type 2 Diabetes, Tolerate Switching to a New Treatment (Zenagamtide) From Their Current Semaglutide Medication",
+        "start": "2026-10-05",
+        "start_raw": "2026-10-05",
+        "start_precision": "day",
+        "end": "2028-09-06",
+        "end_raw": "2028-09-06",
+        "end_precision": "day",
+        "lane": "Phase 1",
+        "category": "Recruiting",
+        "status": "RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07855133"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07855133",
+            "excerpt": "2026-10-05"
+          },
+          {
+            "nct_id": "NCT07855133",
+            "excerpt": "2028-09-06",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07855133",
+            "excerpt": "[\"PHASE1\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT07855133",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07855133",
+            "excerpt": "A Research Study Investigating How Adults With Overweight or Obesity, With or Without Type 2 Diabetes, Tolerate Switching to a New Treatment (Zenagamtide) From Their Current Semaglutide Medication",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07855133",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07855133",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 7,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d16",
+        "task": "NCT07868354",
+        "nct_id": "NCT07868354",
+        "title": "A Research Study Investigating How Adults With Overweight or Obesity, With or Without Type 2 Diabetes, Tolerate Switching to a New Treatment (Zenagamtide) From Their Current Tirzepatide Medication",
+        "start": "2026-10-08",
+        "start_raw": "2026-10-08",
+        "start_precision": "day",
+        "end": "2028-09-07",
+        "end_raw": "2028-09-07",
+        "end_precision": "day",
+        "lane": "Phase 1",
+        "category": "Recruiting",
+        "status": "RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07868354"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07868354",
+            "excerpt": "2026-10-08"
+          },
+          {
+            "nct_id": "NCT07868354",
+            "excerpt": "2028-09-07",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07868354",
+            "excerpt": "[\"PHASE1\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT07868354",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07868354",
+            "excerpt": "A Research Study Investigating How Adults With Overweight or Obesity, With or Without Type 2 Diabetes, Tolerate Switching to a New Treatment (Zenagamtide) From Their Current Tirzepatide Medication",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07868354",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07868354",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 7,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d17",
+        "task": "NCT07639021",
+        "nct_id": "NCT07639021",
+        "title": "A Research Study Comparing Different Ways of Increasing the Dose of NNC0662-0419 in Participants With Obesity",
+        "start": "2026-06-09",
+        "start_raw": "2026-06-09",
+        "start_precision": "day",
+        "end": "2027-06-14",
+        "end_raw": "2027-06-14",
+        "end_precision": "day",
+        "lane": "Phase 2",
+        "category": "Active, not recruiting",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07639021"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07639021",
+            "excerpt": "2026-06-09"
+          },
+          {
+            "nct_id": "NCT07639021",
+            "excerpt": "2027-06-14",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07639021",
+            "excerpt": "[\"PHASE2\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT07639021",
+            "excerpt": "ACTIVE_NOT_RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07639021",
+            "excerpt": "A Research Study Comparing Different Ways of Increasing the Dose of NNC0662-0419 in Participants With Obesity",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07639021",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07639021",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 7,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d18",
+        "task": "NCT07731256",
+        "nct_id": "NCT07731256",
+        "title": "Semaglutide for Low Back Pain",
+        "start": "2027-02-01",
+        "start_raw": "2027-02-01",
+        "start_precision": "day",
+        "end": "2031-09-01",
+        "end_raw": "2031-09-01",
+        "end_precision": "day",
+        "lane": "Phase 2",
+        "category": "Not yet recruiting",
+        "status": "NOT_YET_RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07731256"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07731256",
+            "excerpt": "2027-02-01"
+          },
+          {
+            "nct_id": "NCT07731256",
+            "excerpt": "2031-09-01",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07731256",
+            "excerpt": "[\"PHASE2\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT07731256",
+            "excerpt": "NOT_YET_RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07731256",
+            "excerpt": "Semaglutide for Low Back Pain",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07731256",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07731256",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 7,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d19",
+        "task": "AMAZE 2 · NCT07533175",
+        "nct_id": "NCT07533175",
+        "title": "AMAZE 2: A Research Study Investigating How Well the Medicine NNC0487-0111 Helps People With Excess Body Weight and Type 2 Diabetes Lose Weight",
+        "start": "2026-04-13",
+        "start_raw": "2026-04-13",
+        "start_precision": "day",
+        "end": "2028-08-07",
+        "end_raw": "2028-08-07",
+        "end_precision": "day",
+        "lane": "Phase 3",
+        "category": "Recruiting",
+        "status": "RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07533175"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07533175",
+            "excerpt": "2026-04-13"
+          },
+          {
+            "nct_id": "NCT07533175",
+            "excerpt": "2028-08-07",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07533175",
+            "excerpt": "[\"PHASE3\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT07533175",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07533175",
+            "excerpt": "AMAZE 2: A Research Study Investigating How Well the Medicine NNC0487-0111 Helps People With Excess Body Weight and Type 2 Diabetes Lose Weight",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07533175",
+            "excerpt": "AMAZE 2",
+            "field_path": "protocolSection.identificationModule.acronym"
+          },
+          {
+            "nct_id": "NCT07533175",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07533175",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 8,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d20",
+        "task": "AMAZE 6 · NCT07509307",
+        "nct_id": "NCT07509307",
+        "title": "AMAZE 6: A Research Study Investigating How Well the Medicine NNC0487-0111 Helps People With Excess Body Weight and Knee Osteoarthritis Lose Weight and Reduce Pain",
+        "start": "2026-04-20",
+        "start_raw": "2026-04-20",
+        "start_precision": "day",
+        "end": "2028-08-14",
+        "end_raw": "2028-08-14",
+        "end_precision": "day",
+        "lane": "Phase 3",
+        "category": "Recruiting",
+        "status": "RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07509307"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07509307",
+            "excerpt": "2026-04-20"
+          },
+          {
+            "nct_id": "NCT07509307",
+            "excerpt": "2028-08-14",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07509307",
+            "excerpt": "[\"PHASE3\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT07509307",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07509307",
+            "excerpt": "AMAZE 6: A Research Study Investigating How Well the Medicine NNC0487-0111 Helps People With Excess Body Weight and Knee Osteoarthritis Lose Weight and Reduce Pain",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07509307",
+            "excerpt": "AMAZE 6",
+            "field_path": "protocolSection.identificationModule.acronym"
+          },
+          {
+            "nct_id": "NCT07509307",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07509307",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 8,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d21",
+        "task": "AMAZE 12 · NCT07503210",
+        "nct_id": "NCT07503210",
+        "title": "AMAZE 12: A Research Study Investigating How Well the Medicine NNC0487-0111 Helps People With Excess Body Weight Maintain Their Weight Loss",
+        "start": "2026-04-21",
+        "start_raw": "2026-04-21",
+        "start_precision": "day",
+        "end": "2028-07-04",
+        "end_raw": "2028-07-04",
+        "end_precision": "day",
+        "lane": "Phase 3",
+        "category": "Active, not recruiting",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07503210"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07503210",
+            "excerpt": "2026-04-21"
+          },
+          {
+            "nct_id": "NCT07503210",
+            "excerpt": "2028-07-04",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07503210",
+            "excerpt": "[\"PHASE3\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT07503210",
+            "excerpt": "ACTIVE_NOT_RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07503210",
+            "excerpt": "AMAZE 12: A Research Study Investigating How Well the Medicine NNC0487-0111 Helps People With Excess Body Weight Maintain Their Weight Loss",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07503210",
+            "excerpt": "AMAZE 12",
+            "field_path": "protocolSection.identificationModule.acronym"
+          },
+          {
+            "nct_id": "NCT07503210",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07503210",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 8,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d22",
+        "task": "AMAZE 3 · NCT07571005",
+        "nct_id": "NCT07571005",
+        "title": "AMAZE 3: A Research Study Investigating How Well the Medicine NNC0487-0111 Helps People With Excess Body Weight and Obstructive Sleep Apnoea Not Treated With Positive Airway Pressure Lose Weight and Improve Sleep Apnoea",
+        "start": "2026-05-05",
+        "start_raw": "2026-05-05",
+        "start_precision": "day",
+        "end": "2028-10-04",
+        "end_raw": "2028-10-04",
+        "end_precision": "day",
+        "lane": "Phase 3",
+        "category": "Recruiting",
+        "status": "RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07571005"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07571005",
+            "excerpt": "2026-05-05"
+          },
+          {
+            "nct_id": "NCT07571005",
+            "excerpt": "2028-10-04",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07571005",
+            "excerpt": "[\"PHASE3\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT07571005",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07571005",
+            "excerpt": "AMAZE 3: A Research Study Investigating How Well the Medicine NNC0487-0111 Helps People With Excess Body Weight and Obstructive Sleep Apnoea Not Treated With Positive Airway Pressure Lose Weight and Improve Sleep Apnoea",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07571005",
+            "excerpt": "AMAZE 3",
+            "field_path": "protocolSection.identificationModule.acronym"
+          },
+          {
+            "nct_id": "NCT07571005",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07571005",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 8,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d23",
+        "task": "AMAZE 4 · NCT07571109",
+        "nct_id": "NCT07571109",
+        "title": "AMAZE 4: A Research Study Investigating How Well the Medicine NNC0487-0111 Helps People With Excess Body Weight and Obstructive Sleep Apnoea Treated With Positive Airway Pressure Lose Weight and Improve Sleep Apnoea",
+        "start": "2026-05-05",
+        "start_raw": "2026-05-05",
+        "start_precision": "day",
+        "end": "2028-08-21",
+        "end_raw": "2028-08-21",
+        "end_precision": "day",
+        "lane": "Phase 3",
+        "category": "Recruiting",
+        "status": "RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07571109"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07571109",
+            "excerpt": "2026-05-05"
+          },
+          {
+            "nct_id": "NCT07571109",
+            "excerpt": "2028-08-21",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07571109",
+            "excerpt": "[\"PHASE3\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT07571109",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07571109",
+            "excerpt": "AMAZE 4: A Research Study Investigating How Well the Medicine NNC0487-0111 Helps People With Excess Body Weight and Obstructive Sleep Apnoea Treated With Positive Airway Pressure Lose Weight and Improve Sleep Apnoea",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07571109",
+            "excerpt": "AMAZE 4",
+            "field_path": "protocolSection.identificationModule.acronym"
+          },
+          {
+            "nct_id": "NCT07571109",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07571109",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 8,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d24",
+        "task": "HF-POLARIS · NCT07567001",
+        "nct_id": "NCT07567001",
+        "title": "A Research Study to Look at How Well NNC0487-0111 Works Compared to Placebo in People With Heart Failure and Obesity",
+        "start": "2026-05-11",
+        "start_raw": "2026-05-11",
+        "start_precision": "day",
+        "end": "2029-08-15",
+        "end_raw": "2029-08-15",
+        "end_precision": "day",
+        "lane": "Phase 3",
+        "category": "Recruiting",
+        "status": "RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07567001"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07567001",
+            "excerpt": "2026-05-11"
+          },
+          {
+            "nct_id": "NCT07567001",
+            "excerpt": "2029-08-15",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07567001",
+            "excerpt": "[\"PHASE3\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT07567001",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07567001",
+            "excerpt": "A Research Study to Look at How Well NNC0487-0111 Works Compared to Placebo in People With Heart Failure and Obesity",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07567001",
+            "excerpt": "HF-POLARIS",
+            "field_path": "protocolSection.identificationModule.acronym"
+          },
+          {
+            "nct_id": "NCT07567001",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07567001",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 8,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d25",
+        "task": "AMAZE 8 · NCT07400107",
+        "nct_id": "NCT07400107",
+        "title": "AMAZE 8: A Research Study Investigating How Well the Medicine NNC0487-0111 Compared to Semaglutide Helps People With Excess Body Weight and Type 2 Diabetes Lose Weight",
+        "start": "2026-05-20",
+        "start_raw": "2026-05-20",
+        "start_precision": "day",
+        "end": "2029-01-26",
+        "end_raw": "2029-01-26",
+        "end_precision": "day",
+        "lane": "Phase 3",
+        "category": "Not yet recruiting",
+        "status": "NOT_YET_RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07400107"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07400107",
+            "excerpt": "2026-05-20"
+          },
+          {
+            "nct_id": "NCT07400107",
+            "excerpt": "2029-01-26",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07400107",
+            "excerpt": "[\"PHASE3\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT07400107",
+            "excerpt": "NOT_YET_RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07400107",
+            "excerpt": "AMAZE 8: A Research Study Investigating How Well the Medicine NNC0487-0111 Compared to Semaglutide Helps People With Excess Body Weight and Type 2 Diabetes Lose Weight",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07400107",
+            "excerpt": "AMAZE 8",
+            "field_path": "protocolSection.identificationModule.acronym"
+          },
+          {
+            "nct_id": "NCT07400107",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07400107",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 8,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d26",
+        "task": "NCT07564414",
+        "nct_id": "NCT07564414",
+        "title": "A Research Study to Look at How Two Different Doses of CagriSema and One Dose of Semaglutide Help People Living With Obesity With or Without Type 2 Diabetes Lose Weight",
+        "start": "2026-05-21",
+        "start_raw": "2026-05-21",
+        "start_precision": "day",
+        "end": "2028-04-19",
+        "end_raw": "2028-04-19",
+        "end_precision": "day",
+        "lane": "Phase 3",
+        "category": "Recruiting",
+        "status": "RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07564414"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07564414",
+            "excerpt": "2026-05-21"
+          },
+          {
+            "nct_id": "NCT07564414",
+            "excerpt": "2028-04-19",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07564414",
+            "excerpt": "[\"PHASE3\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT07564414",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07564414",
+            "excerpt": "A Research Study to Look at How Two Different Doses of CagriSema and One Dose of Semaglutide Help People Living With Obesity With or Without Type 2 Diabetes Lose Weight",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07564414",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07564414",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 7,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d27",
+        "task": "NCT07357766",
+        "nct_id": "NCT07357766",
+        "title": "A Research Study to Compare Different Versions of Injectable CagriSema and Placebo in People With Excess Body Weight",
+        "start": "2026-06-22",
+        "start_raw": "2026-06-22",
+        "start_precision": "day",
+        "end": "2028-01-17",
+        "end_raw": "2028-01-17",
+        "end_precision": "day",
+        "lane": "Phase 3",
+        "category": "Withdrawn",
+        "status": "WITHDRAWN",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07357766"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07357766",
+            "excerpt": "2026-06-22"
+          },
+          {
+            "nct_id": "NCT07357766",
+            "excerpt": "2028-01-17",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07357766",
+            "excerpt": "[\"PHASE3\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT07357766",
+            "excerpt": "WITHDRAWN",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07357766",
+            "excerpt": "A Research Study to Compare Different Versions of Injectable CagriSema and Placebo in People With Excess Body Weight",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07357766",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07357766",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 7,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d28",
+        "task": "RENEW 4 · NCT07745504",
+        "nct_id": "NCT07745504",
+        "title": "A Research Study to Compare Two Different Versions of Injectable Cagrilintide and Placebo in People With Excess Body Weight",
+        "start": "2026-08-04",
+        "start_raw": "2026-08-04",
+        "start_precision": "day",
+        "end": "2027-07-06",
+        "end_raw": "2027-07-06",
+        "end_precision": "day",
+        "lane": "Phase 3",
+        "category": "Recruiting",
+        "status": "RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07745504"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07745504",
+            "excerpt": "2026-08-04"
+          },
+          {
+            "nct_id": "NCT07745504",
+            "excerpt": "2027-07-06",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07745504",
+            "excerpt": "[\"PHASE3\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT07745504",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07745504",
+            "excerpt": "A Research Study to Compare Two Different Versions of Injectable Cagrilintide and Placebo in People With Excess Body Weight",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07745504",
+            "excerpt": "RENEW 4",
+            "field_path": "protocolSection.identificationModule.acronym"
+          },
+          {
+            "nct_id": "NCT07745504",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07745504",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 8,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d29",
+        "task": "OASIS 5 · NCT07770841",
+        "nct_id": "NCT07770841",
+        "title": "Research Study on How Well Oral Semaglutide Works for Weight Loss in Adults With Excess Body Weight",
+        "start": "2026-08-12",
+        "start_raw": "2026-08-12",
+        "start_precision": "day",
+        "end": "2028-04-11",
+        "end_raw": "2028-04-11",
+        "end_precision": "day",
+        "lane": "Phase 3",
+        "category": "Recruiting",
+        "status": "RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07770841"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07770841",
+            "excerpt": "2026-08-12"
+          },
+          {
+            "nct_id": "NCT07770841",
+            "excerpt": "2028-04-11",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07770841",
+            "excerpt": "[\"PHASE3\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT07770841",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07770841",
+            "excerpt": "Research Study on How Well Oral Semaglutide Works for Weight Loss in Adults With Excess Body Weight",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07770841",
+            "excerpt": "OASIS 5",
+            "field_path": "protocolSection.identificationModule.acronym"
+          },
+          {
+            "nct_id": "NCT07770841",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07770841",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 8,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d30",
+        "task": "AMAZE 9 · NCT07720271",
+        "nct_id": "NCT07720271",
+        "title": "AMAZE 9: A Research Study Investigating How Well Zenagamtide Tablets Help People With Excess Body Weight Lose Weight",
+        "start": "2026-08-31",
+        "start_raw": "2026-08-31",
+        "start_precision": "day",
+        "end": "2028-08-22",
+        "end_raw": "2028-08-22",
+        "end_precision": "day",
+        "lane": "Phase 3",
+        "category": "Recruiting",
+        "status": "RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07720271"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07720271",
+            "excerpt": "2026-08-31"
+          },
+          {
+            "nct_id": "NCT07720271",
+            "excerpt": "2028-08-22",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07720271",
+            "excerpt": "[\"PHASE3\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT07720271",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07720271",
+            "excerpt": "AMAZE 9: A Research Study Investigating How Well Zenagamtide Tablets Help People With Excess Body Weight Lose Weight",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07720271",
+            "excerpt": "AMAZE 9",
+            "field_path": "protocolSection.identificationModule.acronym"
+          },
+          {
+            "nct_id": "NCT07720271",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07720271",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 8,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d31",
+        "task": "AMAZE 10 · NCT07822061",
+        "nct_id": "NCT07822061",
+        "title": "AMAZE 10: A Research Study Investigating How Well the Medicine NNC0487-0111 Helps People in Japan With Excess Body Weight Lose Weight",
+        "start": "2026-09-07",
+        "start_raw": "2026-09-07",
+        "start_precision": "day",
+        "end": "2029-02-05",
+        "end_raw": "2029-02-05",
+        "end_precision": "day",
+        "lane": "Phase 3",
+        "category": "Recruiting",
+        "status": "RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07822061"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07822061",
+            "excerpt": "2026-09-07"
+          },
+          {
+            "nct_id": "NCT07822061",
+            "excerpt": "2029-02-05",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07822061",
+            "excerpt": "[\"PHASE3\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT07822061",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07822061",
+            "excerpt": "AMAZE 10: A Research Study Investigating How Well the Medicine NNC0487-0111 Helps People in Japan With Excess Body Weight Lose Weight",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07822061",
+            "excerpt": "AMAZE 10",
+            "field_path": "protocolSection.identificationModule.acronym"
+          },
+          {
+            "nct_id": "NCT07822061",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07822061",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 8,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d32",
+        "task": "AMAZE 7 · NCT07668414",
+        "nct_id": "NCT07668414",
+        "title": "A Research Study Investigating How Well the Medicine Zenagamtide Helps People With Excess Body Weight Lose Weight Compared to Semaglutide",
+        "start": "2026-09-22",
+        "start_raw": "2026-09-22",
+        "start_precision": "day",
+        "end": "2028-10-10",
+        "end_raw": "2028-10-10",
+        "end_precision": "day",
+        "lane": "Phase 3",
+        "category": "Recruiting",
+        "status": "RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07668414"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07668414",
+            "excerpt": "2026-09-22"
+          },
+          {
+            "nct_id": "NCT07668414",
+            "excerpt": "2028-10-10",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07668414",
+            "excerpt": "[\"PHASE3\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT07668414",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07668414",
+            "excerpt": "A Research Study Investigating How Well the Medicine Zenagamtide Helps People With Excess Body Weight Lose Weight Compared to Semaglutide",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07668414",
+            "excerpt": "AMAZE 7",
+            "field_path": "protocolSection.identificationModule.acronym"
+          },
+          {
+            "nct_id": "NCT07668414",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07668414",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 8,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d33",
+        "task": "AMBIENCE · NCT07861100",
+        "nct_id": "NCT07861100",
+        "title": "A Research Study to Look at How Well Zenagamtide Works Compared to Placebo in People With Established Atherosclerotic Cardiovascular Disease and Either Overweight or Obesity",
+        "start": "2026-10-26",
+        "start_raw": "2026-10-26",
+        "start_precision": "day",
+        "end": "2030-09-16",
+        "end_raw": "2030-09-16",
+        "end_precision": "day",
+        "lane": "Phase 3",
+        "category": "Not yet recruiting",
+        "status": "NOT_YET_RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07861100"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07861100",
+            "excerpt": "2026-10-26"
+          },
+          {
+            "nct_id": "NCT07861100",
+            "excerpt": "2030-09-16",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07861100",
+            "excerpt": "[\"PHASE3\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT07861100",
+            "excerpt": "NOT_YET_RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07861100",
+            "excerpt": "A Research Study to Look at How Well Zenagamtide Works Compared to Placebo in People With Established Atherosclerotic Cardiovascular Disease and Either Overweight or Obesity",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07861100",
+            "excerpt": "AMBIENCE",
+            "field_path": "protocolSection.identificationModule.acronym"
+          },
+          {
+            "nct_id": "NCT07861100",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07861100",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 8,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d34",
+        "task": "AMAZE 13 · NCT07668401",
+        "nct_id": "NCT07668401",
+        "title": "AMAZE 13: A Research Study Investigating How Well the Medicine Zenagamtide Helps People in Asia With Excess Body Weight Lose Weight",
+        "start": "2027-01-07",
+        "start_raw": "2027-01-07",
+        "start_precision": "day",
+        "end": "2029-01-11",
+        "end_raw": "2029-01-11",
+        "end_precision": "day",
+        "lane": "Phase 3",
+        "category": "Not yet recruiting",
+        "status": "NOT_YET_RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07668401"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07668401",
+            "excerpt": "2027-01-07"
+          },
+          {
+            "nct_id": "NCT07668401",
+            "excerpt": "2029-01-11",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07668401",
+            "excerpt": "[\"PHASE3\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT07668401",
+            "excerpt": "NOT_YET_RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07668401",
+            "excerpt": "AMAZE 13: A Research Study Investigating How Well the Medicine Zenagamtide Helps People in Asia With Excess Body Weight Lose Weight",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07668401",
+            "excerpt": "AMAZE 13",
+            "field_path": "protocolSection.identificationModule.acronym"
+          },
+          {
+            "nct_id": "NCT07668401",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07668401",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 8,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d35",
+        "task": "GLOW · NCT06977438",
+        "nct_id": "NCT06977438",
+        "title": "GLP-1 Plus Lifestyle for Overall Wellness: Find Your Way Forward",
+        "start": "2026-10-15",
+        "start_raw": "2026-10-15",
+        "start_precision": "day",
+        "end": "2032-01-31",
+        "end_raw": "2032-01-31",
+        "end_precision": "day",
+        "lane": "Phase 4",
+        "category": "Not yet recruiting",
+        "status": "NOT_YET_RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT06977438"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT06977438",
+            "excerpt": "2026-10-15"
+          },
+          {
+            "nct_id": "NCT06977438",
+            "excerpt": "2032-01-31",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT06977438",
+            "excerpt": "[\"PHASE4\"]",
+            "field_path": "protocolSection.designModule.phases"
+          },
+          {
+            "nct_id": "NCT06977438",
+            "excerpt": "NOT_YET_RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT06977438",
+            "excerpt": "GLP-1 Plus Lifestyle for Overall Wellness: Find Your Way Forward",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT06977438",
+            "excerpt": "GLOW",
+            "field_path": "protocolSection.identificationModule.acronym"
+          },
+          {
+            "nct_id": "NCT06977438",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT06977438",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 8,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d36",
+        "task": "NCT07627074",
+        "nct_id": "NCT07627074",
+        "title": "Weight Loss in Adults Using Semaglutide (Real-world Study)",
+        "start": "2026-05-12",
+        "start_raw": "2026-05-12",
+        "start_precision": "day",
+        "end": "2026-06-15",
+        "end_raw": "2026-06-15",
+        "end_precision": "day",
+        "lane": "Not applicable",
+        "category": "Completed",
+        "status": "COMPLETED",
+        "is_estimated": false,
+        "point": false,
+        "nct_ids": [
+          "NCT07627074"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07627074",
+            "excerpt": "2026-05-12"
+          },
+          {
+            "nct_id": "NCT07627074",
+            "excerpt": "2026-06-15",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07627074",
+            "excerpt": "NCT07627074",
+            "field_path": "protocolSection.identificationModule.nctId"
+          },
+          {
+            "nct_id": "NCT07627074",
+            "excerpt": "COMPLETED",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07627074",
+            "excerpt": "Weight Loss in Adults Using Semaglutide (Real-world Study)",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d37",
+        "task": "NCT07673822",
+        "nct_id": "NCT07673822",
+        "title": "Prevalence and Overlap of Cardiovascular, Kidney, and Metabolic Diseases in Korea: A Population-based Study",
+        "start": "2026-06-08",
+        "start_raw": "2026-06-08",
+        "start_precision": "day",
+        "end": "2026-08-03",
+        "end_raw": "2026-08-03",
+        "end_precision": "day",
+        "lane": "Not applicable",
+        "category": "Enrolling by invitation",
+        "status": "ENROLLING_BY_INVITATION",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07673822"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07673822",
+            "excerpt": "2026-06-08"
+          },
+          {
+            "nct_id": "NCT07673822",
+            "excerpt": "2026-08-03",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07673822",
+            "excerpt": "NCT07673822",
+            "field_path": "protocolSection.identificationModule.nctId"
+          },
+          {
+            "nct_id": "NCT07673822",
+            "excerpt": "ENROLLING_BY_INVITATION",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07673822",
+            "excerpt": "Prevalence and Overlap of Cardiovascular, Kidney, and Metabolic Diseases in Korea: A Population-based Study",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07673822",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07673822",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 7,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d38",
+        "task": "SCALA-TK-CM · NCT07781371",
+        "nct_id": "NCT07781371",
+        "title": "A Retrospective Real-World Cohort Study",
+        "start": "2026-08-20",
+        "start_raw": "2026-08-20",
+        "start_precision": "day",
+        "end": "2026-11-02",
+        "end_raw": "2026-11-02",
+        "end_precision": "day",
+        "lane": "Not applicable",
+        "category": "Active, not recruiting",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07781371"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07781371",
+            "excerpt": "2026-08-20"
+          },
+          {
+            "nct_id": "NCT07781371",
+            "excerpt": "2026-11-02",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07781371",
+            "excerpt": "NCT07781371",
+            "field_path": "protocolSection.identificationModule.nctId"
+          },
+          {
+            "nct_id": "NCT07781371",
+            "excerpt": "ACTIVE_NOT_RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07781371",
+            "excerpt": "A Retrospective Real-World Cohort Study",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07781371",
+            "excerpt": "SCALA-TK-CM",
+            "field_path": "protocolSection.identificationModule.acronym"
+          },
+          {
+            "nct_id": "NCT07781371",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07781371",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 8,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d39",
+        "task": "NCT07850765",
+        "nct_id": "NCT07850765",
+        "title": "Real-World Patient and Physician Experience With Semaglutide Across Six Emerging Markets",
+        "start": "2026-08-28",
+        "start_raw": "2026-08-28",
+        "start_precision": "day",
+        "end": "2026-08-31",
+        "end_raw": "2026-08-31",
+        "end_precision": "day",
+        "lane": "Not applicable",
+        "category": "Completed",
+        "status": "COMPLETED",
+        "is_estimated": false,
+        "point": false,
+        "nct_ids": [
+          "NCT07850765"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07850765",
+            "excerpt": "2026-08-28"
+          },
+          {
+            "nct_id": "NCT07850765",
+            "excerpt": "2026-08-31",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07850765",
+            "excerpt": "NCT07850765",
+            "field_path": "protocolSection.identificationModule.nctId"
+          },
+          {
+            "nct_id": "NCT07850765",
+            "excerpt": "COMPLETED",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07850765",
+            "excerpt": "Real-World Patient and Physician Experience With Semaglutide Across Six Emerging Markets",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d40",
+        "task": "SEMAFOLLOW · NCT07423481",
+        "nct_id": "NCT07423481",
+        "title": "Weight Trajectories and Predictive Factors After Semaglutide in Patients With Grade 3 and Complicated Obesity",
+        "start": "2026-10-01",
+        "start_raw": "2026-10-01",
+        "start_precision": "day",
+        "end": "2027-07-01",
+        "end_raw": "2027-07-01",
+        "end_precision": "day",
+        "lane": "Not applicable",
+        "category": "Not yet recruiting",
+        "status": "NOT_YET_RECRUITING",
+        "is_estimated": true,
+        "point": false,
+        "nct_ids": [
+          "NCT07423481"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT07423481",
+            "excerpt": "2026-10-01"
+          },
+          {
+            "nct_id": "NCT07423481",
+            "excerpt": "2027-07-01",
+            "field_path": "protocolSection.statusModule.completionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT07423481",
+            "excerpt": "NCT07423481",
+            "field_path": "protocolSection.identificationModule.nctId"
+          },
+          {
+            "nct_id": "NCT07423481",
+            "excerpt": "NOT_YET_RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          },
+          {
+            "nct_id": "NCT07423481",
+            "excerpt": "Weight Trajectories and Predictive Factors After Semaglutide in Patients With Grade 3 and Complicated Obesity",
+            "field_path": "protocolSection.identificationModule.briefTitle"
+          },
+          {
+            "nct_id": "NCT07423481",
+            "excerpt": "SEMAFOLLOW",
+            "field_path": "protocolSection.identificationModule.acronym"
+          },
+          {
+            "nct_id": "NCT07423481",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          },
+          {
+            "nct_id": "NCT07423481",
+            "excerpt": "ESTIMATED",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 8,
+        "excerpts_truncated": false
+      }
+    ]
+  },
+  "answer_summary": "The timeline shows the 40 most recently started trials of 272. Of those shown: 24 recruiting, 8 not yet recruiting, 3 completed. Based on 272 trials from ClinicalTrials.gov.",
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "conditions": [
+        "obesity"
+      ],
+      "sponsors": [
+        "Novo Nordisk"
+      ]
+    },
+    "query_interpretation": {
+      "intent": "sponsor_activity",
+      "persona": "researcher",
+      "scope": "cohort",
+      "confidence": 0.9,
+      "parser": "llm",
+      "cohorts": [
+        {
+          "label": "Novo Nordisk · Obesity",
+          "conditions": [
+            "obesity"
+          ],
+          "sponsors": [
+            "Novo Nordisk"
+          ]
+        }
+      ],
+      "resolved_entities": [
+        {
+          "input": "Novo Nordisk",
+          "resolved": "Novo Nordisk",
+          "kind": "sponsor",
+          "method": "exact"
+        },
+        {
+          "input": "obesity",
+          "resolved": "obesity",
+          "kind": "condition",
+          "method": "exact"
+        }
+      ]
+    },
+    "assumptions": [
+      "Broad question: showing a timeline of the sponsor's trials as an overview. Ask for a trend, phase, status or country breakdown for a different view."
+    ],
+    "notes": [
+      {
+        "code": "TRUNCATED",
+        "severity": "info",
+        "message": "Showing the 40 most recently started of 272 trials."
+      },
+      {
+        "code": "APPROXIMATED",
+        "severity": "info",
+        "message": "37 trial(s) use estimated (planned) dates (is_estimated: true)."
+      }
+    ],
+    "time_granularity": "day",
+    "grouping": {
+      "lane": "phase",
+      "lane_order": [
+        "Phase 1",
+        "Phase 2",
+        "Phase 3",
+        "Phase 4",
+        "Not applicable"
+      ],
+      "color": "status"
+    },
+    "time_axis": {
+      "kind": "calendar"
+    },
+    "coverage": {
+      "studies_matched_total": 272,
+      "studies_analyzed": 272,
+      "counting_method": "all_records",
+      "sampled": false,
+      "queries": [
+        "https://clinicaltrials.gov/search?cond=obesity&spons=%22Novo+Nordisk%22"
+      ]
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "validation": {
+      "passed": true,
+      "checks": [
+        {
+          "name": "retrieval_matches_api_total",
+          "passed": true,
+          "detail": "Novo Nordisk · Obesity: 272 of 272"
+        },
+        {
+          "name": "counts_match_trial_lists",
+          "passed": true,
+          "detail": "0 count datum(s) checked"
+        },
+        {
+          "name": "each_trial_in_one_bucket",
+          "passed": true,
+          "detail": "not a single-valued grouping"
+        },
+        {
+          "name": "citations_from_retrieved_records",
+          "passed": true,
+          "detail": "40 NCT id(s), all retrieved"
+        },
+        {
+          "name": "summary_numbers_in_data",
+          "passed": true,
+          "detail": "every number appears in the data"
+        },
+        {
+          "name": "value_axes_labeled",
+          "passed": true,
+          "detail": "all value axes say what they measure"
+        }
+      ]
+    },
+    "alternatives": [
+      {
+        "type": "bar_chart",
+        "reason": "compare categories side by side"
+      },
+      {
+        "type": "table",
+        "reason": "all values as a sortable table"
+      }
+    ],
+    "request_id": "106c48a2598b4ae7a1e599a381e03c03",
+    "created_at": "2026-10-19T09:51:23+00:00",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-16T09:00:05"
+  }
+}

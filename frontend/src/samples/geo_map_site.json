@@ -1,0 +1,334 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "geo_map",
+    "title": "Study sites — KEYNOTE-B21 (NCT03765918)",
+    "encoding": {
+      "series": {
+        "field": "site_status",
+        "type": "nominal",
+        "title": "Site status"
+      },
+      "label": {
+        "field": "facility",
+        "type": "nominal",
+        "title": "Site"
+      },
+      "tooltip": [
+        "city",
+        "country"
+      ]
+    },
+    "data": [
+      {
+        "id": "d1",
+        "facility": "Mayo Clinic",
+        "city": "Rochester",
+        "country": "United States",
+        "lat": 44.0225,
+        "lon": -92.4699,
+        "site_status": "RECRUITING",
+        "nct_ids": [
+          "NCT03765918"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[0].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03765918",
+            "excerpt": "Mayo Clinic"
+          },
+          {
+            "nct_id": "NCT03765918",
+            "excerpt": "44.0225",
+            "field_path": "protocolSection.contactsLocationsModule.locations[0].geoPoint.lat"
+          },
+          {
+            "nct_id": "NCT03765918",
+            "excerpt": "-92.4699",
+            "field_path": "protocolSection.contactsLocationsModule.locations[0].geoPoint.lon"
+          },
+          {
+            "nct_id": "NCT03765918",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.contactsLocationsModule.locations[0].status"
+          }
+        ],
+        "citations_total": 4,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d2",
+        "facility": "MD Anderson Cancer Center",
+        "city": "Houston",
+        "country": "United States",
+        "lat": 29.7072,
+        "lon": -95.3978,
+        "site_status": "RECRUITING",
+        "nct_ids": [
+          "NCT03765918"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[1].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03765918",
+            "excerpt": "MD Anderson Cancer Center"
+          },
+          {
+            "nct_id": "NCT03765918",
+            "excerpt": "29.7072",
+            "field_path": "protocolSection.contactsLocationsModule.locations[1].geoPoint.lat"
+          },
+          {
+            "nct_id": "NCT03765918",
+            "excerpt": "-95.3978",
+            "field_path": "protocolSection.contactsLocationsModule.locations[1].geoPoint.lon"
+          },
+          {
+            "nct_id": "NCT03765918",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.contactsLocationsModule.locations[1].status"
+          }
+        ],
+        "citations_total": 4,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d3",
+        "facility": "Gustave Roussy",
+        "city": "Villejuif",
+        "country": "France",
+        "lat": 48.7943,
+        "lon": 2.3634,
+        "site_status": "RECRUITING",
+        "nct_ids": [
+          "NCT03765918"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[2].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03765918",
+            "excerpt": "Gustave Roussy"
+          },
+          {
+            "nct_id": "NCT03765918",
+            "excerpt": "48.7943",
+            "field_path": "protocolSection.contactsLocationsModule.locations[2].geoPoint.lat"
+          },
+          {
+            "nct_id": "NCT03765918",
+            "excerpt": "2.3634",
+            "field_path": "protocolSection.contactsLocationsModule.locations[2].geoPoint.lon"
+          },
+          {
+            "nct_id": "NCT03765918",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.contactsLocationsModule.locations[2].status"
+          }
+        ],
+        "citations_total": 4,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d4",
+        "facility": "Charité – Universitätsmedizin Berlin",
+        "city": "Berlin",
+        "country": "Germany",
+        "lat": 52.5262,
+        "lon": 13.3768,
+        "site_status": "NOT_YET_RECRUITING",
+        "nct_ids": [
+          "NCT03765918"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[3].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03765918",
+            "excerpt": "Charité – Universitätsmedizin Berlin"
+          },
+          {
+            "nct_id": "NCT03765918",
+            "excerpt": "52.5262",
+            "field_path": "protocolSection.contactsLocationsModule.locations[3].geoPoint.lat"
+          },
+          {
+            "nct_id": "NCT03765918",
+            "excerpt": "13.3768",
+            "field_path": "protocolSection.contactsLocationsModule.locations[3].geoPoint.lon"
+          },
+          {
+            "nct_id": "NCT03765918",
+            "excerpt": "NOT_YET_RECRUITING",
+            "field_path": "protocolSection.contactsLocationsModule.locations[3].status"
+          }
+        ],
+        "citations_total": 4,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d5",
+        "facility": "National Cancer Center Hospital East",
+        "city": "Kashiwa",
+        "country": "Japan",
+        "lat": 35.9026,
+        "lon": 139.9683,
+        "site_status": "RECRUITING",
+        "nct_ids": [
+          "NCT03765918"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[4].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03765918",
+            "excerpt": "National Cancer Center Hospital East"
+          },
+          {
+            "nct_id": "NCT03765918",
+            "excerpt": "35.9026",
+            "field_path": "protocolSection.contactsLocationsModule.locations[4].geoPoint.lat"
+          },
+          {
+            "nct_id": "NCT03765918",
+            "excerpt": "139.9683",
+            "field_path": "protocolSection.contactsLocationsModule.locations[4].geoPoint.lon"
+          },
+          {
+            "nct_id": "NCT03765918",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.contactsLocationsModule.locations[4].status"
+          }
+        ],
+        "citations_total": 4,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d6",
+        "facility": "Peter MacCallum Cancer Centre",
+        "city": "Melbourne",
+        "country": "Australia",
+        "lat": -37.7998,
+        "lon": 144.9568,
+        "site_status": "RECRUITING",
+        "nct_ids": [
+          "NCT03765918"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[5].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03765918",
+            "excerpt": "Peter MacCallum Cancer Centre"
+          },
+          {
+            "nct_id": "NCT03765918",
+            "excerpt": "-37.7998",
+            "field_path": "protocolSection.contactsLocationsModule.locations[5].geoPoint.lat"
+          },
+          {
+            "nct_id": "NCT03765918",
+            "excerpt": "144.9568",
+            "field_path": "protocolSection.contactsLocationsModule.locations[5].geoPoint.lon"
+          },
+          {
+            "nct_id": "NCT03765918",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.contactsLocationsModule.locations[5].status"
+          }
+        ],
+        "citations_total": 4,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d7",
+        "facility": "Hospital Universitario 12 de Octubre",
+        "city": "Madrid",
+        "country": "Spain",
+        "lat": 40.3752,
+        "lon": -3.6987,
+        "site_status": "RECRUITING",
+        "nct_ids": [
+          "NCT03765918"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[6].facility",
+        "citations": [
+          {
+            "nct_id": "NCT03765918",
+            "excerpt": "Hospital Universitario 12 de Octubre"
+          },
+          {
+            "nct_id": "NCT03765918",
+            "excerpt": "40.3752",
+            "field_path": "protocolSection.contactsLocationsModule.locations[6].geoPoint.lat"
+          },
+          {
+            "nct_id": "NCT03765918",
+            "excerpt": "-3.6987",
+            "field_path": "protocolSection.contactsLocationsModule.locations[6].geoPoint.lon"
+          },
+          {
+            "nct_id": "NCT03765918",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.contactsLocationsModule.locations[6].status"
+          }
+        ],
+        "citations_total": 4,
+        "excerpts_truncated": false
+      }
+    ]
+  },
+  "answer_summary": "[NCT03765918] lists 7 sites; 6 are recruiting.",
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "nct_ids": [
+        "NCT03765918"
+      ]
+    },
+    "query_interpretation": {
+      "intent": "sites_and_contacts",
+      "persona": "patient",
+      "scope": "single_trial",
+      "confidence": 0.92,
+      "parser": "rules"
+    },
+    "geo": {
+      "level": "site",
+      "lat_field": "lat",
+      "lon_field": "lon"
+    },
+    "coverage": {
+      "studies_matched_total": 1,
+      "studies_analyzed": 1,
+      "counting_method": "all_records",
+      "sampled": false
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "alternatives": [
+      {
+        "type": "table",
+        "reason": "all values as a sortable table"
+      }
+    ],
+    "request_id": "req_sample_19_geo_site",
+    "created_at": "2026-10-18T14:22:05Z",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-17T09:00:12"
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "timeline",
+    "title": "Pembrolizumab phase 3 trials by sponsor",
+    "subtitle": "Bars run from start to primary completion; dots mark trials without a completion date",
+    "encoding": {
+      "x": {
+        "field": "start",
+        "type": "temporal",
+        "title": "Start",
+        "time_format": "%Y-%m"
+      },
+      "x2": {
+        "field": "end",
+        "type": "temporal",
+        "title": "Primary completion",
+        "time_format": "%Y-%m"
+      },
+      "y": {
+        "field": "trial",
+        "type": "nominal",
+        "title": "Trial"
+      },
+      "series": {
+        "field": "sponsor",
+        "type": "nominal",
+        "title": "Lead sponsor"
+      },
+      "tooltip": [
+        "overall_status",
+        "nct_id"
+      ]
+    },
+    "data": [
+      {
+        "id": "d1",
+        "sponsor": "Merck Sharp & Dohme LLC",
+        "nct_id": "NCT02142738",
+        "trial": "KEYNOTE-024 (NCT02142738)",
+        "start": "2014-09-19",
+        "end": "2017-06-01",
+        "overall_status": "COMPLETED",
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "2014-09-19"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "2017-06-01",
+            "field_path": "protocolSection.statusModule.primaryCompletionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Merck Sharp & Dohme LLC",
+            "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d2",
+        "sponsor": "Merck Sharp & Dohme LLC",
+        "nct_id": "NCT02578680",
+        "trial": "KEYNOTE-189 (NCT02578680)",
+        "start": "2016-02-26",
+        "end": "2023-03-24",
+        "overall_status": "COMPLETED",
+        "nct_ids": [
+          "NCT02578680"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT02578680",
+            "excerpt": "2016-02-26"
+          },
+          {
+            "nct_id": "NCT02578680",
+            "excerpt": "2023-03-24",
+            "field_path": "protocolSection.statusModule.primaryCompletionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT02578680",
+            "excerpt": "Merck Sharp & Dohme LLC",
+            "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d3",
+        "sponsor": "Merck Sharp & Dohme LLC",
+        "nct_id": "NCT03142334",
+        "trial": "KEYNOTE-564 (NCT03142334)",
+        "start": "2017-06-05",
+        "end": "2026-11-30",
+        "overall_status": "ACTIVE_NOT_RECRUITING",
+        "nct_ids": [
+          "NCT03142334"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT03142334",
+            "excerpt": "2017-06-05"
+          },
+          {
+            "nct_id": "NCT03142334",
+            "excerpt": "2026-11-30",
+            "field_path": "protocolSection.statusModule.primaryCompletionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT03142334",
+            "excerpt": "Merck Sharp & Dohme LLC",
+            "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d4",
+        "sponsor": "Merck Sharp & Dohme LLC",
+        "nct_id": "NCT03765918",
+        "trial": "KEYNOTE-B21 (NCT03765918)",
+        "start": "2019-01-08",
+        "overall_status": "RECRUITING",
+        "nct_ids": [
+          "NCT03765918"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT03765918",
+            "excerpt": "2019-01-08"
+          },
+          {
+            "nct_id": "NCT03765918",
+            "excerpt": "Merck Sharp & Dohme LLC",
+            "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d5",
+        "sponsor": "National Cancer Institute (NCI)",
+        "nct_id": "NCT02362594",
+        "trial": "EORTC 1325 (NCT02362594)",
+        "start": "2015-08-26",
+        "end": "2024-12-31",
+        "overall_status": "ACTIVE_NOT_RECRUITING",
+        "nct_ids": [
+          "NCT02362594"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT02362594",
+            "excerpt": "2015-08-26"
+          },
+          {
+            "nct_id": "NCT02362594",
+            "excerpt": "2024-12-31",
+            "field_path": "protocolSection.statusModule.primaryCompletionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT02362594",
+            "excerpt": "National Cancer Institute (NCI)",
+            "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d6",
+        "sponsor": "National Cancer Institute (NCI)",
+        "nct_id": "NCT02775435",
+        "trial": "S1418 (NCT02775435)",
+        "start": "2016-11-15",
+        "end": "2025-06-30",
+        "overall_status": "COMPLETED",
+        "nct_ids": [
+          "NCT02775435"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT02775435",
+            "excerpt": "2016-11-15"
+          },
+          {
+            "nct_id": "NCT02775435",
+            "excerpt": "2025-06-30",
+            "field_path": "protocolSection.statusModule.primaryCompletionDateStruct.date"
+          },
+          {
+            "nct_id": "NCT02775435",
+            "excerpt": "National Cancer Institute (NCI)",
+            "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      }
+    ]
+  },
+  "answer_summary": "KEYNOTE-024 [NCT02142738] ran from 2014-09-19 to 2017-06-01; KEYNOTE-B21 [NCT03765918] is still recruiting.",
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "drug_names": [
+        "pembrolizumab"
+      ],
+      "sponsors": [
+        "Merck Sharp & Dohme LLC",
+        "National Cancer Institute (NCI)"
+      ],
+      "phases": [
+        "PHASE3"
+      ]
+    },
+    "query_interpretation": {
+      "intent": "sponsor_activity",
+      "persona": "researcher",
+      "scope": "cohort",
+      "confidence": 0.92,
+      "parser": "llm",
+      "cohorts": [
+        {
+          "label": "pembrolizumab",
+          "drugs": [
+            "pembrolizumab"
+          ],
+          "sponsors": [
+            "Merck Sharp & Dohme LLC",
+            "National Cancer Institute (NCI)"
+          ],
+          "phases": [
+            "PHASE3"
+          ]
+        }
+      ]
+    },
+    "lanes": [
+      {
+        "name": "Merck Sharp & Dohme LLC",
+        "axis": {
+          "kind": "calendar"
+        },
+        "start_field": "start",
+        "end_field": "end",
+        "approximated": false
+      },
+      {
+        "name": "National Cancer Institute (NCI)",
+        "axis": {
+          "kind": "calendar"
+        },
+        "start_field": "start",
+        "end_field": "end",
+        "approximated": false
+      }
+    ],
+    "coverage": {
+      "studies_matched_total": 6,
+      "studies_analyzed": 6,
+      "counting_method": "all_records",
+      "sampled": false
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "alternatives": [
+      {
+        "type": "table",
+        "reason": "all values as a sortable table"
+      }
+    ],
+    "request_id": "req_sample_12_timeline",
+    "created_at": "2026-10-18T14:22:05Z",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-17T09:00:12"
+  }
+}

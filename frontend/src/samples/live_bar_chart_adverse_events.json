@@ -1,0 +1,1642 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "bar_chart",
+    "title": "Adverse events by arm: STEP 1",
+    "encoding": {
+      "x": {
+        "field": "term",
+        "type": "nominal",
+        "title": "Adverse event",
+        "sort": {
+          "values": [
+            "Any serious adverse event",
+            "Nausea",
+            "Diarrhoea",
+            "Vomiting",
+            "Constipation",
+            "Nasopharyngitis",
+            "Headache",
+            "Upper respiratory tract infection",
+            "Dyspepsia",
+            "Abdominal pain",
+            "Influenza",
+            "Abdominal pain upper",
+            "Decreased appetite",
+            "Eructation",
+            "Back pain",
+            "Fatigue"
+          ]
+        }
+      },
+      "y": {
+        "field": "rate",
+        "type": "quantitative",
+        "title": "Participants affected",
+        "unit": "%",
+        "format": ".1%"
+      },
+      "series": {
+        "field": "arm",
+        "type": "nominal",
+        "title": "Arm"
+      },
+      "tooltip": [
+        "n_affected",
+        "n_at_risk",
+        "organ_system",
+        "seriousness"
+      ]
+    },
+    "data": [
+      {
+        "id": "d1",
+        "term": "Any serious adverse event",
+        "arm": "Sema 2.4 mg",
+        "rate": 0.098,
+        "n_affected": 128,
+        "n_at_risk": 1306,
+        "organ_system": "All",
+        "seriousness": "any_serious",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.eventGroups[0].seriousNumAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "128",
+            "label": "Sema 2.4 mg: affected"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "field_path": "resultsSection.adverseEventsModule.eventGroups[0].seriousNumAtRisk",
+            "label": "Sema 2.4 mg: at risk"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Sema 2.4 mg",
+            "field_path": "resultsSection.adverseEventsModule.eventGroups[0].title"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d2",
+        "term": "Any serious adverse event",
+        "arm": "Placebo",
+        "rate": 0.0641,
+        "n_affected": 42,
+        "n_at_risk": 655,
+        "organ_system": "All",
+        "seriousness": "any_serious",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.eventGroups[1].seriousNumAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "42",
+            "label": "Placebo: affected"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.adverseEventsModule.eventGroups[1].seriousNumAtRisk",
+            "label": "Placebo: at risk"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Placebo",
+            "field_path": "resultsSection.adverseEventsModule.eventGroups[1].title"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d3",
+        "term": "Nausea",
+        "arm": "Sema 2.4 mg",
+        "rate": 0.441,
+        "n_affected": 576,
+        "n_at_risk": 1306,
+        "organ_system": "Gastrointestinal disorders",
+        "seriousness": "other",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[18].stats[0].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "576",
+            "label": "Nausea / Sema 2.4 mg: affected"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[18].stats[0].numAtRisk",
+            "label": "Sema 2.4 mg: at risk"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Nausea",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[18].term"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Gastrointestinal disorders",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[18].organSystem"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Sema 2.4 mg",
+            "field_path": "resultsSection.adverseEventsModule.eventGroups[0].title"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d4",
+        "term": "Nausea",
+        "arm": "Placebo",
+        "rate": 0.174,
+        "n_affected": 114,
+        "n_at_risk": 655,
+        "organ_system": "Gastrointestinal disorders",
+        "seriousness": "other",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[18].stats[1].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "114",
+            "label": "Nausea / Placebo: affected"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[18].stats[1].numAtRisk",
+            "label": "Placebo: at risk"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Nausea",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[18].term"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Gastrointestinal disorders",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[18].organSystem"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Placebo",
+            "field_path": "resultsSection.adverseEventsModule.eventGroups[1].title"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d5",
+        "term": "Diarrhoea",
+        "arm": "Sema 2.4 mg",
+        "rate": 0.3147,
+        "n_affected": 411,
+        "n_at_risk": 1306,
+        "organ_system": "Gastrointestinal disorders",
+        "seriousness": "other",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[8].stats[0].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "411",
+            "label": "Diarrhoea / Sema 2.4 mg: affected"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[8].stats[0].numAtRisk",
+            "label": "Sema 2.4 mg: at risk"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Diarrhoea",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[8].term"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Gastrointestinal disorders",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[8].organSystem"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Sema 2.4 mg",
+            "field_path": "resultsSection.adverseEventsModule.eventGroups[0].title"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d6",
+        "term": "Diarrhoea",
+        "arm": "Placebo",
+        "rate": 0.1588,
+        "n_affected": 104,
+        "n_at_risk": 655,
+        "organ_system": "Gastrointestinal disorders",
+        "seriousness": "other",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[8].stats[1].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "104",
+            "label": "Diarrhoea / Placebo: affected"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[8].stats[1].numAtRisk",
+            "label": "Placebo: at risk"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Diarrhoea",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[8].term"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Gastrointestinal disorders",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[8].organSystem"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Placebo",
+            "field_path": "resultsSection.adverseEventsModule.eventGroups[1].title"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d7",
+        "term": "Vomiting",
+        "arm": "Sema 2.4 mg",
+        "rate": 0.2458,
+        "n_affected": 321,
+        "n_at_risk": 1306,
+        "organ_system": "Gastrointestinal disorders",
+        "seriousness": "other",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[22].stats[0].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "321",
+            "label": "Vomiting / Sema 2.4 mg: affected"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[22].stats[0].numAtRisk",
+            "label": "Sema 2.4 mg: at risk"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Vomiting",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[22].term"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Gastrointestinal disorders",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[22].organSystem"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Sema 2.4 mg",
+            "field_path": "resultsSection.adverseEventsModule.eventGroups[0].title"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d8",
+        "term": "Vomiting",
+        "arm": "Placebo",
+        "rate": 0.0656,
+        "n_affected": 43,
+        "n_at_risk": 655,
+        "organ_system": "Gastrointestinal disorders",
+        "seriousness": "other",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[22].stats[1].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "43",
+            "label": "Vomiting / Placebo: affected"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[22].stats[1].numAtRisk",
+            "label": "Placebo: at risk"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Vomiting",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[22].term"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Gastrointestinal disorders",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[22].organSystem"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Placebo",
+            "field_path": "resultsSection.adverseEventsModule.eventGroups[1].title"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d9",
+        "term": "Constipation",
+        "arm": "Sema 2.4 mg",
+        "rate": 0.2335,
+        "n_affected": 305,
+        "n_at_risk": 1306,
+        "organ_system": "Gastrointestinal disorders",
+        "seriousness": "other",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[5].stats[0].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "305",
+            "label": "Constipation / Sema 2.4 mg: affected"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[5].stats[0].numAtRisk",
+            "label": "Sema 2.4 mg: at risk"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Constipation",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[5].term"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Gastrointestinal disorders",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[5].organSystem"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Sema 2.4 mg",
+            "field_path": "resultsSection.adverseEventsModule.eventGroups[0].title"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d10",
+        "term": "Constipation",
+        "arm": "Placebo",
+        "rate": 0.0947,
+        "n_affected": 62,
+        "n_at_risk": 655,
+        "organ_system": "Gastrointestinal disorders",
+        "seriousness": "other",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[5].stats[1].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "62",
+            "label": "Constipation / Placebo: affected"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[5].stats[1].numAtRisk",
+            "label": "Placebo: at risk"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Constipation",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[5].term"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Gastrointestinal disorders",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[5].organSystem"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Placebo",
+            "field_path": "resultsSection.adverseEventsModule.eventGroups[1].title"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d11",
+        "term": "Nasopharyngitis",
+        "arm": "Sema 2.4 mg",
+        "rate": 0.2152,
+        "n_affected": 281,
+        "n_at_risk": 1306,
+        "organ_system": "Infections and infestations",
+        "seriousness": "other",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[17].stats[0].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "281",
+            "label": "Nasopharyngitis / Sema 2.4 mg: affected"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[17].stats[0].numAtRisk",
+            "label": "Sema 2.4 mg: at risk"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Nasopharyngitis",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[17].term"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Infections and infestations",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[17].organSystem"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Sema 2.4 mg",
+            "field_path": "resultsSection.adverseEventsModule.eventGroups[0].title"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d12",
+        "term": "Nasopharyngitis",
+        "arm": "Placebo",
+        "rate": 0.2031,
+        "n_affected": 133,
+        "n_at_risk": 655,
+        "organ_system": "Infections and infestations",
+        "seriousness": "other",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[17].stats[1].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "133",
+            "label": "Nasopharyngitis / Placebo: affected"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[17].stats[1].numAtRisk",
+            "label": "Placebo: at risk"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Nasopharyngitis",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[17].term"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Infections and infestations",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[17].organSystem"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Placebo",
+            "field_path": "resultsSection.adverseEventsModule.eventGroups[1].title"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d13",
+        "term": "Headache",
+        "arm": "Sema 2.4 mg",
+        "rate": 0.1516,
+        "n_affected": 198,
+        "n_at_risk": 1306,
+        "organ_system": "Nervous system disorders",
+        "seriousness": "other",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[15].stats[0].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "198",
+            "label": "Headache / Sema 2.4 mg: affected"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[15].stats[0].numAtRisk",
+            "label": "Sema 2.4 mg: at risk"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Headache",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[15].term"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Nervous system disorders",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[15].organSystem"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Sema 2.4 mg",
+            "field_path": "resultsSection.adverseEventsModule.eventGroups[0].title"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d14",
+        "term": "Headache",
+        "arm": "Placebo",
+        "rate": 0.1221,
+        "n_affected": 80,
+        "n_at_risk": 655,
+        "organ_system": "Nervous system disorders",
+        "seriousness": "other",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[15].stats[1].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "80",
+            "label": "Headache / Placebo: affected"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[15].stats[1].numAtRisk",
+            "label": "Placebo: at risk"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Headache",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[15].term"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Nervous system disorders",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[15].organSystem"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Placebo",
+            "field_path": "resultsSection.adverseEventsModule.eventGroups[1].title"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d15",
+        "term": "Upper respiratory tract infection",
+        "arm": "Sema 2.4 mg",
+        "rate": 0.0873,
+        "n_affected": 114,
+        "n_at_risk": 1306,
+        "organ_system": "Infections and infestations",
+        "seriousness": "other",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[20].stats[0].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "114",
+            "label": "Upper respiratory tract infection / Sema 2.4 mg: affected"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[20].stats[0].numAtRisk",
+            "label": "Sema 2.4 mg: at risk"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Upper respiratory tract infection",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[20].term"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Infections and infestations",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[20].organSystem"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Sema 2.4 mg",
+            "field_path": "resultsSection.adverseEventsModule.eventGroups[0].title"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d16",
+        "term": "Upper respiratory tract infection",
+        "arm": "Placebo",
+        "rate": 0.1221,
+        "n_affected": 80,
+        "n_at_risk": 655,
+        "organ_system": "Infections and infestations",
+        "seriousness": "other",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[20].stats[1].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "80",
+            "label": "Upper respiratory tract infection / Placebo: affected"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[20].stats[1].numAtRisk",
+            "label": "Placebo: at risk"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Upper respiratory tract infection",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[20].term"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Infections and infestations",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[20].organSystem"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Placebo",
+            "field_path": "resultsSection.adverseEventsModule.eventGroups[1].title"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d17",
+        "term": "Dyspepsia",
+        "arm": "Sema 2.4 mg",
+        "rate": 0.1034,
+        "n_affected": 135,
+        "n_at_risk": 1306,
+        "organ_system": "Gastrointestinal disorders",
+        "seriousness": "other",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[10].stats[0].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "135",
+            "label": "Dyspepsia / Sema 2.4 mg: affected"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[10].stats[0].numAtRisk",
+            "label": "Sema 2.4 mg: at risk"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Dyspepsia",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[10].term"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Gastrointestinal disorders",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[10].organSystem"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Sema 2.4 mg",
+            "field_path": "resultsSection.adverseEventsModule.eventGroups[0].title"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d18",
+        "term": "Dyspepsia",
+        "arm": "Placebo",
+        "rate": 0.0351,
+        "n_affected": 23,
+        "n_at_risk": 655,
+        "organ_system": "Gastrointestinal disorders",
+        "seriousness": "other",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[10].stats[1].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "23",
+            "label": "Dyspepsia / Placebo: affected"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[10].stats[1].numAtRisk",
+            "label": "Placebo: at risk"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Dyspepsia",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[10].term"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Gastrointestinal disorders",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[10].organSystem"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Placebo",
+            "field_path": "resultsSection.adverseEventsModule.eventGroups[1].title"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d19",
+        "term": "Abdominal pain",
+        "arm": "Sema 2.4 mg",
+        "rate": 0.0972,
+        "n_affected": 127,
+        "n_at_risk": 1306,
+        "organ_system": "Gastrointestinal disorders",
+        "seriousness": "other",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[1].stats[0].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "127",
+            "label": "Abdominal pain / Sema 2.4 mg: affected"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[1].stats[0].numAtRisk",
+            "label": "Sema 2.4 mg: at risk"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Abdominal pain",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[1].term"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Gastrointestinal disorders",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[1].organSystem"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Sema 2.4 mg",
+            "field_path": "resultsSection.adverseEventsModule.eventGroups[0].title"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d20",
+        "term": "Abdominal pain",
+        "arm": "Placebo",
+        "rate": 0.055,
+        "n_affected": 36,
+        "n_at_risk": 655,
+        "organ_system": "Gastrointestinal disorders",
+        "seriousness": "other",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[1].stats[1].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "36",
+            "label": "Abdominal pain / Placebo: affected"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[1].stats[1].numAtRisk",
+            "label": "Placebo: at risk"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Abdominal pain",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[1].term"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Gastrointestinal disorders",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[1].organSystem"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Placebo",
+            "field_path": "resultsSection.adverseEventsModule.eventGroups[1].title"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d21",
+        "term": "Influenza",
+        "arm": "Sema 2.4 mg",
+        "rate": 0.0681,
+        "n_affected": 89,
+        "n_at_risk": 1306,
+        "organ_system": "Infections and infestations",
+        "seriousness": "other",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[16].stats[0].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "89",
+            "label": "Influenza / Sema 2.4 mg: affected"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[16].stats[0].numAtRisk",
+            "label": "Sema 2.4 mg: at risk"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Influenza",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[16].term"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Infections and infestations",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[16].organSystem"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Sema 2.4 mg",
+            "field_path": "resultsSection.adverseEventsModule.eventGroups[0].title"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d22",
+        "term": "Influenza",
+        "arm": "Placebo",
+        "rate": 0.0962,
+        "n_affected": 63,
+        "n_at_risk": 655,
+        "organ_system": "Infections and infestations",
+        "seriousness": "other",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[16].stats[1].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "63",
+            "label": "Influenza / Placebo: affected"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[16].stats[1].numAtRisk",
+            "label": "Placebo: at risk"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Influenza",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[16].term"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Infections and infestations",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[16].organSystem"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Placebo",
+            "field_path": "resultsSection.adverseEventsModule.eventGroups[1].title"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d23",
+        "term": "Abdominal pain upper",
+        "arm": "Sema 2.4 mg",
+        "rate": 0.0957,
+        "n_affected": 125,
+        "n_at_risk": 1306,
+        "organ_system": "Gastrointestinal disorders",
+        "seriousness": "other",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[2].stats[0].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "125",
+            "label": "Abdominal pain upper / Sema 2.4 mg: affected"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[2].stats[0].numAtRisk",
+            "label": "Sema 2.4 mg: at risk"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Abdominal pain upper",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[2].term"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Gastrointestinal disorders",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[2].organSystem"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Sema 2.4 mg",
+            "field_path": "resultsSection.adverseEventsModule.eventGroups[0].title"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d24",
+        "term": "Abdominal pain upper",
+        "arm": "Placebo",
+        "rate": 0.0534,
+        "n_affected": 35,
+        "n_at_risk": 655,
+        "organ_system": "Gastrointestinal disorders",
+        "seriousness": "other",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[2].stats[1].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "35",
+            "label": "Abdominal pain upper / Placebo: affected"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[2].stats[1].numAtRisk",
+            "label": "Placebo: at risk"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Abdominal pain upper",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[2].term"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Gastrointestinal disorders",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[2].organSystem"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Placebo",
+            "field_path": "resultsSection.adverseEventsModule.eventGroups[1].title"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d25",
+        "term": "Decreased appetite",
+        "arm": "Sema 2.4 mg",
+        "rate": 0.0949,
+        "n_affected": 124,
+        "n_at_risk": 1306,
+        "organ_system": "Metabolism and nutrition disorders",
+        "seriousness": "other",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[7].stats[0].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "124",
+            "label": "Decreased appetite / Sema 2.4 mg: affected"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[7].stats[0].numAtRisk",
+            "label": "Sema 2.4 mg: at risk"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Decreased appetite",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[7].term"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Metabolism and nutrition disorders",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[7].organSystem"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Sema 2.4 mg",
+            "field_path": "resultsSection.adverseEventsModule.eventGroups[0].title"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d26",
+        "term": "Decreased appetite",
+        "arm": "Placebo",
+        "rate": 0.0336,
+        "n_affected": 22,
+        "n_at_risk": 655,
+        "organ_system": "Metabolism and nutrition disorders",
+        "seriousness": "other",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[7].stats[1].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "22",
+            "label": "Decreased appetite / Placebo: affected"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[7].stats[1].numAtRisk",
+            "label": "Placebo: at risk"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Decreased appetite",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[7].term"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Metabolism and nutrition disorders",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[7].organSystem"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Placebo",
+            "field_path": "resultsSection.adverseEventsModule.eventGroups[1].title"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d27",
+        "term": "Eructation",
+        "arm": "Sema 2.4 mg",
+        "rate": 0.0858,
+        "n_affected": 112,
+        "n_at_risk": 1306,
+        "organ_system": "Gastrointestinal disorders",
+        "seriousness": "other",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[11].stats[0].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "112",
+            "label": "Eructation / Sema 2.4 mg: affected"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[11].stats[0].numAtRisk",
+            "label": "Sema 2.4 mg: at risk"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Eructation",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[11].term"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Gastrointestinal disorders",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[11].organSystem"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Sema 2.4 mg",
+            "field_path": "resultsSection.adverseEventsModule.eventGroups[0].title"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d28",
+        "term": "Eructation",
+        "arm": "Placebo",
+        "rate": 0.0046,
+        "n_affected": 3,
+        "n_at_risk": 655,
+        "organ_system": "Gastrointestinal disorders",
+        "seriousness": "other",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[11].stats[1].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "3",
+            "label": "Eructation / Placebo: affected"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[11].stats[1].numAtRisk",
+            "label": "Placebo: at risk"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Eructation",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[11].term"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Gastrointestinal disorders",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[11].organSystem"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Placebo",
+            "field_path": "resultsSection.adverseEventsModule.eventGroups[1].title"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d29",
+        "term": "Back pain",
+        "arm": "Sema 2.4 mg",
+        "rate": 0.0812,
+        "n_affected": 106,
+        "n_at_risk": 1306,
+        "organ_system": "Musculoskeletal and connective tissue disorders",
+        "seriousness": "other",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[4].stats[0].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "106",
+            "label": "Back pain / Sema 2.4 mg: affected"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[4].stats[0].numAtRisk",
+            "label": "Sema 2.4 mg: at risk"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Back pain",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[4].term"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Musculoskeletal and connective tissue disorders",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[4].organSystem"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Sema 2.4 mg",
+            "field_path": "resultsSection.adverseEventsModule.eventGroups[0].title"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d30",
+        "term": "Back pain",
+        "arm": "Placebo",
+        "rate": 0.0809,
+        "n_affected": 53,
+        "n_at_risk": 655,
+        "organ_system": "Musculoskeletal and connective tissue disorders",
+        "seriousness": "other",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[4].stats[1].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "53",
+            "label": "Back pain / Placebo: affected"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[4].stats[1].numAtRisk",
+            "label": "Placebo: at risk"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Back pain",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[4].term"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Musculoskeletal and connective tissue disorders",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[4].organSystem"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Placebo",
+            "field_path": "resultsSection.adverseEventsModule.eventGroups[1].title"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d31",
+        "term": "Fatigue",
+        "arm": "Sema 2.4 mg",
+        "rate": 0.0796,
+        "n_affected": 104,
+        "n_at_risk": 1306,
+        "organ_system": "General disorders",
+        "seriousness": "other",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[12].stats[0].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "104",
+            "label": "Fatigue / Sema 2.4 mg: affected"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "1306",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[12].stats[0].numAtRisk",
+            "label": "Sema 2.4 mg: at risk"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Fatigue",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[12].term"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "General disorders",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[12].organSystem"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Sema 2.4 mg",
+            "field_path": "resultsSection.adverseEventsModule.eventGroups[0].title"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d32",
+        "term": "Fatigue",
+        "arm": "Placebo",
+        "rate": 0.0427,
+        "n_affected": 28,
+        "n_at_risk": 655,
+        "organ_system": "General disorders",
+        "seriousness": "other",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.adverseEventsModule.otherEvents[12].stats[1].numAffected",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "28",
+            "label": "Fatigue / Placebo: affected"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "655",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[12].stats[1].numAtRisk",
+            "label": "Placebo: at risk"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Fatigue",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[12].term"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "General disorders",
+            "field_path": "resultsSection.adverseEventsModule.otherEvents[12].organSystem"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Placebo",
+            "field_path": "resultsSection.adverseEventsModule.eventGroups[1].title"
+          }
+        ],
+        "citations_total": 5,
+        "excerpts_truncated": false
+      }
+    ]
+  },
+  "answer_summary": "For Sema 2.4 mg, Nausea has the highest participants affected (44.1%), then Diarrhoea (31.5%), then Vomiting (24.6%). For Placebo, Nasopharyngitis has the highest participants affected (20.3%), then Nausea (17.4%), then Diarrhoea (15.9%). Source: the results posted for NCT03548935 on ClinicalTrials.gov.",
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "nct_ids": [
+        "NCT03548935"
+      ]
+    },
+    "query_interpretation": {
+      "intent": "risks_adverse_events",
+      "persona": "researcher",
+      "scope": "single_trial",
+      "confidence": 0.78,
+      "parser": "llm",
+      "resolved_entities": [
+        {
+          "input": "NCT03548935",
+          "resolved": "NCT03548935",
+          "kind": "nct_id",
+          "method": "exact"
+        }
+      ]
+    },
+    "notes": [
+      {
+        "code": "NOT_IN_REGISTRY",
+        "severity": "info",
+        "message": "Non-serious adverse events below the 5% frequency threshold were not required to be reported, so rarer events may be missing."
+      },
+      {
+        "code": "TRUNCATED",
+        "severity": "info",
+        "message": "Showing the 15 most frequent event terms (by highest arm rate); 157 more terms are not shown."
+      }
+    ],
+    "units": {
+      "rate": "%"
+    },
+    "sort": {
+      "values": [
+        "Any serious adverse event",
+        "Nausea",
+        "Diarrhoea",
+        "Vomiting",
+        "Constipation",
+        "Nasopharyngitis",
+        "Headache",
+        "Upper respiratory tract infection",
+        "Dyspepsia",
+        "Abdominal pain",
+        "Influenza",
+        "Abdominal pain upper",
+        "Decreased appetite",
+        "Eructation",
+        "Back pain",
+        "Fatigue"
+      ]
+    },
+    "grouping": {
+      "by": [
+        "term",
+        "arm"
+      ],
+      "rate": "numAffected / numAtRisk"
+    },
+    "layout": {
+      "orientation": "horizontal",
+      "mode": "grouped",
+      "donut": false
+    },
+    "thresholds": [
+      {
+        "axis": "y",
+        "value": 0.05,
+        "label": "Registry reporting threshold for non-serious AEs (5%)",
+        "source": "registry",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "5",
+            "field_path": "resultsSection.adverseEventsModule.frequencyThreshold",
+            "label": "Frequency threshold for reporting other adverse events (%)"
+          }
+        ]
+      }
+    ],
+    "truncation": {
+      "top_n": 15,
+      "other_bucket": false,
+      "omitted_count": 157
+    },
+    "coverage": {
+      "studies_matched_total": 1,
+      "studies_analyzed": 1,
+      "counting_method": "single_trials",
+      "studies_with_results": 1,
+      "sampled": false,
+      "queries": [
+        "https://clinicaltrials.gov/study/NCT03548935"
+      ]
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "validation": {
+      "passed": true,
+      "checks": [
+        {
+          "name": "retrieval_matches_api_total",
+          "passed": true,
+          "detail": "single_trials"
+        },
+        {
+          "name": "counts_match_trial_lists",
+          "passed": true,
+          "detail": "0 count datum(s) checked"
+        },
+        {
+          "name": "each_trial_in_one_bucket",
+          "passed": true,
+          "detail": "not a single-valued grouping"
+        },
+        {
+          "name": "citations_from_retrieved_records",
+          "passed": true,
+          "detail": "1 NCT id(s), all retrieved"
+        },
+        {
+          "name": "summary_numbers_in_data",
+          "passed": true,
+          "detail": "every number appears in the data"
+        },
+        {
+          "name": "value_axes_labeled",
+          "passed": true,
+          "detail": "all value axes say what they measure"
+        }
+      ]
+    },
+    "alternatives": [
+      {
+        "type": "threshold_line",
+        "reason": "rates against a threshold"
+      },
+      {
+        "type": "table",
+        "reason": "all values as a sortable table"
+      },
+      {
+        "type": "kpi_cards",
+        "reason": "headline numbers only"
+      }
+    ],
+    "request_id": "4e83087e7fa4489db53e250abcd89b77",
+    "created_at": "2026-10-19T09:25:47+00:00",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-16T09:00:05"
+  }
+}

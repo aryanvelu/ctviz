@@ -1,0 +1,879 @@
+{
+  "name": "sponsor_categories_lung_vs_breast_cancer",
+  "request": {
+    "query": "Compare sponsor categories (industry, academic, government) for lung cancer vs breast cancer trials",
+    "conditions": [
+      "lung cancer",
+      "breast cancer"
+    ],
+    "persona": "researcher"
+  },
+  "response": {
+    "status": "ok",
+    "visualization": {
+      "type": "bar_chart",
+      "title": "Trials by lead sponsor class: Lung cancer vs Breast cancer",
+      "encoding": {
+        "x": {
+          "field": "sponsor_class",
+          "type": "nominal",
+          "title": "Sponsor class",
+          "sort": {
+            "values": [
+              "Other (academic, hospital, non-profit)",
+              "Industry",
+              "NIH",
+              "Other government",
+              "Network",
+              "Other U.S. federal",
+              "Individual",
+              "Unknown"
+            ]
+          }
+        },
+        "y": {
+          "field": "trial_count",
+          "type": "quantitative",
+          "title": "Trials",
+          "unit": "trials",
+          "format": ",d"
+        },
+        "series": {
+          "field": "cohort",
+          "type": "nominal",
+          "title": "Cohort"
+        }
+      },
+      "data": [
+        {
+          "id": "d1",
+          "sponsor_class": "Other (academic, hospital, non-profit)",
+          "trial_count": 8187,
+          "cohort": "Lung cancer",
+          "nct_ids": [
+            "NCT00002465",
+            "NCT00002470",
+            "NCT00002475",
+            "NCT00002484",
+            "NCT00002506",
+            "NCT00002519",
+            "NCT00002586",
+            "NCT00002608",
+            "NCT00002624",
+            "NCT00002656",
+            "NCT00002823",
+            "NCT00002858",
+            "NCT00002887",
+            "NCT00002901",
+            "NCT00002930",
+            "NCT00002947",
+            "NCT00003002",
+            "NCT00003006",
+            "NCT00003022",
+            "NCT00003037"
+          ],
+          "nct_ids_total": 8187,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+          "citations": [
+            {
+              "nct_id": "NCT00002465",
+              "excerpt": "OTHER"
+            },
+            {
+              "nct_id": "NCT00002470",
+              "excerpt": "OTHER"
+            },
+            {
+              "nct_id": "NCT00002475",
+              "excerpt": "OTHER"
+            }
+          ],
+          "citations_total": 8187,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d2",
+          "sponsor_class": "Industry",
+          "trial_count": 4321,
+          "cohort": "Lung cancer",
+          "nct_ids": [
+            "NCT00002911",
+            "NCT00003034",
+            "NCT00003562",
+            "NCT00003847",
+            "NCT00003884",
+            "NCT00004199",
+            "NCT00004202",
+            "NCT00005091",
+            "NCT00005093",
+            "NCT00005865",
+            "NCT00005872",
+            "NCT00006048",
+            "NCT00006049",
+            "NCT00006215",
+            "NCT00006368",
+            "NCT00006370",
+            "NCT00014547",
+            "NCT00016237",
+            "NCT00017407",
+            "NCT00017459"
+          ],
+          "nct_ids_total": 4321,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+          "citations": [
+            {
+              "nct_id": "NCT00002911",
+              "excerpt": "INDUSTRY"
+            },
+            {
+              "nct_id": "NCT00003034",
+              "excerpt": "INDUSTRY"
+            },
+            {
+              "nct_id": "NCT00003562",
+              "excerpt": "INDUSTRY"
+            }
+          ],
+          "citations_total": 4321,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d3",
+          "sponsor_class": "NIH",
+          "trial_count": 355,
+          "cohort": "Lung cancer",
+          "nct_ids": [
+            "NCT00001450",
+            "NCT00001499",
+            "NCT00001515",
+            "NCT00001805",
+            "NCT00001823",
+            "NCT00001944",
+            "NCT00002537",
+            "NCT00002625",
+            "NCT00002852",
+            "NCT00003240",
+            "NCT00003869",
+            "NCT00004074",
+            "NCT00004859",
+            "NCT00004883",
+            "NCT00005065",
+            "NCT00005655",
+            "NCT00005666",
+            "NCT00005838",
+            "NCT00005842",
+            "NCT00006014"
+          ],
+          "nct_ids_total": 355,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+          "citations": [
+            {
+              "nct_id": "NCT00001450",
+              "excerpt": "NIH"
+            },
+            {
+              "nct_id": "NCT00001499",
+              "excerpt": "NIH"
+            },
+            {
+              "nct_id": "NCT00001515",
+              "excerpt": "NIH"
+            }
+          ],
+          "citations_total": 355,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d4",
+          "sponsor_class": "Other government",
+          "trial_count": 246,
+          "cohort": "Lung cancer",
+          "nct_ids": [
+            "NCT00002822",
+            "NCT00003159",
+            "NCT00075699",
+            "NCT00187980",
+            "NCT00253591",
+            "NCT00268684",
+            "NCT00364624",
+            "NCT00398385",
+            "NCT00403065",
+            "NCT00425022",
+            "NCT00452244",
+            "NCT00452634",
+            "NCT00452803",
+            "NCT00452881",
+            "NCT00453115",
+            "NCT00453167",
+            "NCT00455936",
+            "NCT00519805",
+            "NCT00563160",
+            "NCT00563420"
+          ],
+          "nct_ids_total": 246,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+          "citations": [
+            {
+              "nct_id": "NCT00002822",
+              "excerpt": "OTHER_GOV"
+            },
+            {
+              "nct_id": "NCT00003159",
+              "excerpt": "OTHER_GOV"
+            },
+            {
+              "nct_id": "NCT00075699",
+              "excerpt": "OTHER_GOV"
+            }
+          ],
+          "citations_total": 246,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d5",
+          "sponsor_class": "Network",
+          "trial_count": 247,
+          "cohort": "Lung cancer",
+          "nct_ids": [
+            "NCT00002520",
+            "NCT00002550",
+            "NCT00002577",
+            "NCT00002583",
+            "NCT00002623",
+            "NCT00002642",
+            "NCT00002667",
+            "NCT00002969",
+            "NCT00002972",
+            "NCT00003011",
+            "NCT00003062",
+            "NCT00003158",
+            "NCT00003235",
+            "NCT00003279",
+            "NCT00003313",
+            "NCT00003329",
+            "NCT00003587",
+            "NCT00003589",
+            "NCT00003649",
+            "NCT00003685"
+          ],
+          "nct_ids_total": 247,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+          "citations": [
+            {
+              "nct_id": "NCT00002520",
+              "excerpt": "NETWORK"
+            },
+            {
+              "nct_id": "NCT00002550",
+              "excerpt": "NETWORK"
+            },
+            {
+              "nct_id": "NCT00002577",
+              "excerpt": "NETWORK"
+            }
+          ],
+          "citations_total": 247,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d6",
+          "sponsor_class": "Other U.S. federal",
+          "trial_count": 33,
+          "cohort": "Lung cancer",
+          "nct_ids": [
+            "NCT00108186",
+            "NCT00122135",
+            "NCT00780234",
+            "NCT01417806",
+            "NCT01574222",
+            "NCT01710293",
+            "NCT01754909",
+            "NCT01883986",
+            "NCT02476526",
+            "NCT02653612",
+            "NCT02765412",
+            "NCT02899754",
+            "NCT02984761",
+            "NCT02991677",
+            "NCT03007953",
+            "NCT03612804",
+            "NCT03621813",
+            "NCT04037462",
+            "NCT04166240",
+            "NCT04515004"
+          ],
+          "nct_ids_total": 33,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+          "citations": [
+            {
+              "nct_id": "NCT00108186",
+              "excerpt": "FED"
+            },
+            {
+              "nct_id": "NCT00122135",
+              "excerpt": "FED"
+            },
+            {
+              "nct_id": "NCT00780234",
+              "excerpt": "FED"
+            }
+          ],
+          "citations_total": 33,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d7",
+          "sponsor_class": "Individual",
+          "trial_count": 3,
+          "cohort": "Lung cancer",
+          "nct_ids": [
+            "NCT00050674",
+            "NCT02642939",
+            "NCT03695835"
+          ],
+          "nct_ids_total": 3,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+          "citations": [
+            {
+              "nct_id": "NCT00050674",
+              "excerpt": "INDIV"
+            },
+            {
+              "nct_id": "NCT02642939",
+              "excerpt": "INDIV"
+            },
+            {
+              "nct_id": "NCT03695835",
+              "excerpt": "INDIV"
+            }
+          ],
+          "citations_total": 3,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "d8",
+          "sponsor_class": "Unknown",
+          "trial_count": 2,
+          "cohort": "Lung cancer",
+          "nct_ids": [
+            "NCT02584699",
+            "NCT04056923"
+          ],
+          "nct_ids_total": 2,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+          "citations": [
+            {
+              "nct_id": "NCT02584699",
+              "excerpt": "UNKNOWN"
+            },
+            {
+              "nct_id": "NCT04056923",
+              "excerpt": "UNKNOWN"
+            }
+          ],
+          "citations_total": 2,
+          "excerpts_truncated": false
+        },
+        {
+          "id": "d9",
+          "sponsor_class": "Other (academic, hospital, non-profit)",
+          "trial_count": 12260,
+          "cohort": "Breast cancer",
+          "nct_ids": [
+            "NCT00002455",
+            "NCT00002460",
+            "NCT00002465",
+            "NCT00002475",
+            "NCT00002498",
+            "NCT00002509",
+            "NCT00002544",
+            "NCT00002564",
+            "NCT00002579",
+            "NCT00002580",
+            "NCT00002581",
+            "NCT00002582",
+            "NCT00002585",
+            "NCT00002616",
+            "NCT00002627",
+            "NCT00002628",
+            "NCT00002644",
+            "NCT00002673",
+            "NCT00002679",
+            "NCT00002680"
+          ],
+          "nct_ids_total": 12260,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+          "citations": [
+            {
+              "nct_id": "NCT00002455",
+              "excerpt": "OTHER"
+            },
+            {
+              "nct_id": "NCT00002460",
+              "excerpt": "OTHER"
+            },
+            {
+              "nct_id": "NCT00002465",
+              "excerpt": "OTHER"
+            }
+          ],
+          "citations_total": 12260,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d10",
+          "sponsor_class": "Industry",
+          "trial_count": 3390,
+          "cohort": "Breast cancer",
+          "nct_ids": [
+            "NCT00002662",
+            "NCT00003253",
+            "NCT00003403",
+            "NCT00003638",
+            "NCT00003752",
+            "NCT00003884",
+            "NCT00004046",
+            "NCT00005635",
+            "NCT00005649",
+            "NCT00005873",
+            "NCT00006368",
+            "NCT00006370",
+            "NCT00006459",
+            "NCT00008437",
+            "NCT00010322",
+            "NCT00014638",
+            "NCT00021255",
+            "NCT00022295",
+            "NCT00022672",
+            "NCT00025688"
+          ],
+          "nct_ids_total": 3390,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+          "citations": [
+            {
+              "nct_id": "NCT00002662",
+              "excerpt": "INDUSTRY"
+            },
+            {
+              "nct_id": "NCT00003253",
+              "excerpt": "INDUSTRY"
+            },
+            {
+              "nct_id": "NCT00003403",
+              "excerpt": "INDUSTRY"
+            }
+          ],
+          "citations_total": 3390,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d11",
+          "sponsor_class": "NIH",
+          "trial_count": 376,
+          "cohort": "Breast cancer",
+          "nct_ids": [
+            "NCT00000611",
+            "NCT00001193",
+            "NCT00001239",
+            "NCT00001250",
+            "NCT00001269",
+            "NCT00001270",
+            "NCT00001302",
+            "NCT00001338",
+            "NCT00001378",
+            "NCT00001383",
+            "NCT00001384",
+            "NCT00001385",
+            "NCT00001440",
+            "NCT00001444",
+            "NCT00001468",
+            "NCT00001493",
+            "NCT00001496",
+            "NCT00001498",
+            "NCT00001503",
+            "NCT00001504"
+          ],
+          "nct_ids_total": 376,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+          "citations": [
+            {
+              "nct_id": "NCT00000611",
+              "excerpt": "NIH"
+            },
+            {
+              "nct_id": "NCT00001193",
+              "excerpt": "NIH"
+            },
+            {
+              "nct_id": "NCT00001239",
+              "excerpt": "NIH"
+            }
+          ],
+          "citations_total": 376,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d12",
+          "sponsor_class": "Other government",
+          "trial_count": 376,
+          "cohort": "Breast cancer",
+          "nct_ids": [
+            "NCT00002953",
+            "NCT00005587",
+            "NCT00005588",
+            "NCT00122356",
+            "NCT00123669",
+            "NCT00128362",
+            "NCT00193726",
+            "NCT00193778",
+            "NCT00352378",
+            "NCT00381901",
+            "NCT00395655",
+            "NCT00407706",
+            "NCT00419627",
+            "NCT00496288",
+            "NCT00532272",
+            "NCT00532285",
+            "NCT00532454",
+            "NCT00532623",
+            "NCT00532714",
+            "NCT00532857"
+          ],
+          "nct_ids_total": 376,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+          "citations": [
+            {
+              "nct_id": "NCT00002953",
+              "excerpt": "OTHER_GOV"
+            },
+            {
+              "nct_id": "NCT00005587",
+              "excerpt": "OTHER_GOV"
+            },
+            {
+              "nct_id": "NCT00005588",
+              "excerpt": "OTHER_GOV"
+            }
+          ],
+          "citations_total": 376,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d13",
+          "sponsor_class": "Network",
+          "trial_count": 307,
+          "cohort": "Breast cancer",
+          "nct_ids": [
+            "NCT00002520",
+            "NCT00002528",
+            "NCT00002529",
+            "NCT00002542",
+            "NCT00002646",
+            "NCT00002668",
+            "NCT00002707",
+            "NCT00002772",
+            "NCT00002777",
+            "NCT00002784",
+            "NCT00002826",
+            "NCT00002851",
+            "NCT00002864",
+            "NCT00002866",
+            "NCT00002873",
+            "NCT00002900",
+            "NCT00002920",
+            "NCT00002934",
+            "NCT00002967",
+            "NCT00003010"
+          ],
+          "nct_ids_total": 307,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+          "citations": [
+            {
+              "nct_id": "NCT00002520",
+              "excerpt": "NETWORK"
+            },
+            {
+              "nct_id": "NCT00002528",
+              "excerpt": "NETWORK"
+            },
+            {
+              "nct_id": "NCT00002529",
+              "excerpt": "NETWORK"
+            }
+          ],
+          "citations_total": 307,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d14",
+          "sponsor_class": "Other U.S. federal",
+          "trial_count": 17,
+          "cohort": "Breast cancer",
+          "nct_ids": [
+            "NCT00164658",
+            "NCT00524277",
+            "NCT00841399",
+            "NCT00854789",
+            "NCT00940199",
+            "NCT01151488",
+            "NCT01322750",
+            "NCT01710293",
+            "NCT01824498",
+            "NCT01954706",
+            "NCT02019524",
+            "NCT02874222",
+            "NCT02940470",
+            "NCT02991677",
+            "NCT04166240",
+            "NCT05313737",
+            "NCT06252662"
+          ],
+          "nct_ids_total": 17,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+          "citations": [
+            {
+              "nct_id": "NCT00164658",
+              "excerpt": "FED"
+            },
+            {
+              "nct_id": "NCT00524277",
+              "excerpt": "FED"
+            },
+            {
+              "nct_id": "NCT00841399",
+              "excerpt": "FED"
+            }
+          ],
+          "citations_total": 17,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d15",
+          "sponsor_class": "Individual",
+          "trial_count": 4,
+          "cohort": "Breast cancer",
+          "nct_ids": [
+            "NCT00378638",
+            "NCT01379092",
+            "NCT01849328",
+            "NCT02684318"
+          ],
+          "nct_ids_total": 4,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+          "citations": [
+            {
+              "nct_id": "NCT00378638",
+              "excerpt": "INDIV"
+            },
+            {
+              "nct_id": "NCT01379092",
+              "excerpt": "INDIV"
+            },
+            {
+              "nct_id": "NCT01849328",
+              "excerpt": "INDIV"
+            }
+          ],
+          "citations_total": 4,
+          "excerpts_truncated": true
+        },
+        {
+          "id": "d16",
+          "sponsor_class": "Unknown",
+          "trial_count": 4,
+          "cohort": "Breast cancer",
+          "nct_ids": [
+            "NCT01917279",
+            "NCT03461588",
+            "NCT04002284",
+            "NCT05200078"
+          ],
+          "nct_ids_total": 4,
+          "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+          "citations": [
+            {
+              "nct_id": "NCT01917279",
+              "excerpt": "UNKNOWN"
+            },
+            {
+              "nct_id": "NCT03461588",
+              "excerpt": "UNKNOWN"
+            },
+            {
+              "nct_id": "NCT04002284",
+              "excerpt": "UNKNOWN"
+            }
+          ],
+          "citations_total": 4,
+          "excerpts_truncated": true
+        }
+      ]
+    },
+    "answer_summary": "For Lung cancer, Other (academic, hospital, non-profit) has the most trials (8,187), then Industry (4,321), then NIH (355). For Breast cancer, Other (academic, hospital, non-profit) has the most trials (12,260), then Industry (3,390), then NIH (376). Based on 30,128 trials from ClinicalTrials.gov.",
+    "meta": {
+      "source": "clinicaltrials.gov",
+      "filters": {
+        "compare": [
+          {
+            "label": "Lung cancer",
+            "conditions": [
+              "lung cancer"
+            ]
+          },
+          {
+            "label": "Breast cancer",
+            "conditions": [
+              "breast cancer"
+            ]
+          }
+        ]
+      },
+      "query_interpretation": {
+        "intent": "sponsor_landscape",
+        "persona": "researcher",
+        "scope": "comparison",
+        "confidence": 0.9,
+        "parser": "cache",
+        "cohorts": [
+          {
+            "label": "Lung cancer",
+            "conditions": [
+              "lung cancer"
+            ]
+          },
+          {
+            "label": "Breast cancer",
+            "conditions": [
+              "breast cancer"
+            ]
+          }
+        ],
+        "resolved_entities": [
+          {
+            "input": "lung cancer",
+            "resolved": "lung cancer",
+            "kind": "condition",
+            "method": "structured_field"
+          },
+          {
+            "input": "breast cancer",
+            "resolved": "breast cancer",
+            "kind": "condition",
+            "method": "structured_field"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "code": "SNAPSHOT",
+          "severity": "info",
+          "message": "Lung cancer: all 13,394 trial records read from the stored cohort snapshot taken 2026-10-19 04:46 UTC; ClinicalTrials.gov still reports the same number of matching trials."
+        },
+        {
+          "code": "SNAPSHOT",
+          "severity": "info",
+          "message": "Breast cancer: all 16,734 trial records read from the stored cohort snapshot taken 2026-10-19 04:37 UTC; ClinicalTrials.gov still reports the same number of matching trials."
+        }
+      ],
+      "units": {
+        "trial_count": "trials"
+      },
+      "sort": {
+        "values": [
+          "Other (academic, hospital, non-profit)",
+          "Industry",
+          "NIH",
+          "Other government",
+          "Network",
+          "Other U.S. federal",
+          "Individual",
+          "Unknown"
+        ]
+      },
+      "grouping": {
+        "by": [
+          "sponsor_class"
+        ],
+        "aggregate": "count_distinct_trials",
+        "each_trial_counted_once": true
+      },
+      "layout": {
+        "orientation": "vertical",
+        "mode": "grouped",
+        "donut": false
+      },
+      "coverage": {
+        "studies_matched_total": 30128,
+        "studies_analyzed": 30128,
+        "counting_method": "all_records",
+        "sampled": false,
+        "queries": [
+          "https://clinicaltrials.gov/search?cond=%22lung+cancer%22",
+          "https://clinicaltrials.gov/search?cond=%22breast+cancer%22"
+        ]
+      },
+      "citation_policy": {
+        "detail": "sample",
+        "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+        "nct_ids": "first_20",
+        "nct_ids_per_datum": 20,
+        "nct_ids_order": "nct_id",
+        "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+        "excerpts_per_datum": 3,
+        "excerpts_single_trial": 10,
+        "excerpt_order": "nct_id",
+        "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+      },
+      "validation": {
+        "passed": true,
+        "checks": [
+          {
+            "name": "retrieval_matches_api_total",
+            "passed": true,
+            "detail": "Lung cancer: 13,394 of 13,394; Breast cancer: 16,734 of 16,734"
+          },
+          {
+            "name": "counts_match_trial_lists",
+            "passed": true,
+            "detail": "16 count datum(s) checked"
+          },
+          {
+            "name": "each_trial_in_one_bucket",
+            "passed": true,
+            "detail": "30128 trial(s), each in exactly one bucket"
+          },
+          {
+            "name": "citations_from_retrieved_records",
+            "passed": true,
+            "detail": "28961 NCT id(s), all retrieved"
+          },
+          {
+            "name": "summary_numbers_in_data",
+            "passed": true,
+            "detail": "every number appears in the data"
+          },
+          {
+            "name": "value_axes_labeled",
+            "passed": true,
+            "detail": "all value axes say what they measure"
+          }
+        ]
+      },
+      "alternatives": [
+        {
+          "type": "pie_chart",
+          "reason": "share of the whole"
+        },
+        {
+          "type": "table",
+          "reason": "all values as a sortable table"
+        }
+      ],
+      "request_id": "379ae883419e427e85068d02214a9820",
+      "created_at": "2026-10-19T10:10:28+00:00",
+      "schema_version": "2.2",
+      "ctgov_api_version": "2.0.5",
+      "data_timestamp": "2026-10-16T09:00:05"
+    }
+  }
+}

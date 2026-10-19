@@ -1,0 +1,339 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "geo_map",
+    "title": "Recruiting pembrolizumab trials by country",
+    "encoding": {
+      "x": {
+        "field": "country",
+        "type": "nominal",
+        "title": "Country"
+      },
+      "y": {
+        "field": "trials",
+        "type": "quantitative",
+        "title": "Recruiting trials",
+        "unit": "trials",
+        "format": ",d"
+      }
+    },
+    "data": [
+      {
+        "id": "d1",
+        "country": "United States",
+        "trials": 412,
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[0].country",
+        "citations": [
+          {
+            "excerpt": "412",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "United States"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "United States"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d2",
+        "country": "China",
+        "trials": 188,
+        "nct_ids": [
+          "NCT02578680"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[1].country",
+        "citations": [
+          {
+            "excerpt": "188",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "China"
+          },
+          {
+            "nct_id": "NCT02578680",
+            "excerpt": "China"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d3",
+        "country": "Spain",
+        "trials": 121,
+        "nct_ids": [
+          "NCT01905657"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[2].country",
+        "citations": [
+          {
+            "excerpt": "121",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "Spain"
+          },
+          {
+            "nct_id": "NCT01905657",
+            "excerpt": "Spain"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d4",
+        "country": "France",
+        "trials": 117,
+        "nct_ids": [
+          "NCT01866319"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[3].country",
+        "citations": [
+          {
+            "excerpt": "117",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "France"
+          },
+          {
+            "nct_id": "NCT01866319",
+            "excerpt": "France"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d5",
+        "country": "Germany",
+        "trials": 104,
+        "nct_ids": [
+          "NCT02362594"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[4].country",
+        "citations": [
+          {
+            "excerpt": "104",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "Germany"
+          },
+          {
+            "nct_id": "NCT02362594",
+            "excerpt": "Germany"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d6",
+        "country": "Japan",
+        "trials": 96,
+        "nct_ids": [
+          "NCT02775435"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[5].country",
+        "citations": [
+          {
+            "excerpt": "96",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "Japan"
+          },
+          {
+            "nct_id": "NCT02775435",
+            "excerpt": "Japan"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d7",
+        "country": "Italy",
+        "trials": 88,
+        "nct_ids": [
+          "NCT03142334"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[6].country",
+        "citations": [
+          {
+            "excerpt": "88",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "Italy"
+          },
+          {
+            "nct_id": "NCT03142334",
+            "excerpt": "Italy"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d8",
+        "country": "United Kingdom",
+        "trials": 74,
+        "nct_ids": [
+          "NCT02853305"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[7].country",
+        "citations": [
+          {
+            "excerpt": "74",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "United Kingdom"
+          },
+          {
+            "nct_id": "NCT02853305",
+            "excerpt": "United Kingdom"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d9",
+        "country": "Canada",
+        "trials": 66,
+        "nct_ids": [
+          "NCT03036488"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[8].country",
+        "citations": [
+          {
+            "excerpt": "66",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "Canada"
+          },
+          {
+            "nct_id": "NCT03036488",
+            "excerpt": "Canada"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d10",
+        "country": "Korea, Republic of",
+        "trials": 61,
+        "nct_ids": [
+          "NCT02564263"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.contactsLocationsModule.locations[9].country",
+        "citations": [
+          {
+            "excerpt": "61",
+            "field_path": "$.totalCount",
+            "kind": "derived_count",
+            "label": "Korea, Republic of"
+          },
+          {
+            "nct_id": "NCT02564263",
+            "excerpt": "Korea, Republic of"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      }
+    ]
+  },
+  "answer_summary": "The United States has the most recruiting pembrolizumab trials (412), followed by China (188).",
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "drug_names": [
+        "pembrolizumab"
+      ],
+      "statuses": [
+        "RECRUITING"
+      ]
+    },
+    "query_interpretation": {
+      "intent": "geographic_distribution",
+      "persona": "researcher",
+      "scope": "cohort",
+      "confidence": 0.92,
+      "parser": "llm",
+      "cohorts": [
+        {
+          "label": "pembrolizumab",
+          "drugs": [
+            "pembrolizumab"
+          ],
+          "statuses": [
+            "RECRUITING"
+          ]
+        }
+      ]
+    },
+    "units": {
+      "trials": "trials"
+    },
+    "truncation": {
+      "top_n": 10,
+      "other_bucket": false,
+      "omitted_count": 47
+    },
+    "geo": {
+      "level": "country",
+      "region_field": "country",
+      "value_field": "trials"
+    },
+    "coverage": {
+      "studies_matched_total": 702,
+      "studies_analyzed": 702,
+      "counting_method": "all_records",
+      "sampled": false
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "alternatives": [
+      {
+        "type": "bar_chart",
+        "reason": "compare categories side by side"
+      },
+      {
+        "type": "table",
+        "reason": "all values as a sortable table"
+      }
+    ],
+    "request_id": "req_sample_18_geo_country",
+    "created_at": "2026-10-18T14:22:05Z",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-17T09:00:12"
+  }
+}

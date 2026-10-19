@@ -1,0 +1,618 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "timeline",
+    "title": "Timeline of NCT03548935 (STEP 1)",
+    "encoding": {
+      "y": {
+        "field": "event",
+        "type": "nominal",
+        "title": "Event"
+      },
+      "series": {
+        "field": "lane",
+        "type": "nominal",
+        "title": "Lane"
+      },
+      "tooltip": [
+        "date_type",
+        "detail"
+      ]
+    },
+    "data": [
+      {
+        "id": "d1",
+        "lane": "registry_milestones",
+        "event": "Study start",
+        "date": "2018-06-04",
+        "date_type": "ACTUAL",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.startDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "2018-06-04",
+            "label": "Study start"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.startDateStruct.type"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d2",
+        "lane": "registry_milestones",
+        "event": "First posted",
+        "date": "2018-06-07",
+        "date_type": "ACTUAL",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.studyFirstPostDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "2018-06-07",
+            "label": "First posted"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.studyFirstPostDateStruct.type"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d3",
+        "lane": "registry_milestones",
+        "event": "Primary completion",
+        "date": "2020-03-30",
+        "date_type": "ACTUAL",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.primaryCompletionDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "2020-03-30",
+            "label": "Primary completion"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.primaryCompletionDateStruct.type"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d4",
+        "lane": "registry_milestones",
+        "event": "Study completion",
+        "date": "2021-03-05",
+        "date_type": "ACTUAL",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.completionDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "2021-03-05",
+            "label": "Study completion"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.completionDateStruct.type"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d5",
+        "lane": "registry_milestones",
+        "event": "Results first posted",
+        "date": "2021-08-11",
+        "date_type": "ACTUAL",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.resultsFirstPostDateStruct.date",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "2021-08-11",
+            "label": "Results first posted"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "ACTUAL",
+            "field_path": "protocolSection.statusModule.resultsFirstPostDateStruct.type"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d6",
+        "lane": "participant_journey",
+        "event": "Baseline / start of participation",
+        "day": 0,
+        "day_end": 0,
+        "detail": "Day 0",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Baseline",
+            "field_path": "protocolSection.outcomesModule.primaryOutcomes[0].timeFrame",
+            "kind": "text_excerpt",
+            "char_start": 0,
+            "char_end": 8,
+            "label": "Baseline"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Baseline",
+            "field_path": "protocolSection.outcomesModule.secondaryOutcomes[3].timeFrame",
+            "kind": "text_excerpt",
+            "char_start": 0,
+            "char_end": 8,
+            "label": "Baseline"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Baseline",
+            "field_path": "protocolSection.outcomesModule.secondaryOutcomes[4].timeFrame",
+            "kind": "text_excerpt",
+            "char_start": 0,
+            "char_end": 8,
+            "label": "Baseline"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Baseline",
+            "field_path": "protocolSection.outcomesModule.secondaryOutcomes[5].timeFrame",
+            "kind": "text_excerpt",
+            "char_start": 0,
+            "char_end": 8,
+            "label": "Baseline"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Baseline",
+            "field_path": "protocolSection.outcomesModule.secondaryOutcomes[6].timeFrame",
+            "kind": "text_excerpt",
+            "char_start": 0,
+            "char_end": 8,
+            "label": "Baseline"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Baseline",
+            "field_path": "protocolSection.outcomesModule.secondaryOutcomes[7].timeFrame",
+            "kind": "text_excerpt",
+            "char_start": 0,
+            "char_end": 8,
+            "label": "Baseline"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Baseline",
+            "field_path": "protocolSection.outcomesModule.secondaryOutcomes[8].timeFrame",
+            "kind": "text_excerpt",
+            "char_start": 0,
+            "char_end": 8,
+            "label": "Baseline"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Baseline",
+            "field_path": "protocolSection.outcomesModule.secondaryOutcomes[9].timeFrame",
+            "kind": "text_excerpt",
+            "char_start": 0,
+            "char_end": 8,
+            "label": "Baseline"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Baseline",
+            "field_path": "protocolSection.outcomesModule.secondaryOutcomes[10].timeFrame",
+            "kind": "text_excerpt",
+            "char_start": 0,
+            "char_end": 8,
+            "label": "Baseline"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Baseline",
+            "field_path": "protocolSection.outcomesModule.secondaryOutcomes[11].timeFrame",
+            "kind": "text_excerpt",
+            "char_start": 0,
+            "char_end": 8,
+            "label": "Baseline"
+          }
+        ],
+        "citations_total": 36,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d7",
+        "lane": "participant_journey",
+        "event": "Assessment (Week 68)",
+        "day": 476,
+        "day_end": 476,
+        "detail": "Week 68",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "week 68",
+            "field_path": "protocolSection.outcomesModule.primaryOutcomes[0].timeFrame",
+            "kind": "text_excerpt",
+            "char_start": 21,
+            "char_end": 28,
+            "label": "Week 68"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "week 68",
+            "field_path": "protocolSection.outcomesModule.primaryOutcomes[1].timeFrame",
+            "kind": "text_excerpt",
+            "char_start": 6,
+            "char_end": 13,
+            "label": "Week 68"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Week 68",
+            "field_path": "protocolSection.outcomesModule.secondaryOutcomes[0].timeFrame",
+            "kind": "text_excerpt",
+            "char_start": 0,
+            "char_end": 7,
+            "label": "Week 68"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Week 68",
+            "field_path": "protocolSection.outcomesModule.secondaryOutcomes[1].timeFrame",
+            "kind": "text_excerpt",
+            "char_start": 0,
+            "char_end": 7,
+            "label": "Week 68"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Week 68",
+            "field_path": "protocolSection.outcomesModule.secondaryOutcomes[2].timeFrame",
+            "kind": "text_excerpt",
+            "char_start": 0,
+            "char_end": 7,
+            "label": "Week 68"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "week 68",
+            "field_path": "protocolSection.outcomesModule.secondaryOutcomes[3].timeFrame",
+            "kind": "text_excerpt",
+            "char_start": 21,
+            "char_end": 28,
+            "label": "Week 68"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "week 68",
+            "field_path": "protocolSection.outcomesModule.secondaryOutcomes[4].timeFrame",
+            "kind": "text_excerpt",
+            "char_start": 21,
+            "char_end": 28,
+            "label": "Week 68"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "week 68",
+            "field_path": "protocolSection.outcomesModule.secondaryOutcomes[5].timeFrame",
+            "kind": "text_excerpt",
+            "char_start": 21,
+            "char_end": 28,
+            "label": "Week 68"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "week 68",
+            "field_path": "protocolSection.outcomesModule.secondaryOutcomes[6].timeFrame",
+            "kind": "text_excerpt",
+            "char_start": 21,
+            "char_end": 28,
+            "label": "Week 68"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "week 68",
+            "field_path": "protocolSection.outcomesModule.secondaryOutcomes[7].timeFrame",
+            "kind": "text_excerpt",
+            "char_start": 21,
+            "char_end": 28,
+            "label": "Week 68"
+          }
+        ],
+        "citations_total": 40,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d8",
+        "lane": "participant_journey",
+        "event": "Assessment (Week 75)",
+        "day": 525,
+        "day_end": 525,
+        "detail": "Week 75",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "week 75",
+            "field_path": "protocolSection.outcomesModule.secondaryOutcomes[34].timeFrame",
+            "kind": "text_excerpt",
+            "char_start": 21,
+            "char_end": 28,
+            "label": "Week 75"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "week 75",
+            "field_path": "protocolSection.outcomesModule.secondaryOutcomes[35].timeFrame",
+            "kind": "text_excerpt",
+            "char_start": 21,
+            "char_end": 28,
+            "label": "Week 75"
+          }
+        ],
+        "citations_total": 2,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d9",
+        "lane": "participant_journey",
+        "event": "Treatment period (for 68 weeks)",
+        "day": 0,
+        "day_end": 476,
+        "detail": "Arm description; Week 68",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "for 68 weeks",
+            "field_path": "protocolSection.armsInterventionsModule.armGroups[0].description",
+            "kind": "text_excerpt",
+            "char_start": 38,
+            "char_end": 50,
+            "label": "Treatment duration phrase"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d10",
+        "lane": "participant_journey",
+        "event": "Treatment period (16-week dose-escalation period)",
+        "day": 0,
+        "day_end": 112,
+        "detail": "Participant flow (pre-assignment); Week 16",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "16-week dose-escalation period",
+            "field_path": "resultsSection.participantFlowModule.preAssignmentDetails",
+            "kind": "text_excerpt",
+            "char_start": 30,
+            "char_end": 60,
+            "label": "Treatment duration phrase"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d11",
+        "lane": "participant_journey",
+        "event": "Treatment period (52-week dose maintenance period)",
+        "day": 0,
+        "day_end": 364,
+        "detail": "Participant flow (pre-assignment); Week 52",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "52-week dose maintenance period",
+            "field_path": "resultsSection.participantFlowModule.preAssignmentDetails",
+            "kind": "text_excerpt",
+            "char_start": 67,
+            "char_end": 98,
+            "label": "Treatment duration phrase"
+          }
+        ],
+        "citations_total": 1,
+        "excerpts_truncated": false
+      }
+    ]
+  },
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "nct_ids": [
+        "NCT03548935"
+      ]
+    },
+    "query_interpretation": {
+      "intent": "trial_journey_timeline",
+      "persona": "researcher",
+      "scope": "single_trial",
+      "confidence": 0.85,
+      "parser": "rules",
+      "resolved_entities": [
+        {
+          "input": "NCT03548935",
+          "resolved": "NCT03548935",
+          "kind": "nct_id",
+          "method": "exact"
+        }
+      ]
+    },
+    "notes": [
+      {
+        "code": "APPROXIMATED",
+        "severity": "info",
+        "message": "The participant journey is approximated from outcome time frames and treatment durations; the real visit schedule is in the protocol.",
+        "affects": [
+          "d6",
+          "d7",
+          "d8",
+          "d9",
+          "d10",
+          "d11"
+        ]
+      }
+    ],
+    "units": {
+      "day": "days",
+      "day_end": "days"
+    },
+    "lanes": [
+      {
+        "name": "registry_milestones",
+        "axis": {
+          "kind": "calendar"
+        },
+        "start_field": "date",
+        "approximated": false
+      },
+      {
+        "name": "participant_journey",
+        "axis": {
+          "kind": "relative",
+          "unit": "days",
+          "origin": "baseline / start of participation"
+        },
+        "start_field": "day",
+        "end_field": "day_end",
+        "approximated": true
+      }
+    ],
+    "approximation": {
+      "method": "Outcome time frames and treatment duration phrases converted to days from baseline (week=7 d, month=30.4375 d, year=365.25 d).",
+      "assumptions": [
+        "Applies to the participant_journey lane only; registry_milestones are registry dates.",
+        "Assessment time points come from outcome measures, not a visit schedule.",
+        "Offsets from the last dose, cycle-based time frames and pre-baseline days are not placed on the axis."
+      ]
+    },
+    "coverage": {
+      "studies_matched_total": 1,
+      "studies_analyzed": 1,
+      "counting_method": "single_trials",
+      "sampled": false,
+      "queries": [
+        "https://clinicaltrials.gov/study/NCT03548935"
+      ]
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "validation": {
+      "passed": true,
+      "checks": [
+        {
+          "name": "retrieval_matches_api_total",
+          "passed": true,
+          "detail": "single_trials"
+        },
+        {
+          "name": "counts_match_trial_lists",
+          "passed": true,
+          "detail": "0 count datum(s) checked"
+        },
+        {
+          "name": "each_trial_in_one_bucket",
+          "passed": true,
+          "detail": "not a single-valued grouping"
+        },
+        {
+          "name": "citations_from_retrieved_records",
+          "passed": true,
+          "detail": "1 NCT id(s), all retrieved"
+        },
+        {
+          "name": "summary_numbers_in_data",
+          "passed": true,
+          "detail": "no numeric summary"
+        },
+        {
+          "name": "value_axes_labeled",
+          "passed": true,
+          "detail": "all value axes say what they measure"
+        }
+      ]
+    },
+    "alternatives": [
+      {
+        "type": "kpi_cards",
+        "reason": "headline numbers only"
+      },
+      {
+        "type": "table",
+        "reason": "all values as a sortable table"
+      }
+    ],
+    "request_id": "243b19bb94164a94b5c2ac75dd6ed031",
+    "created_at": "2026-10-19T09:50:50+00:00",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-16T09:00:05"
+  }
+}

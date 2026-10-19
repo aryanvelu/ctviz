@@ -1,0 +1,490 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "bar_chart",
+    "title": "Pembrolizumab trials by lead sponsor and status",
+    "subtitle": "Top 4 sponsors; remaining sponsors grouped as Other",
+    "encoding": {
+      "x": {
+        "field": "sponsor",
+        "type": "nominal",
+        "title": "Lead sponsor",
+        "sort": {
+          "by": "trials",
+          "order": "desc"
+        }
+      },
+      "y": {
+        "field": "trials",
+        "type": "quantitative",
+        "title": "Trials",
+        "unit": "trials",
+        "format": ",d"
+      },
+      "series": {
+        "field": "overall_status",
+        "type": "nominal",
+        "title": "Overall status",
+        "sort": {
+          "values": [
+            "RECRUITING",
+            "COMPLETED",
+            "ACTIVE_NOT_RECRUITING"
+          ]
+        }
+      }
+    },
+    "data": [
+      {
+        "id": "d1",
+        "sponsor": "Merck Sharp & Dohme LLC",
+        "overall_status": "RECRUITING",
+        "trials": 120,
+        "nct_ids": [
+          "NCT02142738",
+          "NCT02578680"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "Merck Sharp & Dohme LLC"
+          },
+          {
+            "nct_id": "NCT02578680",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          }
+        ],
+        "citations_total": 120,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d2",
+        "sponsor": "Merck Sharp & Dohme LLC",
+        "overall_status": "COMPLETED",
+        "trials": 410,
+        "nct_ids": [
+          "NCT01905657",
+          "NCT02578680"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+        "citations": [
+          {
+            "nct_id": "NCT02578680",
+            "excerpt": "Merck Sharp & Dohme LLC"
+          },
+          {
+            "nct_id": "NCT01905657",
+            "excerpt": "COMPLETED",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          }
+        ],
+        "citations_total": 410,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d3",
+        "sponsor": "Merck Sharp & Dohme LLC",
+        "overall_status": "ACTIVE_NOT_RECRUITING",
+        "trials": 180,
+        "nct_ids": [
+          "NCT01866319",
+          "NCT01905657"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+        "citations": [
+          {
+            "nct_id": "NCT01905657",
+            "excerpt": "Merck Sharp & Dohme LLC"
+          },
+          {
+            "nct_id": "NCT01866319",
+            "excerpt": "ACTIVE_NOT_RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          }
+        ],
+        "citations_total": 180,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d4",
+        "sponsor": "National Cancer Institute (NCI)",
+        "overall_status": "RECRUITING",
+        "trials": 64,
+        "nct_ids": [
+          "NCT01866319",
+          "NCT01905657"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+        "citations": [
+          {
+            "nct_id": "NCT01866319",
+            "excerpt": "National Cancer Institute (NCI)"
+          },
+          {
+            "nct_id": "NCT01905657",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          }
+        ],
+        "citations_total": 64,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d5",
+        "sponsor": "National Cancer Institute (NCI)",
+        "overall_status": "COMPLETED",
+        "trials": 92,
+        "nct_ids": [
+          "NCT01866319",
+          "NCT02362594"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+        "citations": [
+          {
+            "nct_id": "NCT02362594",
+            "excerpt": "National Cancer Institute (NCI)"
+          },
+          {
+            "nct_id": "NCT01866319",
+            "excerpt": "COMPLETED",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          }
+        ],
+        "citations_total": 92,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d6",
+        "sponsor": "National Cancer Institute (NCI)",
+        "overall_status": "ACTIVE_NOT_RECRUITING",
+        "trials": 71,
+        "nct_ids": [
+          "NCT02362594",
+          "NCT02775435"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+        "citations": [
+          {
+            "nct_id": "NCT02775435",
+            "excerpt": "National Cancer Institute (NCI)"
+          },
+          {
+            "nct_id": "NCT02362594",
+            "excerpt": "ACTIVE_NOT_RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          }
+        ],
+        "citations_total": 71,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d7",
+        "sponsor": "M.D. Anderson Cancer Center",
+        "overall_status": "RECRUITING",
+        "trials": 48,
+        "nct_ids": [
+          "NCT01866319",
+          "NCT03142334"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+        "citations": [
+          {
+            "nct_id": "NCT03142334",
+            "excerpt": "M.D. Anderson Cancer Center"
+          },
+          {
+            "nct_id": "NCT01866319",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          }
+        ],
+        "citations_total": 48,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d8",
+        "sponsor": "M.D. Anderson Cancer Center",
+        "overall_status": "COMPLETED",
+        "trials": 30,
+        "nct_ids": [
+          "NCT02362594",
+          "NCT02853305"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+        "citations": [
+          {
+            "nct_id": "NCT02853305",
+            "excerpt": "M.D. Anderson Cancer Center"
+          },
+          {
+            "nct_id": "NCT02362594",
+            "excerpt": "COMPLETED",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          }
+        ],
+        "citations_total": 30,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d9",
+        "sponsor": "M.D. Anderson Cancer Center",
+        "overall_status": "ACTIVE_NOT_RECRUITING",
+        "trials": 22,
+        "nct_ids": [
+          "NCT02775435",
+          "NCT03036488"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+        "citations": [
+          {
+            "nct_id": "NCT03036488",
+            "excerpt": "M.D. Anderson Cancer Center"
+          },
+          {
+            "nct_id": "NCT02775435",
+            "excerpt": "ACTIVE_NOT_RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          }
+        ],
+        "citations_total": 22,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d10",
+        "sponsor": "Memorial Sloan Kettering Cancer Center",
+        "overall_status": "RECRUITING",
+        "trials": 35,
+        "nct_ids": [
+          "NCT02362594",
+          "NCT02564263"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+        "citations": [
+          {
+            "nct_id": "NCT02564263",
+            "excerpt": "Memorial Sloan Kettering Cancer Center"
+          },
+          {
+            "nct_id": "NCT02362594",
+            "excerpt": "RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          }
+        ],
+        "citations_total": 35,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d11",
+        "sponsor": "Memorial Sloan Kettering Cancer Center",
+        "overall_status": "COMPLETED",
+        "trials": 26,
+        "nct_ids": [
+          "NCT02775435",
+          "NCT03765918"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+        "citations": [
+          {
+            "nct_id": "NCT03765918",
+            "excerpt": "Memorial Sloan Kettering Cancer Center"
+          },
+          {
+            "nct_id": "NCT02775435",
+            "excerpt": "COMPLETED",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          }
+        ],
+        "citations_total": 26,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d12",
+        "sponsor": "Memorial Sloan Kettering Cancer Center",
+        "overall_status": "ACTIVE_NOT_RECRUITING",
+        "trials": 19,
+        "nct_ids": [
+          "NCT02625961",
+          "NCT03142334"
+        ],
+        "nct_ids_total": 2,
+        "field_path": "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+        "citations": [
+          {
+            "nct_id": "NCT02625961",
+            "excerpt": "Memorial Sloan Kettering Cancer Center"
+          },
+          {
+            "nct_id": "NCT03142334",
+            "excerpt": "ACTIVE_NOT_RECRUITING",
+            "field_path": "protocolSection.statusModule.overallStatus"
+          }
+        ],
+        "citations_total": 19,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d13",
+        "sponsor": "Other",
+        "overall_status": "RECRUITING",
+        "trials": 310,
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.overallStatus",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "RECRUITING"
+          }
+        ],
+        "citations_total": 310,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d14",
+        "sponsor": "Other",
+        "overall_status": "COMPLETED",
+        "trials": 280,
+        "nct_ids": [
+          "NCT02578680"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.overallStatus",
+        "citations": [
+          {
+            "nct_id": "NCT02578680",
+            "excerpt": "COMPLETED"
+          }
+        ],
+        "citations_total": 280,
+        "excerpts_truncated": true
+      },
+      {
+        "id": "d15",
+        "sponsor": "Other",
+        "overall_status": "ACTIVE_NOT_RECRUITING",
+        "trials": 160,
+        "nct_ids": [
+          "NCT01905657"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "protocolSection.statusModule.overallStatus",
+        "citations": [
+          {
+            "nct_id": "NCT01905657",
+            "excerpt": "ACTIVE_NOT_RECRUITING"
+          }
+        ],
+        "citations_total": 160,
+        "excerpts_truncated": true
+      }
+    ]
+  },
+  "answer_summary": "Merck Sharp & Dohme LLC leads with 710 pembrolizumab trials, 120 of them recruiting.",
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "drug_names": [
+        "pembrolizumab"
+      ]
+    },
+    "query_interpretation": {
+      "intent": "sponsor_landscape",
+      "persona": "researcher",
+      "scope": "cohort",
+      "confidence": 0.92,
+      "parser": "llm",
+      "cohorts": [
+        {
+          "label": "pembrolizumab",
+          "drugs": [
+            "pembrolizumab"
+          ]
+        }
+      ],
+      "resolved_entities": [
+        {
+          "input": "keytruda",
+          "resolved": "pembrolizumab",
+          "kind": "drug",
+          "method": "alias"
+        }
+      ]
+    },
+    "notes": [
+      {
+        "code": "TRUNCATED",
+        "severity": "info",
+        "message": "Showing the top 4 sponsors; 812 others are grouped as 'Other'.",
+        "affects": [
+          "d13",
+          "d14",
+          "d15"
+        ]
+      }
+    ],
+    "units": {
+      "trials": "trials"
+    },
+    "layout": {
+      "orientation": "horizontal",
+      "mode": "stacked",
+      "donut": false
+    },
+    "truncation": {
+      "top_n": 4,
+      "other_bucket": true,
+      "omitted_count": 812
+    },
+    "coverage": {
+      "studies_matched_total": 1867,
+      "studies_analyzed": 1867,
+      "counting_method": "all_records",
+      "sampled": false,
+      "queries": [
+        "https://clinicaltrials.gov/search?intr=pembrolizumab"
+      ]
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "alternatives": [
+      {
+        "type": "pie_chart",
+        "reason": "share of the whole"
+      },
+      {
+        "type": "table",
+        "reason": "all values as a sortable table"
+      }
+    ],
+    "request_id": "req_sample_04_bar_stacked",
+    "created_at": "2026-10-18T14:22:05Z",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-17T09:00:12"
+  }
+}

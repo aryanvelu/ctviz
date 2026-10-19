@@ -1,0 +1,388 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "forest_plot",
+    "title": "Hazard ratios by subgroup — KEYNOTE-024 (NCT02142738)",
+    "encoding": {
+      "x": {
+        "field": "hr",
+        "type": "quantitative",
+        "title": "Hazard ratio (pembrolizumab vs chemotherapy)",
+        "format": ".2f",
+        "scale": {
+          "type": "log"
+        }
+      },
+      "y": {
+        "field": "subgroup",
+        "type": "nominal",
+        "title": "Subgroup"
+      },
+      "size": {
+        "field": "n",
+        "type": "quantitative",
+        "title": "Participants",
+        "format": ",d"
+      },
+      "error_low": {
+        "field": "ci_low",
+        "type": "quantitative",
+        "title": "95% CI low",
+        "format": ".2f"
+      },
+      "error_high": {
+        "field": "ci_high",
+        "type": "quantitative",
+        "title": "95% CI high",
+        "format": ".2f"
+      },
+      "tooltip": [
+        "n"
+      ]
+    },
+    "data": [
+      {
+        "id": "d1",
+        "subgroup": "Overall",
+        "hr": 0.6,
+        "ci_low": 0.41,
+        "ci_high": 0.89,
+        "n": 305,
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].analyses[0].paramValue",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "0.6",
+            "label": "Overall"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "0.41",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].analyses[0].ciLowerLimit"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "0.89",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].analyses[0].ciUpperLimit"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d2",
+        "subgroup": "Age < 65",
+        "hr": 0.61,
+        "ci_low": 0.4,
+        "ci_high": 0.92,
+        "n": 141,
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[3].analyses[1].paramValue",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "0.61",
+            "label": "Age < 65"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "0.4",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[3].analyses[1].ciLowerLimit"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "0.92",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[3].analyses[1].ciUpperLimit"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d3",
+        "subgroup": "Age ≥ 65",
+        "hr": 0.45,
+        "ci_low": 0.29,
+        "ci_high": 0.7,
+        "n": 164,
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[3].analyses[2].paramValue",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "0.45",
+            "label": "Age ≥ 65"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "0.29",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[3].analyses[2].ciLowerLimit"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "0.7",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[3].analyses[2].ciUpperLimit"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d4",
+        "subgroup": "Male",
+        "hr": 0.39,
+        "ci_low": 0.26,
+        "ci_high": 0.58,
+        "n": 187,
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[3].analyses[3].paramValue",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "0.39",
+            "label": "Male"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "0.26",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[3].analyses[3].ciLowerLimit"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "0.58",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[3].analyses[3].ciUpperLimit"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d5",
+        "subgroup": "Female",
+        "hr": 0.95,
+        "ci_low": 0.56,
+        "ci_high": 1.62,
+        "n": 118,
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[3].analyses[4].paramValue",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "0.95",
+            "label": "Female"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "0.56",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[3].analyses[4].ciLowerLimit"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "1.62",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[3].analyses[4].ciUpperLimit"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d6",
+        "subgroup": "ECOG 0",
+        "hr": 0.45,
+        "ci_low": 0.22,
+        "ci_high": 0.89,
+        "n": 107,
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[3].analyses[5].paramValue",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "0.45",
+            "label": "ECOG 0"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "0.22",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[3].analyses[5].ciLowerLimit"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "0.89",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[3].analyses[5].ciUpperLimit"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d7",
+        "subgroup": "ECOG 1",
+        "hr": 0.54,
+        "ci_low": 0.38,
+        "ci_high": 0.77,
+        "n": 197,
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[3].analyses[6].paramValue",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "0.54",
+            "label": "ECOG 1"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "0.38",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[3].analyses[6].ciLowerLimit"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "0.77",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[3].analyses[6].ciUpperLimit"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d8",
+        "subgroup": "Squamous",
+        "hr": 0.35,
+        "ci_low": 0.17,
+        "ci_high": 0.71,
+        "n": 56,
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[3].analyses[7].paramValue",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "0.35",
+            "label": "Squamous"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "0.17",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[3].analyses[7].ciLowerLimit"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "0.71",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[3].analyses[7].ciUpperLimit"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d9",
+        "subgroup": "Non-squamous",
+        "hr": 0.55,
+        "ci_low": 0.39,
+        "ci_high": 0.76,
+        "n": 249,
+        "nct_ids": [
+          "NCT02142738"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[3].analyses[8].paramValue",
+        "citations": [
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "0.55",
+            "label": "Non-squamous"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "0.39",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[3].analyses[8].ciLowerLimit"
+          },
+          {
+            "nct_id": "NCT02142738",
+            "excerpt": "0.76",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[3].analyses[8].ciUpperLimit"
+          }
+        ],
+        "citations_total": 3,
+        "excerpts_truncated": false
+      }
+    ]
+  },
+  "answer_summary": "The overall hazard ratio was 0.6 (95% CI 0.41–0.89) favoring pembrolizumab in [NCT02142738].",
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "nct_ids": [
+        "NCT02142738"
+      ]
+    },
+    "query_interpretation": {
+      "intent": "results_outcomes",
+      "persona": "researcher",
+      "scope": "single_trial",
+      "confidence": 0.92,
+      "parser": "llm"
+    },
+    "reference_line": {
+      "value": 1.0,
+      "label": "No effect (HR = 1)"
+    },
+    "coverage": {
+      "studies_matched_total": 1,
+      "studies_analyzed": 1,
+      "counting_method": "all_records",
+      "studies_with_results": 1,
+      "sampled": false
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "alternatives": [
+      {
+        "type": "table",
+        "reason": "all values as a sortable table"
+      },
+      {
+        "type": "bar_chart",
+        "reason": "compare categories side by side"
+      }
+    ],
+    "request_id": "req_sample_17_forest",
+    "created_at": "2026-10-18T14:22:05Z",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-17T09:00:12"
+  }
+}

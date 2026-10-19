@@ -1,0 +1,294 @@
+{
+  "status": "ok",
+  "visualization": {
+    "type": "forest_plot",
+    "title": "Effect estimates: STEP 1",
+    "encoding": {
+      "x": {
+        "field": "estimate",
+        "type": "quantitative",
+        "title": "Treatment difference",
+        "scale": {
+          "type": "linear"
+        }
+      },
+      "y": {
+        "field": "label",
+        "type": "nominal",
+        "title": "Comparison"
+      },
+      "error_low": {
+        "field": "ci_low",
+        "type": "quantitative",
+        "title": "CI lower"
+      },
+      "error_high": {
+        "field": "ci_high",
+        "type": "quantitative",
+        "title": "CI upper"
+      },
+      "tooltip": [
+        "p_value",
+        "ci_pct",
+        "param_type",
+        "method"
+      ]
+    },
+    "data": [
+      {
+        "id": "d1",
+        "label": "Change in Body Weight (%): groups: Semaglutide 2.4 mg, Placebo (Treatment policy estimand)",
+        "estimate": -12.44,
+        "ci_low": -13.37,
+        "ci_high": -11.51,
+        "ci_pct": 95.0,
+        "p_value": "<.0001",
+        "param_type": "Treatment difference",
+        "null_value": 0.0,
+        "method": "ANCOVA",
+        "measure": "Change in Body Weight (%)",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].analyses[0].paramValue",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "-12.44",
+            "label": "estimate"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "-13.37",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].analyses[0].ciLowerLimit",
+            "label": "CI lower"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "-11.51",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].analyses[0].ciUpperLimit",
+            "label": "CI upper"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "<.0001",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].analyses[0].pValue",
+            "label": "p-value"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Treatment difference",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].analyses[0].paramType",
+            "label": "estimate type"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Change in Body Weight (%)",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].title",
+            "label": "outcome measure"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Semaglutide 2.4 mg",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].groups[0].title",
+            "label": "group"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Placebo",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].groups[1].title",
+            "label": "group"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Treatment policy estimand",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].analyses[0].groupDescription",
+            "label": "analysis description"
+          }
+        ],
+        "citations_total": 9,
+        "excerpts_truncated": false
+      },
+      {
+        "id": "d2",
+        "label": "Change in Body Weight (%): groups: Semaglutide 2.4 mg, Placebo (Hypothetical estimand)",
+        "estimate": -14.42,
+        "ci_low": -15.29,
+        "ci_high": -13.55,
+        "ci_pct": 95.0,
+        "p_value": "<0.0001",
+        "param_type": "Treatment difference",
+        "null_value": 0.0,
+        "method": "ANCOVA",
+        "measure": "Change in Body Weight (%)",
+        "nct_ids": [
+          "NCT03548935"
+        ],
+        "nct_ids_total": 1,
+        "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].analyses[1].paramValue",
+        "citations": [
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "-14.42",
+            "label": "estimate"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "-15.29",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].analyses[1].ciLowerLimit",
+            "label": "CI lower"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "-13.55",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].analyses[1].ciUpperLimit",
+            "label": "CI upper"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "<0.0001",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].analyses[1].pValue",
+            "label": "p-value"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Treatment difference",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].analyses[1].paramType",
+            "label": "estimate type"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Change in Body Weight (%)",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].title",
+            "label": "outcome measure"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Semaglutide 2.4 mg",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].groups[0].title",
+            "label": "group"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Placebo",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].groups[1].title",
+            "label": "group"
+          },
+          {
+            "nct_id": "NCT03548935",
+            "excerpt": "Hypothetical estimand",
+            "field_path": "resultsSection.outcomeMeasuresModule.outcomeMeasures[0].analyses[1].groupDescription",
+            "label": "analysis description"
+          }
+        ],
+        "citations_total": 9,
+        "excerpts_truncated": false
+      }
+    ]
+  },
+  "answer_summary": "Change in Body Weight (%): groups: Semaglutide 2.4 mg, Placebo (Treatment policy estimand): Treatment difference -12.44 (-13.37 to -11.51), p <.0001. Change in Body Weight (%): groups: Semaglutide 2.4 mg, Placebo (Hypothetical estimand): Treatment difference -14.42 (-15.29 to -13.55), p <0.0001. Source: the results posted for NCT03548935 on ClinicalTrials.gov.",
+  "meta": {
+    "source": "clinicaltrials.gov",
+    "filters": {
+      "nct_ids": [
+        "NCT03548935"
+      ]
+    },
+    "query_interpretation": {
+      "intent": "results_outcomes",
+      "persona": "researcher",
+      "scope": "single_trial",
+      "confidence": 0.9,
+      "parser": "llm",
+      "resolved_entities": [
+        {
+          "input": "NCT03548935",
+          "resolved": "NCT03548935",
+          "kind": "nct_id",
+          "method": "exact"
+        }
+      ]
+    },
+    "reference_line": {
+      "value": 0.0,
+      "label": "No difference"
+    },
+    "coverage": {
+      "studies_matched_total": 1,
+      "studies_analyzed": 1,
+      "counting_method": "single_trials",
+      "studies_with_results": 1,
+      "sampled": false,
+      "queries": [
+        "https://clinicaltrials.gov/study/NCT03548935"
+      ]
+    },
+    "citation_policy": {
+      "detail": "sample",
+      "study_url": "https://clinicaltrials.gov/study/{nct_id}",
+      "nct_ids": "first_20",
+      "nct_ids_per_datum": 20,
+      "nct_ids_order": "nct_id",
+      "all_nct_ids": "GET /v1/responses/{request_id}/datums/{datum_id}/citations",
+      "excerpts_per_datum": 3,
+      "excerpts_single_trial": 10,
+      "excerpt_order": "nct_id",
+      "all_excerpts": "GET /v1/responses/{request_id}/datums/{datum_id}/citations"
+    },
+    "validation": {
+      "passed": true,
+      "checks": [
+        {
+          "name": "retrieval_matches_api_total",
+          "passed": true,
+          "detail": "single_trials"
+        },
+        {
+          "name": "counts_match_trial_lists",
+          "passed": true,
+          "detail": "0 count datum(s) checked"
+        },
+        {
+          "name": "each_trial_in_one_bucket",
+          "passed": true,
+          "detail": "not a single-valued grouping"
+        },
+        {
+          "name": "citations_from_retrieved_records",
+          "passed": true,
+          "detail": "1 NCT id(s), all retrieved"
+        },
+        {
+          "name": "summary_numbers_in_data",
+          "passed": true,
+          "detail": "every number appears in the data"
+        },
+        {
+          "name": "value_axes_labeled",
+          "passed": true,
+          "detail": "all value axes say what they measure"
+        }
+      ]
+    },
+    "alternatives": [
+      {
+        "type": "bar_chart",
+        "reason": "compare categories side by side"
+      },
+      {
+        "type": "table",
+        "reason": "all values as a sortable table"
+      },
+      {
+        "type": "kpi_cards",
+        "reason": "headline numbers only"
+      }
+    ],
+    "request_id": "43c04a894ed242c1a4817cf5e1403d6a",
+    "created_at": "2026-10-19T09:25:56+00:00",
+    "schema_version": "2.2",
+    "ctgov_api_version": "2.0.5",
+    "data_timestamp": "2026-10-16T09:00:05"
+  }
+}
